@@ -25,6 +25,22 @@
 
 /* end color overrides */
 
+.terminal {
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-family: Monaco, mono;
+  height: 100%;
+  width: 100%;
+  padding: 5px;
+  overflow: hidden;
+  position: absolute;
+  top: 0px;
+  white-space: pre;
+  z-index: 1;
+}
+
 .row { max-width: 850px; }
 
 header { position: relative; }
