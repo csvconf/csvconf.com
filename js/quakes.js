@@ -34,10 +34,11 @@ var csv = parsedURL.query.csv || 'http://earthquake.usgs.gov/earthquakes/feed/v1
 xhr({ responseType: 'arraybuffer', url: 'http://cors.maxogden.com/' + csv }, response)
 
 function response(err, resp, data) {
-	if (err) throw err
+  if (err) throw err
   var buff = new Buffer(new Uint8Array(data))
   var parser = bcsv({json: true})
-	parser.pipe(concat(render))
+  document.querySelector('.easteregg').style.display = 'block'
+  parser.pipe(concat(render))
   parser.write(buff)
   parser.end()
 }

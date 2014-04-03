@@ -25,6 +25,8 @@
 
 /* end color overrides */
 
+.easteregg { font-size: 12px; padding: 0px 5px; }
+
 .terminal {
   font-style: normal;
   font-variant: normal;
