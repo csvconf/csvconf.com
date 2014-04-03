@@ -1,0 +1,16 @@
+{
+  "name": "requirebin-gist-9961262",
+  "version": "1.0.0",
+  "dependencies": {
+    "binary-csv": "0.1.7",
+    "xhr": "1.5.0",
+    "bops": "0.1.1",
+    "through": "2.3.4",
+    "hypernal": "0.2.7",
+    "tablify": "0.1.5",
+    "concat-stream": "1.4.4"
+  },
+  "scripts": {
+    "build": "browserify quakes.js -o bundle.js"
+  }
+}

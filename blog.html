@@ -1,0 +1,14 @@
+---
+layout: default
+title: CSVConf
+permalink: /blog/
+---
+
+<div id="home">
+	<h1>Blog</h1>
+	<ul class="posts">
+		{% for post in site.posts %}
+			{% include blog_entry.html %}
+		{% endfor %}
+	</ul>
+</div>
