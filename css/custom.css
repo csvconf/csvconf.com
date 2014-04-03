@@ -25,6 +25,8 @@
 
 /* end color overrides */
 
+.row { max-width: 850px; }
+
 header { position: relative; }
 header .row { z-index: 2; position: relative; }
 .section-signup, .signup-subtitle { color: white; }
@@ -49,6 +51,7 @@ header .row { z-index: 2; position: relative; }
 
 .header-intro-wrap p {
   font-size: 28px;
+  background-color: #f7f7f7;
 }
 
 .btn-docs {

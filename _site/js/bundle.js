@@ -6480,7 +6480,7 @@ var concat = require('concat-stream')
 
 // style fake terminal
 var termEl = term.term.element
-termEl.style['font'] = '10px Monaco, mono'
+termEl.style['font'] = '12px Monaco, mono'
 termEl.style.height = '100%'
 termEl.style.width = '100%'
 termEl.style.padding = '5px'
@@ -6490,7 +6490,7 @@ termEl.style.top = '0px'
 termEl.style['white-space'] = 'pre'
 termEl.style['z-index'] = '1'
 termEl.style['background'] = '#f7f7f7'
-termEl.style['color'] = '#ddd'
+termEl.style['color'] = '#bbb'
 
 var headerRow = document.querySelector('header .row')
 var parentDiv = headerRow.parentNode
