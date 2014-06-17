@@ -1,6 +1,7 @@
 /* overrides */ 
 
 .features-circle { 
+  background-size: 180px 180px;
   background-color: #7285AC;
   border: 6px solid #49556E;
 }
@@ -20,6 +21,12 @@
 .section-signup {
   background-color: #7285AC;
 }
+
+.section-signup h3, .section-signup h4 { color: white; }
+
+.presentation-list .bio { font-style: italic; margin: 10px 0; }
+.presentation-list h3 { text-decoration: underline; } 
+.presentation-list h4 { font-size: 1.525rem; color: #ca2470; } 
 
 .site-header .logo { color: black; }
 
@@ -48,6 +55,7 @@
 header { position: relative; }
 header .row { z-index: 2; position: relative; }
 .section-signup, .signup-subtitle { color: white; }
+.signup-title { margin-bottom: 40px; }
 .section-signup a { color: white; text-decoration: underline; }
 
 .subheader { text-align: center; color: white; text-transform: uppercase; }
