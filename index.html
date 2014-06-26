@@ -332,12 +332,14 @@
             <a href="#mitar"><h3>Collaborating on open dataset of all academic publications</h3></a>
           </li>
           <li class="features-item">
-            <span class="features-circle" style="background-image: url(img/speakers/jeremykrinsley.png)">
-              <span class="features-circle-icon">
+            <a href="https://github.com/centraldedados/datacentral">
+              <span class="features-circle" style="background-image: url(img/speakers/thackday-team.png)">
+                <span class="features-circle-icon">
+                </span>
               </span>
-            </span>
-            <h4>Jeremy Krinsley</h4>
-            <a href="#jeremykrinsley"><h3>Every Parse Is Sacred</h3></a>
+            </a>
+            <h4>Ana Carvalho, Sara Moreira, Ricardo Lafuente</h4>
+            <a href="#datacentral"><h3>Datacentral: Using Data Packages for static data portals</h3></a>
           </li>
           <li class="features-item">
             <a href="https://twitter.com/nickstenning">
@@ -348,7 +350,35 @@
               </span>
             </a>
             <h4>Nick Stenning</h4>
-            <a href="#nickstenning"><h3>Data usability: the tabular data package and friends</h3></a>
+            <a href="#nickstenning"><h3>Data usability: the tabular data package and friends<br><br><br></h3></a>
+          </li>
+          <li class="features-item">
+            <a href="https://twitter.com/JeniT">
+              <span class="features-circle" style="background-image: url(img/speakers/jenit.png)">
+                <span class="features-circle-icon">
+                </span>
+              </span>
+            </a>
+            <h4>Jeni Tennison</h4>
+            <a href="#jenit"><h3>CSV on the Web</h3></a>
+          </li>
+          <li class="features-item">
+            <a href="https://github.com/pauldeschacht">
+              <span class="features-circle" style="background-image: url(img/speakers/pauldeschacht.png)">
+                <span class="features-circle-icon">
+                </span>
+              </span>
+            </a>
+            <h4>Paul De Schacht</h4>
+            <a href="#pauldeschacht"><h3>Ease the pain of parsing data</h3></a>
+          </li>
+          <li class="features-item">
+            <span class="features-circle" style="background-image: url(img/speakers/jeremykrinsley.png)">
+              <span class="features-circle-icon">
+              </span>
+            </span>
+            <h4>Jeremy Krinsley</h4>
+            <a href="#jeremykrinsley"><h3>Every Parse Is Sacred</h3></a>
           </li>
         </ul>
       </div>
@@ -605,14 +635,14 @@ Here comes a bunch of hackers, data-scientists and makers dedicated in producing
             <p>In PeerLibrary we are recognizing a need for an open dataset of all academic publications. Issues preventing building such dataset are multiple: multiple existing sources, many proprietary, conflicting entries, and legal issues with some parts of data (eg. full text). In addition, collaborative curation of this data is not yet possible. I would like to present what we are doing on this topic, but mostly learn from and about others.</p>
           </div>
         </li>
-        <li id="jeremykrinsley" class="presentation-item">
+        <li id="datacentral" class="presentation-item">
           <div class="left">
-            <h3>Every Parse Is Sacred</h3>
-            <a href="#"><h4>Jeremy Krinsley</h4></a>
-            <div class="bio">Jeremy was the first non-CEO/Co-founder to begin working with Enigma, and has been a part of the company from pre-seed money hacking to its current exciting position as a major public data interface. He is also a musician who performs and releases music regularly under various monikers.</div>
+            <h3>Datacentral: Using Data Packages for static data portals</h3>
+            <a href="https://twitter.com/thackdaypt"><h4>Ana Carvalho, Sara Moreira, Ricardo Lafuente</h4></a>
+            <div class="bio"><a href="http://transparenciahackday.org/">Transparência Hackday</a> is the first open-data collective in Portugal. Since 2010 we organize monthly hackdays to open up public data and ultimately make our society better informed.</div>
           </div>
           <div class="right">
-            <p>Lean ETL, unintentional ddos attacks, impossible parses, backdoor APIs, practices in humility and parsing tactics gleamed from three years as a lead parser at Enigma.io, a company that specializes in normalizing siloed public data.</p>
+            <p>Datacentral is a simple system we made for <a href="http://centraldedados.pt/">CentralDeDados.pt</a>, an independent public data hub in Portugal. Making use of the Data Package standard, we wrote a proof-of-concept static site generator that pulls each CSV dataset from a Git repository and generates the site based on the contained metadata (using daily cron jobs to re-generate and update the site). The result is an easily deployable, replicable and complete HTML5 data portal site.</p>
           </div>
         </li>
         <li id="nickstenning" class="presentation-item">
@@ -624,6 +654,36 @@ Here comes a bunch of hackers, data-scientists and makers dedicated in producing
           <div class="right">
             <p>Numerous attempts have been made over the years to standardise data interchange formats. XBRL, ASN.1, X12, and other terrifying acronyms have caused thousands of developers years of pain and suffering. By contrast, CSV is simple, clear, and easy to use. But it can sometimes be useful to know a little more about the data you have at hand, ideally in a format that is machine-readable and standardised.</p>
             <p>I work at Open Knowledge, where we have authored a number of simple standards to improve the portability and reusability of CSV-based data formats. I'll be talking about what data packages are, the Tabular Data Package specification, and some of the tools we've built to help with packaging and using data in these formats.</p>
+          </div>
+        </li>
+        <li id="jenit" class="presentation-item">
+          <div class="left">
+            <h3>CSV on the Web</h3>
+            <a href="http://twitter.com/jenit"><h4>Jeni Tennison</h4></a>
+            <div class="bio"> Jeni is the Technical Director at the Open Data Institute and the co-chair of the W3C’s CSV on the Web Working Group.</div>
+          </div>
+          <div class="right">
+            <p>The <a href="http://www.w3.org/2013/05/lcsv-charter.html">W3C CSV on the Web Working Group</a> has been looking at how to more tightly specify CSV and the provision of metadata that makes it possible to validate CSV and convert it to other formats. This talk will describe the work of the Working Group and its current status.</p>
+          </div>
+        </li>
+        <li id="pauldeschacht" class="presentation-item">
+          <div class="left">
+            <h3>Ease the pain of parsing data</h3>
+            <a href="https://twitter.com/thackdaypt"><h4>Paul De Schacht</h4></a>
+            <div class="bio">Paul De Schacht is a research engineer at Amadeus, where he brings travel data to life. He is happy grokking large amounts of data using emerging technologies.</div>
+          </div>
+          <div class="right">
+            <p>Open data does not mean that the data can easily be consumed. Every source has a different format that requires a dedicated parser. I've recently open sourced 2 tools (<a href="https://github.com/pauldeschacht/pdf2csv">https://github.com/pauldeschacht/pdf2csv</a> and <a href="https://github.com/pauldeschacht/paxparser">https://github.com/pauldeschacht/paxparser</a>) that help the extraction and standardization of diverse formats. I will briefly discuss these projects, but mostly I hope to build a community around such tools.</p>
+          </div>
+        </li>
+        <li id="jeremykrinsley" class="presentation-item">
+          <div class="left">
+            <h3>Every Parse Is Sacred</h3>
+            <a href="#"><h4>Jeremy Krinsley</h4></a>
+            <div class="bio">Jeremy was the first non-CEO/Co-founder to begin working with Enigma, and has been a part of the company from pre-seed money hacking to its current exciting position as a major public data interface. He is also a musician who performs and releases music regularly under various monikers.</div>
+          </div>
+          <div class="right">
+            <p>Lean ETL, unintentional ddos attacks, impossible parses, backdoor APIs, practices in humility and parsing tactics gleamed from three years as a lead parser at Enigma.io, a company that specializes in normalizing siloed public data.</p>
           </div>
         </li>
       </ul>
