@@ -1,0 +1,31 @@
+room,start,name,title
+A,10:10,Jeni Tennison,CSV on the Web
+B,10:10,Nick Stenning,Data usability: the tabular data package and friends
+C,10:10,Owen Jones,Population biology database
+A,10:35,Jeremy Krinsley,Every Parse Is Sacred
+B,10:35,Pieter Colpaert,Using The DataTank to transform a CSV into an HTTP API
+C,10:35,Alexandre Vallette,Using open-data and machine learning to enhance citizen life.
+A,11:30,Ingrid Burrington,Internet Groundtruth
+B,11:30,Christopher Gandrud,Improving access to panel series data for social scientists: the `psData` package
+C,11:30,Thomas Levine,"comma search, and Tom’s views on searching across data tables"
+A,11:55,Brian Jacobs,Querying the sum of all human knowledge
+B,11:55,Bernard Lambeau,Data Deserves a Language Too
+C,11:55,Adam Retter,CSV Validation
+A,12:20,James Smith,CSVlint: publishing data that doesn't suck
+B,12:20,Ed Freyfogle,A living hell: lessons learned in eight years of parsing the world's real estate data
+C,12:20,Matt Senate,"Data-Hacking with Wikimedia Projects: Learn by Example, Including Wikipedia, WikiData and Beyond!"
+A,14:00,Gabriela Rodriguez,Vozdata: open data with the help of the community
+B,14:00,Peter Murray-Rust,The Content Mine
+C,14:00,Javier Arce,"So you have CSVs, now what?"
+A,14:25,Friedrich Lindenberg,"Dr. Freezefile, or how I learned to stop generating and freeze my apps"
+B,14:25,Steven Beeckman,How the belgian Ministry of Defence uses csv files to power its internal open data platform
+C,14:25,Aaron Schumacher,The examined life: Epistemology and the data dialogue
+A,14:50,"Ana Carvalho, Sara Moreira & Ricardo Lafuente",Datacentral: Using Data Packages for static data portals
+B,14:50,Mitar Milutinovic,Collaborating on open dataset of all academic publications
+C,14:50,Karthik Ram,`testdat` -- Unit testing for tabular data
+A,15:45,Olaf Veerman,Openrosa for call centers
+B,15:45,David McKee,XYPath: parsing spreadsheets in Python
+C,15:45,Alf Eaton,VEGE-TABLE: the data table that grows
+A,16:10,Felienne Hermans,Spreadsheets: the dark matter of big data
+B,16:10,Paul De Schacht,Conquering the multi-headed format monster
+C,16:10,Adriaan Pelzer,Turning Old Data into New Data

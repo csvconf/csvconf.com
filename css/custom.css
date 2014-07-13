@@ -1,5 +1,8 @@
 /* overrides */ 
 
+.buttonz a { padding: 0 !important; }
+#schedule .btn-side { text-align: center; padding: 0px 20px; width: auto; }
+
 .features-circle { 
   background-size: 180px 180px;
   background-color: #7285AC;

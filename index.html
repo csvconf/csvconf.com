@@ -38,7 +38,10 @@
           <small>(And any data - <a href="#about">not just CSVs</a>!)</small>
         </p>
         <p>Berlin, 15 July, 2014.</p>
-        <p><a href="http://register.csvconf.com/" class="btn-side animate-on-scroll scroll-animation-init fadeInLeft" data-scrollanimation="fadeInLeft">Get a ticket</a></p>
+        <p class="buttonz">
+          <a href="http://register.csvconf.com/" class="btn-side animate-on-scroll scroll-animation-init fadeInLeft" data-scrollanimation="fadeInLeft">Get a ticket</a>&nbsp;
+          <a href="#schedule" class="btn-side animate-on-scroll scroll-animation-init fadeInLeft" data-scrollanimation="fadeInLeft">View Schedule</a>
+        </p>
         <p>csv,conf is a fringe event of the <a href="http://okfestival.org/">Open Knowledge Festival</a>.</p>
         <div class="catch-errors-top"></div>
       </div>
@@ -400,6 +403,16 @@
             <h4>Paul De Schacht</h4>
             <a href="#pauldeschacht"><h3>Ease the pain of parsing data</h3></a>
           </li>
+          <li class="features-item">
+            <a href="https://twitter.com/adriaan_pelzer">
+              <span class="features-circle" style="background-image: url(img/speakers/adriaanpelzer.jpg)">
+                <span class="features-circle-icon">
+                </span>
+              </span>
+            </a>
+            <h4>Adriaan Pelzer</h4>
+            <a href="#adriaanpelzer"><h3>Your infrastructure - on fire! (How to serve blazingly fast, massively scalable real-time data)</h3></a>
+          </li>
         </ul>
       </div>
       </div>
@@ -727,17 +740,41 @@ He pulls data out of websites at ScraperWiki for a living and dresses up as a wi
           <div class="right">
             <p>A <a href="http://git.macropus.org/vege-table/">vege-table</a> is a data table: each row of the table is an item in a collection, and each column is a property of those items. These properties are all JavaScript functions, so their values can be computed or fetched from remote resources, and merged from different sources. This talk will describe the project’s background - including limitations of current tools for building, manipulating and publishing data tables - and examples of its use with real data.</p>
           </div>
+          <li id="adriaanpelzer" class="presentation-item">
+            <div class="left">
+              <h3>Your infrastructure - on fire! (How to serve blazingly fast, massively scalable real-time data)</h3>
+              <a href="http://twitter.com/adriaan_pelzer"><h4>Adriaan Pelzer</h4></a>
+              <div class="bio">Adriaan Pelzer builds real time API’s in Node.js and C. He is a functional programming advocate, and optimisation junkie. He is currently building a content and related data API called "The Pulveriser" for Trinity Mirror.</div>
+            </div>
+            <div class="right">
+              <p>Speed of delivery and scalability are two mutually contradicting goals - scalability is aided by increasing cache expiry times, which hampers speed of delivery. This is the story of how we built "The Pulveriser", and achieved the best of both worlds.</p>
+            </div>
         </li>
       </ul>
       
     </section>
     
-    <section id="demo" class="site-section section-testimonials">
+    <section id="schedule" class="site-section section-testimonials">
       <div class="row">
-        <h4>Logistics</h4>
+        <h4>Schedule</h4>
+        <p>Registration begins at 9:15, talks begin at 10:00 and the event finishes by 17:00.</p>
+        <p>The schedule is available as two CSV files, each lays out the schedule in a different way:</p>
+        <p>
+          <a href="presentations.csv" class="btn-side">presentations.csv</a>
+          &nbsp;
+          <a href="schedule.csv" class="btn-side">schedule.csv</a>
+        </p>
+        
+        <p>Here are renderings of each spreadsheet:</p>
+        <h5>Schedule:</h5>
+        <a href="schedule.png"><img src="schedule.png"></a>
+        <h5>Presentations:</h5>
+        <a href="presentations.png"><img src="presentations.png"></a>
+        
+        <h4>Location</h4>
         <p>Conference venue is the <a href="http://www.kalkscheune.de/en">Kalkscheune</a> in Central Berlin.</p>
         <p>Google Maps: <a href="https://www.google.com/maps/place/Kalkscheune/@52.5251031,13.3914223,16z/data=!4m2!3m1!1s0x47a851e837c93643:0xd44c06c0d6ff5dda">Kalkscheune, Johannisstr. 2, 10117 Berlin, Germany</a></p>
-        <p>Registration begins at 9:15, talks begin at 10:00 and the event finishes by 17:00. Full schedule coming soon!</p>
+        <h4>More Information</h4>
         <p>CSVConf strives to be a supportive and welcoming environment to all attendees. We encourage you to read the <a href="http://confcodeofconduct.com/">Conf Code of Conduct</a> and will be enforcing it.</a>
         <p>For any questions contact <a href="https://twitter.com/maxogden">@maxogden</a> and <a href="https://twitter.com/rufuspollock">@rufuspollock</a></a>
         <p>Distribute <a href="img/csvconf-poster.png">this poster</a> to spread the word!</p>
