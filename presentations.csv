@@ -1,9 +1,9 @@
 room,start,name,title
 A,10:10,Jeni Tennison,CSV on the Web
-B,10:10,Nick Stenning,Data usability: the tabular data package and friends
+B,10:10,Mitar Milutinovic,Collaborating on open dataset of all academic publications
 C,10:10,Owen Jones,Population biology database
 A,10:35,Jeremy Krinsley,Every Parse Is Sacred
-B,10:35,Pieter Colpaert,Using The DataTank to transform a CSV into an HTTP API
+B,10:35,Nick Stenning,Data usability: the tabular data package and friends
 C,10:35,Alexandre Vallette,Using open-data and machine learning to enhance citizen life.
 A,11:30,Ingrid Burrington,Internet Groundtruth
 B,11:30,Christopher Gandrud,Improving access to panel series data for social scientists: the `psData` package
@@ -21,7 +21,7 @@ A,14:25,Friedrich Lindenberg,"Dr. Freezefile, or how I learned to stop generatin
 B,14:25,Steven Beeckman,How the belgian Ministry of Defence uses csv files to power its internal open data platform
 C,14:25,Aaron Schumacher,The examined life: Epistemology and the data dialogue
 A,14:50,"Ana Carvalho, Sara Moreira & Ricardo Lafuente",Datacentral: Using Data Packages for static data portals
-B,14:50,Mitar Milutinovic,Collaborating on open dataset of all academic publications
+B,14:50,Andy Lulham,Command line transforms in a browser – what’s the point of Data Pipes?
 C,14:50,Karthik Ram,`testdat` -- Unit testing for tabular data
 A,15:45,Olaf Veerman,Openrosa for call centers
 B,15:45,David McKee,XYPath: parsing spreadsheets in Python
