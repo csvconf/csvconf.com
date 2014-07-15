@@ -136,6 +136,10 @@ header .row { z-index: 2; position: relative; }
   font-size: 120%;
   font-weight: bold;
 }
+.room {
+  float: right;
+  padding-top: 10px;
+}
 @media only screen and (min-width:1024px){
   .slot {
     position: relative;
