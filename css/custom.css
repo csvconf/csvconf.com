@@ -131,3 +131,15 @@ header .row { z-index: 2; position: relative; }
 .open-data-node {
 	float: right;
 }
+
+.slot {
+  font-size: 120%;
+  font-weight: bold;
+}
+@media only screen and (min-width:1024px){
+  .slot {
+    position: relative;
+    left: -130px;
+    top: 40px;
+  }
+}
