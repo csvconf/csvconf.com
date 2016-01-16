@@ -5,24 +5,29 @@
 
 .features-circle { 
   background-size: 180px 180px;
-  background-color: #7285AC;
+  background-color: #e55d67;
   border: 6px solid #49556E;
 }
 
+#about {
+  padding-top: 0;
+  padding-bottom: 20px;
+}
+
 .logo span {
-  color: #7285AC;
+  color: #e55d67;
   margin: 0 -12px 0 -14px;
 }
 
 .site-header { 
-  border-top: 5px solid #7285AC;
+  border-top: 5px solid #e55d67;
   background-color: #F7F7F7;
   text-shadow: none;
   color: black;
 }
 
 .section-signup {
-  background-color: #7285AC;
+  background-color: #e55d67;
 }
 
 .section-signup h3, .section-signup h4 { color: white; }
@@ -97,7 +102,7 @@ header .row { z-index: 2; position: relative; }
     font-size: 50px;
   }
   .btn-docs {
-    border-color: #7285AC;
+    border-color: #e55d67;
   }
   .site-header {
   }
