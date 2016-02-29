@@ -5,7 +5,7 @@
 
 .features-circle { 
   background-size: 180px 180px;
-  background-color: #e55d67;
+  background-color: #0097a7;
   border: 6px solid #49556E;
 }
 
@@ -15,19 +15,19 @@
 }
 
 .logo span {
-  color: #e55d67;
+  color: #0097a7;
   margin: 0 -12px 0 -14px;
 }
 
 .site-header { 
-  border-top: 5px solid #e55d67;
+  border-top: 5px solid #0097a7;
   background-color: #F7F7F7;
   text-shadow: none;
   color: black;
 }
 
 .section-signup {
-  background-color: #e55d67;
+  background-color: #0097a7;
 }
 
 .section-signup h3, .section-signup h4 { color: white; }
@@ -102,7 +102,7 @@ header .row { z-index: 2; position: relative; }
     font-size: 50px;
   }
   .btn-docs {
-    border-color: #e55d67;
+    border-color: #0097a7;
   }
   .site-header {
   }
