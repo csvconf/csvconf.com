@@ -19,6 +19,10 @@
   margin: 0 -12px 0 -14px;
 }
 
+#speakers .features-list .features-item {
+  width: 25%;
+}
+
 .site-header { 
   border-top: 5px solid #0097a7;
   background-color: #F7F7F7;
