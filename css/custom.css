@@ -19,8 +19,22 @@
   margin: 0 -12px 0 -14px;
 }
 
+#speakers .features-list .features-item a {
+  text-decoration: none;
+}
+
 #speakers .features-list .features-item {
   width: 25%;
+  height: 400px;
+}
+
+#speakers .features-list h3 {
+  font-size: 20px;
+}
+
+#speakers .features-list h4 {
+  font-size: 20px;
+  border-bottom: 1px solid white;
 }
 
 .site-header { 
