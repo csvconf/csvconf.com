@@ -161,10 +161,14 @@ streams:
           <ul class="row features-list">
             {% for speaker in site.data.speakers %}
             <li class="features-item">
+              {% if speaker.twitter %}
               <a href="http://twitter.com/{{ speaker.twitter }}">
-                <span class="features-circle" style="background-image: url(/img/speakers/{{ speaker.img }})">
-                  <span class="features-circle-icon">
-                  </span>
+                {% else %}
+                <a>
+                  {% endif %}
+                  <span class="features-circle" style="background-image: url(/img/speakers/{{ speaker.img }})">
+                    <span class="features-circle-icon">
+                    </span>
                 </span>
               </a>
               <h4>{{ speaker.name }}</h4>
