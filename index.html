@@ -1,3 +1,13 @@
+---
+days:
+  - Tuesday
+  - Wednesday
+streams:
+  - "1"
+  - "2"
+  - "3"
+---
+
 <!doctype html>
 <!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
 <!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
@@ -25,503 +35,224 @@
   <script src="js/libs/modernizr-2.6.2.min.js"></script>
 </head>
 
-<body>
-  <header role="banner" class="site-header parallax" gumby-parallax="0.5">
-    <div class="row">
-      <div class="twelve columns header-intro-wrap fadeUpIn">
-        <h1 class="logo">csv<span>,</span>conf<span>,</span>v2</h1>
-        <p>
-          A community conference for data makers everywhere, again!
-          <br />
-          <small style="font-size: 65.4%;">Featuring some of the brightest minds in science, journalism, government and open source.</small>
-        </p>
-        <p>3-4 May 2016 in Berlin, Germany.</p>
-        <p class="buttonz">
-          <a href="http://www.eventbrite.com/e/csvconfv2-tickets-22105704758" target="_blank" class="btn-side animate-on-scroll scroll-animation-init fadeInLeft" data-scrollanimation="fadeInLeft">Get Your Ticket</a>
-          <div style="font-size: 15px">Pay What You Can, Early Bird Ends <b>April 15th</b></div>
-        </p>
-        <p>
-          Coming to Berlin early?  Sign up for <a href="https://attending.io/events/csv-conf-pre-event">csv,conf,pre,event</a> 2 May 2016!
-        </p>
-      </div>
-    </div>
-  </header>
-  <main role="main" class="site-main-content">
-    <span class="easteregg" style="display: none;">Above is live earthquake data from a NOAA CSV. <a href="?csv=https://raw.githubusercontent.com/datasets/house-prices-uk/master/data/data.csv">Try rendering a different CSV.</a></span>
-
-    <section id="speakers" class="site-section section-signup speakers">
+  <body>
+    <header role="banner" class="site-header parallax" gumby-parallax="0.5">
       <div class="row">
-        <div class="twelve columns animate-on-scroll" data-scrollanimation="fadeDownIn">
-          <h3 id="keynotes" class="signup-title">Keynote Speakers</h3>
+        <div class="twelve columns header-intro-wrap fadeUpIn">
+          <h1 class="logo">csv<span>,</span>conf<span>,</span>v2</h1>
+          <p>
+            A community conference for data makers everywhere, again!
+            <br />
+            <small style="font-size: 65.4%;">Featuring some of the brightest minds in science, journalism, government and open source.</small>
+          </p>
+          <p>3-4 May 2016 in Berlin, Germany.</p>
+          <p class="buttonz">
+            <a href="http://www.eventbrite.com/e/csvconfv2-tickets-22105704758" target="_blank" class="btn-side animate-on-scroll scroll-animation-init fadeInLeft" data-scrollanimation="fadeInLeft">Get Your Ticket</a>
+            <div style="font-size: 15px">Pay What You Can, Early Bird Ends <b>April 15th</b></div>
+          </p>
+          <p>
+            Coming to Berlin early?  Sign up for <a href="https://attending.io/events/csv-conf-pre-event">csv,conf,pre,event</a> 2 May 2016!
+          </p>
         </div>
       </div>
-      <div class="row">
-        <ul class="row features-list">
-          <li class="features-item">
-            <a href="https://twitter.com/JennyBryan">
-              <span class="features-circle" style="background-image: url(/img/speakers/JennyBryan.jpg)">
-                <span class="features-circle-icon">
+    </header>
+    <main role="main" class="site-main-content">
+      <span class="easteregg" style="display: none;">Above is live earthquake data from a NOAA CSV. <a href="?csv=https://raw.githubusercontent.com/datasets/house-prices-uk/master/data/data.csv">Try rendering a different CSV.</a></span>
+      
+      <section id="speakers" class="site-section section-signup speakers">
+        <div class="row">
+          <div class="twelve columns animate-on-scroll" data-scrollanimation="fadeDownIn">
+            <h3 id="keynotes" class="signup-title">Keynote Speakers</h3>
+          </div>
+        </div>
+        <div class="row">
+          <ul class="row features-list">
+            <li class="features-item">
+              <a href="https://twitter.com/JennyBryan">
+                <span class="features-circle" style="background-image: url(/img/speakers/JennyBryan.jpg)">
+                  <span class="features-circle-icon">
+                  </span>
                 </span>
-              </span>
-            </a>
-            <h4>Jenny Bryan</h4>
-            <h3>Statistics professor at the University of British Columbia who takes a special delight in data analysis and computing.</h3>
-          </li>
-          <li class="features-item">
-            <a href="https://twitter.com/sarahtgold">
-              <span class="features-circle" style="background-image: url(/img/speakers/sarahtgold.jpg)">
-                <span class="features-circle-icon">
+              </a>
+              <h4>Jenny Bryan</h4>
+              <h3>Statistics professor at the University of British Columbia who takes a special delight in data analysis and computing.</h3>
+            </li>
+            <li class="features-item">
+              <a href="https://twitter.com/sarahtgold">
+                <span class="features-circle" style="background-image: url(/img/speakers/sarahtgold.jpg)">
+                  <span class="features-circle-icon">
+                  </span>
                 </span>
-              </span>
-            </a>
-            <h4>Sarah Gold</h4>
-            <h3>Designer interested in interaction, data and networks in the public domain, she is founder of the creative company IF.</h3>
-          </li>
-          <li class="features-item">
-            <a href="https://twitter.com/thefreemanlab">
-              <span class="features-circle" style="background-image: url(/img/speakers/thefreemanlab.png)">
-                <span class="features-circle-icon">
+              </a>
+              <h4>Sarah Gold</h4>
+              <h3>Designer interested in interaction, data and networks in the public domain, she is founder of the creative company IF.</h3>
+            </li>
+            <li class="features-item">
+              <a href="https://twitter.com/thefreemanlab">
+                <span class="features-circle" style="background-image: url(/img/speakers/thefreemanlab.png)">
+                  <span class="features-circle-icon">
+                  </span>
                 </span>
-              </span>
-            </a>
-            <h4>Jeremy Freeman</h4>
-            <h3>Neuroscientist at <a href="https://twitter.com/HHMIJanelia">HHMI Janelia</a>. Open source, open science. Working on <a href="http://mybinder.org/">Binder</a>, <a href="http://lightning-viz.org/">Lightning</a> and more.</h3>
-          </li>
-          <li class="features-item">
-            <a href="https://twitter.com/zararah">
-              <span class="features-circle" style="background-image: url(/img/speakers/zararahman.png)">
-                <span class="features-circle-icon">
+              </a>
+              <h4>Jeremy Freeman</h4>
+              <h3>Neuroscientist at <a href="https://twitter.com/HHMIJanelia">HHMI Janelia</a>. Open source, open science. Working on <a href="http://mybinder.org/">Binder</a>, <a href="http://lightning-viz.org/">Lightning</a> and more.</h3>
+            </li>
+            <li class="features-item">
+              <a href="https://twitter.com/zararah">
+                <span class="features-circle" style="background-image: url(/img/speakers/zararahman.png)">
+                  <span class="features-circle-icon">
+                  </span>
                 </span>
-              </span>
-            </a>
-            <h4>Zara Rahman</h4>
-            <h3>Researcher, writer and information activist whose work focuses on bridging the gap between activists and technologists.</h3>
-          </li>
-        </ul>
-        <div class="row" style="padding-top: 90px;">
+              </a>
+              <h4>Zara Rahman</h4>
+              <h3>Researcher, writer and information activist whose work focuses on bridging the gap between activists and technologists.</h3>
+            </li>
+          </ul>
+          <div class="row" style="padding-top: 90px;">
             <h3>See the full <a href="#presenters">list of speakers</a>.
-
-            <p>
-              <a href="http://www.eventbrite.com/e/csvconfv2-tickets-22105704758" target="_blank" class="btn-side animate-on-scroll scroll-animation-init fadeInLeft" data-scrollanimation="fadeInLeft">Get Your Ticket</a>
-            </p>
+              
+              <p>
+                <a href="http://www.eventbrite.com/e/csvconfv2-tickets-22105704758" target="_blank" class="btn-side animate-on-scroll scroll-animation-init fadeInLeft" data-scrollanimation="fadeInLeft">Get Your Ticket</a>
+              </p>
+          </div>
         </div>
-      </div>
-    </section>
-
-    <section id="about" class="site-section section-features" data-target="features">
-      <center><a href="/2014"><img width="100%" src="img/2014-group.jpg"></a></center>
-
-      <ul class="row features-list">
-        <li class="features-item">
-          <h3>Building Community</h3>
-          <p>We want to bring together data makers/doers/hackers from backgrounds like science, journalism, open government and the wider software industry to share knowledge and stories.</p>
-        </li>
-        <li class="features-item">
-          <h3>For those who love data</h3>
-          <p>csv,conf is a non-profit community conference run by some folks who really love data and sharing knowledge. If you are as passionate about data and the application it has to society as us then you should join us in Berlin!</p>
-
-        </li>
-        <li class="features-item">
-          <h3>Big and small</h3>
-          <p>This isn't just a conference about spreadsheets. We are curating content about advancing the art of data collaboration, from putting your data on GitHub to producing meaningful insight by running large scale distributed processing on a cluster.</p>
-        </li>
-        <!-- /END: Feature Item -->
-      </ul>
-      <!-- /END: Features List -->
-      <div class="row" style="text-align: center;">
-        <div class="row">
-           <h3>csv,conf is made possible by the following generous sponsors</h3>
-           <a href="https://www.moore.org/"><img src="img/moore.jpg" width="400" style="padding: 25px"></a>
-           <br />
-           <a href="https://okfn.org/"><img src="img/oki.png" width="200"></a>
-           <a href="https://www.datacite.org/"><img src="img/datacite.png" width="200"></a>
-           <a href="http://www.sloan.org/"><img src="img/sloan.png" width="200"></a>
-           <a href="http://ropensci.org/"><img src="img/ropensci.png" width="200"></a>
-        </div>
-      </div>
-    </section>
-
-    <section id="presenters" class="site-section section-signup speakers">
-      <div class="row">
-        <div class="twelve columns animate-on-scroll" data-scrollanimation="fadeDownIn">
-          <h3 class="signup-title" id="presenters">Presenters</h3>
-        </div>
-      </div>
-      <div class="row">
+      </section>
+      
+      <section id="about" class="site-section section-features" data-target="features">
+        <center><a href="/2014"><img width="100%" src="img/2014-group.jpg"></a></center>
+        
         <ul class="row features-list">
           <li class="features-item">
-            <a href="https://twitter.com/blahah404">
-              <span class="features-circle" style="background-image: url(/img/speakers/blahah404.png)">
-                <span class="features-circle-icon">
-                </span>
-              </span>
-            </a>
-            <h4>Richard Smith-Unna</h4>
-            <a href="#blahah404"><h3>Easy, massive-scale reuse of scientific outputs.</h3></a>
+            <h3>Building Community</h3>
+            <p>We want to bring together data makers/doers/hackers from backgrounds like science, journalism, open government and the wider software industry to share knowledge and stories.</p>
           </li>
           <li class="features-item">
-            <a href="https://twitter.com/auremoser">
-              <span class="features-circle" style="background-image: url(/img/speakers/auremoser.png)">
-                <span class="features-circle-icon">
-                </span>
-              </span>
-            </a>
-            <h4>Aurelia Moser</h4>
-            <a href="#auremoser"><h3>This is Not a Map: Building Interactive Maps with CSVs, Creative Themes, and Curious Geometries</h3></a>
+            <h3>For those who love data</h3>
+            <p>csv,conf is a non-profit community conference run by some folks who really love data and sharing knowledge. If you are as passionate about data and the application it has to society as us then you should join us in Berlin!</p>
+            
           </li>
           <li class="features-item">
-            <a href="https://twitter.com/">
-              <span class="features-circle" style="background-image: url(/img/speakers/tdoehmen.jpg)">
-                <span class="features-circle-icon">
-                </span>
-              </span>
-            </a>
-            <h4>Till Doehmen</h4>
-            <a href="#tdoehmen"><h3>There and back again – Automatic detection and conversion of logical table structures</h3></a>
+            <h3>Big and small</h3>
+            <p>This isn't just a conference about spreadsheets. We are curating content about advancing the art of data collaboration, from putting your data on GitHub to producing meaningful insight by running large scale distributed processing on a cluster.</p>
           </li>
-          <li class="features-item">
-            <a href="https://twitter.com/richard_d_jones">
-              <span class="features-circle" style="background-image: url(/img/speakers/richard_d_jones.jpg)">
-                <span class="features-circle-icon">
-                </span>
-              </span>
-            </a>
-            <h4>Richard Jones</h4>
-            <a href="#richard_d_jones"><h3>CSV as the Master Dataset - and approaches to web publishing</h3></a>
-          </li>
-          <li class="features-item">
-            <a href="https://twitter.com/bjwebb67">
-              <span class="features-circle" style="background-image: url(/img/speakers/bjwebb67.jpeg)">
-                <span class="features-circle-icon">
-                </span>
-              </span>
-            </a>
-            <h4>Ben Webb</h4>
-            <a href="#bjwebb67"><h3>Bidirectional conversion to/from CSV for nested JSON data</h3></a>
-          </li>
-          <li class="features-item">
-            <a href="https://twitter.com/jacomyma">
-              <span class="features-circle" style="background-image: url(/img/speakers/jacomyma.jpg)">
-                <span class="features-circle-icon">
-                </span>
-              </span>
-            </a>
-            <h4>Mathieu Jacomy</h4>
-            <a href="#jacomyma"><h3>CSV, Rinse, Repeat</h3></a>
-          </li>
-          <li class="features-item">
-            <a href="https://twitter.com/sirwart">
-              <span class="features-circle" style="background-image: url(/img/speakers/sirwart.jpg)">
-                <span class="features-circle-icon">
-                </span>
-              </span>
-            </a>
-            <h4>Brian Smith</h4>
-            <a href="#sirwart"><h3>What we can learn from XLSX</h3></a>
-          </li>
-          <li class="features-item">
-            <a href="https://twitter.com/scoatch">
-              <span class="features-circle" style="background-image: url(/img/speakers/scoatch.png)">
-                <span class="features-circle-icon">
-                </span>
-              </span>
-            </a>
-            <h4>Scott Renton</h4>
-            <a href="#scoatch"><h3>Describing Image Collections (Without Any Staff!)</h3></a>
-          </li>
-          <li class="features-item">
-            <a href="https://twitter.com/commuterjoy">
-              <span class="features-circle" style="background-image: url(/img/speakers/commuterjoy.png)">
-                <span class="features-circle-icon">
-                </span>
-              </span>
-            </a>
-            <h4>Matt Chadburn</h4>
-            <a href="#commuterjoy"><h3>Democratising data at the Financial Times </h3></a>
-          </li>
-          <li class="features-item">
-            <a href="https://twitter.com/saschafrohwerk">
-              <span class="features-circle" style="background-image: url(/img/speakers/saschafrohwerk.jpg)">
-                <span class="features-circle-icon">
-                </span>
-              </span>
-            </a>
-            <h4>Dr. Sascha Frohwerk</h4>
-            <a href="#saschafrohwerk"><h3>Scraping, Analyzing and Visualizing spatial Data</h3></a>
-          </li>
-          <li class="features-item">
-            <a href="https://twitter.com/captainkmac">
-              <span class="features-circle" style="background-image: url(/img/speakers/captainkmac.png)">
-                <span class="features-circle-icon">
-                </span>
-              </span>
-            </a>
-            <h4>Karissa McKelvey</h4>
-            <a href="#captainkmac"><h3>Distributing Open Data with Dat</h3></a>
-          </li>
-          <li class="features-item">
-            <a href="https://twitter.com/benjaminbenben">
-              <span class="features-circle" style="background-image: url(/img/speakers/benjaminbenben.jpg)">
-                <span class="features-circle-icon">
-                </span>
-              </span>
-            </a>
-            <h4>Ben Foxall</h4>
-            <a href="#benjaminbenben"><h3>Serving CSV from the Browser</h3></a>
-          </li>
-          <li class="features-item">
-            <a href="https://twitter.com/johl">
-              <span class="features-circle" style="background-image: url(/img/speakers/johl.jpg)">
-                <span class="features-circle-icon">
-                </span>
-              </span>
-            </a>
-            <h4>Jens Ohlig</h4>
-            <a href="#johl"><h3>Data Donations for Wikidata – how to get your data into the free knowledge base</h3></a>
-          </li>
-          <li class="features-item">
-            <a href="https://twitter.com/CallMeAlien">
-              <span class="features-circle" style="background-image: url(/img/speakers/CallMeAlien.png)">
-                <span class="features-circle-icon">
-                </span>
-              </span>
-            </a>
-            <h4>Serah Njambi</h4>
-            <a href="#CallMeAlien"><h3>Life/Death Decisions: Powered by CSVs</h3></a>
-          </li>
-          <li class="features-item">
-            <a href="https://twitter.com/tripofmice">
-              <span class="features-circle" style="background-image: url(/img/speakers/tripofmice.jpg)">
-                <span class="features-circle-icon">
-                </span>
-              </span>
-            </a>
-            <h4>Mouse Reeve</h4>
-            <a href="#tripofmice"><h3>Grimoires, Demonology, and Databases</h3></a>
-          </li>
-          <li class="features-item">
-            <a href="https://twitter.com/juretriglav">
-              <span class="features-circle" style="background-image: url(/img/speakers/juretriglav.jpg)">
-                <span class="features-circle-icon">
-                </span>
-              </span>
-            </a>
-            <h4>Jure Triglav</h4>
-            <a href="#juretriglav"><h3>Open Science with Open Data on the Open Web using Open Source</h3></a>
-          </li>
-          <li class="features-item">
-            <a href="https://twitter.com/kadamwhite">
-              <span class="features-circle" style="background-image: url(/img/speakers/kadamwhite.jpg)">
-                <span class="features-circle-icon">
-                </span>
-              </span>
-            </a>
-            <h4>K Adam White</h4>
-            <a href="#kadamwhite"><h3>WordPress as Data</h3></a>
-          </li>
-          <li class="features-item">
-            <a href="https://twitter.com/basilesimon">
-              <span class="features-circle" style="background-image: url(/img/speakers/basilesimon.jpg)">
-                <span class="features-circle-icon">
-                </span>
-              </span>
-            </a>
-            <h4>Basile Simon</h4>
-            <a href="#basilesimon"><h3>Hackers trying to stay relevant: linked data and structured journalism at the BBC</h3></a>
-          </li>
-          <li class="features-item">
-            <a href="https://twitter.com/danfowler">
-              <span class="features-circle" style="background-image: url(/img/speakers/danfowler.jpg)">
-                <span class="features-circle-icon">
-                </span>
-              </span>
-            </a>
-            <h4>Dan Fowler</h4>
-            <a href="#danfowler"><h3>Data Packages and Frictionless Data for Research</h3></a>
-          </li>
-          <li class="features-item">
-            <a href="https://twitter.com/frsyuki">
-              <span class="features-circle" style="background-image: url(/img/speakers/frsyuki.jpg)">
-                <span class="features-circle-icon">
-                </span>
-              </span>
-            </a>
-            <h4>Sadayuki Furuhashi</h4>
-            <a href="#frsyuki"><h3>Fighting Against Chaotically Separated Values with Embulk</h3></a>
-          </li>
-          <li class="features-item">
-            <a href="https://twitter.com/gmcmullen">
-              <span class="features-circle" style="background-image: url(/img/speakers/gmcmullen.jpg)">
-                <span class="features-circle-icon">
-                </span>
-              </span>
-            </a>
-            <h4>Greg McMullen</h4>
-            <a href="#gmcmullen"><h3>BigchainDB & IPDB: A Blockchain Database for the Decentralized World Computer</h3></a>
-          </li>
-          <li class="features-item">
-            <a href="https://twitter.com/tomayac">
-              <span class="features-circle" style="background-image: url(/img/speakers/tomayac.jpg)">
-                <span class="features-circle-icon">
-                </span>
-              </span>
-            </a>
-            <h4>Thomas Steiner</h4>
-            <a href="#tomayac"><h3>Wikipedia Tools for Google Spreadsheets</h3></a>
-          </li>
-          <li class="features-item">
-    <a href="https://twitter.com/atepstein">
-      <span class="features-circle" style="background-image: url(/img/speakers/atepstein.jpg)">
-        <span class="features-circle-icon">
-        </span>
-      </span>
-    </a>
-    <h4>Ari Epstein</h4>
-    <a href="#atepstein"><h3>Continuous Delivery Platform for Local Laws</h3></a>
-  </li>
-  <li class="features-item">
-    <a href="https://twitter.com/maciejgryka">
-      <span class="features-circle" style="background-image: url(/img/speakers/maciejgryka.jpg)">
-        <span class="features-circle-icon">
-        </span>
-      </span>
-    </a>
-    <h4>Maciej Gryka</h4>
-    <a href="#maciejgryka"><h3>Gotta catch'em all: recognizing sloppy work in crowdsourcing tasks</h3></a>
-  </li>
-<li class="features-item">
-    <a href="https://twitter.com/JeniT">
-      <span class="features-circle" style="background-image: url(/img/speakers/JeniT.jpg)">
-        <span class="features-circle-icon">
-        </span>
-      </span>
-    </a>
-    <h4>Jeni Tennison</h4>
-    <a href="#JeniT"><h3>Making CSV part of the Web</h3></a>
-  </li>
-<li class="features-item">
-    <a href="https://twitter.com/pezholio">
-      <span class="features-circle" style="background-image: url(/img/speakers/pezholio.jpg)">
-        <span class="features-circle-icon">
-        </span>
-      </span>
-    </a>
-    <h4>Stuart Harrison</h4>
-    <a href="#pezholio"><h3>Comma Chameleon - Building a desktop CSV editor in one week</h3></a>
-  </li>
-<li class="features-item">
-    <a href="https://twitter.com/kevingashley">
-      <span class="features-circle" style="background-image: url(/img/speakers/kevingashley.jpg)">
-        <span class="features-circle-icon">
-        </span>
-      </span>
-    </a>
-    <h4>Kevin Ashley</h4>
-    <a href="#kevingashley"><h3>Dimensions of data quality</h3></a>
-  </li>
-<li class="features-item">
-    <a href="https://twitter.com/">
-      <span class="features-circle" style="background-image: url(/img/speakers/anonymous.png)">
-        <span class="features-circle-icon">
-        </span>
-      </span>
-    </a>
-    <h4>Micheleen Harris</h4>
-    <a href="#"><h3>Work Together:  Share and Explore Data in Jupyter Notebooks</h3></a>
-  </li>
-<li class="features-item">
-    <a href="https://twitter.com/johrols">
-      <span class="features-circle" style="background-image: url(/img/speakers/johrols.png)">
-        <span class="features-circle-icon">
-        </span>
-      </span>
-    </a>
-    <h4>Johann Rolschewski</h4>
-    <a href="#"><h3>Catmandu - a data toolkit</h3></a>
-  </li>
-<li class="features-item">
-    <a href="https://twitter.com/frimelle">
-      <span class="features-circle" style="background-image: url(/img/speakers/frimelle.png)">
-        <span class="features-circle-icon">
-        </span>
-      </span>
-    </a>
-    <h4>Lucie-Aimée Kaffee</h4>
-    <a href="#frimelle"><h3>Increasing access to free and open knowledge for under-ressourced languages on Wikipedia</h3></a>
-  </li>
-<li class="features-item">
-    <a href="https://twitter.com/https://twitter.com/princi_ya">
-      <span class="features-circle" style="background-image: url(/img/speakers/princi_ya.jpg)">
-        <span class="features-circle-icon">
-        </span>
-      </span>
-    </a>
-    <h4>Princiya Marina</h4>
-    <a href="#https://twitter.com/princi_ya"><h3>Data visualizations using D3.js and C++</h3></a>
-  </li>
-<li class="features-item">
-    <a href="https://twitter.com/sebkkom">
-      <span class="features-circle" style="background-image: url(/img/speakers/sebkkom.jpg)">
-        <span class="features-circle-icon">
-        </span>
-      </span>
-    </a>
-    <h4>Sebastian K. Komianos</h4>
-    <a href="#sebkkom"><h3>Data through the hoop: I got 99 problems and the data was one</h3></a>
-  </li>
-
-
+          <!-- /END: Feature Item -->
         </ul>
-        <div class="row">
-          <h3>More speakers to be announced soon.</h3>
+        <!-- /END: Features List -->
+        <div class="row" style="text-align: center;">
+          <div class="row">
+            <h3>csv,conf is made possible by the following generous sponsors</h3>
+            <a href="https://www.moore.org/"><img src="img/moore.jpg" width="400" style="padding: 25px"></a>
+            <br />
+            <a href="https://okfn.org/"><img src="img/oki.png" width="200"></a>
+            <a href="https://www.datacite.org/"><img src="img/datacite.png" width="200"></a>
+            <a href="http://www.sloan.org/"><img src="img/sloan.png" width="200"></a>
+            <a href="http://ropensci.org/"><img src="img/ropensci.png" width="200"></a>
+          </div>
         </div>
+      </section>
+      
+      <section id="presenters" class="site-section section-signup speakers">
+        <div class="row">
+          <div class="twelve columns animate-on-scroll" data-scrollanimation="fadeDownIn">
+            <h3 class="signup-title" id="presenters">Presenters</h3>
+          </div>
+        </div>
+        <div class="row">
+          <ul class="row features-list">
+            {% for speaker in site.data.speakers %}
+            <li class="features-item">
+              <a href="http://twitter.com/{{ speaker.twitter }}">
+                <span class="features-circle" style="background-image: url(/img/speakers/{{ speaker.img }})">
+                  <span class="features-circle-icon">
+                  </span>
+                </span>
+              </a>
+              <h4>{{ speaker.name }}</h4>
+              <a href="#{{ speaker.id }}"><h3>{{ speaker.title }}</h3></a>
+            </li>
+            {% endfor %}
+          </ul>
+          <div class="row">
+            <h3>More speakers to be announced soon.</h3>
+          </div>
+        </div>
+      </section>
 
-      </div>
-      </div>
-
-    </section>
-
-    <section id="schedule" class="site-section section-testimonials">
-      <div class="row">
-        <h4 id="location">Location</h4>
-        <p>Conference venue is the <a href="http://www.kalkscheune.de/en">Kalkscheune</a> in Central Berlin.</p>
-        <p>Google Maps: <a href="https://www.google.com/maps/place/Kalkscheune/@52.5251031,13.3914223,16z/data=!4m2!3m1!1s0x47a851e837c93643:0xd44c06c0d6ff5dda">Kalkscheune, Johannisstr. 2, 10117 Berlin, Germany</a></p>
-        <h4 id="schedule">
-          <h4>Schedule</h4>
-          <a href="img/day1.png"><img src="img/day1.png" width=300></a>
-          <a href="img/day2.png"><img src="img/day2.png" width=300></a>
-        </h4>
-
-        <h4>More Information</h4>
-        <p>CSVConf strives to be a supportive and welcoming environment to all attendees. We encourage you to read the <a href="http://confcodeofconduct.com/">Conf Code of Conduct</a> and will be enforcing it.</a>
-        <p>For any questions contact <a href="https://twitter.com/csvconference">@csvconference</a> or csv-conf-coord at googlegroups dot com</a>
-        <a href="http://www.kalkscheune.de/en"><img style="margin-left: 20px" src="img/kalkscheune.png"></a>
-        <h4 id="documents">Documents</h4>
-        <p>Here is our announcement poster, sticker template and sponsorship prospectus.</p>
-        <p>
-          <a href="img/buy-tickets-2016.png"><img width="200" src="img/buy-tickets-2016.png"></img></a>
-          <a style="padding-left: 20px;" href="img/sticker-2016.png"><img width="200" src="img/sticker-2016.png"></img></a>
-          <a style="padding-left: 20px;" href="img/confconferencev2_sponsorship.pdf"><img width="200" src="img/sponsorship.png"></img></a>
-        </p>
-      </div>
-
-      <div class="row" style="text-align: center;">
-        <h3>Check out csv,conf,v1</h3>
-        <p>The first csv,conf was held in 2014. We hosted 30 talks all over the data spectrum including <a href="https://www.youtube.com/watch?v=a8piOmSsJ2I">upcoming CSV standards from the W3C</a>, <a href="https://www.youtube.com/watch?v=U2NcQVk5HtQ">scientific data testing tools in R</a>, and <a href="https://www.youtube.com/watch?v=NhhJmgXKSJI">how to query data from Wikipedia</a>.</p>
-        <ul>
-          <li><a href="http://lanyrd.com/2014/csv-conf/coverage/">See the csv,conf,v1 coverage (slides and videos) on Lanyrd.</a></li>
-          <li><a href="/2014">View the csv,conf,v1 speaker list and presentation summaries.</li>
-        </ul>
-      </div>
-    </section>
-
-  </main>
-  <!-- START: Site Footer -->
-  <footer role="contentinfo" class="site-footer">
-    <div class="row footer-info">
-      <!-- START: Copyright Notice -->
-      <div class="six columns">
-        <p class="footer-copyright">Text released under <a href="http://creativecommons.org/licenses/by/4.0/">the Creative Commons Attribution 4.0 International (CC-BY) license</a>. HTML, CSS, images, and design are based on a design <a href="https://github.com/sudomesh/peoplesopen-front">forked from PeoplesOpen.Net</a> which was, in turn, forked from <a href="http://martini.codegangsta.io/">Martini’s template</a>, reused here under the MIT License. Fork this site on <a href="https://github.com/maxogden/csvconf.com">GitHub</a>.</p>
+      <section id="schedule" class="site-section section-testimonials">
+        <div class="row">
+          <h4 id="location">Location</h4>
+          <p>Conference venue is the <a href="http://www.kalkscheune.de/en">Kalkscheune</a> in Central Berlin.</p>
+          <p>Google Maps: <a href="https://www.google.com/maps/place/Kalkscheune/@52.5251031,13.3914223,16z/data=!4m2!3m1!1s0x47a851e837c93643:0xd44c06c0d6ff5dda">Kalkscheune, Johannisstr. 2, 10117 Berlin, Germany</a></p>
+          <h4 id="schedule">
+            <h4>Schedule</h4>
+            <a href="img/day1.png"><img src="img/day1.png" width=300></a>
+            <a href="img/day2.png"><img src="img/day2.png" width=300></a>
+          </h4>
+          
+          {% for day in page.days %}
+          <h4>Schedule: {{ day }}</h4>
+          <ul class="row presentation-list">
+            
+            {% for presentation in site.data.presentations %}
+            {% if presentation.day == day %}
+            
+            <li id="{{ presentation.id }}" class="presentation-item">
+              <div class="slot">{{ presentation.start }}</div>
+              <div class="left">
+                <h3>{{ presentation.title }}</h3>
+                {% if presentation.type == 'keynote' or presentation.type == 'break' %}
+                <span class="room">{{ presentation.type | upcase }}</span>
+                {% else %}
+                <span class="room">Stream {{ presentation.stream }}</span>
+                {% endif %}
+                <a>
+                  <h4>{{ presentation.name }}</h4>
+                </a>
+                <div class="bio"></div>
+                <p>
+                  {{ presentation.description }}
+                </p>
+              </div>
+            </li>
+            
+            {% endif %}
+            {% endfor %}
+            
+          </ul>
+          {% endfor %}
+          
+          <h4>More Information</h4>
+          <p>CSVConf strives to be a supportive and welcoming environment to all attendees. We encourage you to read the <a href="http://confcodeofconduct.com/">Conf Code of Conduct</a> and will be enforcing it.</p>
+          <p>For any questions contact <a href="https://twitter.com/csvconference">@csvconference</a> or csv-conf-coord at googlegroups dot com</p>
+          <a href="http://www.kalkscheune.de/en"><img style="margin-left: 20px" src="img/kalkscheune.png"></a>
+          <h4 id="documents">Documents</h4>
+          <p>Here is our announcement poster, sticker template and sponsorship prospectus.</p>
+          <p>
+            <a href="img/buy-tickets-2016.png"><img width="200" src="img/buy-tickets-2016.png"></img></a>
+            <a style="padding-left: 20px;" href="img/sticker-2016.png"><img width="200" src="img/sticker-2016.png"></img></a>
+            <a style="padding-left: 20px;" href="img/confconferencev2_sponsorship.pdf"><img width="200" src="img/sponsorship.png"></img></a>
+          </p>
+        </div>
+        
+        <div class="row" style="text-align: center;">
+          <h3>Check out csv,conf,v1</h3>
+          <p>The first csv,conf was held in 2014. We hosted 30 talks all over the data spectrum including <a href="https://www.youtube.com/watch?v=a8piOmSsJ2I">upcoming CSV standards from the W3C</a>, <a href="https://www.youtube.com/watch?v=U2NcQVk5HtQ">scientific data testing tools in R</a>, and <a href="https://www.youtube.com/watch?v=NhhJmgXKSJI">how to query data from Wikipedia</a>.</p>
+          <ul>
+            <li><a href="http://lanyrd.com/2014/csv-conf/coverage/">See the csv,conf,v1 coverage (slides and videos) on Lanyrd.</a></li>
+            <li><a href="/2014">View the csv,conf,v1 speaker list and presentation summaries.</li>
+          </ul>
+        </div>
+      </section>
+      
+    </main>
+    <!-- START: Site Footer -->
+    <footer role="contentinfo" class="site-footer">
+      <div class="row footer-info">
+        <!-- START: Copyright Notice -->
+        <div class="six columns">
+          <p class="footer-copyright">Text released under <a href="http://creativecommons.org/licenses/by/4.0/">the Creative Commons Attribution 4.0 International (CC-BY) license</a>. HTML, CSS, images, and design are based on a design <a href="https://github.com/sudomesh/peoplesopen-front">forked from PeoplesOpen.Net</a> which was, in turn, forked from <a href="http://martini.codegangsta.io/">Martini’s template</a>, reused here under the MIT License. Fork this site on <a href="https://github.com/maxogden/csvconf.com">GitHub</a>.</p>
+        </div>
+        <!-- /END: Copyright Notice -->
       </div>
       <!-- /END: Copyright Notice -->
     </div>
