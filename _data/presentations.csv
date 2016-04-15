@@ -1,0 +1,45 @@
+day,start,stream,type,id,name,title
+Wednesday,09:00:00,,break,,,Breakfast/Hangout time
+Tuesday,10:30:00,1,talk,bfoxall,Ben Foxall,Serving CSV from the Browser
+Tuesday,10:30:00,2,talk,rsmithunna,Richard Smith-Unna,"Easy, massive-scale reuse of scientific outputs"
+Tuesday,10:30:00,3,talk,srenton,Scott Renton,Describing Image Collections (Without Any Staff!)
+Wednesday,10:30:00,,keynote,,Zara Rahman,Keynote
+Tuesday,11:00:00,1,talk,kwhite,K Adam White,WordPress as Data
+Tuesday,11:00:00,3,talk,rjones,Richard Jones,CSV as the Master Dataset - and approaches to web publishing
+Tuesday,11:30:00,1,talk,kmckelvey,Karissa McKelvey,Distributing Open Data with Dat
+Tuesday,11:30:00,2,talk,bwebb,Ben Webb,Bidirectional conversion to/from CSV for nested JSON data
+Tuesday,11:30:00,3,talk,mjacomy,Mathieu Jacomy,"CSV, Rinse, Repeat"
+Wednesday,11:30:00,1,talk,dfowler,Dan Fowler,Data Packages and Frictionless Data for Research
+Wednesday,11:30:00,2,talk,aepstein,Ari Epstein,Continuous Delivery Platform for Local Laws
+Wednesday,11:30:00,3,talk,amoser,Aurelia Moser,"This is Not a Map: Building Interactive Maps with CSVs, Creative Themes, and Curious Geometries"
+Tuesday,12:00:00,,break,,,Lunch
+Wednesday,12:00:00,1,talk,gmcmullen,Greg McMullen,BigchainDB & IPDB: A Blockchain Database for the Decentralized World Computer
+Wednesday,12:00:00,2,talk,dbarnes,Darren Barnes,ONS Databaker: from 'pretty spreadsheets' to useful CSVs
+Wednesday,12:00:00,3,talk,jrolschewski,Johann Rolschewski,Catmandu - a data toolkit
+Tuesday,12:30:00,,keynote,,Jenny Bryan,Keynote
+Wednesday,12:30:00,,break,,,Lunch/Hangout Time
+Tuesday,13:30:00,1,talk,jtennison,Jeni Tennison,Making CSV part of the Web
+Tuesday,13:30:00,2,talk,bsmith,Brian Smith,What we can learn from XLSX
+Tuesday,13:30:00,3,talk,mgryka,Maciej Gryka,Gotta catch'em all: recognizing sloppy work in crowdsourcing tasks
+Wednesday,13:30:00,,keynote,,Jeremy Freeman,Keynote
+Tuesday,14:00:00,1,talk,michaelaphilip,Michaela Broschomb + Philip Potter,Registers: authoritative lists you can trust
+Tuesday,14:00:00,2,talk,johlig,Jens Ohlig,Data Donations for Wikidata - how to get your data into the free knowledge base
+Tuesday,14:00:00,3,talk,sfuruhashi,Sadayuki Furuhashi,Fighting Against Chaotically Separated Values with Embulk
+Tuesday,14:30:00,,break,,,Break
+Wednesday,14:30:00,1,talk,bsimon,Basile Simon,Hackers trying to stay relevant: linked data and structured journalism at the BBC
+Wednesday,14:30:00,2,talk,sfrohwerk,Dr. Sascha Frohwerk,"Scraping, Analyzing and Visualizing spatial Data"
+Wednesday,14:30:00,3,talk,snjambi,Serah Njambi,Life/Death Decisions: Powered by CSVs
+Tuesday,15:00:00,1,talk,mchadburn,Matt Chadburn,Democratising data at the Financial Times
+Tuesday,15:00:00,2,talk,tsteiner,Thomas Steiner,Wikipedia Tools for Google Spreadsheets
+Tuesday,15:00:00,3,talk,mharris,Micheleen Harris,Work Together:  Share and Explore Data in Jupyter Notebooks
+Wednesday,15:00:00,1,talk,tdoehman,Till Doehmen,There and back again - Automatic detection and conversion of logical table structures
+Wednesday,15:00:00,3,talk,skomianos,Sebastian K. Komianos,Data through the hoop: I got 99 problems and the data was one
+Tuesday,15:30:00,1,talk,mreeve,Mouse Reeve,"Grimoires, Demonology, and Databases"
+Tuesday,15:30:00,2,talk,pmarina,Princiya Marina,Data visualizations using D3.js and C++
+Tuesday,15:30:00,3,talk,kashley,Kevin Ashley,Dimensions of data quality
+Wednesday,15:30:00,1,talk,sharrison,Stuart Harrison,Comma Chameleon - Building a desktop CSV editor in one week
+Wednesday,15:30:00,2,talk,lkaffee,Lucie-Aime Kaffee,Increasing access to free and open knowledge for under-ressourced languages on Wikipedia
+Wednesday,15:30:00,3,talk,jtriglav,Jure Triglav,Open Science with Open Data on the Open Web using Open Source
+Wednesday,16:00:00,,break,,,Outros/Goodbye/Coffee Break
+Tuesday,16:30:00,,keynote,,Sarah Gold,Keynote
+Wednesday,17:00:00,1,break,,,5-6pm Hangout time
