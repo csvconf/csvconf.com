@@ -1,4 +1,4 @@
-id,name,title,img,twitter,presentation_url
+id,name,title,img,twitter,slides_url
 rsmithunna,Richard Smith-Unna,"Easy, massive-scale reuse of scientific outputs",blahah404.png,blahah404,
 amoser,Aurelia Moser,"This is Not a Map: Building Interactive Maps with CSVs, Creative Themes, and Curious Geometries",auremoser.png,auremoser,
 tdoehman,Till Doehmen,There and back again - Automatic detection and conversion of logical table structures,tdoehmen.jpg,,
