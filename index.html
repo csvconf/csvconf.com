@@ -207,7 +207,15 @@ streams:
                 {% if presentation.type == 'keynote' or presentation.type == 'break' %}
                 <span class="room">{{ presentation.type | upcase }}</span>
                 {% else %}
-                <span class="room">Stream {{ presentation.stream }}</span>
+                <span class="room">
+                  {% if presentation.stream == "1" %}
+                  Gallery
+                  {% elsif presentation.stream == "2" %}
+                  Room 1
+                  {% else %}
+                  Room 4
+                  {% endif %}
+                </span>
                 {% endif %}
                 <a>
                   <h4>{{ presentation.name }}</h4>
