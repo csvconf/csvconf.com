@@ -1,33 +1,33 @@
-id,name,title,img,twitter
-rsmithunna,Richard Smith-Unna,"Easy, massive-scale reuse of scientific outputs",blahah404.png,blahah404
-amoser,Aurelia Moser,"This is Not a Map: Building Interactive Maps with CSVs, Creative Themes, and Curious Geometries",auremoser.png,auremoser
-tdoehman,Till Doehmen,There and back again - Automatic detection and conversion of logical table structures,tdoehmen.jpg,
-rjones,Richard Jones,CSV as the Master Dataset - and approaches to web publishing,richard_d_jones.jpg,richard_d_jones
-bwebb,Ben Webb,Bidirectional conversion to/from CSV for nested JSON data,bjwebb67.jpeg,bjwebb67
-mjacomy,Mathieu Jacomy,"CSV, Rinse, Repeat",jacomyma.jpg,jacomyma
-bsmith,Brian Smith,What we can learn from XLSX,sirwart.jpg,sirwart
-srenton,Scott Renton,Describing Image Collections (Without Any Staff!),scoatch.png,scoatch
-mchadburn,Matt Chadburn,Democratising data at the Financial Times,commuterjoy.png,commuterjoy
-kmckelvey,Karissa McKelvey,Distributing Open Data with Dat,captainkmac.png,captainkmac
-bfoxall,Ben Foxall,Serving CSV from the Browser,benjaminbenben.jpg,benjaminbenben
-johlig,Jens Ohlig,Data Donations for Wikidata - how to get your data into the free knowledge base,johl.jpg,johl
-snjambi,Serah Njambi,Life/Death Decisions: Powered by CSVs,CallMeAlien.png,CallMeAlien
-mreeve,Mouse Reeve,"Grimoires, Demonology, and Databases",tripofmice.jpg,tripofmice
-jtriglav,Jure Triglav,Open Science with Open Data on the Open Web using Open Source,juretriglav.jpg,juretriglav
-kwhite,K Adam White,WordPress as Data,kadamwhite.jpg,kadamwhite
-bsimon,Basile Simon,Hackers trying to stay relevant: linked data and structured journalism at the BBC,basilesimon.jpg,basilesimon
-dfowler,Dan Fowler,Data Packages and Frictionless Data for Research,danfowler.jpg,danfowler
-sfuruhashi,Sadayuki Furuhashi,Fighting Against Chaotically Separated Values with Embulk,frsyuki.jpg,frsyuki
-gmcmullen,Greg McMullen,A Public BigchainDB: A Blockchain Database for the Decentralized World Computer,gmcmullen.jpg,gmcmullen
-tsteiner,Thomas Steiner,Wikipedia Tools for Google Spreadsheets,tomayac.jpg,tomayac
-mgryka,Maciej Gryka,Gotta catch'em all: recognizing sloppy work in crowdsourcing tasks,maciejgryka.jpg,maciejgryka
-jtennison,Jeni Tennison,Making CSV part of the Web,JeniT.jpg,JeniT
-sharrison,Stuart Harrison,Comma Chameleon - Building a desktop CSV editor in one week,pezholio.jpg,pezholio
-mharris,Micheleen Harris,Work Together:  Share and Explore Data in Jupyter Notebooks,anonymous.png,
-jrolschewski,Johann Rolschewski,Catmandu - a data toolkit,johrols.png,johrols
-lkaffee,Lucie-Aime Kaffee,Increasing access to free and open knowledge for under-ressourced languages on Wikipedia,frimelle.png,frimelle
-pmarina,Princiya Marina,Data visualizations using D3.js and C++,princi_ya.jpg,princi_ya
-skomianos,Sebastian K. Komianos,Data through the hoop: I got 99 problems and the data was one,sebkkom.jpg,sebkkom
-michaelaphilip,Michaela Benyohai,Registers: authoritative lists you can trust,mbenyohai.jpg,mbroschomb
-michaelaphilip,Philip Potter,Registers: authoritative lists you can trust,philandstuff.jpg,philandstuff
-dbarnes,Darren Barnes,ONS Databaker: from 'pretty spreadsheets' to useful CSVs,darrenbarnes.jpg,DarrBarnes
+id,name,title,presentation_link,img,twitter
+rsmithunna,Richard Smith-Unna,"Easy, massive-scale reuse of scientific outputs",,blahah404.png,blahah404
+amoser,Aurelia Moser,"This is Not a Map: Building Interactive Maps with CSVs, Creative Themes, and Curious Geometries",,auremoser.png,auremoser
+tdoehman,Till Doehmen,There and back again - Automatic detection and conversion of logical table structures,,tdoehmen.jpg,
+rjones,Richard Jones,CSV as the Master Dataset - and approaches to web publishing,,richard_d_jones.jpg,richard_d_jones
+bwebb,Ben Webb,Bidirectional conversion to/from CSV for nested JSON data,,bjwebb67.jpeg,bjwebb67
+mjacomy,Mathieu Jacomy,"CSV, Rinse, Repeat",,jacomyma.jpg,jacomyma
+bsmith,Brian Smith,What we can learn from XLSX,,sirwart.jpg,sirwart
+srenton,Scott Renton,Describing Image Collections (Without Any Staff!),,scoatch.png,scoatch
+mchadburn,Matt Chadburn,Democratising data at the Financial Times,,commuterjoy.png,commuterjoy
+kmckelvey,Karissa McKelvey,Distributing Open Data with Dat,,captainkmac.png,captainkmac
+bfoxall,Ben Foxall,Serving CSV from the Browser,,benjaminbenben.jpg,benjaminbenben
+johlig,Jens Ohlig,Data Donations for Wikidata - how to get your data into the free knowledge base,,johl.jpg,johl
+snjambi,Serah Njambi,Life/Death Decisions: Powered by CSVs,,CallMeAlien.png,CallMeAlien
+mreeve,Mouse Reeve,"Grimoires, Demonology, and Databases",,tripofmice.jpg,tripofmice
+jtriglav,Jure Triglav,Open Science with Open Data on the Open Web using Open Source,,juretriglav.jpg,juretriglav
+kwhite,K Adam White,WordPress as Data,,kadamwhite.jpg,kadamwhite
+bsimon,Basile Simon,Hackers trying to stay relevant: linked data and structured journalism at the BBC,,basilesimon.jpg,basilesimon
+dfowler,Dan Fowler,Data Packages and Frictionless Data for Research,,danfowler.jpg,danfowler
+sfuruhashi,Sadayuki Furuhashi,Fighting Against Chaotically Separated Values with Embulk,,frsyuki.jpg,frsyuki
+gmcmullen,Greg McMullen,A Public BigchainDB: A Blockchain Database for the Decentralized World Computer,,gmcmullen.jpg,gmcmullen
+tsteiner,Thomas Steiner,Wikipedia Tools for Google Spreadsheets,,tomayac.jpg,tomayac
+mgryka,Maciej Gryka,Gotta catch'em all: recognizing sloppy work in crowdsourcing tasks,,maciejgryka.jpg,maciejgryka
+jtennison,Jeni Tennison,Making CSV part of the Web,,JeniT.jpg,JeniT
+sharrison,Stuart Harrison,Comma Chameleon - Building a desktop CSV editor in one week,,pezholio.jpg,pezholio
+mharris,Micheleen Harris,Work Together:  Share and Explore Data in Jupyter Notebooks,,anonymous.png,
+jrolschewski,Johann Rolschewski,Catmandu - a data toolkit,,johrols.png,johrols
+lkaffee,Lucie-Aime Kaffee,Increasing access to free and open knowledge for under-ressourced languages on Wikipedia,,frimelle.png,frimelle
+pmarina,Princiya Marina,Data visualizations using D3.js and C++,,princi_ya.jpg,princi_ya
+skomianos,Sebastian K. Komianos,Data through the hoop: I got 99 problems and the data was one,,sebkkom.jpg,sebkkom
+michaelaphilip,Michaela Benyohai,Registers: authoritative lists you can trust,,mbenyohai.jpg,mbroschomb
+michaelaphilip,Philip Potter,Registers: authoritative lists you can trust,,philandstuff.jpg,philandstuff
+dbarnes,Darren Barnes,ONS Databaker: from 'pretty spreadsheets' to useful CSVs,,darrenbarnes.jpg,DarrBarnes
