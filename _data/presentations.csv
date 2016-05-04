@@ -31,8 +31,7 @@ Tuesday,14:00:00,2,talk,johlig,Jens Ohlig,Data Donations for Wikidata - how to g
 Tuesday,14:00:00,3,talk,sfuruhashi,Sadayuki Furuhashi,Fighting Against Chaotically Separated Values with Embulk,"We created a plugin-based data collection tool that can read any chaotically formatted files called ""CSV"" by guessing its schema automatically"
 Wednesday,14:30:00,1,talk,bsimon,Basile Simon,Hackers trying to stay relevant: linked data and structured journalism at the BBC,"At BBC News Labs, we've been pushing for more linked data in news for years now. We built a massive international news aggregator on linked data concepts and full-fledged functionalities... but it's our production and live services who do the core of the job today.
 We're trying to stay relevant and to model our massive dataset of facts, quotes, news and articles. The answer to this may lie in structured journalism."
-Wednesday,14:30:00,2,talk,buchtalaaufreiter,Oliver Buchtala and Michael Aufreiter,"Dynamic Data Driven Documents in stenci.la
-",
+Wednesday,14:30:00,2,talk,buchtalaaufreiter,Oliver Buchtala and Michael Aufreiter,"Dynamic Data Driven Documents in stenci.la","Stencila is bridging the gap between coders and clickers to make open, data driven documents that are accessible to all. The key to reproducibility is collaboration and true collaboration comes from allowing people to use the interfaces they want, where they want."
 Wednesday,14:30:00,3,talk,snjambi,Serah Njambi,Life/Death Decisions: Powered by CSVs,"Talk is about Code For Africa's  suite of simple spreadsheet-based apps that help citizens take life/death decisions about health issues. Quack doctors are a major concern in Kenya. Using data from Kenya's Medical Practitioners' Board, and in partnership with Kenya's largest blue-collar newspaper, I'd like to show what impact spreadsheet-based apps can have on communities.
 bit.ly/starHealth"
 Tuesday,14:30:00,,break,,,Break,
