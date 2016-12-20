@@ -1,37 +1,70 @@
----
----
-
 <html>
   <head>
     <title>csv,conf,v3</title>
-    <link href="https://fonts.googleapis.com/css?family=Fira+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans:300,500" rel="stylesheet">
 
     <style>
       body {
-      background-color: #5b7bb8;
-      font-family: 'Fira Sans', sans-serif;
-      display: flex;
+        background-color: #537ABD;
+        font-family: 'Fira Sans', sans-serif;
+        margin: 45px;
       }
       table {
-      color: white;
+        color: white;
+        width: 100%;
       }
       th.title {
-      font-size: 30px;
+        font-size: 54px;
+      }
+      th {
+        font-weight: 500;
       }
       a {
-      color: white;
+        color: white;
       }
-      table, th, td {
-      border: 1px solid white;
-      border-collapse: collapse;
-      padding: 10px;
-      text-align: left;
-      border-width: 5px;
-      margin: auto;
+      table td, table th {
+        border: 1px solid white;
+        padding: 10px;
+        text-align: left;
+        border-width: 5px;
+        margin: auto;
+        font-size: 29px;
+      }
+      td {
+        font-weight: 300;
       }
       caption {
-      caption-side: bottom;
-      text-align: right;
+        caption-side: bottom;
+        text-align: right;
+      }
+      table {
+        border-collapse: collapse;
+        border-style: hidden;
+      }
+      .date {
+        width: 20%;
+      }
+      .speaker {
+        width: 25%;
+      }
+      .location {
+        width: 30%;
+        padding: 10px 10px 10px 25px
+      }
+      .tagline {
+        padding: 13px 10px 7px 0px;
+      }
+      .second-tagline {
+        padding: 17px 10px 17px 0px;
+      }
+      .transparent td {
+        border: 1px transparent;
+      }
+      .link, .link a {
+        background-color: white;
+        color: #537ABD;
+        text-decoration: none;
+        font-weight: 500;
       }
     </style>
 
@@ -44,38 +77,50 @@
         </th>
       </tr>
       <tr>
-        <td colspan="3">
-          Featuring some of the brightest minds in science,
-          journalism, government, and open source
-        </td>
-      </tr>
-      <tr>
-        <td colspan="3">
+        <td colspan="3" class="tagline">
           A community conference for data makers everywhere, again!
         </td>
       </tr>
       <tr>
-        <th>Location</th>
-        <th>Date</th>
-        <th>Do</th>
+        <td colspan="3" class="second-tagline">
+          Featuring some of the brightest minds in science, journalism,<br/> government, and open source.
+        </td>
       </tr>
-      {% for row in site.data.teaser %}
-      {% if row.Location == "Portland, Oregon" %}
-      {% assign highlight = true %}
-      {% endif %}
       <tr>
-        <td>
-          {{ row.Location }}
+        <th class="date">Date</th>
+        <th class="location">Location</th>
+        <th>Tickets</th>
+      </tr>
+      <tr class="transparent">
+        <td class="date">
+          2-3 May 2017
+        </td>
+        <td class="location">
+          Portland, Oregon
         </td>
         <td>
-          {{ row.Date }}
-        </td>
-        <td {% if highlight == true %}style="background-color: #fff"{% endif %}>
-          <a {% if highlight == true %}style="color: #5b7bb8;"{% else %} href="{{ row.URL }}{% endif %}">{{ row.Do }}</a>
+          Tickets Coming Soon
         </td>
       </tr>
-      {% endfor %}
-      <caption><a href="https://raw.githubusercontent.com/csvconf/csvconf.com/gh-pages/_data/teaser.csv">Download as CSV</a></caption>
+    </table>
+    <table>
+      <tr></tr>
+      <tr>
+        <th class="speaker">Speaker</th>
+        <th>Apply By</th>
+        <th>Link</th>
+      </tr>
+      <tr>
+        <td class="speaker">
+          You!
+        </td>
+        <td>
+          15 February 2017
+        </td>
+        <td class="link">
+          <a href="#">Submit A Talk Proposal Here</a>
+        </td>
+      </tr>
     </table>
   </body>
 </html>
