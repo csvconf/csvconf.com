@@ -55,7 +55,16 @@
         padding: 13px 10px 7px 0px;
       }
       .second-tagline {
-        padding: 17px 10px 17px 0px;
+        padding: 17px 10px 2em 0px;
+      }
+      .second-tagline > p {
+        width: 60%;
+      }
+      .second-tagline--info {
+        width: 30%;
+        margin-top: 1em;
+        vertical-align: top;
+        display: inline-block;
       }
       .transparent td {
         border: 1px transparent;
@@ -69,12 +78,14 @@
       .bold {
         font-weight: 500;
       }
+      table {
+        margin-top: 2em;
+      }
       footer {
-        position: absolute;
-        bottom: 10px;
         color: white;
         font-size: 12px;
         font-weight: 200;
+        padding-top: 4em;
       }
       @media (max-height: 800px) {
         th.title {
@@ -83,6 +94,11 @@
         table td, table th {
           font-size: 20px;
           border-width: 3px;
+        }
+      }
+      @media (max-width: 600px) {
+        body {
+          background-color: red;
         }
       }
     </style>
@@ -97,12 +113,26 @@
       </tr>
       <tr>
         <td colspan="3" class="tagline">
-          A community conference for open source data
+          A community conference for data makers everywhere
         </td>
       </tr>
       <tr>
         <td colspan="3" class="second-tagline">
-          Featuring stories about data sharing and data analysis from<br>science, journalism, government, and open source.
+          <p>Featuring stories about data sharing and data analysis from science, journalism, government, and open source.</p>
+
+          <div class="second-tagline--info">
+            <strong>Building Community</strong>
+            <p>We want to bring together data makers/doers/hackers from backgrounds like science, journalism, open government and the wider software industry to share knowledge and stories.</p>
+          </div>
+
+          <div class="second-tagline--info">
+            <strong>For those who love data</strong>
+            <p>csv,conf is a non-profit community conference run by some folks who really love data and sharing knowledge. If you are as passionate about data and the application it has to society as us then you should join us in Berlin!</p>
+          </div>
+          <div class="second-tagline--info">
+            <strong>Big and small</strong>
+            <p>This isn't just a conference about spreadsheets. We are curating content about advancing the art of data collaboration, from putting your data on GitHub to producing meaningful insight by running large scale distributed processing on a cluster.</p>
+          </div>
         </td>
       </tr>
       <tr>
@@ -144,7 +174,7 @@
         </td>
       </tr>
     </table>
-    <table>
+    <table class="speaker-list">
       <tr></tr>
       <tr>
         <th class="speaker">Speaker</th>
