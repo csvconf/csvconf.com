@@ -3,6 +3,8 @@
     <title>csv,conf,v3</title>
     <link href="https://fonts.googleapis.com/css?family=Fira+Sans:300,500" rel="stylesheet">
 
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <style>
       body {
         background-color: #537ABD;
@@ -66,10 +68,16 @@
         padding: 1em 2em;
       }
       .second-tagline--info {
-        width: 30%;
+        width: 100%;
         margin-top: 1em;
         vertical-align: top;
         display: inline-block;
+        padding: .5%;
+      }
+      @media (min-width: 1024px) {
+        .second-tagline--info {
+          width: 30%;
+        }
       }
       .transparent td {
         border: 1px transparent;
@@ -92,6 +100,9 @@
         font-weight: 200;
         padding-top: 4em;
       }
+      footer p {
+        width: 60%;
+      }
       @media (max-height: 800px) {
         th.title {
           font-size: 34px;
@@ -99,11 +110,6 @@
         table td, table th {
           font-size: 20px;
           border-width: 3px;
-        }
-      }
-      @media (max-width: 600px) {
-        body {
-          background-color: red;
         }
       }
     </style>
@@ -140,7 +146,7 @@
           </div>
 
           <p>
-            <a class="submit-talk" href="https://docs.google.com/forms/d/e/1FAIpQLSfWr7v65imNrMtGEqPF3nVwVIv1mNPQ1Cglh6CaYT_AZKV8KQ/viewform" target="_blank">Submit A Talk Proposal Here</a>
+            <a title="CFP Form" class="submit-talk" href="https://docs.google.com/forms/d/e/1FAIpQLSfWr7v65imNrMtGEqPF3nVwVIv1mNPQ1Cglh6CaYT_AZKV8KQ/viewform" target="_blank">Submit A Talk Proposal Here</a>
           </p>
         </td>
       </tr>
@@ -168,7 +174,7 @@
           Berlin, Germany
         </td>
         <td>
-          <a href="https://csvconf.com/2016">See talks</a>
+          <a title="CSVConf 2016 Talks" href="https://csvconf.com/2016">See talks</a>
         </td>
       </tr>
       <tr class="transparent">
@@ -179,7 +185,7 @@
           Berlin, Germany
         </td>
         <td>
-          <a href="https://csvconf.com/2014">See talks</a>
+          <a title="CSVConf 2014 Talks" href="https://csvconf.com/2014">See talks</a>
         </td>
       </tr>
     </table>
@@ -198,11 +204,16 @@
           15 February 2017
         </td>
         <td class="link">
-          <a href="https://docs.google.com/forms/d/e/1FAIpQLSfWr7v65imNrMtGEqPF3nVwVIv1mNPQ1Cglh6CaYT_AZKV8KQ/viewform" target="_blank">Submit A Talk Proposal Here</a>
+          <a title="CFP Form" href="https://docs.google.com/forms/d/e/1FAIpQLSfWr7v65imNrMtGEqPF3nVwVIv1mNPQ1Cglh6CaYT_AZKV8KQ/viewform" target="_blank">Submit A Talk Proposal Here</a>
         </td>
       </tr>
       <tr></tr>
     </table>
-    <footer>csv,conf,v3 is about bringing a diverse group together to discuss data topics. There will be a limited number of travel awards available for those unable to pay. We are a community organized not-for-profit event.</footer>
+    <footer>
+      <p>csv,conf,v3 is about bringing a diverse group together to discuss data topics. There will be a limited number of travel awards available for those unable to pay. We are a community organized not-for-profit event.
+      </p>
+      <p>
+      We strive to be a supportive and welcoming environment to all attendees. We encourage you to read the <a href="http://confcodeofconduct.com/" title="Conf Code of Conduct Website">Conf Code of Conduct</a> and will be enforcing it.
+    </footer>
   </body>
 </html>
