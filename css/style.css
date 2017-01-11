@@ -35,6 +35,9 @@ table {
   border-collapse: collapse;
   border-style: hidden;
 }
+.sixty {
+  width: 60%;
+}
 .date {
   width: 25%;
 }
@@ -51,13 +54,15 @@ table {
 .second-tagline {
   padding: 17px 10px 2em 0px;
 }
-.second-tagline > p {
-  width: 60%;
-}
-.second-tagline .submit-talk {
+.second-tagline .submit-talk,
+.second-tagline .buy-tickets {
   color: #537ABD;
   background: #fff;
   padding: 1em 2em;
+  display: inline-block;
+}
+.second-tagline .buy-tickets {
+  margin-left: 1em;
 }
 .second-tagline--info {
   width: 100%;
@@ -91,9 +96,6 @@ footer {
   font-size: 12px;
   font-weight: 200;
   padding-top: 4em;
-}
-footer p {
-  width: 60%;
 }
 @media (max-height: 800px) {
   th.title {
