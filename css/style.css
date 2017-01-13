@@ -21,6 +21,13 @@ th {
 }
 a {
   color: white;
+  transition: .25s color;
+}
+a:hover {
+  color: #ffb5b5;
+}
+a:active {
+  color: #ff9191;
 }
 table td, table th {
   border: 1px solid white;
@@ -73,10 +80,10 @@ table {
   display: inline-block;
 }
 .second-tagline .button:hover {
-  background-color: #e4e4e4;
+  background-color: #ffb5b5;
 }
 .second-tagline .button:active {
-  background-color: #ddd;
+  background-color: #ff9191;
 }
 .second-tagline .buy-tickets {
   margin-left: 1em;
@@ -98,6 +105,9 @@ table {
   .second-tagline--info {
     width: 30%;
   }
+}
+.slack-link {
+  margin-top: 2em;
 }
 .transparent td {
   border: 1px transparent;
