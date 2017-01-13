@@ -227,6 +227,9 @@ streams:
                 <p>
                   {{ presentation.description }}
                 </p>
+                {% if presentation.video %}
+                <a class="video" href="{{ presentation.video }}" title="Video for talk {{ presentation.name }}">Watch Video ></a>
+                {% endif %}
               </div>
             </li>
 
