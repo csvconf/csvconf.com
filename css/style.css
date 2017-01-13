@@ -3,12 +3,18 @@ body {
   font-family: 'Fira Sans', sans-serif;
   margin: 45px;
 }
+@media (max-width: 400px) {
+  body {
+    margin: 20px;
+  }
+}
 table {
   color: white;
   width: 100%;
 }
 th.title {
   font-size: 54px;
+  padding: 0 0 10px;
 }
 th {
   font-weight: 500;
@@ -36,7 +42,12 @@ table {
   border-style: hidden;
 }
 .sixty {
-  width: 60%;
+  width: 100%;
+}
+@media (min-width: 1024px) {
+  .sixty {
+    width: 60%;
+  }
 }
 .date {
   width: 25%;
@@ -54,15 +65,27 @@ table {
 .second-tagline {
   padding: 17px 10px 2em 0px;
 }
-.second-tagline .submit-talk,
-.second-tagline .buy-tickets {
+.second-tagline .button {
   color: #537ABD;
-  background: #fff;
+  background-color: #fff;
+  transition: .25s background;
   padding: 1em 2em;
   display: inline-block;
 }
+.second-tagline .button:hover {
+  background-color: #e4e4e4;
+}
+.second-tagline .button:active {
+  background-color: #ddd;
+}
 .second-tagline .buy-tickets {
   margin-left: 1em;
+}
+@media (max-width: 1024px) {
+  .second-tagline .buy-tickets {
+    margin-left: 0;
+    margin-top: 1em;
+  }
 }
 .second-tagline--info {
   width: 100%;
