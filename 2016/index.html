@@ -23,9 +23,9 @@ streams:
   <!-- Use the .htaccess and remove these lines to avoid edge case issues.
        More info: h5bp.com/b/378 -->
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  
+
   <title>csv,conf,v2</title>
-  
+
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
   <link href='http://fonts.googleapis.com/css?family=Droid+Sans+Mono' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="/css/gumby.css">
@@ -51,14 +51,17 @@ streams:
             <div style="font-size: 15px">Pay What You Can, Early Bird Ends <b>April 15th</b></div>
           </p>
           <p>
-            Coming to Berlin early?  Sign up for <a href="https://attending.io/events/csv-conf-pre-event">csv,conf,pre,event</a> 2 May 2016!
+            Thanks for coming, hopefully see you in <a href="/" title="Main Site">Portland</a>.
+          </p>
+          <p>
+            Look at the 2016 talks on <a href="https://www.youtube.com/channel/UCWq7JfT4PJrCZLmxSOVJOww" title="Csv,conf 2016 talks">Youtube</a>.
           </p>
         </div>
       </div>
     </header>
     <main role="main" class="site-main-content">
       <span class="easteregg" style="display: none;">Above is live earthquake data from a NOAA CSV. <a href="?csv=https://raw.githubusercontent.com/datasets/house-prices-uk/master/data/data.csv">Try rendering a different CSV.</a></span>
-      
+
       <section id="speakers" class="site-section section-signup speakers">
         <div class="row">
           <div class="twelve columns animate-on-scroll" data-scrollanimation="fadeDownIn">
@@ -110,17 +113,17 @@ streams:
           </ul>
           <div class="row" style="padding-top: 90px;">
             <h3>See the full <a href="#presenters">list of speakers</a>.
-              
+
               <p>
                 <a href="http://www.eventbrite.com/e/csvconfv2-tickets-22105704758" target="_blank" class="btn-side animate-on-scroll scroll-animation-init fadeInLeft" data-scrollanimation="fadeInLeft">Get Your Ticket</a>
               </p>
           </div>
         </div>
       </section>
-      
+
       <section id="about" class="site-section section-features" data-target="features">
         <center><a href="/2014"><img width="100%" src="/img/2014-group.jpg"></a></center>
-        
+
         <ul class="row features-list">
           <li class="features-item">
             <h3>Building Community</h3>
@@ -129,7 +132,7 @@ streams:
           <li class="features-item">
             <h3>For those who love data</h3>
             <p>csv,conf is a non-profit community conference run by some folks who really love data and sharing knowledge. If you are as passionate about data and the application it has to society as us then you should join us in Berlin!</p>
-            
+
           </li>
           <li class="features-item">
             <h3>Big and small</h3>
@@ -151,7 +154,7 @@ streams:
           </div>
         </div>
       </section>
-      
+
       <section id="presenters" class="site-section section-signup speakers">
         <div class="row">
           <div class="twelve columns animate-on-scroll" data-scrollanimation="fadeDownIn">
@@ -186,20 +189,20 @@ streams:
           <p>Conference venue is the <a href="http://www.kalkscheune.de/en">Kalkscheune</a> in Central Berlin.</p>
           <p>Google Maps: <a href="https://www.google.com/maps/place/Kalkscheune/@52.5251031,13.3914223,16z/data=!4m2!3m1!1s0x47a851e837c93643:0xd44c06c0d6ff5dda">Kalkscheune, Johannisstr. 2, 10117 Berlin, Germany</a></p>
           <a href="http://www.kalkscheune.de/en"><img style="margin-left: 20px" src="/img/kalkscheune.png"></a>
-          
+
           <h4 id="schedule">
             <h4>Schedule</h4>
             <a href="/img/day1.png"><img src="/img/day1.png" width=300></a>
             <a href="/img/day2.png"><img src="/img/day2.png" width=300></a>
           </h4>
-          
+
           {% for day in page.days %}
           <h4>Schedule: {{ day }}</h4>
           <ul class="row presentation-list">
-            
+
             {% for presentation in site.data.presentations %}
             {% if presentation.day == day %}
-            
+
             <li id="{{ presentation.id }}" class="presentation-item">
               <div class="slot">{{ presentation.start }}</div>
               <div class="left">
@@ -224,15 +227,18 @@ streams:
                 <p>
                   {{ presentation.description }}
                 </p>
+                {% if presentation.video %}
+                <a class="video" href="{{ presentation.video }}" title="Video for talk {{ presentation.name }}">Watch Video ></a>
+                {% endif %}
               </div>
             </li>
-            
+
             {% endif %}
             {% endfor %}
-            
+
           </ul>
           {% endfor %}
-          
+
           <h4>More Information</h4>
           <p>csv,conf strives to be a supportive and welcoming environment to all attendees. We encourage you to read the <a href="http://confcodeofconduct.com/">Conf Code of Conduct</a> and will be enforcing it.</p>
           <p>For any questions contact <a href="https://twitter.com/csvconference">@csvconference</a> or csv-conf-coord at googlegroups dot com</p>
@@ -255,7 +261,7 @@ streams:
             <a style="padding-left: 20px;" href="/img/confconferencev2_sponsorship.pdf"><img width="200" src="/img/sponsorship.png"></img></a>
           </p>
         </div>
-        
+
         <div class="row" style="text-align: center">
           <h3>Check out csv,conf,v1</h3>
           <p>The first csv,conf was held in 2014. We hosted 30 talks all over the data spectrum including <a href="https://www.youtube.com/watch?v=a8piOmSsJ2I">upcoming CSV standards from the W3C</a>, <a href="https://www.youtube.com/watch?v=U2NcQVk5HtQ">scientific data testing tools in R</a>, and <a href="https://www.youtube.com/watch?v=NhhJmgXKSJI">how to query data from Wikipedia</a>.</p>
@@ -265,7 +271,7 @@ streams:
           </ul>
         </div>
       </section>
-      
+
     </main>
     <!-- START: Site Footer -->
     <footer role="contentinfo" class="site-footer">
