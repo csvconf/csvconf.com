@@ -30,7 +30,7 @@ h1 {
   margin: 0;
   font-size: 54px;
   padding: 0 0 10px;
-  border-bottom: 3px solid white;
+  border-bottom: 5px solid white;
 }
 a:hover {
   color: #ffb5b5;
@@ -66,7 +66,7 @@ table {
 table.locations,
 table.keynotes,
 table.speaker-list {
-  margin-bottom: 6rem;
+  margin-bottom: 4rem;
   border-top: 3px solid white;
 }
 table.speaker-list {
@@ -150,7 +150,7 @@ table.speaker-list {
   padding: 13px 10px 7px 0px;
 }
 .second-tagline {
-  padding: 17px 10px 6rem 0px;
+  padding: 17px 10px 4rem 0px;
 }
 .second-tagline .button {
   color: #537ABD;
@@ -203,7 +203,6 @@ table.speaker-list {
 }
 footer {
   color: white;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 200;
-  padding-top: 4em;
 }
