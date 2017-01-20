@@ -14,12 +14,8 @@
 
   </head>
   <body>
+    <h1>csv,conf,v3</h1>
     <table>
-      <tr>
-        <th class="title" colspan="3">
-          csv,conf,v3
-        </th>
-      </tr>
       <tr>
         <td colspan="3" class="tagline">
           A community conference for data makers everywhere
@@ -46,12 +42,12 @@
           <p>
             <a title="CFP Form" class="submit-talk button" href="https://docs.google.com/forms/d/e/1FAIpQLSfWr7v65imNrMtGEqPF3nVwVIv1mNPQ1Cglh6CaYT_AZKV8KQ/viewform" target="_blank">Submit A Talk Proposal Here</a>
           </p>
-          <p class="slack-link">
-            Want to talk to us? Join our <a href="https://csvconf-slackin.herokuapp.com/" title="CSV,Conf Slack organization"> Slack group</a>.
-          </p>
         </td>
       </tr>
-      <tr>
+    </table>
+    <h2>Locations</h2>
+    <table class="locations">
+      <tr class="header">
         <th class="date">Date</th>
         <th class="location">Location</th>
         <th>Link</th>
@@ -90,6 +86,43 @@
         </td>
       </tr>
     </table>
+    <h2>Speakers</h2>
+    <table class="keynotes">
+      <tr>
+        <th class="speaker" colspan="4">Keynotes</th>
+      </tr>
+      <tr>
+        <td>
+          <input id="keynote-1"
+                 class="keynote-selector"
+                 type="checkbox"/><div class="keynote">
+            <label class="image"
+              for="keynote-1"
+              style="background-image: url(/img/speakers-2017/mbostock.jpg)">
+            </label>
+            <h3>Mike Bostock</h3>
+            <p class="bio">Mike Bostock is the creator of the popular open-source JavaScript library for visualization data, D3.js. Previously he was a graphics editor for The New York Times, where he helped produce a variety of data visualizations (such as Is It Better to Rent or Buy? and 512 Paths to the White House), maps (The Most Detailed Maps You’ll See From the Midterm Elections), and articles (A Game of Shark and Minnow). Prior to The Times, Mike was a visualization scientist for Square and a PhD student in the Stanford Visualization Group.</p>
+          </div><input id="keynote-2"
+                 class="keynote-selector"
+                 type="checkbox"/><div class="keynote">
+            <label class="image"
+              for="keynote-2"
+              style="background-image: url(/img/speakers-2017/angela-bassa.jpg)">
+            </label>
+            <h3>Angela Bassa</h3>
+            <p class="bio">
+              Angela Bassa is the Director of Data Science at iRobot, where she leads the newly-formed team through development of machine learning algorithms, sentiment analysis, and anomaly detection processes. Angela is also a technical advisor for Mirah, a startup focused on making behavioral healthcare more objective and data-driven. Her previous projects earned accolades such as INFORMS’ Edelman award for Achievement in Operations Research and the Management Sciences; and the Massachusetts Innovation &amp; Technology Exchange award for Big Data and Analytics Innovations. She discovered data science while studying math at MIT, only back then it wasn't called that yet. Over the past two decades she has learned to lead data teams in academic, commercial, and industrial applications. Angela also has three patented inventions, as well as 24 patent applications currently pending in the US, the EU, and Australia.
+            </p>
+          </div><div class="keynote">
+            <label class="image">&#8253;</label>
+            <h3>TBA</h3>
+          </div><div class="keynote">
+            <label class="image">&#8253;</label>
+            <h3>TBA</h3>
+          </div>
+        </td>
+      </tr>
+    </table>
     <table class="speaker-list">
       <tr></tr>
       <tr>
@@ -111,6 +144,9 @@
       <tr></tr>
     </table>
     <footer>
+      <p class="slack-link">
+        Want to talk to us? Join our <a href="https://csvconf-slackin.herokuapp.com/" title="CSV,Conf Slack organization"> Slack group</a>.
+      </p>
       <p class="sixty">csv,conf,v3 is about bringing a diverse group together to discuss data topics. There will be a limited number of travel awards available for those unable to pay. We are a community organized not-for-profit event.
       </p>
       <p class="sixty">
