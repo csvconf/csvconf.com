@@ -120,6 +120,12 @@ table.speaker-list {
 .keynote .image:hover {
   opacity: .6;
 }
+@media (min-width: 1024px) {
+  .keynote .image { height: 300px }
+}
+@media (min-width: 1600px) {
+  .keynote .image { height: 400px }
+}
 .keynote h3 {
   display: block;
   text-align: center;
