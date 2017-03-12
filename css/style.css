@@ -93,7 +93,7 @@ table.speaker-list {
   text-align: center;
   width: 25%;
   padding-right: .5em;
-  display: inline-block;
+  float: left;
   vertical-align: top;
   transition: .5s padding;
 }
@@ -121,7 +121,7 @@ table.speaker-list {
   opacity: .6;
 }
 @media (min-width: 1024px) {
-  .keynote .image { height: 300px }
+  .keynote .image { height: 200px; width: 200px; }
 }
 @media (min-width: 1600px) {
   .keynote .image { height: 400px }
