@@ -1,9 +1,15 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+$blue: #537ABD;
+
 * {
   box-sizing: border-box;
 }
 
 body {
-  background-color: #537ABD;
+  background-color: $blue;
   font-family: 'Fira Sans', sans-serif;
   margin: 45px;
 }
@@ -23,20 +29,19 @@ a {
   color: white;
   transition: .25s color;
 }
-h1, h2 {
-  color: white;
-}
-h1 {
-  margin: 0;
-  font-size: 54px;
-  padding: 0 0 10px;
-  border-bottom: 5px solid white;
-}
 a:hover {
   color: #ffb5b5;
 }
 a:active {
   color: #ff9191;
+}
+h1, h2 {
+  color: white;
+}
+p {
+  color: white;
+  font-weight: 300;
+  font-size: 20px;
 }
 table td, table th {
   border: 1px solid white;
@@ -63,6 +68,88 @@ table {
   border-collapse: collapse;
   border-style: hidden;
 }
+
+.link, .link a {
+  background-color: white;
+  color: #537ABD;
+  text-decoration: none;
+  font-weight: 500;
+}
+.bold {
+  font-weight: 500;
+}
+.button {
+  color: #537ABD;
+  background-color: #fff;
+  transition: .25s background;
+  padding: 1em 2em;
+  display: inline-block;
+
+  &:hover {
+    background-color: #ffb5b5;
+    color: $blue;
+  }
+  &:active {
+    background-color: #ff9191;
+  }
+}
+
+/**
+ * Header
+ */
+
+.header {
+  padding: 0 0 10px;
+  border-bottom: 5px solid white;
+
+  h1 {
+    margin: 0;
+    display: inline-block;
+    font-size: 54px;
+
+    a {
+      text-decoration: none;
+    }
+  }
+
+  .menu {
+    display: inline-block;
+    list-style: none;
+    float: right;
+    margin: 0;
+    padding: 0;
+
+    li {
+      display: inline-block;
+
+      a {
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .header .menu {
+    float: none;
+    width: 100%;
+
+    li {
+      display: block;
+      width: 100%;
+      margin-bottom: 1px;
+
+      a {
+        width: 100%;
+      }
+    }
+  }
+}
+
+/**
+ * Index
+ */
+
 table.locations,
 table.keynotes,
 table.speaker-list {
@@ -158,19 +245,7 @@ table.speaker-list {
 .second-tagline {
   padding: 17px 10px 4rem 0px;
 }
-.second-tagline .button {
-  color: #537ABD;
-  background-color: #fff;
-  transition: .25s background;
-  padding: 1em 2em;
-  display: inline-block;
-}
-.second-tagline .button:hover {
-  background-color: #ffb5b5;
-}
-.second-tagline .button:active {
-  background-color: #ff9191;
-}
+
 .second-tagline .buy-tickets {
   margin-left: 1em;
 }
@@ -198,17 +273,55 @@ table.speaker-list {
 .transparent td {
   border: 1px transparent;
 }
-.link, .link a {
-  background-color: white;
-  color: #537ABD;
-  text-decoration: none;
-  font-weight: 500;
+
+/**
+ * speakers
+ */
+
+.speakers-intro {
+  max-width: 640px;
 }
-.bold {
-  font-weight: 500;
+
+.speakers {
+  .about {
+    text-align: right;
+    width: 160px;
+  }
+  .image {
+    width: 150px;
+    height: 150px;
+    background-position: center;
+    background-size: cover;
+    display: block;
+    text-align: right;
+    float: right;
+  }
+  .name {
+    float: right;
+    clear: both;
+  }
+
+  .title {
+    max-width: 640px;
+  }
 }
+
+@media (max-width: 500px) {
+  .speakers .image {
+    display: none;
+  }
+}
+
+/**
+ * Footer
+ */
+
 footer {
   color: white;
   font-size: 14px;
   font-weight: 200;
+
+  p {
+    font-size: 14px;
+  }
 }
