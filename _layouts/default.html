@@ -3,9 +3,10 @@
 <body class="wrap">
 	{% include header.html %}
 
+<div class="{% if page.class %}{{ page.class }}{% endif %}">
 	{{ content }}
 
 	{% include footer.html %}
-
+</div>
 </body>
 </html>

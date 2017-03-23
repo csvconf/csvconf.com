@@ -12,6 +12,7 @@ body {
   background-color: $blue;
   font-family: 'Fira Sans', sans-serif;
   margin: 45px;
+  color: white;
 }
 @media (max-width: 400px) {
   body {
@@ -35,7 +36,7 @@ a:hover {
 a:active {
   color: #ff9191;
 }
-h1, h2 {
+h1, h2, h3 {
   color: white;
 }
 p {
@@ -310,6 +311,14 @@ table.speaker-list {
   .speakers .image {
     display: none;
   }
+}
+
+/*
+ * Locations
+ */
+
+.locations {
+  max-width: 640px;
 }
 
 /**
