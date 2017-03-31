@@ -1,0 +1,42 @@
+<!DOCTYPE HTML><html><head><meta name="robots" content="noindex"><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/><meta name="apple-mobile-web-app-capable" content="yes"/><meta name="apple-mobile-web-app-status-bar-style" content="black"/><meta name="HandheldFriendly" content="true"/><meta http-equiv="Content-type" content="text/html; charset=utf-8"/><meta http-equiv="Content-Script-Type" content="text/javascript"/><meta property="og:title" content="iCloud Photo Sharing"/><meta property="og:type" content="website"/><meta property="og:description" content="iCloud Photo Sharing lets you share just the photos you want with just the people you choose."/><meta property="og:image:secure_url" content="https://www.icloud.com/applications/sharedalbum/current/en-us/source/resources/images/small_photostream_icon.png"/><meta property="og:image:type" content="image/png"/><meta property="og:image:width" content="64"/><meta property="og:image:height" content="64"/><title>iCloud Photo Sharing</title><script type="text/javascript">(function(){var from="icloud.com/photostream",to="icloud.com/sharedalbum",loc=window.location.href,newLoc=loc.replace(from,to);
+if(newLoc!==loc){window.location=newLoc}})();</script><script type="text/javascript">window.__APP_INIT_START_TIME__=(new Date()).getTime();</script><script type="text/javascript">(function(){var meta=document.createElement("meta");meta.setAttribute("id","viewportMetaTag");
+meta.setAttribute("name","viewport");meta.setAttribute("content","width=device-width, minimum-scale=1.0, maximum-scale=1.0, initial-scale=1.0, user-scalable=no, shrink-to-fit=no");
+if(document.head){document.head.appendChild(meta)}})();</script><script type="text/javascript">String.preferredLanguage="en-us";require=sc_resource=function(){};APP_NAME="photostream";
+window.RIGHT_TO_LEFT=String.preferredLanguage==="ar-sa"||String.preferredLanguage==="iw-il";
+BUILD_INFO={buildMode:"production",buildNumber:"17BProject57",buildLocale:"en-us",currentUrl:"/applications/sharedalbum/17BProject57/en-us/index.html",};
+(function(){var srcs;if(window.devicePixelRatio>=2){srcs=["/applications/sharedalbum/17BProject57/en-us/packed-1@2x.png"]
+}else{srcs=["/applications/sharedalbum/17BProject57/en-us/packed-1.png"]}for(var i=0,src;
+src=srcs&&srcs[i];i++){(srcs[i]=new Image()).src=src}})();(function(){var styles=[];
+if(window.devicePixelRatio>=2||window.location.search.indexOf("2x")>-1){styles=["/applications/sharedalbum/17BProject57/en-us/stylesheet@2x-packed.css"]
+}else{styles=["/applications/sharedalbum/17BProject57/en-us/stylesheet-packed.css"]
+}var head=document.getElementsByTagName("head")[0];var len=styles.length,idx;for(idx=0;
+idx<len;idx++){var css=document.createElement("link");css.rel="stylesheet";css.type="text/css";
+css.href=styles[idx];css.media="screen";head.appendChild(css)}})();function redirectIfNecessary(){var baseUrl="https://www.icloud.com/sharedalbum/",loc=window.location+"",afterPoundSpot=(loc.indexOf("#")+1);
+if(loc.indexOf(baseUrl)!==0){return}if(loc.match(/\/sharedalbum\/(current\/)?\w\w\-\w\w\//)){return
+}var languages="ar-sa ca-es cs-cz da-dk de-de el-gr en-us es-es fi-fi fr-fr hr-hr hu-hu id-id it-it iw-il ja-jp ko-kr ms-my nl-nl no-no pl-pl pt-br pt-pt ro-ro ru-ru sk-sk sv-se th-th tr-tr uk-ua vi-vi zh-cn zh-tw".split(" ");
+var currPair=((navigator.language||navigator.browserLanguage||"en-us")+"").toLowerCase();
+var map={"he-il":"iw-il",he:"iw","nb-no":"no-no",nb:"no"};for(var key in map){if(key===currPair){currPair=map[key]
+}}if(currPair==="en-us"){return}var currLang=currPair.split("-")[0].substring(0,2),currLocale=currPair.split("-")[1],localesByLang={},localeArrsByLang={};
+var i=0,pair,lang,locale,localeList,localeHash;for(i=0;(pair=languages[i])&&(pair=pair.split("-"));
+i++){if((localeHash=localesByLang[lang=pair[0]]||(localesByLang[lang]={}))[locale=pair[1]]!==(localeHash[locale]=true)){(localeList=localeArrsByLang[lang]||(localeArrsByLang[lang]=[])).push(pair[1])
+}}var bestLang=localesByLang[currLang]?currLang:"en",bestLangHash=localesByLang[bestLang],bestLocale=bestLangHash[currLocale]?currLocale:localeArrsByLang[bestLang][0],bestPair=bestLang+"-"+bestLocale,newLocation=baseUrl+(bestPair==="en-us"?"":bestPair+"/")+(afterPoundSpot?"#"+loc.substring(afterPoundSpot):"");
+if(bestPair==="en-us"){return}window.shouldAbortCore=true;window.location=newLocation
+};</script><style type="text/css">#noscript{position:absolute;top:0;left:0;right:0;bottom:0;background:#686868;}#noscript p{font-family:'SFNSText','Helvetica Neue',sans-serif;font-weight:300;text-rendering:optimizeLegibility;-webkit-font-smoothing:antialiased;}
+#noscript #nos-body{position:absolute;z-index:100;width:896px;height:640px;left:50%;margin-left:-448px;top:50%;margin-top:-320px;text-align:center;overflow:hidden;cursor:default;-moz-user-select:-moz-none;-khtml-user-select:none;-webkit-user-select:none;user-select:none;}
+#noscript #nos-container{position:absolute;top:0;left:0;right:0;bottom:0;min-height:500px;}
+#noscript #nos-container div.float-center{z-index:103;position:absolute;top:44%;margin-top:-125px;width:100%;height:250px;text-align:center;}
+#noscript #nos-container div.float-center img#img-cloud{margin-bottom:-1px;}#noscript #nos-container div.float-center p.title{color:#fff;font-size:45px;margin-top:0;margin-bottom:0;}
+#noscript #nos-container div.float-center p.subtitle{color:#fff;opacity:.6;font-size:21px;margin-top:10px;}
+#noscript #nos-container div.bottom{z-index:102;position:absolute;bottom:0;left:50%;margin-left:-300px;width:600px;font-size:12px;font-weight:300;color:#fff;opacity:.4;text-shadow:rbga(0,0,0,0.5) 0 0 2px;}</style></head><body onload="redirectIfNecessary()"><noscript unselectable="on"><div id="noscript"><div id="nos-body"><div id="nos-container"><div class="float-center"><img id="img-cloud" width="200" height="130" src="/applications/sharedalbum/17BProject57/en-us/source/resources/images/ux15/glassesCloud@2x.png"/><p class="title">JavaScript is required.</p><p class="subtitle">To use iCloud, enable JavaScript in your browser and try again.</p></div><div class="bottom"><img width="16" height="20" src="/applications/sharedalbum/17BProject57/en-us/source/resources/images/ux15/apple_logo_error@2x.png"/><p>Copyright &copy 2017 Apple Inc. All rights reserved.</p></div></div></div></div></noscript><div id="loading"><script>var og_icon_url="/applications/sharedalbum/17BProject57/en-us/source/resources/images/small_photostream_icon.png";
+window._rhtmlSpinnerTimeout=setTimeout(function(){var size=42;window._rhtmlSpinnerTimeout=undefined;
+var outer=document.createElement("div"),inner=document.createElement("div"),pos=0;
+var spinnerUrl=window.devicePixelRatio>1?"/applications/sharedalbum/17BProject57/en-us/source/resources/images/spinner@2x.png":"/applications/sharedalbum/17BProject57/en-us/source/resources/images/spinner.png";
+outer.style.cssText="z-index:30000; position:absolute; left:50%; top:50%; margin-left:-21px; margin-top:-21px; width:"+size+"px; height:"+size+"px; overflow:hidden;";
+inner.style.cssText="position:absolute; left:0px; top:0px; width:"+size+"px; height:"+(size*12)+"px; background-size:"+size+"px "+(size*12)+"px; background-image:url("+spinnerUrl+");";
+outer.className="rhtml-loading-spinner";outer.appendChild(inner);document.body.appendChild(outer);
+var _rhtmlSpinnerInterval=setInterval(function(){pos=(pos+1)%12;inner.style.top=-pos*size+"px"
+},56);window._removeRHTMLSpinner=function(){var stop=function(){clearInterval(_rhtmlSpinnerInterval);
+_rhtmlSpinnerInterval=undefined;if(outer.parentNode){outer.parentNode.removeChild(outer)
+}};if(window.Anim){Anim.Fader.go({element:outer,from:1,to:0,duration:500,stopSpin:stop.observes("finish")})
+}else{stop()}}},100);window._removeRHTMLSpinner=function(){if(window._rhtmlSpinnerTimeout){clearTimeout(window._rhtmlSpinnerTimeout)
+}window._rhtmlSpinnerTimeout=undefined};</script></div><div style="display:none"><script type="text/javascript" src="/applications/sharedalbum/17BProject57/en-us/javascript-packed.js"></script></div></body></html>

@@ -1,0 +1,698 @@
+<!DOCTYPE html><!-- // begin:header --> <!--[if IEMobile 7 ]><html class="no-js oldie iem7" manifest="default.appcache?v=1"><![endif]-->
+<!--[if lt IE 7 ]><html class="no-js oldie ie6" lang="en"><![endif]-->
+<!--[if IE 7 ]><html class="no-js oldie ie7" lang="en"><![endif]-->
+<!--[if IE 8 ]><html class="no-js oldie ie8" lang="en"><![endif]-->
+<!--[if (gte IE 9)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+<!-- Content Copyright OHSU -->
+<!-- Page generated 2017-03-23 15:09:21 on server 5 by CommonSpot Summer 2012 Build 8.0.4.305 (2015-05-13 13:46:19) -->
+<!-- JavaScript & DHTML Code Copyright &copy; 1998-2015, PaperThin, Inc. All Rights Reserved. -->
+<head><meta http-equiv="X-UA-Compatible" content="IE=edge">
+<!-- // csonly:start -->
+<script>
+(function(){
+if(window.BOOMR && window.BOOMR.version){return;}
+var dom,doc,where,iframe = document.createElement('iframe');
+iframe.src = "javascript:false";
+iframe.title = ""; iframe.role="presentation";
+(iframe.frameElement || iframe).style.cssText = "width:0;height:0;border:0;display:none;";
+where = document.getElementsByTagName('script')[0];
+where.parentNode.insertBefore(iframe, where);
+try {
+doc = iframe.contentWindow.document;
+} catch(e) {
+dom = document.domain;
+iframe.src="javascript:var d=document.open();d.domain='"+dom+"';void(0);";
+doc = iframe.contentWindow.document;
+}
+doc.open()._l = function() {
+var js = this.createElement("script");
+if(dom) this.domain = dom;
+js.id = "boomr-if-as";
+js.src = '//c.go-mpulse.net/boomerang/' +
+'27RY7-GV7UN-QPY93-WFRDF-YXG9L';
+BOOMR_lstart=new Date().getTime();
+this.body.appendChild(js);
+};
+doc.write('<body onload="document._l();">');
+doc.close();
+})();
+</script>
+<script src="https://cdn.optimizely.com/js/2347060658.js"></script>
+<!-- // csonly:end -->
+<script>
+var searchapps_host = "http://www.ohsu.edu";
+// set up author/developer variables
+var isDeveloper = false;
+var isAuthor = false;
+// introduce a "docReady" function so the developers can make calls to jQuery(function(){}) inside their code https://github.com/jfriend00/docReady
+(function(funcName, baseObj) {
+// The public function name defaults to window.docReady
+// but you can pass in your own object and own function name and those will be used
+// if you want to put them in a different namespace
+funcName = funcName || "docReady";
+baseObj = baseObj || window;
+var readyList = [];
+var readyFired = false;
+var readyEventHandlersInstalled = false;
+// call this when the document is ready
+// this function protects itself against being called more than once
+function ready() {
+if (!readyFired) {
+// this must be set to true before we start calling callbacks
+readyFired = true;
+for (var i = 0; i < readyList.length; i++) {
+// if a callback here happens to add new ready handlers,
+// the docReady() function will see that it already fired
+// and will schedule the callback to run right after
+// this event loop finishes so all handlers will still execute
+// in order and no new ones will be added to the readyList
+// while we are processing the list
+readyList[i].fn.call(window, readyList[i].ctx);
+}
+// allow any closures held by these functions to free
+readyList = [];
+}
+}
+function readyStateChange() {
+if ( document.readyState === "complete" ) {
+ready();
+}
+}
+// This is the one public interface
+// docReady(fn, context);
+// the context argument is optional - if present, it will be passed
+// as an argument to the callback
+baseObj[funcName] = function(callback, context) {
+// if ready has already fired, then just schedule the callback
+// to fire asynchronously, but right away
+if (readyFired) {
+setTimeout(function() {callback(context);}, 1);
+return;
+} else {
+// add the function and context to the list
+readyList.push({fn: callback, ctx: context});
+}
+// if document already ready to go, schedule the ready function to run
+if (document.readyState === "complete") {
+setTimeout(ready, 1);
+} else if (!readyEventHandlersInstalled) {
+// otherwise if we don't have event handlers installed, install them
+if (document.addEventListener) {
+// first choice is DOMContentLoaded event
+document.addEventListener("DOMContentLoaded", ready, false);
+// backup is window load event
+window.addEventListener("load", ready, false);
+} else {
+// must be IE
+document.attachEvent("onreadystatechange", readyStateChange);
+window.attachEvent("onload", ready);
+}
+readyEventHandlersInstalled = true;
+}
+}
+})("docReady", window);
+</script>
+<script src="/xd/assets/js/head.js"></script>
+<title>Lilly Winfree | OHSU Library | OHSU</title>
+<meta name="Description" id="Description" content="Lilly Winfree staff page" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="Keywords" id="Keywords" content="Library, archives, audiovisuals, books, catalog, collections, database, electronic resources, help, history, information, journal(s), librarian, libraries, reference, research, reserves, software, study, study room, study space" />
+<meta name="Generator" id="Generator" content="CommonSpot Summer 2012 Build 8.0.4.305" />
+<link rel="stylesheet" href="/xd/assets/css/rte.css" type="text/css" />
+<style type="text/css">
+.mw { color:#000000;font-family:Verdana,Arial,Helvetica;font-weight:bold;font-size:xx-small;text-decoration:none; }
+a.mw:link	{color:#000000;font-family:Verdana,Arial,Helvetica;font-weight:bold;font-size:xx-small;text-decoration:none;}
+a.mw:visited	{color:#000000;font-family:Verdana,Arial,Helvetica;font-weight:bold;font-size:xx-small;text-decoration:none;}
+a.mw:hover	{color:#0000FF;font-family:Verdana,Arial,Helvetica;font-weight:bold;font-size:xx-small;text-decoration:none;}
+</style> <script type="text/javascript">
+<!--
+var gMenuControlID = 0;
+var menus_included = 0;
+var jsDlgLoader = '/xd/education/library/about/staff-directory/loader.cfm';
+var jsSiteID = 3;
+var jsSubSiteID = 912;
+var js_gvPageID = 2852686;
+var jsPageID = 2852686;
+var jsPageSetID = 0;
+var jsPageType = 0;
+var jsControlsWithRenderHandlers = ",3,3,3,3,3,3,4,4,7,7,7,7,7,7,7,7,8,8,8,8,8,8,8,8,8,9,9,10,10,10,11,20,20,23,23,23,36,36,36,36,36,36,36,36,36,36,36,36,39,41,43,53,1368,1373,1396,1432,1432,1432,1463,1769,1785,1785,1785,1785,1785,1785,1785,1785,1785,1952,1952,1952,1952,1952,1952,1952,2159,2427,4067,5198,5228,31048,31188,37603,37603,37603,117885,117885,117885,117885,182086,306020,306020,306020,306020,306020,306020,306020,306020,306020,306020,306020,306020,306020,306020,306020,306020,306160,306160,306160,306160,306160,306160,306160,306160,306160,554092,876097,1096995,1096995,1096995,1096995,1329767,1336639,1363718,1955863,2295874,2331090,2341328,2341336,2537075,2537097,2537127,2537135,2537141,2537149,2537160,2537167,2537176,2537184,2537197,2537205,2537210,2676188,2676188,2738261,2776748,2794349,2794388,2794431,2821720,2822758,";
+var jsDefaultRenderHandlerProps = ",3_2,3_1,4_2,4_1,11_1,11_2,11_1,11_2,20_2,20_1,36_2,36_1,39_2,39_1,53_2,53_1,1368_1,1463_1,1785_1,2427_1,4067_1,4067_1,5198_1,31048_1,31188_1,37603_1,876097_1,1329767_1,1336639_1,1363718_1,2537075_1,2537075_1,2537097_1,2537097_1,2537127_1,2537127_1,2537135_1,2537135_1,2537141_1,2537141_1,2537149_1,2537149_1,2537167_1,2537167_1,2537176_1,2537176_1,2537184_1,2537184_1,2537197_1,2537197_1,2537205_1,2537205_1,2537210_1,2537210_1,2676188_1,2676188_1,2776748_1,2776748_1,2794349_1,2794349_1,2794388_1,2794388_1,2794431_1,2794431_1,2821720_1,2821720_1,2822758_1,2822758_1,";
+var jsAuthorizedControls = ",1,2,3,4,6,7,8,9,10,11,16,18,20,21,22,23,25,26,27,28,29,30,31,34,36,39,40,41,42,43,45,46,47,50,51,52,53,54,1346,1368,1373,1394,1396,1432,1463,1769,1777,1785,1952,2159,2427,2676,4067,5065,5198,5228,7300,7929,13243,13980,14560,14604,15216,17317,20591,21551,23172,25221,25388,28225,29266,29320,29323,29738,31048,31116,31188,33196,36287,37603,39858,40610,40641,40643,41399,41411,50996,58426,87122,87625,94735,96076,96107,117885,120581,120583,120689,122582,146304,148876,148880,176999,178139,178156,178266,178814,178821,178922,180639,182086,183719,233776,245420,250425,253510,266204,271897,272214,306020,306160,307651,474660,474804,475971,475973,475975,475977,483250,525411,527861,554092,637435,637543,755532,755535,755537,755620,756021,756023,756025,756045,757961,763463,787162,787464,787473,793153,820187,845179,848136,854166,854168,854170,854174,854389,876097,876430,883202,904723,906396,906398,906403,906419,907899,908089,908772,912975,935861,943210,943215,943293,943436,964631,964638,968507,997735,1003021,1003027,1096995,1098034,1100428,1131590,1131594,1131602,1133446,1133449,1133513,1156448,1156747,1156839,1156901,1157030,1157504,1157680,1159629,1160767,1160946,1162636,1162696,1163394,1163603,1163643,1163645,1163647,1163662,1163664,1163838,1185243,1186434,1186436,1186613,1192367,1192410,1192434,1221456,1221466,1222798,1234724,1234801,1256267,1256290,1256346,1256414,1256423,1256425,1256438,1262538,1262541,1263074,1284524,1305664,1311236,1329767,1336639,1343476,1343605,1346803,1346851,1346854,1346859,1353142,1354252,1354254,1354257,1354260,1357298,1361124,1363718,1366589,1368136,1379039,1381137,1382005,1382066,1382336,1405109,1413393,1413831,1435883,1438044,1454386,1470075,1472304,1473074,1497357,1506464,1534788,1537517,1544020,1568115,1570088,1570099,1570123,1570433,1594552,1595451,1595468,1599948,1604144,1604350,1604502,1628373,1630547,1655722,1659443,1659445,1659499,1661250,1661253,1662249,1662252,1662326,1662328,1662988,1684624,1684813,1687299,1687480,1691387,1691409,1691499,1691812,1692404,1692611,1694377,1717082,1718414,1719070,1719084,1719279,1719314,1719751,1721614,1722468,1734659,1734904,1735039,1736539,1739538,1739830,1765162,1768464,1826635,1827051,1827056,1827886,1848828,1848838,1851680,1852566,1854722,1857186,1858913,1860935,1873289,1873864,1878316,1880615,1884642,1888692,1899349,1899443,1900056,1901222,1904051,1904704,1904706,1904723,1904725,1904736,1904738,1904905,1904939,1906328,1908787,1908833,1909398,1909400,1909402,1909404,1909406,1909408,1909410,1909412,1909414,1909418,1909420,1909422,1909424,1909427,1909429,1909435,1909437,1909439,1909441,1909443,1909445,1909882,1910337,1910987,1911378,1914622,1914863,1914944,1917910,1918136,1921388,1924631,1931488,1931491,1931494,1931816,1931834,1931937,1932364,1933925,1935497,1938129,1940462,1940475,1942695,1943862,1943864,1953490,1955863,1964820,1992050,1992052,1992054,2038842,2071470,2117867,2120081,2133102,2137806,2197900,2207019,2214260,2217364,2236397,2249206,2290222,2295874,2313237,2331090,2341328,2341336,2416074,2423047,2443048,2447044,2450216,2455671,2455674,2466374,2469294,2473027,2475609,2475762,2476786,2476821,2477907,2479195,2479470,2490096,2517900,2520002,2520007,2521838,2521846,2529145,2529438,2534704,2537075,2537097,2537127,2537135,2537141,2537149,2537160,2537167,2537176,2537184,2537197,2537205,2537210,2561085,2561087,2561247,2574694,2574746,2576076,2593729,2609943,2616160,2616165,2618919,2625724,2626365,2632355,2636948,2648036,2676188,2676606,2682848,2694859,2738261,2742744,2756472,2761595,2764322,2768138,2774550,2776748,2793359,2794349,2794364,2794388,2794431,2794777,2795481,2799826,2803829,2810287,2818192,2821720,2822758,2834882,2836066,2839079,2858644,2858646,2858648,2858650,2866249,2870764,";
+var jsCustomRenderHandlerPairs = "";
+var jsStandardRenderHandlers = "";
+var jsSiteSecurityCreateControls = 0;
+var jsShowRejectForApprover = 1;
+// -->
+</script><script type="text/javascript" src="/commonspot/javascript/browser-all.js"></script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Lilly Winfree staff page" />
+<meta name="title" content="Lilly Winfree" />
+<meta property="og:title" content="Lilly Winfree" />
+<meta property="og:url" content="http://www.ohsu.edu/xd/education/library/about/staff-directory/lilly-winfree.cfm" />
+<meta property="og:site_name" content="Oregon Health & Science University">
+<meta name="msvalidate.01" content="12518BFD0DB6729C66845DA7F6282FC5" />
+<!-- icon and tile color in hex # for Windows phones -->
+<meta name="msapplication-TileImage" content="/xd/assets/img/content/touch-icon.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="apple-mobile-web-app-title" content="Lilly Winfree">
+<link rel="shortcut icon" href="/favicon.ico?v=2" />
+<!-- Serve one icon for all Apple devices -->
+<link rel="apple-touch-icon-precomposed" href="/xd/assets/img/content/touch-icon.png">
+<link href='//fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" media="all" href="/xd/assets/css/style.css">
+<style>
+/* fixes the header being hidden on standalone templates */
+.template-full-width .nav-home {
+text-indent: none !important;
+}
+#browser_warning {
+background-color:#f8d4d4;
+}
+.nav-breadcrumbs li.hide, .show-later {
+display: none;
+}</style>
+<!--[if lte IE 8]>
+<script src="/xd/assets/js/oldie.js"></script>
+<![endif]-->
+<link rel="stylesheet" href="/commonspot/commonspot.css" type="text/css" id="cs_maincss" /> </head><body lang="en" class="nav-dropdown template-interior-full-width body-text-small"><a name="__topdoc__"></a><script src="/commonspot/pagemode/always-include-common.js" type="text/javascript"></script><script src="/commonspot/pagemode/always-include-ns.js" type="text/javascript"></script>
+<header role="banner" class="">
+<div class="layout-full-width header-title-wrap">
+<div class="title-bar-wrap">
+<div class="title-bar-inner-wrap">
+<div class="nav-home">
+<a href="/xd/" class="nav-logo ga-nav-logo" alt="Oregon Health &amp; Science University">OHSU</a>
+<h1 class="nav-department">
+<em><span> </span>
+<a href="/xd/education/library/">Library</a></em>
+</h1>
+</div>
+<nav class="nav-utility">
+<div class="append-around-high-resolution" data-set="nav-tertiary-links"></div>
+<div class="append-around-high-resolution" data-set="search"></div>
+<div class="append-around-high-resolution" data-set="text-resize"></div>
+</nav><!-- / nav-utility -->
+<div class="nav-options">
+<a href="#" class="nav-search-toggle" aria-label="Toggle search"></a>
+<a href="#" class="nav-primary-toggle ga-nav-ham" aria-label="Toggle menu"></a>
+</div><!-- / nav-options -->
+</div>
+</div><!-- / title-bar-wrap -->
+</div><!-- / layout-full-width -->
+<div class="layout-full-width nav-sticky">
+<div id="cs_control_2537065" class="cs_control CS_Element_CustomCF"> <div id="CS_CCF_2852686_2537065">
+<div class="layout-inner-wrap-flush append-around-low-resolution" data-set="search">
+<form id="searchForm" action="/searchresults/controller.jsp" class="form-search form-site-search" name="siteSearch" method="get">
+<fieldset>
+<legend>Search OHSU</legend>
+<ol class="ui-front">
+<li>
+<label for="search-section" class="accessibility">Search Section</label>
+<select name="Nr" id="search-section" class="ga-srch-mfilterdd">
+<option value="">Search all of OHSU</option>
+<option value="SubSite:753" selected="selected">Search the Library Website</option>
+</select>
+</li>
+<li>
+<label for="site-search-text" class="accessibility">Search Text</label>
+<input type="text" name="Ntt" id="site-search-text-header" class="search-text search-autocomplete ga-srch-kw-top" placeholder="Enter keyword" maxLength="300" data-autocomplete-url="/searchapps/public.php/popular/suggest/">
+<input type="hidden" name="Ntk" value="All"/>
+<button type="submit" class="btn-search ga-srch-sub-top">Search</button>
+</li>
+</ol>
+</fieldset>
+</form>
+</div><!-- / layout-inner-wrap-flush -->
+</div> </div>
+<div class="layout-inner-wrap-flush nav-wrap">
+<nav class="nav-primary">
+<ul class="plain sf-js-enabled nav-items-7">
+<li class="nav-active">
+<a class="nav-primary-link ga-nav-prim" href="/xd/education/library/about/index.cfm" title="About">About</a>
+<ul class="nav-primary-sub-menu-1">
+<li>
+<a class="ga-nav-prim" href="/xd/education/library/about/hours.cfm" title="Hours &amp; Locations">Hours &amp; Locations</a>
+</li>
+<li>
+<a class="ga-nav-prim" href="/xd/education/library/about/directions.cfm" title="Directions">Directions</a>
+</li>
+<li>
+<a class="ga-nav-prim" href="/xd/education/library/about/departments/index.cfm" title="Departments">Departments</a>
+</li>
+<li>
+<a class="ga-nav-prim" href="/xd/education/library/about/collections/index.cfm" title="Collections">Collections</a>
+</li>
+<li>
+<a class="ga-nav-prim" href="/xd/education/library/about/staff-directory/index.cfm" title="Staff Directory">Staff Directory</a>
+</li>
+<li>
+<a class="ga-nav-prim" href="/xd/education/library/about/jobs.cfm" title="Jobs">Jobs</a>
+</li>
+<li>
+<a class="ga-nav-prim" href="/xd/education/library/about/library-policies.cfm" title="Policies">Policies</a>
+</li>
+</ul>
+</li>
+<li>
+<a class="nav-primary-link ga-nav-prim" href="http://alliance-primo.hosted.exlibrisgroup.com/primo_library/libweb/action/search.do?&amp;vid=OHSU" title="Library Search">Library Search</a>
+</li>
+<li>
+<a class="nav-primary-link ga-nav-prim" href="/xd/education/library/using-the-library.cfm" title="Using the Library">Using the Library</a>
+</li>
+<li>
+<a class="nav-primary-link ga-nav-prim" href="/xd/education/library/services/index.cfm" title="Services">Services</a>
+<ul class="nav-primary-sub-menu-1">
+<li>
+<a class="ga-nav-prim" href="/xd/education/library/services/forms/index.cfm" title="Request Forms">Request Forms</a>
+</li>
+<li>
+<a class="ga-nav-prim" href="/xd/education/library/services/Workshops.cfm" title="Workshops">Workshops</a>
+</li>
+<li>
+<a class="ga-nav-prim" href="/xd/education/library/services/communication/index.cfm" title="Scholarly Communication">Scholarly Communication</a>
+</li>
+<li>
+<a class="ga-nav-prim" href="/xd/education/library/services/requesting-materials-other-libraries/index.cfm" title="Requesting Materials From Other Libraries">Requesting Materials From Other Libraries</a>
+</li>
+<li>
+<a class="ga-nav-prim" href="/xd/education/library/services/copyright/index.cfm" title="Copyright">Copyright</a>
+</li>
+<li>
+<a class="ga-nav-prim" href="/xd/education/library/services/theses-dissertations/index.cfm" title="Theses, Dissertations, Capstones, &amp; Portfolios">Theses, Dissertations, Capstones, &amp; Portfolios</a>
+</li>
+<li>
+<a class="ga-nav-prim" href="/xd/education/library/services/reserves/index.cfm" title="Course Reserves">Course Reserves</a>
+</li>
+<li>
+<a class="ga-nav-prim" href="/xd/education/library/services/Library-Tutorials.cfm" title="Library Tutorials">Library Tutorials</a>
+</li>
+</ul>
+</li>
+<li>
+<a class="nav-primary-link ga-nav-prim" href="/xd/education/library/data/index.cfm" title="Data">Data</a>
+<ul class="nav-primary-sub-menu-1">
+<li>
+<a class="ga-nav-prim" href="/xd/education/library/data/plan-and-organize/index.cfm" title="Plan and Organize">Plan and Organize</a>
+</li>
+<li>
+<a class="ga-nav-prim" href="/xd/education/library/data/share-and-archive/index.cfm" title="Share and Archive">Share and Archive</a>
+</li>
+<li>
+<a class="ga-nav-prim" href="/xd/education/library/data/funding-and-glory/index.cfm" title="Research Impact">Research Impact</a>
+</li>
+<li>
+<a class="ga-nav-prim" href="/xd/education/library/data/data-management-plan.cfm" title="Data Management Plan">Data Management Plan</a>
+</li>
+</ul>
+</li>
+<li>
+<a class="nav-primary-link ga-nav-prim" href="http://alliance-primo.hosted.exlibrisgroup.com/primo_library/libweb/action/login.do?loginFn=signin&amp;vid=OHSU&amp;targetURL=http://alliance-primo.hosted.exlibrisgroup.com/primo_library/libweb/action/myAccountMenu.do?vid=OHSU" title="Your Library Account">Your Library Account</a>
+</li>
+<li>
+<a class="nav-primary-link ga-nav-prim" href="/xd/education/library/contact.cfm" title="Contact Us">Contact Us</a>
+</li>
+</ul>
+</nav><!-- / nav-primary -->
+<div class="append-around-low-resolution" data-set="nav-tertiary-links">
+<nav class="nav-tertiary">
+<ul class="plain">
+<li><a href="/xd/" class="ga-nav-ter">OHSU Home</a></li>
+<li><a href="/xd/health/services/find-doctor.cfm" class="ga-nav-ter">Find a Doctor</a></li>
+<li><a href="/xd/about/foundation/way-to-give/index.cfm?utm_source=ohsu-edu&utm_medium=referral&utm_content=ohsu-header&utm_campaign=ohsu_internal_promos" class="ga-nav-ter">Donate</a></li>
+<li><a href="/xd/about/services/human-resources/" class="ga-nav-ter">Jobs</a></li>
+<li><a href="/xd/about/visiting/directions/" class="ga-nav-ter">Directions</a></li>
+<li><a href="/xd/about/contact-us/" class="ga-nav-ter">Contact</a></li>
+</ul>
+</nav><!-- / nav-tertiary -->
+</div><!-- / append-around-low-resolution -->
+<div class="append-around-low-resolution" data-set="text-resize">
+<div class="text-resize">
+Text Size <a href="#" class="text-small ga-text-sm" data-text-size="body-text-small" aria-label="Text size small">A</a> <a href="#" class="text-medium ga-text-md" data-text-size="body-text-medium" aria-label="Text size medium">A</a> <a href="#" class="text-large ga-text-lg" data-text-size="body-text-large" aria-label="Text size large">A</a>
+</div>
+</div>
+</div><!-- / layout-inner-wrap-flush nav-wrap -->
+</div><!-- / layout-full-width -->
+</header>
+<!-- // end:header -->
+<section class="layout-full-width content" role="main">
+<div class="layout-inner-wrap-flush">
+<div id="cs_control_1338" class="cs_control CS_Element_LinkBar">
+<nav class="nav-breadcrumbs">
+<ul>
+<li><a href="/xd/index.cfm">OHSU Home</a></li>
+<li><a href="/xd/education/"><span>Education</span></a></li><li><a href="/xd/education/library/"><span>Library</span></a></li><li><a href="/xd/education/library/about/"><span>About</span></a></li><li><a href="/xd/education/library/about/staff-directory/"><span>Staff Directory</span></a></li><li class="nav-active"><span>Lilly Winfree</span></li>
+</ul>
+</nav>
+<script>
+docReady(function(){
+// remove the number of items
+for(var itm=0; itm <0; itm++){
+// if this is the first item -- add ellipses
+if( itm == 0 ){
+jQuery(".nav-breadcrumbs ul li:nth-child(" + parseInt(itm + 2) + ") a").addClass("show-later").closest("li").append('<a href="javascript:;" class="ellipses">...</a>');
+} else {
+// just hide the items
+jQuery(".nav-breadcrumbs ul li:nth-child(" + parseInt(itm + 2) + ")").addClass("hide");
+}
+}
+// add onclick
+jQuery(".ellipses").on("click", function(event){
+event.stopPropagation();
+jQuery(".hide").removeClass("hide")
+jQuery(".show-later").removeClass("show-later")
+jQuery(this).remove();
+return false;
+});
+});
+</script>
+</div>
+<!-- // begin:navigation -->
+<nav class="layout-secondary">
+<a class="nav-secondary-toggle ga-nav-plus" href="#">Library</a><ul class="nav-secondary">
+<li>
+<h3 class="nav-secondary-section-heading">
+<a href="/xd/education/library/">Library</a>
+</h3>
+</li>
+<li class="nav-open">
+<a href="/xd/education/library/about/index.cfm" title="About" class="ga-nav-sec">About</a>
+<ul class="nav-secondary-sub-menu-1">
+<li>
+<a href="/xd/education/library/about/hours.cfm" title="Hours &amp; Locations" class="ga-nav-sec">Hours & Locations</a>
+</li>
+<li>
+<a href="/xd/education/library/about/directions.cfm" title="Directions" class="ga-nav-sec">Directions</a>
+</li>
+<li>
+<a href="/xd/education/library/about/departments/index.cfm" title="Departments" class="ga-nav-sec">Departments</a>
+</li>
+<li>
+<a href="/xd/education/library/about/collections/index.cfm" title="Collections" class="ga-nav-sec">Collections</a>
+</li>
+<li>
+<a href="/xd/education/library/about/staff-directory/index.cfm" title="Staff Directory" class="ga-nav-sec">Staff Directory</a>
+</li>
+<li>
+<a href="/xd/education/library/about/jobs.cfm" title="Jobs" class="ga-nav-sec">Jobs</a>
+</li>
+<li>
+<a href="/xd/education/library/about/library-policies.cfm" title="Policies" class="ga-nav-sec">Policies</a>
+</li>
+</ul>
+</li>
+<li>
+<a href="http://alliance-primo.hosted.exlibrisgroup.com/primo_library/libweb/action/search.do?&amp;vid=OHSU" title="Library Search" class="ga-nav-sec">Library Search</a>
+</li>
+<li>
+<a href="/xd/education/library/using-the-library.cfm" title="Using the Library" class="ga-nav-sec">Using the Library</a>
+</li>
+<li>
+<a href="/xd/education/library/services/index.cfm" title="Services" class="ga-nav-sec">Services</a>
+</li>
+<li>
+<a href="/xd/education/library/data/index.cfm" title="Data" class="ga-nav-sec">Data</a>
+</li>
+<li>
+<a href="http://alliance-primo.hosted.exlibrisgroup.com/primo_library/libweb/action/login.do?loginFn=signin&amp;vid=OHSU&amp;targetURL=http://alliance-primo.hosted.exlibrisgroup.com/primo_library/libweb/action/myAccountMenu.do?vid=OHSU" title="Your Library Account" class="ga-nav-sec">Your Library Account</a>
+</li>
+<li>
+<a href="/xd/education/library/contact.cfm" title="Contact Us" class="ga-nav-sec">Contact Us</a>
+</li>
+</ul>
+<div class="append-around-high-resolution" data-set="promos">
+<div class="promos">
+<div class="nav-quick-links">
+<h3>Quick Links</h3>
+<div id="cs_control_1340" class=""> <div  class="CS_Element_Schedule"  title="" id="CS_Element_navquicklinks" >
+<a name="textblocknohdr1332424" id="textblocknohdr1332424"></a><a name="CP_JUMP_1332424" id="CP_JUMP_1332424"></a><div id="cs_control_1332424" class="cs_control CS_Element_Textblock"> <div class="CS_Textblock_Text"><ul class="nav quicklinks">
+<li><a title="forgot barcode" onmouseover="" onmouseout="" href="http://library.ohsu.edu/forms/forgotbc.php" target="_blank" class="externallink">Forgot Barcode?</a></li>
+<li><a title="interlibrary loan (ill)" href="/xd/education/library/services/ill-docdel.cfm" class="CP___PAGEID_2730029" style="">Interlibrary Loan (ILL)</a></li>
+<li><a title="sakai log in" onmouseover="" onmouseout="" href="http://sakai.ohsu.edu" target="_blank" class="securelink">Log in to Sakai</a></li>
+<li><a title="suggest a purchase" src="" onmouseover="" onmouseout="" href="http://www.ohsu.edu/xd/education/library/books-journals/purchase.cfm">Suggest Purchase</a></li>
+</ul></div> </div>
+</div> </div>
+</div>
+<div id="cs_control_2537260" class=""> <div  class="CS_Element_Schedule"  title="" id="CS_Element_navpromosetc" >
+<div id="cs_control_2539975" class="cs_control CS_Element_Custom">
+<div class="promo">
+<h3><a href="/xd/education/library/research-assistance/ask-librarian.cfm">Ask Us</a></h3>
+<p>Send us a question or go to a live chat session!</p>
+<p><a href="/xd/education/library/research-assistance/ask-librarian.cfm" class="btn ga-promo-btn" title="Ask Us">Talk to us</a></p>
+</div><!-- / promo -->
+</div>  <div id="cs_control_2539981" class="cs_control CS_Element_Custom">
+<div class="promo">
+<h3><a href="/xd/education/library/support-the-library.cfm">Support the Library</a></h3>
+<p>Help us support the ongoing endeavor for answers to health issues.</p>
+<p><a href="/xd/education/library/support-the-library.cfm" class="btn ga-promo-btn" title="Support the Library">Learn more</a></p>
+</div><!-- / promo -->
+</div>
+</div> </div>
+</div>
+</div>
+</nav><!-- / layout-secondary -->
+<!-- // end:navigation -->
+<article class="layout-primary">
+<h1>Lilly Winfree</h1>
+<div id="cs_control_1341" class=""> <div  class="CS_Element_Schedule"  title="" id="CS_Element_primary" >
+<div id="cs_control_2852690" class="cs_control CS_Element_TAI">
+<div class="layout-inner-wrap-nested">
+<figure class="img-framed img-left" style="max-width: 1218px">
+<img src="/xd/education/library/about/staff-directory/images/LWinfreePic.jpeg" alt="Lilly Winfree" height="1600" width="120px" border="0" />
+</figure>
+<p><strong>Science and Data Analyst</strong></p><p><a id="mailto:winfree@ohsu.edu|" href="mailto:winfree@ohsu.edu">winfree@ohsu.edu</a><strong><br></strong></p>
+</div>
+</div>  <div id="cs_control_2852692" class="cs_control CS_Element_Textblock"> <div class="dp_block text_with_header"> <h2>Major Responsibilities</h2><ul><li>Responsible for scientific communication and
+outreach and contributes to data analytics. </li><li>Works with the
+Monarch Initiative bioinformatics team to derive biological stories from the
+data.
+<br></li></ul><h2>Education</h2><ul><li>Ph.D. in Neuroscience from Oregon Health &amp; Science
+University</li><li>BS in Neuroscience from the University of
+Rochester <br></li></ul><p> </p><p> </p>
+</div>
+</div>
+</div> </div>
+<div class="append-around-low-resolution" data-set="promos"></div>
+</article><!-- / layout-primary -->
+</div><!-- / layout-inner-wrap-flush -->
+</section><!-- / layout-full-width content -->
+<!-- // begin:footer -->
+<footer>
+<div class="layout-inner-wrap">
+<article class="footer-about">
+<a href="/xd/" class="footer-logo">Oregon Health &amp; Science University</a>
+<p>Oregon Health &amp; Science University is dedicated to improving the health and quality of life for all Oregonians through excellence, innovation and leadership in health care, education and research.</p>
+<p>© 2001-2017 Oregon Health &amp; Science University. OHSU is an equal opportunity affirmative action institution.</p>
+<p>
+<a href="/xd/about/services/integrity/ips/npp.cfm">Notice of Privacy Practices</a><br>
+<a href="/xd/about/services/information-technology/visitors-guests/website-accessibility.cfm">Web Browser Accessibility</a>
+</p>
+</article>
+<nav class="footer-nav">
+<div class="footer-nav-column">
+<ul class="footer-nav-list">
+<li><a href="/xd/">OHSU Home</a></li>
+<li><a href="/xd/about/contact-us/">Contact</a></li>
+</ul>
+<h5 class="footer-nav-header"><a href="/xd/about/">About OHSU</a></h5>
+<ul class="footer-nav-list">
+<li><a href="/xd/about/visiting/directions/">Maps &amp; Directions</a></li>
+<li><a href="/xd/about/services/human-resources/">Jobs</a></li>
+<li><a href="/xd/education/library/">Library</a></li>
+<li><a href="/xd/about/news_events/events/">Calendar</a></li>
+<li><a href="/xd/about/foundation/way-to-give/index.cfm?utm_source=ohsu-edu&utm_medium=referral&utm_content=ohsu-footer&utm_campaign=ohsu_internal_promos">Make a Gift</a></li>
+<li><a href="/xd/about/accessibility.cfm">Accessibility</a></li>
+<li><a href="/xd/about/vision/center-for-diversity-inclusion/">Diversity &amp; Inclusion</a></li>
+<li><a href="/xd/about/services/integrity/">Integrity</a></li>
+</ul>
+</div>
+<div class="footer-nav-column">
+<h5 class="footer-nav-header"><a href="/xd/health/for-patients-visitors/">Patient Resources</a></h5>
+<ul class="footer-nav-list">
+<li><a href="/xd/health/for-patients-visitors/billing-insurance/">Billing &amp; Insurance</a></li>
+<li><a href="/xd/health/services/find-doctor.cfm">Find a Doctor</a></li>
+<li><a href="/xd/health/services/find-clinic.cfm">Find a Clinic</a></li>
+<li><a href="/xd/health/for-patients-visitors/visiting-patients.cfm">For Patients &amp; Visitors</a></li>
+<li><a href="/xd/health/clinical-trials/">Clinical Trials</a></li>
+</ul>
+<h5 class="footer-nav-header"><a href="/xd/research/">Research</a></h5>
+<ul class="footer-nav-list">
+<li><a href="/xd/research/about/">About</a></li>
+<li><a href="/xd/research/administration/">Administration</a></li>
+<li><a href="/xd/research/centers-institutes/">Centers &amp; Institutes</a></li>
+<li><a href="/xd/research/research-cores/">Cores &amp; Shared Resources</a></li>
+<li><a href="/xd/research/techtransfer/">Technology Transfer</a></li>
+<li><a href="/xd/research/research-expertise/">Research Expertise</a></li>
+</ul>
+</div>
+<div class="footer-nav-column">
+<h5 class="footer-nav-header"><a href="/xd/education/">Education</a></h5>
+<ul class="footer-nav-list">
+<li><a href="/xd/education/schools/school-of-medicine/">School of Medicine</a></li>
+<li><a href="/xd/education/schools/school-of-nursing/">School of Nursing</a></li>
+<li><a href="/xd/education/schools/school-of-dentistry/">School of Dentistry</a></li>
+<li><a href="http://ohsu-psu-sph.org/">School of Public Health</a></li>
+<li><a href="http://pharmacy.oregonstate.edu/">College of Pharmacy</a></li>
+<li><a href="/xd/education/admissions/">Admissions</a></li>
+<li><a href="/xd/education/student-services/">Student Services</a></li>
+</ul>
+<h5 class="footer-nav-header"><a href="/xd/about/services/human-resources/">For Employees</a></h5>
+<ul class="footer-nav-list">
+<li><a href="https://o2.ohsu.edu/">O2 Intranet</a></li>
+<li><a href="http://www.ohsu.edu/mail">Email</a></li>
+<li><a href="http://www.ohsu.edu/Citrix">Connecting Off-Campus</a></li>
+</ul>
+</div>
+<div class="footer-nav-column">
+<ul class="footer-nav-list social">
+<li class="facebook"><a href="https://www.facebook.com/OHSUedu" aria-label="OHSU on Facebook"></a></li>
+<li class="youtube"><a href="http://www.youtube.com/user/OHSUvideo" aria-label="OHSU on Youtube"></a></li>
+<li class="linkedin"><a href="http://www.linkedin.com/edu/oregon-health-and-science-university-19198" aria-label="OHSU on LinkedIn"></a></li>
+<li class="twitter"><a href="https://twitter.com/OHSUNews" aria-label="OHSU on Twitter"></a></li>
+</ul>
+</div>
+</nav>
+</div>
+</footer>
+<div class="nav-underlay"></div>
+<script src="/xd/assets/js/foot.js"></script>
+<script>
+// run at initialization time
+jQuery(function($){
+// glossary popup functionality
+$.ajaxSetup({async:false});
+$('.glossaryDefinition:not(span)').removeClass('glossaryDefinition').wrapInner('<span class="glossaryDefinition"></span>');
+});
+</script>
+<!-- // csonly:start -->
+<script>
+var anUrl = "/fusionreactor/UEM.cfm?db=70&wr=457&s=1635A9CFC63F91653BE8AA25C19DC304&t=17199125";document.write(unescape("%3Cscript src='/fusionreactor/UEMJS.cfm' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-5K25KJ"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-5K25KJ');</script>
+<!-- End Google Tag Manager -->
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-TRPDVK"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','HCMdataLayer','GTM-TRPDVK');</script>
+<!-- End Google Tag Manager -->
+<!-- // csonly:end -->
+<!-- // end:footer --><div style="display:block; clear:left; padding:0px; font-family:Verdana,Arial; font-size:10px; color:gray;"></div>
+		<script type="text/javascript">
+		<!--
+			var jsPageContributeMode = 'read';
+			var jsPageSessionContributeMode = 'read';
+			
+			var jsPageAuthorMode = 0;
+			var jsPageEditMode = 0;
+
+			
+			if(!commonspot)
+				var commonspot = {};
+			commonspot.csPage = {};
+
+			
+				commonspot.csPage.url = '/xd/education/library/about/staff-directory/lilly-winfree.cfm';
+			
+
+			commonspot.csPage.id = 2852686;
+			commonspot.csPage.title = 'Lilly Winfree';
+
+			commonspot.csPage.pagetype = 0;
+			commonspot.csPage.publicationState = 'Published Page';
+			commonspot.csPage.siteRoot = '/xd/';
+			commonspot.csPage.subsiteRoot = '/xd/education/library/about/staff-directory/';
+			commonspot.csPage.mode = jsPageSessionContributeMode;
+			commonspot.csPage.authorok = 0;
+			commonspot.csPage.approvalstatus = 0;
+			commonspot.csPage.showContainerUI = 0;
+			commonspot.csPage.requestedVersionTimestamp = '';
+			commonspot.csPage.userRights = {};
+			commonspot.csPage.userRights.isLoggedIn = 0;
+			commonspot.csPage.userRights.licensedContributor = 0;
+			commonspot.csPage.userRights.read = 1;
+			commonspot.csPage.userRights.author = 0;
+			commonspot.csPage.userRights.edit = 0;
+			commonspot.csPage.userRights.approve = 0;
+			commonspot.csPage.userRights.history = 0;
+			commonspot.csPage.userRights.design = 0;
+			commonspot.csPage.userRights.admin = 0;
+			commonspot.csPage.userRights.subsiteAdmin = 0;
+			commonspot.csPage.userRights.siteAdmin = 0;
+			commonspot.csPage.userRights.customerAdmin = 0;
+			commonspot.csPage.userRights.serverAdmin = 0;
+
+			commonspot.csPage.enabledMenuClasses = '';
+			
+			commonspot.csPage.visibleMenuClasses = '';
+
+			
+			commonspot.csPage.subsiteContext = {};
+			commonspot.csPage.subsiteContext.sitetype = 0;
+			commonspot.csPage.subsiteContext.siteid = 3;
+			commonspot.csPage.subsiteContext.subsiteid = 912;
+			commonspot.csPage.subsiteContext.siteurl = '/xd/';
+			commonspot.csPage.subsiteContext.subsiteurl = '/xd/education/library/about/staff-directory/';
+			commonspot.csPage.subsiteContext.sitename = 'xd';
+			commonspot.csPage.subsiteContext.subsitename = 'staff-directory';
+			commonspot.csPage.subsiteContext.menucontexttimestamp = '1490120147238';
+			commonspot.csPage.serveradminurl = "/commonspot/admin/";
+			if (parent.commonspot)
+				parent.commonspot.csPage = commonspot.csPage;
+			var doLviewRedirect;
+			if(parent &&
+						parent.commonspot &&
+						parent.commonspot.lview &&
+						!doLviewRedirect &&
+						parent.commonspot.lightbox &&
+						parent.commonspot.lightbox.stack.length == 0)
+			{
+			
+				commonspot.csPage.showPageSubmit = false;
+			
+				onPageArrival = function()
+				{
+					parent.commonspot.lview.currentPage.onPageArrival( commonspot.csPage );
+				};
+				onPageUnload = function()
+				{
+					parent.commonspot.lview.currentPage.onPageUnload();
+				};
+				parent.Spry.Utils.addEventListener(window, 'load', onPageArrival, false);
+				parent.Spry.Utils.addEventListener(window, 'unload', onPageUnload, false);
+			}
+		
+
+		// -->
+		</script>
+<script type="text/javascript">
+<!--
+	if (typeof parent.commonspot == 'undefined' || typeof parent.commonspot.lview == 'undefined')
+		loadNonDashboardFiles();
+	else if (parent.commonspot && typeof newWindow == 'undefined')
+	{
+		var arrFiles = 
+				[
+					{fileName: '/commonspot/javascript/lightbox/overrides.js', fileType: 'script', fileID: 'cs_overrides'},
+					{fileName: '/commonspot/javascript/lightbox/window_ref.js', fileType: 'script', fileID: 'cs_windowref'}
+				];
+		
+		loadDashboardFiles(arrFiles);
+	}	
+//-->
+</script>
+
+</body></html>
