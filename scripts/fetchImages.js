@@ -3,19 +3,25 @@
 const fs = require('fs')
 const csv = require('csv')
 const request = require('request')
+const nugget = require('nugget')
+
 
 let file = fs.readFileSync('./_data/2017_speakers.csv')
+let photos = []
 
 csv.parse(file, (err, data) => {
   data.shift()
   data.forEach(datum => {
-    const url = datum[3]
+    let url = datum[3]
     if (url && url !== '') {
 
-      let file = fs.createWriteStream('./img/speakers-2017/' + datum[0] + '.jpg')
-      let sendReq = request.get(url)
-      sendReq.pipe(file)
+      if (!url.match(/^http/)) url = 'http://' + url
+      photos.push(url)
     }
-
   })
+})
+
+nugget(photos, {resume: true, dir: __dirname + '/img/speakers-2017'}, function (err) {
+  if (err) throw err
+    // console.log(speakers.join('\n'))
 })
