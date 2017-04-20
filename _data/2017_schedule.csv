@@ -1,7 +1,7 @@
 Time,Room A,Room B,Room C,Room D
 TUESDAY - May 2 - Day 1,,,,
 ,Room A - A108,Room B - B102,Room C - B103,Room D - B101
-9:00: AM,9-10:00am Coffee/Breakfast/Hangout time,,,
+9:00: AM,9-10:00am Coffee/Breakfast/Registration/Hangout time,,,
 10:00: AM,10-10:30am Intros/Hello in Eliot Chapel           ,,,
 10:30: AM,Empowering people by democratizing data skills Erin Becker,Designing with data: prototyping at the speed of learning Michelle Hertzfeld,"Smelly London: visualising historical smells through text-mining, geo-referencing and mapping. Deborah Leem",Data Tables
 11:00: AM,Teaching quantitative and computational skills to undergraduates using Jupyter Notebooks Brian Avery,Designing data exploration: How to make large data sets accessible (and fun to use) Simon Jockers,"Our Cities, Our Data Kate Rabinowitz",Data Tables
@@ -19,7 +19,7 @@ TUESDAY - May 2 - Day 1,,,,
 ,,,,
 WEDNESDAY - May 3 - Day 2,,,,
 ,Room A - A108,Room B - B102,Room C - B103,Room D - B101
-9:00: AM,9-10:00am Coffee/Breakfast/Hangout time,,,
+9:00: AM,9-10:00am Coffee/Breakfast/Registration/Hangout time,,,
 10:00: AM,Laurie Allen. Keynote in Eliot Chapel,,,
 11:00: AM,"A Better ""Edit"" Button for GitHub-Hosted Data,  Matt ""Potch"" Claypotch","The evolution of a GTFS data pipeline,  Danny Whalen","✊s, 🌹s, and major 🔑s: Emoji data science & journalism,  Hamdan Azhar",Data Tables
 11:30: AM,"DIPpering the data: open source tools for data integration,  Lilly Winfree","A match made in heaven: domain expert meets csv; gives birth to ontologies,  Nicole Vasilevsky and Daniel Keith","Location - Trends in Time and Place,  Christopher Moravec",Data Tables
@@ -27,7 +27,7 @@ WEDNESDAY - May 3 - Day 2,,,,
 12:30: PM,Lunch in Atrium Area,,,
 1:00: PM,Mike Bostock. Keynote in Eliot Chapel,,,
 2:00: PM,"The Art and Science of Generative Nonsense,  Mouse Reeve","Opinionated Analysis Development,  Hilary Parker","Surveying the Commune Cloud: Joining Hands to Decentrally Process Decentralized Data,  Noah Cawley",Data Tables
-2:30 PM,"The world is weird and wonderful!,  Dan Phiffer","Applying software engineering practises to data analysis,  Emil Bay","The power of fuzzy,  Max Harlow",Data Tables
+2:30: PM,"The world is weird and wonderful!,  Dan Phiffer","Applying software engineering practises to data analysis,  Emil Bay","The power of fuzzy,  Max Harlow",Data Tables
 3:00: PM,Break,,,
 3:30: PM,"Innovation to facilitate data sharing in the life sciences and biomedicine,  Naomi Penfold","Open Data Networks with Fieldkit,  Eric Buth","Mapping Data in Jupyter Notebooks with Pixiedust,  Raj Singh",Data Tables
 4:00: PM,"Reproducible and reusable research: Data sharing policies & community driven strategies for improving the status quo,  Robin Champieux","Math, Numeric Computing, and JavaScript,  Athan Reines","Machine Learning is for Everyone,  Melissa Santos",Data Tables
