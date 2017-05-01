@@ -1,35 +1,35 @@
-Time,Room A,Room B,Room C,Room D
-TUESDAY - May 2 - Day 1,,,,
-,Room A - A108,Room B - B102,Room C - Eliot Chapel,Room D - B101
-9:00: AM,9-10:00am Coffee/Breakfast/Registration/Hangout time in Atrium,,,
-10:00: AM,10-10:30am Intros/Hello in Eliot Chapel           ,,,
-10:30: AM,Empowering people by democratizing data skills Erin Becker,Designing with data: prototyping at the speed of learning Michelle Hertzfeld,"Smelly London: visualising historical smells through text-mining, geo-referencing and mapping. Deborah Leem",Data Tables
-11:00: AM,Teaching quantitative and computational skills to undergraduates using Jupyter Notebooks Brian Avery,Designing data exploration: How to make large data sets accessible (and fun to use) Simon Jockers,"Our Cities, Our Data Kate Rabinowitz",Data Tables
-11:30: AM,Data in the Humanities Classroom Miriam Posner,"The Journey to a better bar graph, and beyond. Daniel Orbach",Open Contracting Data in Mexico City Gabriela Rodriguez Beron,Data Tables
-12:00: PM,Lunch in Atrium,,,
-12:30: PM,Heather Joseph. Keynote in Eliot Chapel,,,
-1:30: PM,Urban/Information: Mapping the US Postal Service Vacancy Survey Dare Anne Brawley,Data & Abuse of Power Moiz Syed,Analyzing The Trumpworld Graph: Applying Network Analysis to Public Data William Lyon,Data Tables
-2:00: PM,When Data Collection Meets Non-technical CSOs in Low-Income Areas David Selassie Opoku,Data Lovers in in a Dangerous Time Brendan O'Brien,Changing the world with data. With combatting human trafficking as an example. Eric Schles,Data Tables
-2:30: PM,What's next in open data? The limits of the publication discourse Paul Walsh,How to mislead the public Philipp Burckhardt,In search for the ideal csv template to map elections Roger Fischer,Data Tables
-3:00: PM,Break,,,
-3:30: PM,Mantle: A Proposal for Automated Metadata and Linked Data for Scientific Users Toph Allen,Continuous Data Validation for Everybody Adrià Mercader,How do I get that? Strategies for requesting data and negotiating for it Carli Brosseau,Data Tables
-4:00: PM,Metatab: Metadata for Mortals Eric Busboom,DDF: Gapminder's data model for collaborative harmonization of multidimensional statistics. Jasper Heeffer,Role of data intermediaries in the civic data ecosystem Bob Gradeck,Data Tables
-4:30: PM,Angela Bassa. Keynote in Eliot Chapel,,,
-5:30: PM,Reception in Buchan Hall until 7:00pm,,,
-,,,,
-WEDNESDAY - May 3 - Day 2,,,,
-,Room A - A108,Room B - B102,Room C - Eliot Chapel,Room D - B101
-9:00: AM,9-10:00am Coffee/Breakfast/Registration/Hangout time in Atrium,,,
-10:00: AM,Laurie Allen. Keynote in Eliot Chapel,,,
-11:00: AM,"A Better ""Edit"" Button for GitHub-Hosted Data,  Matt ""Potch"" Claypotch","The evolution of a GTFS data pipeline,  Danny Whalen","✊s, 🌹s, and major 🔑s: Emoji data science & journalism,  Hamdan Azhar",Data Tables
-11:30: AM,"DIPpering the data: open source tools for data integration,  Lilly Winfree","A match made in heaven: domain expert meets csv; gives birth to ontologies,  Nicole Vasilevsky and Daniel Keith","Location - Trends in Time and Place,  Christopher Moravec",Data Tables
-12:00: PM,"Data Modeling for Humans: A Learnable Conceptual Model for Relational Data,  Jason Crawford","Towards a Taxonomy of Government Data,  Hunter Owens","Using Web Archives to Enrich the Live Web Experience Through Storytelling,  Yasmin AlNoamany",Data Tables
-12:30: PM,Lunch in Atrium,,,
-1:00: PM,Mike Bostock. Keynote in Eliot Chapel,,,
-2:00: PM,"The Art and Science of Generative Nonsense,  Mouse Reeve","Opinionated Analysis Development,  Hilary Parker","Surveying the Commune Cloud: Joining Hands to Decentrally Process Decentralized Data,  Noah Cawley",Data Tables
-2:30: PM,"The world is weird and wonderful!,  Dan Phiffer","Applying software engineering practises to data analysis,  Emil Bay","The power of fuzzy,  Max Harlow",Data Tables
-3:00: PM,Break,,,
-3:30: PM,"Innovation to facilitate data sharing in the life sciences and biomedicine,  Naomi Penfold","Open Data Networks with Fieldkit,  Eric Buth","Mapping Data in Jupyter Notebooks with Pixiedust,  Raj Singh",Data Tables
-4:00: PM,"Reproducible and reusable research: Data sharing policies & community driven strategies for improving the status quo,  Robin Champieux","Math, Numeric Computing, and JavaScript,  Athan Reines","Machine Learning is for Everyone,  Melissa Santos",Data Tables
-4:30: PM,Outros/Goodbye in Eliot Chapel,,,
-5:00: PM,5-6pm Hangout time,,,
+Time,Room A,Room B,Room C,Room D,Room A speakers,Room B speakers,Room C speakers
+TUESDAY - May 2 - Day 1,,,,,,,
+,Room A - A108,Room B - B102,Room C - Eliot Chapel,Room D - B101,,,
+9:00: AM,9-10:00am Coffee/Breakfast/Registration/Hangout time in Atrium,,,,,,
+10:00: AM,10-10:30am Intros/Hello in Eliot Chapel           ,,,,,,
+10:30: AM,Empowering people by democratizing data skills,Designing with data: prototyping at the speed of learning,"Smelly London: visualising historical smells through text-mining, geo-referencing and mapping",Data Tables,Erin Becker,Michelle Hertzfeld,Deborah Leem
+11:00: AM,Teaching quantitative and computational skills to undergraduates using Jupyter Notebooks,Designing data exploration: How to make large data sets accessible (and fun to use),"Our Cities, Our Data",Data Tables,Brian Avery,Simon Jockers,Kate Rabinowitz
+11:30: AM,Data in the Humanities Classroom,"The Journey to a better bar graph, and beyond",Open Contracting Data in Mexico City,Data Tables,Miriam Posner,Daniel Orbach,Gabriela Rodriguez Beron
+12:00: PM,Lunch in Atrium,,,,,,
+12:30: PM,Heather Joseph. Keynote in Eliot Chapel,,,,,,
+1:30: PM,Urban/Information: Mapping the US Postal Service Vacancy Survey,Data & Abuse of Power,Analyzing The Trumpworld Graph: Applying Network Analysis to Public Data,Data Tables,Dare Anne Brawley,Moiz Syed,William Lyon
+2:00: PM,When Data Collection Meets Non-technical CSOs in Low-Income Areas,Data Lovers in in a Dangerous Time,Changing the world with data. With combatting human trafficking as an example.,Data Tables,David Selassie Opoku,Brendan O'Brien,Eric Schles
+2:30: PM,What's next in open data? The limits of the publication discourse,How to mislead the public,In search for the ideal csv template to map elections,Data Tables,Paul Walsh,Philipp Burckhardt,Roger Fischer
+3:00: PM,Break,,,,,,
+3:30: PM,Mantle: A Proposal for Automated Metadata and Linked Data for Scientific Users,Continuous Data Validation for Everybody,How do I get that? Strategies for requesting data and negotiating for it,Data Tables,Toph Allen,Adrià Mercader,Carli Brosseau
+4:00: PM,Metatab: Metadata for Mortals,DDF: Gapminder's data model for collaborative harmonization of multidimensional statistics.,Role of data intermediaries in the civic data ecosystem,Data Tables,Eric Busboom,Jasper Heeffer,Bob Gradeck
+4:30: PM,Keynote in Eliot Chapel,,,,Angela Bassa,,
+5:30: PM,Reception in Buchan Hall until 7:00pm,,,,,,
+,,,,,,,
+WEDNESDAY - May 3 - Day 2,,,,,,,
+,Room A - A108,Room B - B102,Room C - Eliot Chapel,Room D - B101,,,
+9:00: AM,9-10:00am Coffee/Breakfast/Registration/Hangout time in Atrium,,,,,,
+10:00: AM,Keynote in Eliot Chapel,,,,Laurie Allen,,
+11:00: AM,"A Better ""Edit"" Button for GitHub-Hosted Data",The evolution of a GTFS data pipeline,"âs, ð¹s, and major ðs: Emoji data science & journalism",Data Tables,"Matt ""Potch"" Claypotch",Danny Whalen,Hamdan Azhar
+11:30: AM,DIPpering the data: open source tools for data integration,A match made in heaven: domain expert meets csv; gives birth to ontologies,Location - Trends in Time and Place,Data Tables,Lilly Winfree,Nicole Vasilevsky and Daniel Keith,Christopher Moravec
+12:00: PM,Data Modeling for Humans: A Learnable Conceptual Model for Relational Data,Towards a Taxonomy of Government Data,Using Web Archives to Enrich the Live Web Experience Through Storytelling,Data Tables,Jason Crawford,Hunter Owens,Yasmin AlNoamany
+12:30: PM,Lunch in Atrium,,,,,,
+1:00: PM,Keynote in Eliot Chapel,,,,Mike Bostock,,
+2:00: PM,The Art and Science of Generative Nonsense,Opinionated Analysis Development,Surveying the Commune Cloud: Joining Hands to Decentrally Process Decentralized Data,Data Tables,Mouse Reeve,Hilary Parker,Noah Cawley
+2:30: PM,The world is weird and wonderful!,Applying software engineering practises to data analysis,The power of fuzzy,Data Tables,Dan Phiffer,Emil Bay,Max Harlow
+3:00: PM,Break,,,,,,
+3:30: PM,Innovation to facilitate data sharing in the life sciences and biomedicine,Open Data Networks with Fieldkit,Mapping Data in Jupyter Notebooks with Pixiedust,Data Tables,Naomi Penfold,Eric Buth,Raj Singh
+4:00: PM,Reproducible and reusable research: Data sharing policies & community driven strategies for improving the status quo,"Math, Numeric Computing, and JavaScript",Machine Learning is for Everyone,Data Tables,Robin Champieux,Athan Reines,Melissa Santos
+4:30: PM,Outros/Goodbye in Eliot Chapel,,,,,,
+5:00: PM,5-6pm Hangout time,,,,,,

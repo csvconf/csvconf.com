@@ -9,19 +9,42 @@ permalink: /speakers/
 We are assembling an exciting team of data makers and enthusiasts representing academia, science, journalism, government, and open source projects.
 </p>
 <table class="speakers">
-  {% for column in site.data.2017_schedule %}
+  {% for row in site.data.2017_schedule %}
   <tr>
 
-    {% if column['Room A'] == nil %}
-      <td colspan=5 class="day">{{ column['Time'] }}</td>
+    {% if row['Room A'] == nil %}
+      <td colspan=5 class="day">{{ row['Time'] }}</td>
     {% else %}
-      {% if column['Room B'] == nil %}
-        <td>{{ column['Time'] }}</td>
-        <td colspan="4" class="highlight">{{ column['Room A'] }}</td>
+      {% if row['Room B'] == nil %}
+        <td>{{ row['Time'] }}</td>
+        <td colspan="4" class="highlight">{{ row['Room A'] }}</td>
       {% else %}
-        {% for row in column %}
-          <td>{{row[1]}}</td>
-        {% endfor %}
+        <td>{{ row['Time'] }}</td>
+        <td>
+          {% if row['Room A speakers'] != nil %}
+            <a href="#{{ row['Room A speakers'] | slugify }}" class="talk-name">{{row['Room A']}}</a>
+            <div>{{row['Room A speakers']}}</div>
+          {% else %}
+            {{row['Room A']}}
+          {% endif %}
+        </td>
+        <td>
+          {% if row['Room B speakers'] != nil %}
+            <a href="#{{ row['Room B speakers'] | slugify }}" class="talk-name">{{row['Room B']}}</a>
+            <div>{{row['Room B speakers']}}</div>
+          {% else %}
+            {{row['Room B']}}
+          {% endif %}
+        </td>
+        <td>
+          {% if row['Room C speakers'] != nil %}
+            <a href="#{{ row['Room C speakers'] | slugify }}" class="talk-name">{{row['Room C']}}</a>
+            <div>{{row['Room C speakers']}}</div>
+          {% else %}
+            {{row['Room C']}}
+          {% endif %}
+        </td>
+        <td>{{row['Room D']}}</td>
       {% endif %}
     {% endif %}
   </tr>
@@ -32,15 +55,15 @@ We are assembling an exciting team of data makers and enthusiasts representing a
 
 <table class="speakers">
   {% for speaker in site.data.2017_speakers %}
-  <tr class="speaker">
+  <tr class="speaker" id="{{ speaker.name | slugify }}">
     <td class="about">
       <img class="image"
         style="background-image:url(/img/speakers-2017/{{ speaker.id }}.jpg)"/>
       <span class="name">
-        {% if speaker.twitter %}<a href="http://twitter.com/{{speaker.twitter}}">
-        {{ speaker.name }}
+        {% if speaker.twitter %}
+          <a href="http://twitter.com/{{speaker.twitter}}">{{ speaker.name }}</a>
         {% else %}
-        {{ speaker.name }}
+          {{ speaker.name }}
         {% endif %}
       </span>
     </td>
@@ -51,5 +74,3 @@ We are assembling an exciting team of data makers and enthusiasts representing a
   </tr>
   {% endfor %}
 </table>
-
-

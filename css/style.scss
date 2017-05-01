@@ -308,6 +308,11 @@ table.speaker-list {
   }
 }
 
+.talk-name {
+  display: block;
+  margin-bottom: 1em;
+}
+
 @media (max-width: 500px) {
   .speakers .image {
     display: none;
