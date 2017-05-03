@@ -1,8 +1,8 @@
-Time,Room A,Room B,Room C,Room D,Room A speakers,Room B speakers,Room C speakers
+Time,Room A+,Room B,Room C,Room D,Room A speakers,Room B speakers,Room C speakers
 TUESDAY - May 2 - Day 1,,,,,,,
 ,Room A - A108,Room B - B102,Room C - Eliot Chapel,Room D - B101,,,
 9:00: AM,9-10:00am Coffee/Breakfast/Registration/Hangout time in Atrium,,,,,,
-10:00: AM,10-10:30am Intros/Hello in Eliot Chapel           ,,,,,,
+10:00: AM,"10-10:30am Intros/Hello in Eliot Chapel           ",,,,,,
 10:30: AM,Empowering people by democratizing data skills,Designing with data: prototyping at the speed of learning,"Smelly London: visualising historical smells through text-mining, geo-referencing and mapping",Data Tables - Bionode,Erin Becker,Michelle Hertzfeld,Deborah Leem
 11:00: AM,Teaching quantitative and computational skills to undergraduates using Jupyter Notebooks,Designing data exploration: How to make large data sets accessible (and fun to use),"Our Cities, Our Data",Data Tables - Bionode,Brian Avery,Simon Jockers,Kate Rabinowitz
 11:30: AM,Data in the Humanities Classroom,"The Journey to a better bar graph, and beyond",Open Contracting Data in Mexico City,Data Tables - Bionode,Miriam Posner,Daniel Orbach,Gabriela Rodriguez Beron
@@ -12,7 +12,7 @@ TUESDAY - May 2 - Day 1,,,,,,,
 2:00: PM,When Data Collection Meets Non-technical CSOs in Low-Income Areas,Data Lovers in in a Dangerous Time,Scratching Someone Else's Itch,Data Tables - Stencila,David Selassie Opoku,Brendan O'Brien,Adam Hyde
 2:30: PM,What's next in open data? The limits of the publication discourse,How to mislead the public,In search for the ideal csv template to map elections,Data Tables - Stencila,Paul Walsh,Philipp Burckhardt,Roger Fischer
 3:00: PM,Break,,,,,,
-3:30: PM,Mantle: A Proposal for Automated Metadata and Linked Data for Scientific Users,Continuous Data Validation for Everybody,How do I get that? Strategies for requesting data and negotiating for it,Data Tables - data.world,Toph Allen,Adrià Mercader,Carli Brosseau
+3:30: PM,Mantle: A Proposal for Automated Metadata and Linked Data for Scientific Users,Continuous Data Validation for Everybody,How do I get that? Strategies for requesting data and negotiating for it,Data Tables - data.world,Toph Allen,AdriÃ  Mercader,Carli Brosseau
 4:00: PM,Metatab: Metadata for Mortals,DDF: Gapminder's data model for collaborative harmonization of multidimensional statistics.,Role of data intermediaries in the civic data ecosystem,Data Tables - data.world,Eric Busboom,Jasper Heeffer,Bob Gradeck
 4:30: PM,Angela Bassa. Keynote in Eliot Chapel,,,,,,
 5:30: PM,Reception in Buchan Hall until 7:00pm,,,,,,
@@ -21,7 +21,7 @@ WEDNESDAY - May 3 - Day 2,,,,,,,
 ,Room A - A108,Room B - B102,Room C - Eliot Chapel,Room D - B101,,,
 9:00: AM,9-10:00am Coffee/Breakfast/Registration/Hangout time in Atrium,,,,,,
 10:00: AM,Laurie Allen. Keynote in Eliot Chapel,,,,,,
-11:00: AM,"A Better ""Edit"" Button for GitHub-Hosted Data",The evolution of a GTFS data pipeline,"âs, ð¹s, and major ðs: Emoji data science & journalism",Data Tables - Data Package Pipelines,"Matt ""Potch"" Claypotch",Danny Whalen,Hamdan Azhar
+11:00: AM,"A Better ""Edit"" Button for GitHub-Hosted Data",The evolution of a GTFS data pipeline,"Ã¢ÂÂs, Ã°ÂÂÂ¹s, and major Ã°ÂÂÂs: Emoji data science & journalism",Data Tables - Data Package Pipelines,"Matt ""Potch"" Claypotch",Danny Whalen,Hamdan Azhar
 11:30: AM,DIPpering the data: open source tools for data integration,A match made in heaven: domain expert meets csv; gives birth to ontologies,Location - Trends in Time and Place,Data Tables - Data Package Pipelines,Lilly Winfree,Nicole Vasilevsky and Daniel Keith,Christopher Moravec
 12:00: PM,Data Modeling for Humans: A Learnable Conceptual Model for Relational Data,Towards a Taxonomy of Government Data,Using Web Archives to Enrich the Live Web Experience Through Storytelling,Data Tables - Data Package Pipelines,Jason Crawford,Hunter Owens,Yasmin AlNoamany
 12:30: PM,Lunch in Atrium,,,,,,
@@ -34,3 +34,4 @@ WEDNESDAY - May 3 - Day 2,,,,,,,
 4:30: PM,Reproducible and reusable research: Data sharing policies & community driven strategies for improving the status quo,"Math, Numeric Computing, and JavaScript",Machine Learning is for Everyone,Data Tables - Dat,Robin Champieux,Athan Reines,Melissa Santos
 5:00: PM,Outros/Goodbye in Eliot Chapel,,,,,,
 5:30: PM,Hangout time,,,,,,
+,,,,,,,
