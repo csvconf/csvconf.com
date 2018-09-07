@@ -1,8 +1,8 @@
 ---
-layout: default
+layout: default-2017
 title: Locations
 class: locations
-permalink: /locations/
+permalink: /2017/locations/
 ---
 Welcome to Portland!
 ===

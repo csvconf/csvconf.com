@@ -1,0 +1,42 @@
+<html>
+  <head>
+    <title>csv,conf,v3 - May 2-3 2017, Portland, OR</title>
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans:300,500" rel="stylesheet">
+    <link href="/css/style.css" rel="stylesheet">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Open Graph Data -->
+    <meta property="og:title" content="csv,conf,v3 - May 2-3 2017, Portland, OR"/>
+    <meta property="og:url" content="http://csvconf.com"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:description" content="A community conference in Portland for data makers everywhere featuring stories about data sharing and data analysis from science, journalism, government, and open source."/>
+
+  </head>
+
+<body class="wrap">
+	<div class="header">
+	  <h1><a href="/">csv,conf,v3</a></h1>
+	  <ul class="menu">
+	    <li>
+	      <a class="button" href="/2017" title="home">Home</a>
+	    </li>
+	    <li>
+	      <a class="button" href="/2017/speakers" title="list of speakers">Speakers</a>
+	    </li>
+	    <li>
+	      <a class="button" href="/2017/locations" title="About Portland">Portland</a>
+	    </li>
+	    <li>
+	      <a class="button" href="https://www.youtube.com/playlist?list=PLg5zZXwt2ZW5UIz13oI56vfZjF6mvpIXN" target="_blank" title="watch 2017 talks">Watch 2017 Talks</a>
+	    </li>
+	  </ul>
+	</div>
+
+<div class="{% if page.class %}{{ page.class }}{% endif %}">
+	{{ content }}
+
+	{% include footer.html %}
+</div>
+</body>
+</html>
