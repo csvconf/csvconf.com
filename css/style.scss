@@ -3,6 +3,7 @@
 ---
 
 $blue: #537ABD;
+$pink: #F0D1E0;
 
 * {
   box-sizing: border-box;
@@ -338,5 +339,50 @@ footer {
 
   p {
     font-size: 14px;
+  }
+}
+
+.footer-info {
+  font-size: 14px;
+  border-top: 5px solid black;
+  padding:1% 0;
+
+}
+
+#dark-theme {
+  background-color: $pink;
+  font-family: 'Fira Sans', sans-serif;
+  margin: 45px;
+  color: black;
+
+
+  table, footer {
+    color: black;
+  }
+
+  .header {
+    border-bottom: 5px solid black;
+  }
+
+  .button {
+    color: #3D9970;
+    background-color: black;
+    transition: .25s background;
+    padding: 1em 2em;
+    display: inline-block;
+
+    &:hover {
+      background-color: $pink;
+      color: black;
+    }
+  }
+
+  p, a {
+    color: black;
+  }
+
+  table td, table th {
+    border: 1px solid black;
+    border-width: 5px;
   }
 }
