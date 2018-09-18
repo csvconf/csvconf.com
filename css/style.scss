@@ -365,14 +365,14 @@ footer {
   }
 
   .button {
-    color: #3D9970;
+    color: $pink;
     background-color: black;
     transition: .25s background;
     padding: 1em 2em;
     display: inline-block;
 
     &:hover {
-      background-color: $pink;
+      background-color: white;
       color: black;
     }
   }
