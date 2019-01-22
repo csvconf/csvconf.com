@@ -377,7 +377,34 @@ footer {
       color: black;
     }
   }
-
+  
+  .button--info {
+    width: 100%;
+    margin-top: 1em;
+    vertical-align: top;
+    display: inline-block;
+    padding: .5%;
+  }
+  
+  @media (min-width: 1024px) {
+    .button--info {
+      width: 30%;
+    }
+  }
+  
+  table.locations,
+  table.keynotes,
+  table.speaker-list {
+  }
+  
+  .keynote-selector:checked + .keynote {
+    background: #f6e4ed;
+  }
+  
+  .keynotes td {
+    border-right: none;
+  }
+  
   p, a {
     color: black;
   }
