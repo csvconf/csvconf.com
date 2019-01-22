@@ -397,12 +397,16 @@ footer {
   table.speaker-list {
   }
   
+  .keynotes td {
+    border-right: none;
+  }
+
   .keynote-selector:checked + .keynote {
     background: #f6e4ed;
   }
   
-  .keynotes td {
-    border-right: none;
+  .keynote .image {
+    background-color: #eabed3;
   }
   
   p, a {
