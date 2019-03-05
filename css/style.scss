@@ -362,6 +362,7 @@ footer {
 
   .header {
     border-bottom: 5px solid black;
+    padding: 0 0 10px;
   }
 
   .button {
@@ -420,5 +421,9 @@ footer {
   table td, table th {
     border: 1px solid black;
     border-width: 5px;
+  }
+
+  .locations {
+    max-width: 80%;
   }
 }

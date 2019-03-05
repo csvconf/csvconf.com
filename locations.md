@@ -35,7 +35,7 @@ Welcome to Portland!
 
 # Hotels
 
-> [Open Source Bridge 2016](http://opensourcebridge.org/wiki/2016/Hotels) created a fantastic hotel guide, which we will annotate below.
+[Open Source Bridge 2016](http://opensourcebridge.org/wiki/2016/Hotels) created a fantastic hotel guide, which we will annotate below.
 
 <iframe src="https://www.google.com/maps/d/embed?mid=1ROb_8PlZLRqQIpxNRDsru75ldfk" width="640" height="480"></iframe>
 
@@ -50,6 +50,8 @@ Welcome to Portland!
 [Jupiter Hotel](https://jupiterhotel.com/) is right next to the [Doug Fir](http://www.dougfirlounge.com/calendar/), an iconic Portland music venue. This may make it more or less appealing to you depending on who is playing. Potentially worth it just for the log-themed decor in the Doug Fir. Walkable to restaurants and shops along East Burnside.
 
 [The Heathman](http://portland.heathmanhotel.com/) has their employees wear a [distinctive costume](https://goo.gl/images/DskmLq) so be nice to them if you stay there. Danielle has heard the attached restaurant is good, but she can not personally vouch for it.
+
+---
 
 # Airbnb
 
@@ -87,6 +89,7 @@ Still lots of cats and bars, Eater breaks it down [here](http://pdx.eater.com/ma
 
 Lots of cats, bars and brunch. Charming, walkable neighborhood but further out from the venue.
 
+---
 
 # Transportation
 
@@ -100,6 +103,8 @@ MAX - a cool light rail named after Max Ogden. Goes from the Airport to Downtown
 [Biketown app](https://www.biketownpdx.com/) - Portland's orange bicycle share. Sponsored by Nike, and definitely pronounced 'Bike-town' as if it was 'Nike-town'
 
 Both Lyft and Uber operate in Portland. You can also call a [Radio Cab](http://radiocab.net/#/booking/).
+
+---
 
 # Your morning coffee
 
@@ -124,13 +129,15 @@ Rancillio lever-pull espresso machine and a blend of PDX and Italian style make 
 520 Southwest 5th Avenue  Portland
 Monday - Friday 7:30 am - 3:00 pm, closed weekends.
 
+--- 
+
 # Donut Wars
 Take a side.
 [Blue Star Donuts](http://www.bluestardonuts.com/) - They're fancy.
 [Voodoo Donuts](http://voodoodoughnut.com/) - They're not fancy.
 [Pips](https://www.facebook.com/PipsOriginal/) - They're small but you get a lot of them.
 
-
+---
 
 # Useful places near the venue
 Safeway Supermarket (also has a pharmacy) - 1010 SW Jefferson St, Portland
@@ -139,12 +146,13 @@ CVS Pharmacy inside Target - 939 SW Morrison St, Portland
 
 [Kure](https://kurejuicebar.com/) maybe you want a smoothie or a juice?
 
-
 [Petunia's](http://petuniaspiesandpastries.com/) gluten free and vegan treats, sandwiches.
 
 [Ruby Jewel Ice Cream](http://www.rubyjewel.com/) ice cream near the venue!!
 
 [Powell's Books](http://www.powells.com/)
+
+---
 
 # Dinner
 
@@ -162,7 +170,6 @@ Dinner: Sunday - Thursday 5:30 pm to 10:00 pm
 1014 SW Stark St. Portland
 Happy Hour 3:00 pm – 6:00 pm
 Dinner 6:00 pm – close
-
 
 [Oven and Shaker](http://ovenandshaker.com/) - fancy pizza and bar, long tables so it can be good for groups, but they don't take reservations.
 1134 NW Everett St, Portland
@@ -186,3 +193,5 @@ Sometimes you need to leave downtown to get dinner, these options are close to t
 
 ## Karaoke
 [Voice Box](http://voiceboxkaraoke.com/locations/southeast-portland/) make your list [here](http://vbsongs.com/), book a private room! Reservations required.
+
+---
