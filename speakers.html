@@ -1,0 +1,34 @@
+---
+layout: default
+title: Speakers
+permalink: /speakers/
+---
+<p class="speakers-intro">
+We are assembling an exciting team of data makers and enthusiasts representing academia, science, journalism, government, and open source projects and will update this page with the conference schedule soon.
+</p>
+
+<h1>Speakers</h1>
+
+<table class="speakers">
+  {% for speaker in site.data.2019_speakers %}
+  <tr class="speaker" id="{{ speaker.name | slugify }}">
+    <td class="about">
+      <img class="image"
+        style="background-image:url(/img/speakers-2019/{{ speaker.id }}.jpg)"/>
+      <span class="name">
+        {% if speaker.twitter %}
+          <a href="http://twitter.com/{{speaker.twitter}}">{{ speaker.name }}</a>
+        {% else %}
+          {{ speaker.name }}
+        {% endif %}
+      </span>
+    </td>
+    <td>
+      <p class="title">{{ speaker.title }}</p>
+      <p class="abstract">{{ speaker.abstract }}</p>
+    </td>
+  </tr>
+  {% endfor %}
+</table>
+
+<hr>
