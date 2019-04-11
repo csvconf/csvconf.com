@@ -59,27 +59,18 @@ Do you prefer apartments to hotels? Do you want to pretend you live in Portland?
 
 ## Neighborhoods
 
-[Portland is organized](https://en.wikipedia.org/wiki/Neighborhoods_of_Portland,_Oregon) into four quadrants - SW, NW, SE, NE (and North Portland, which is the fifth quadrant, that's just how we do it). Burnside divides North and South, and the Willamette River (said in a way that rhymes with "damnit") divides East and West.  North Portland is North of Burnside, east of the Willamete, and west of I-5. The Elliot Center is in SW Portland. Below are some neighborhoods to check out.
+[Portland is organized](https://en.wikipedia.org/wiki/Neighborhoods_of_Portland,_Oregon) into four quadrants - SW, NW, SE, NE (and North Portland, which is the fifth quadrant, that's just how we do it). Burnside divides North and South, and the Willamette River divides East and West.  North Portland is North of Burnside, east of the Willamete, and west of I-5. The Elliot Center is in SW Portland. Below are some neighborhoods to check out.
 
 ## NW 23rd
-North of Burnside along NW 23rd Ave, this is a lively area with a mix of local and chain shops. Charming apartments. 1-2 miles from the venue, ~30 min walk or streetcar or ~15 min bus ride. Cat level: Medium.
+North of Burnside along NW 23rd Ave, this is a lively area with a mix of local and chain shops. Charming apartments. 1-2 miles from the venue, ~30 min walk or streetcar or ~15 min bus ride.
 
 ## The Pearl
 
-North of Burnside and east of the 405, mainly loft and condo apartments. Gentrified in the 90s, this used to be a warehouse district. Now it's home to many bars and restaurants. This is where you'd go out to dinner with your boss or your parents.  ~1 mile from the Elliot center, walkable or take the streetcar. **Warning: No cats.**
+North of Burnside and east of the 405, mainly loft and condo apartments. Gentrified in the 90s, this used to be a warehouse district. Now it's home to many bars and restaurants. This is where you'd go out to dinner with your boss or your parents.  ~1 mile from the Elliot center, walkable or take the streetcar.
 
 ## SE Belmont and Division
 
 Cat, brunch and coffee paradise. Full of charming houses and apartments. Food-cart central.  Look for places in Sunnyside, Richmond, Division, Belmont, and Hawthorne neighborhoods or search the Zip Code 97214. Bike or ~25 min bus ride to the venue.
-
-#### Notable cats in this area
-
-- [Lucille](https://goo.gl/photos/Mu3YhshPTdnqTxA19)
-- [Sunny D](https://goo.gl/photos/pRNyzjsnpH7Xbq2p6)
-- [Persian](https://goo.gl/photos/u2TfrdXEF7s6iJf5A)
-- [Baby](https://goo.gl/photos/aZ9F2X6g6D6HPdEJ7)
-- [Queen Walter](https://goo.gl/photos/U9nBJ6YmRy5pQoSM6)
-- And [many more](https://goo.gl/photos/byhxhJh3aYRcHDT49)
 
 ## N Mississippi
 
@@ -87,7 +78,7 @@ Still lots of cats and bars, Eater breaks it down [here](http://pdx.eater.com/ma
 
 ## NE Alberta
 
-Lots of cats, bars and brunch. Charming, walkable neighborhood but further out from the venue.
+Charming, walkable neighborhood with lots of bars and brunch, but further out from the venue.
 
 ---
 
@@ -96,7 +87,7 @@ Lots of cats, bars and brunch. Charming, walkable neighborhood but further out f
 [The Streetcar](https://portlandstreetcar.org/) - It's slow! But sometimes it's better than walking if it happens to be going where you need to go. Separate tickets from the bus and MAX.
 
 [The Bus and the MAX](http://trimet.org/)
-MAX - a cool light rail named after Max Ogden. Goes from the Airport to Downtown (Red line). The bus is reasonably reliable and you can track you bus' arrival time with the Trimet app. Important because during off-peak hours, the busses run less frequently.
+MAX is the light rail and goes from the Airport to Downtown (Red line). The bus is reasonably reliable and you can track your bus' arrival time with the Trimet app. Important because during off-peak hours, the busses run less frequently.
 
 [Trimet Tickets app](https://trimet.org/app/) - Ride the bus or the MAX with interchangeable passes, pay once for a two hour window of as much public transportation you can get, just show the driver your ticket on your phone when you get on.
 
