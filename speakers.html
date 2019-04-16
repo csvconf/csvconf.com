@@ -3,9 +3,58 @@ layout: default
 title: Speakers
 permalink: /speakers/
 ---
+<h1>Schedule</h1>
+
 <p class="speakers-intro">
-We are assembling an exciting team of data makers and enthusiasts representing academia, science, journalism, government, and open source projects and will update this page with the conference schedule soon.
+We are assembling an exciting team of data makers and enthusiasts representing academia, science, journalism, government, and open source projects.
 </p>
+
+<p class="speakers-intro">
+  We will also be running a series of workshops in Room D - B101 called Data Tables.
+</p>
+
+<table class="speakers">
+  {% for row in site.data.2019_schedule %}
+  <tr>
+
+    {% if row['Room A'] == nil %}
+      <td colspan=5 class="day">{{ row['Time'] }}</td>
+    {% else %}
+      {% if row['Room B'] == nil %}
+        <td>{{ row['Time'] }}</td>
+        <td colspan="4" class="highlight">{{ row['Room A'] }}</td>
+      {% else %}
+        <td>{{ row['Time'] }}</td>
+        <td>
+          {% if row['Room A speakers'] != nil %}
+            <a href="#{{ row['Room A speakers'] | slugify }}" class="talk-name">{{row['Room A']}}</a>
+            <div>{{row['Room A speakers']}}</div>
+          {% else %}
+            {{row['Room A']}}
+          {% endif %}
+        </td>
+        <td>
+          {% if row['Room B speakers'] != nil %}
+            <a href="#{{ row['Room B speakers'] | slugify }}" class="talk-name">{{row['Room B']}}</a>
+            <div>{{row['Room B speakers']}}</div>
+          {% else %}
+            {{row['Room B']}}
+          {% endif %}
+        </td>
+        <td>
+          {% if row['Room C speakers'] != nil %}
+            <a href="#{{ row['Room C speakers'] | slugify }}" class="talk-name">{{row['Room C']}}</a>
+            <div>{{row['Room C speakers']}}</div>
+          {% else %}
+            {{row['Room C']}}
+          {% endif %}
+        </td>
+        <td>{{row['Room D']}}</td>
+      {% endif %}
+    {% endif %}
+  </tr>
+  {% endfor %}
+</table>
 
 <h1>Speakers</h1>
 
