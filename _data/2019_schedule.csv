@@ -1,6 +1,6 @@
 Time,Room A,Room B,Room C,Room D,Room A speakers,Room B speakers,Room C speakers
 WEDNESDAY - May 8 - Day 1,,,,,,,
-,Room A - A108,Room B - B102,Room C - C103,Room D - B101,,,
+,Room A - A108 - 55 ppl,Room B - B102 - 100 ppl,Room C - C103 - 46 ppl,Room D - B101 - 34 ppl,,,
 9:00: AM,9-10:00am Hot Breakfast Buffet/Hangout time,,,,,,
 10:00: AM,10-10:30am Intros/Hello in Eliot Chapel           ,,,,,,
 10:30: AM,The Time is Now,Digging for Urban and Civic Data in Eastern Europe,Frictionless Data Processing in the Wild,Data Tables,Afua Bruce,Gleb Kanunnikau,Amber D. York
@@ -12,24 +12,24 @@ WEDNESDAY - May 8 - Day 1,,,,,,,
 2:00: PM,Social Data: Invading Privacy or Creating Better Cities?,Data Analysis to Improve Diversity and Equity in Graduate-Level Education,Hacking Open Data in Africa,Data Tables,Gala Camacho,Rachel Mallinga,Soila Kenya
 2:30: PM,The Streets of Women. An Analysis of Street Nomenclature Data in Latin America and Spain through OpenStreetMap and Wikipedia,Using Research and Technology to Tackle Gender Bias,US Energy Data Liberation,Data Tables,Selene Yang,Mollie Marr,Zane Selvans
 3:00: PM,Break,,,,,,
-3:30: PM,Qualitative Research Using Open Source Tools,Open Infrastructure for Open Science: How Binder Powers an Open Stack in the Cloud,Fundamentals of Software Sustainability,Data Tables,Beth Duckles + Vicky Steeves,Chris Holdgraf,Daniel S. Katz
-4:00: PM,Collections as Data: Part to Whole,Where Has Your Data Come From? Data Ancestry and Other Tales,How to Feed Your Robot: Building and Maintain Open Machine Learning Datasets,Data Tables,Thomas Padilla,Dr. Tania Allard,Evan Tachovsky
+3:30: PM,Qualitative Research Using Open Source Tools,Building Communities of Practice around Environmental Open Data Science,Fundamentals of Software Sustainability,Data Tables,Beth Duckles + Vicky Steeves,Julia Lowndes,Daniel S. Katz
+4:00: PM,Missing Data for Data - Our Quest to Clean Up Institutional Affiliations in Dryad,Where Has Your Data Come From? Data Ancestry and Other Tales,How to Feed Your Robot: Building and Maintain Open Machine Learning Datasets,Data Tables,"Daniella Lowenberg, Ted Habermann",Dr. Tania Allard,Evan Tachovsky
 4:30: PM,KEYNOTE 2,,,,,,
 5:30: PM,Reception in Buchan Hall until 7pm,,,,,,
 ,,,,,,,
 THURSDAY - May 9 - Day 2,,,,,,,
-,Room A108,Room B102,Room B103,Room  D - B101,,,
+,Room A108 - 55 ppl,Room B102 - 100 ppl,Room B103 - 46 ppl,Room B101 - 34 ppl,,,
 9:00: AM,9-10:00am Hot Breakfast Buffet/Hangout time,,,,,,
 10:00: AM,KEYNOTE 3,,,,,,
-11:00: AM,Building Communities of Practice around Environmental Open Data Science,The Data to Policy Project: Using Data to Build More Equitable Communities,Should Real Estate Data be Open?,Data Tables,Julia Lowndes,Melissa Mejia,Andy Terrel
+11:00: AM,Open infrastructure for open science: how Binder powers an open stack in the cloud,The Data to Policy Project: Using Data to Build More Equitable Communities,Should Real Estate Data be Open?,Data Tables,Chris Holdgraf,Melissa Mejia,Andy Terrel
 11:30: AM,Improving the Quality of Neuroimaging Scans,Preparing Clients for Open Source Contributions,How to Build a Data-Driven Culture,Data Tables,Jonathan Uriarte-Lopez,Aaron Couch,Patrick McGarry
 12:00: PM,Data Science Training and Community Building through Hackweeks,Crafting Data-Driven Stories for the Everyday Reader,Datasette,Data Tables,Micaela Parker,Marisa Aquilina,Simon Willison
 12:30: PM,Lunch in Atrium Area,,,,,,
 1:00: PM,KEYNOTE 4,,,,,,
-2:00: PM,Beyond the WARC: Making Web Archives More Useful and User-friendly,How a File Format Led to a Crossword Scandal,Missing Data for Data - Our Quest to Clean Up Institutional Affiliations in Dryad,Data Tables,Ilya Kreymer,Saul Pwanson,"Daniella Lowenberg, Ted Habermann"
-2:30 PM,Making Data Part of the Web,Spanking and Spreadsheets: Data-driven Sex Journalism,Promoting Open Data by Empowering Stakeholders: What Data Should Authors Share?,Data Tables,Andrew Dudfield,Jacqueline Nolis & Heather Nolis,Tim Vines
+2:00: PM,Beyond the WARC: Making Web Archives More Useful and User-friendly,How a File Format Led to a Crossword Scandal,How open data can promote participatory democracy,Data Tables,Ilya Kreymer,Saul Pwanson,Hector Dominguez
+2:30 PM, ,Spanking and Spreadsheets: Data-driven Sex Journalism,Version Controlled Stakeholder Reporting: Building an end-to-end data reporting infrastructure,Data Tables, ,Jacqueline Nolis & Heather Nolis,Jose M Hernandez
 3:00: PM,Break,,,,,,
-3:30: PM,How Open Data Can Promote Participatory Democracy,Data Scavenger Hunts: Learning about Data Together,Squishy Amoeba-Like Objects,Data Tables,Hector Dominguez,Ted Laderas,Darius Kazemi
-4:00: PM,Version Controlled Stakeholder Reporting: Building an End-to-End Data Reporting Infrastructure,Annotations in the Classroom; The Classroom in Annotations,A Love Letter to the Boxplot,Data Tables,Jose M Hernandez,Asura Enkhbayar,Melissa Santos
+3:30: PM,Squishy Amoeba-Like Objects,Data Scavenger Hunts: Learning about Data Together,,Data Tables,Darius Kazemi,Ted Laderas,
+4:00: PM,A Love Letter to the Boxplot,Annotations in the Classroom; The Classroom in Annotations,,Data Tables,Melissa Santos,Asura Enkhbayar,
 4:30: PM,Outros/Goodbye in Eliot Chapel,,,,,,
 5:00: PM,5-6pm Hangout time,,,,,,
