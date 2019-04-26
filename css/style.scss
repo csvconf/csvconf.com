@@ -70,6 +70,9 @@ table {
   border-collapse: collapse;
   border-style: hidden;
 }
+strong {
+  font-weight: 500;
+}
 
 .link, .link a {
   background-color: white;
@@ -378,24 +381,24 @@ footer {
       color: black;
     }
   }
-  
+
   .button--info {
     width: 100%;
     vertical-align: top;
     display: inline-block;
   }
-  
+
   @media (min-width: 1024px) {
     .button--info {
       width: 30%;
     }
   }
-  
+
   table.locations,
   table.keynotes,
   table.speaker-list {
   }
-  
+
   .keynotes td {
     border-right: none;
   }
@@ -403,17 +406,18 @@ footer {
   .keynote-selector:checked + .keynote {
     background: #f6e4ed;
   }
-  
+
   .keynote .image {
     background-color: #eabed3;
   }
-  
+
   p, a {
     color: black;
   }
 
   h1, h2, h3 {
     color: black;
+    font-weight: 500;
   }
 
   table td, table th {
