@@ -79,6 +79,13 @@ We are assembling an exciting team of data makers and enthusiasts representing a
     <td>
       <p class="title">{{ speaker.title }}</p>
       <p class="abstract">{{ speaker.abstract }}</p>
+      <span>
+        {% if speaker.slides_url %}
+          <a href="{{speaker.slides_url}}" target="_blank">Slides from {{ speaker.name }}'s Presentation</a>
+        {% else %}
+        
+        {% endif %}
+      </span>
     </td>
   </tr>
   {% endfor %}
