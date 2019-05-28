@@ -10,7 +10,7 @@ We are assembling an exciting team of data makers and enthusiasts representing a
 </p>
 
 <p class="speakers-intro">
-  If you are in Portland on Tuesday evening, join <a href = "https://okfn.org">Open Knowledge Foundation</a> for a pre,csv,conf,v4,meetup at the Eliot Center from 5-7pm PDT.  <a href = "https://forms.gle/4A3TiA7HGcd9FpEj8">Please RSVP here</a> if you plan on attending.
+<a href = "https://okfn.org">Open Knowledge Foundation</a> held a pre,csv,conf,v4,meetup at the Eliot Center between 5-7pm PDT on May 7, 2019. Presentation slides from the lightning talks can be found <a href = "https://doi.org/10.5281/zenodo.2873984#.XO04qS15jmo">here</a>.
 </p>
 
 <table class="speakers">
@@ -81,9 +81,16 @@ We are assembling an exciting team of data makers and enthusiasts representing a
       <p class="abstract">{{ speaker.abstract }}</p>
       <span>
         {% if speaker.slides_url %}
-          <a href="{{speaker.slides_url}}" target="_blank">Slides from {{ speaker.name }}'s Presentation</a>
+          <a href="{{speaker.slides_url}}" target="_blank">View Slides</a> ·
         {% else %}
-        
+           
+        {% endif %}
+      </span>
+      <span>
+        {% if speaker.talk_url %}
+          <a href="{{speaker.talk_url}}" target="_blank">Watch Talk</a>
+        {% else %}
+      
         {% endif %}
       </span>
     </td>
