@@ -393,6 +393,19 @@ footer {
       width: 30%;
     }
   }
+  
+  .button--std {
+    color: $pink;
+    background-color: black;
+    transition: .25s background;
+    padding: 1em 2em;
+    display: inline-block;
+    font-size: smaller;
+    
+    h1, p, a {
+      color: $pink;
+    }
+  }
 
   table.locations,
   table.keynotes,
