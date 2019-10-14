@@ -4,6 +4,7 @@
 
 $blue: #537ABD;
 $pink: #F0D1E0;
+$green: #D1F0E0;
 
 * {
   box-sizing: border-box;
@@ -352,7 +353,7 @@ footer {
 
 }
 
-#dark-theme {
+#pink-theme {
   background-color: $pink;
   font-family: 'Fira Sans', sans-serif;
   margin: 45px;
@@ -442,3 +443,95 @@ footer {
     max-width: 80%;
   }
 }
+
+#green-theme {
+  background-color: $green;
+  font-family: 'Fira Sans', sans-serif;
+  margin: 45px;
+  color: black;
+
+
+  table, footer {
+    color: black;
+  }
+
+  .header {
+    border-bottom: 5px solid black;
+    padding: 0 0 10px;
+  }
+
+  .button {
+    color: $green;
+    background-color: black;
+    transition: .25s background;
+    padding: 1em 2em;
+    display: inline-block;
+    font-size: smaller;
+
+    &:hover {
+      background-color: white;
+      color: black;
+    }
+  }
+
+  .button--info {
+    width: 100%;
+    vertical-align: top;
+    display: inline-block;
+  }
+
+  @media (min-width: 1024px) {
+    .button--info {
+      width: 30%;
+    }
+  }
+  
+  .button--std {
+    color: $green;
+    background-color: black;
+    transition: .25s background;
+    padding: 1em 2em;
+    display: inline-block;
+    font-size: smaller;
+    
+    h1, p, a {
+      color: $green;
+    }
+  }
+
+  table.locations,
+  table.keynotes,
+  table.speaker-list {
+  }
+
+  .keynotes td {
+    border-right: none;
+  }
+
+  .keynote-selector:checked + .keynote {
+    background: #f6e4ed;
+  }
+
+  .keynote .image {
+    background-color: #eabed3;
+  }
+
+  p, a {
+    color: black;
+  }
+
+  h1, h2, h3 {
+    color: black;
+    font-weight: 500;
+  }
+
+  table td, table th {
+    border: 1px solid black;
+    border-width: 5px;
+  }
+
+  .locations {
+    max-width: 80%;
+  }
+}
+
