@@ -3,7 +3,8 @@
 ---
 
 $blue: #537ABD;
-$pink: #F0D1E0;
+$pink: #f0ecd1;
+
 
 * {
   box-sizing: border-box;
@@ -393,7 +394,7 @@ footer {
       width: 30%;
     }
   }
-  
+
   .button--std {
     color: $pink;
     background-color: black;
@@ -401,7 +402,7 @@ footer {
     padding: 1em 2em;
     display: inline-block;
     font-size: smaller;
-    
+
     h1, p, a {
       color: $pink;
     }
