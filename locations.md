@@ -36,6 +36,7 @@ The city is divided into [four quadrants](https://en.wikipedia.org/wiki/Quadrant
 ## Hotels
 
 There are several hotels within a few minutes’ walk of the conference venue:
+
 - [Hotel 1600](https://www.hotel1600.com/)
 - [Tabard Inn](https://www.tabardinn.com/rooms)
 - [Kimpton Rouge](https://www.rougehotel.com/)
