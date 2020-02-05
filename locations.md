@@ -33,6 +33,8 @@ The city is divided into [four quadrants](https://en.wikipedia.org/wiki/Quadrant
 
 # Accommodation
 
+Washington DC has lots of conferences in May 2020. Please book accommodation as early as possible.
+
 ## Hotels
 
 There are several hotels within a few minutes’ walk of the conference venue:
@@ -98,7 +100,6 @@ For well-researched compendia of places to try while you’re here, check out [E
 
 
 ---
-
 
 # Things to Do
 
