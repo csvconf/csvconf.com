@@ -1,5 +1,5 @@
 ---
-layout: default-2019
+layout: default
 title: Locations
 class: locations
 permalink: /locations/
