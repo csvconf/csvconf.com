@@ -39,7 +39,7 @@ Washington DC has lots of conferences in May 2020. Please book accommodation as 
 
 There are several hotels within a few minutes’ walk of the conference venue:
 
-- [Hotel 1600](https://www.hotel1600.com/)
+- [Canopy Hotel Embassy Row](https://www.hilton.com/en/hotels/dcaempy-canopy-washington-dc-embassy-row)
 - [Tabard Inn](https://www.tabardinn.com/rooms)
 - [Kimpton Rouge](https://www.rougehotel.com/)
 - [The Darcy](https://www.thedarcyhotel.com/)
