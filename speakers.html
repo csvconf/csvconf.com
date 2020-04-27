@@ -3,14 +3,34 @@ layout: default
 title: Speakers
 permalink: /speakers/
 ---
-
-<h1>Speakers</h1>
+<h1>Schedule</h1>
 
 <p class="speakers-intro">
-We have assembled an exciting team of data makers and enthusiasts representing academia, science, journalism, government, and open source projects. These are the talks we have lined up for csv,conf,v5.
+We have assembled an exciting team of data makers and enthusiasts representing academia, science, journalism, government, and open source projects. These are the talks we have lined up for csv,conf,v5. <br><br>PRO TIP: Clicking on a session title in the Schedule will allow you to see the session's summary.
 </p>
 
 
+<table class="speakers">
+  {% for row in site.data.2020_schedule %}
+  <tr>
+    {% if row['Session'] == nil %}
+      <td colspan=5 class="day">{{ row['Time'] }}</td>
+    {% else %}
+      <td>{{ row['Time'] }}</td>
+      <td>
+        {% if row['Speakers'] != nil %}
+          <a href="#{{ row['Speakers'] | slugify }}" class="talk-name">{{row['Session']}}</a>
+          <div>{{row['Speakers']}}</div>
+        {% else %}
+          {{row['Session']}}
+        {% endif %}
+      </td>
+    {% endif %}
+  </tr>
+  {% endfor %}
+</table>
+
+<h1>Speakers</h1>
 
 <table class="speakers">
   {% for speaker in site.data.2020_speakers %}
