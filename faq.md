@@ -5,7 +5,7 @@ class: locations
 permalink: /faq/
 ---
 
-# FAQ for Online Conference
+# Conference FAQ
 
 Online Conference schedule and speakers: [csvconf.com/speakers/](https://csvconf.com/speakers/)
 
