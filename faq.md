@@ -61,10 +61,10 @@ Our in-person conference normally has three tracks. For this online version of c
 
 ## How can I watch the talks after the conference is over? 
 
-All csv,conf,v5 talks will be streamed live on [YouTube](https://www.youtube.com/channel/UCWq7JfT4PJrCZLmxSOVJOww), and will also be posted on our YouTube after the event. 
+All csv,conf,v5 talks will be posted on our YouTube after the event. 
 Recorded talks will be available on Crowdcast soon after each session. 
 
-Speakers will definitely be able to opt out of being posted on YouTube.
+Speakers will be able to opt out of being posted on YouTube.
 
 ## What’s csvconf's social media policy?
 
