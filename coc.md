@@ -31,6 +31,7 @@ If you are being harassed, notice that someone else is being harassed, or have a
 **Personal report**: Please email either Lilly ([lilly.winfree@okfn.org](mailto:lilly.winfree@okfn.org)) or Jonathan ([jocain@uoregon.edu](mailto:jocain@uoregon.edu)) to file a personal report. You can also directly message either Lilly or Jonathan on the csv,conf Slack ([csvconf.slack.com](http://csvconf.slack.com)).
 
 In your report, please do your best to include:
+
 - Your contact information
 - Identifying information (e.g. names, nicknames, pseudonyms) of the participant who has violated the Code of Conduct
 - The behaviour that was in violation
