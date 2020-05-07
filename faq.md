@@ -11,7 +11,11 @@ Online Conference schedule and speakers: [csvconf.com/speakers/](https://csvconf
 
 Conference dates: May 13-14, 2020, Online.
 
-# FAQs for Participants:
+<div>
+  <h1 id="FAQs-for-Participants">
+    <a href="#FAQs-for-Participants">FAQs for Participants</a>
+  </h1>
+</div>
 
 ## How can I join the conference?
 
@@ -70,7 +74,24 @@ Recorded talks will be available on Crowdcast soon after each session.
 
 Speakers will be able to opt out of being posted on YouTube.
 
-# FAQs for Speakers
+<div>
+  <h1 id="FAQs-for-Speakers">
+    <a href="#FAQs-for-Speakers">FAQs for Speakers</a>
+  </h1>
+</div>
+
+## Crowdcast specific instructions for speakers:
+
+- We found that Chrome was the best browser to use with Crowdcast.
+
+- When you share your screen - please select Share Specific Tab (if you’re running your slides on a web browser). This is so you can have both Crowdcast open and your presentation open at the same time.
+
+- Remember you’ll end up going full screen for your presentation, so you may need to find a way for you to see both the crowdcast screen and your presentation either by having crowdcast on another screen/monitor or having to run crowdcast on another device if you want to see the chat.
+
+- Crowdcast does leave icons when we toggle screen to have the slides full, try to leave a bit of room on your slides so text/info does not get cut off. Here is an image of what Crowdcast will look like. Note the speaker faces at the bottom left: 
+<img class="image" style="max-width: 60%" src="/img/crowdcast.png">
+
+- Crowdcast does not support sharing audio with the share screen. If you need to share a video or audio clip, please let us know. We have workarounds!
 
 ## I am giving a talk. Will we be able to practice using the platform prior to May 13/14?
 
@@ -78,19 +99,47 @@ Yes, we will host a series of open hours sessions on Crowdcast where we will be 
 
 In addition, we will run a session prior to the conference for participants to familiarise themselves with the platform. 
 
-## I am giving a talk. Can I pre-record it?
+## Can I pre-record my talk?
 
 On Crowdcast, it is easier for speakers to do a live presentation. However, if you would like to pre-record, for whatever reason, we would like to accommodate you. Please let us know [via email](mailto:csv-conf-coord@googlegroups.com) or Slack and we will work it out. 
 
-## I am giving a talk. What if I run overtime?
+## What if my talk runs over time?
 
-We need to make sure we keep to time, and the moderators will be strict on this. 
+We need to make sure we keep to time, and the moderators will be strict on this. The moderators will verbally signal to you when you are low on time.
 
 Speakers, please prepare a ‘come find me here’ slide to show at the end of your presentation
 
 Any questions asked in presentations will be shared with the speaker after their talk, and answers will be shared in the csv,conf Slack
 
-# Other General FAQs:
+## Are there any things I should do to set up my space/computer before my presentation?
+
+**Framing yourself:** Make sure your webcam is roughly at eye level and look into the camera. It makes it look like you’re looking at the audience.
+
+**Lighting:** Take a look at where your computer is set up. Make sure you don’t look too dark or you’re blown away from too little or too much light. More info on how to look fabulous on webcam: <https://www.ryerson.ca/journalism/news-events/2020/04/how-to-look-and-sound-fabulous-on-a-webcam/>
+
+**Audio:** Best practice is to always use headphones. This stops audio from your computer bleeding into your mic, if you’re using your computer mic. 
+Try to find a quiet place away from other living beings that make noise. 
+Mics are great, if you have one, use it as the mic will be further away from your computer, and won’t be next to your laptop’s fan. 
+
+**Please plug in your laptop.** There is nothing worse than losing your talk because your computer is out of battery!
+
+## Are there suggestions for improving my internet connection so I don't break up during my talk?
+
+**Ethernet is your friend.** See if you can plug your computer into ethernet for your talk so there’s less chance of wifi drop outs.
+
+**Bandwidth issues:** During your talk, try to avoid having everyone clog your Internet - ask roommates/family members to not over-tax the Internet. Take a break from streaming, downloading. Remind them it’s only 20 minutes! 
+
+## Curious if your set-up works with Crowdcast?:
+Try it out: https://www.crowdcast.io/setup
+
+## What if I have technical issues?
+If you have technical issues, post in the Slack channel and we will try to help you! You can join the [Slack channel](https://csvconf-slackin.herokuapp.com/) with [this link](https://join.slack.com/t/csvconf/shared_invite/zt-e0uf5c4m-hluOnoo5bPkOWvb0ewNCvg).
+
+<div>
+  <h1 id="other-general-FAQs">
+    <a href="#other-general-FAQs">Other General FAQs</a>
+  </h1>
+</div>
 
 ## Will you have a llama?
 
