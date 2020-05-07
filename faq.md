@@ -11,17 +11,17 @@ Online Conference schedule and speakers: [csvconf.com/speakers/](https://csvconf
 
 Conference dates: May 13-14, 2020, Online.
 
+# FAQs for Participants:
+
 ## How can I join the conference?
 
 Please register (for free!): [csvconfv5.eventbrite.com/](https://csvconfv5.eventbrite.com/)
 
-Read our conference  Code of Conduct. By joining the video feed, all participants agree to adhere to the Code of Conduct.
+Each Conference Session has a Crowdcast link to join. The links are listed in the [schedule](https://csvconf.com/speakers/).
 
-## Will you have a llama?
+Read our conference [Code of Conduct](https://csvconf.com/coc/). By joining the video feed, all participants agree to adhere to the Code of Conduct.
 
-Yes csv,conf will have a virtual appearance of the #commallama 🦙. 
-
-## How Does a virtual conference work?
+## How does a virtual conference work?
 
 Talks will be delivered in a seven-hour window, for two days in a row. Participants are encouraged to join talks that work for their schedule.
 
@@ -31,7 +31,7 @@ When participants join, their video will be off and they will be muted. The only
 
 The organising team will moderate every talk to introduce speakers, help with questions, ensure the Code of Conduct is followed and to make sure the technology runs smoothly. 
 
-Can’t make these dates or times? No worries - all the talks eill recorded. You will be able to watch all talks on crowdcast immediately after the session and talks will also be posted on our YouTube channel after the event. 
+Can’t make these dates or times? No worries - all the talks will be recorded. You will be able to watch all talks on crowdcast immediately after the session and talks will also be posted on our YouTube channel after the event. 
 
 ## What is the format of the conference sessions?
 
@@ -39,7 +39,7 @@ There will be three (3) talks per hour long session
 
 Talks will be fifteen (15) minutes, with five (5) minutes for Q&A. 
 
-Sessions will be moderated by the organising team
+Sessions will be moderated by the organising team.
 
 ## What platform will the conference use?
 
@@ -49,11 +49,15 @@ We will have another platform (perhaps Zoom but TBC) for breakout sessions and s
 
 We will also use our existing csv,conf Slack channel to communicate with speakers and attendees throughout the conference. Sign up now! <https://csvconf-slackin.herokuapp.com/>
 
-## How will you handle questions from the audience
+## How will you handle questions from the audience?
 
-Within Crowdcast, Please use the ‘Questions’ tab for questions for the speaker. These can be voted up & questions with the most votes will be asked to the speaker. The question writer will have the option to turn on their microphone and video to ask their question during the Q+A, or the moderator can ask the question if desired.
+*Questions for the speaker during their talk:* Within Crowdcast, Please use the ‘Questions’ tab for questions for the speaker. These can be voted up & questions with the most votes will be asked to the speaker. The question writer will have the option to turn on their microphone and video to ask their question during the Q+A, or the moderator can ask the question if desired.
 
-There is also a live chat that can be used for posting links to related work, general chit chat, and clapping after the talks end (👏). Remember to follow our Code of Conduct when participating in the chat.
+*Questions for the speaker after their talk:* We anticipate moving quickly, so there might not be enough time for the speaker to answer every question after their talk ends. If this is the case, the moderators will re-post the remaining questions in a Slack channel so the speakers can respond to the questions at their own pace.
+
+*Questions/comments for your fellow audience members:* There is also a live chat that can be used for posting links to related work, general chit chat, and clapping after the talks end (👏). Remember to follow our Code of Conduct when participating in the chat.
+
+*Questions for the organizers:* Please reach out in Slack if you have questions for the organizers. For technical help, see the help channel in Slack. For any inquiries related to the Code of Conduct, please follow the reporting guidelines specified in the [Code of Conduct](https://csvconf.com/coc/).
 
 ## It looks like sessions 3 & 4 and 9 & 10 will run simultaneously. Why is this?
 
@@ -66,11 +70,7 @@ Recorded talks will be available on Crowdcast soon after each session.
 
 Speakers will be able to opt out of being posted on YouTube.
 
-## What’s csvconf's social media policy?
-
-csv,conf,v5 has an open policy, but some speakers might have specific requests / directives around sharing of content from their sessions. Where this is the case, please observe their requests.
-
-We encourage you to Tweet (#csvconf @csvconference) during the sessions and throughout the conference days! Eating lunch during a talk? Let us know what meal you are enjoying! Spotted a llama? Let us know too (#commallama)
+# FAQs for Speakers
 
 ## I am giving a talk. Will we be able to practice using the platform prior to May 13/14?
 
@@ -89,3 +89,18 @@ We need to make sure we keep to time, and the moderators will be strict on this.
 Speakers, please prepare a ‘come find me here’ slide to show at the end of your presentation
 
 Any questions asked in presentations will be shared with the speaker after their talk, and answers will be shared in the csv,conf Slack
+
+# Other General FAQs:
+
+## Will you have a llama?
+
+Yes csv,conf will have a virtual appearance of the #commallama 🦙.
+
+## What’s csvconf's social media policy?
+
+csv,conf,v5 has an open policy, but some speakers might have specific requests / directives around sharing of content from their sessions. Where this is the case, please observe their requests.
+
+We encourage you to Tweet (#csvconf @csvconference) during the sessions and throughout the conference days! Eating lunch during a talk? Let us know what meal you are enjoying! Spotted a llama? Let us know too (#commallama)
+
+## Need additional help?
+Reach out to us on Slack <https://csvconf-slackin.herokuapp.com/>.
