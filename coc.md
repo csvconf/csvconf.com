@@ -4,7 +4,7 @@ title: csv,conf,v5 Code of Conduct
 permalink: /coc/
 ---
 
-# Csv,conf,v5 Code of Conduct
+# Conference Code of Conduct
 
 All attendees, speakers, sponsors, organisers and volunteers at our conference are required to agree with the following code of conduct. Safety Officers and conference staff will enforce this code throughout the event. We expect cooperation from all participants to help ensure a safe environment for everyone.
 
