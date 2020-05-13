@@ -35,7 +35,7 @@ When participants join, their video will be off and they will be muted. The only
 
 The organising team will moderate every talk to introduce speakers, help with questions, ensure the Code of Conduct is followed and to make sure the technology runs smoothly. 
 
-Can’t make these dates or times? No worries - all the talks will be recorded. You will be able to watch all talks on crowdcast immediately after the session and talks will also be posted on our YouTube channel after the event. 
+Can’t make these dates or times? No worries - all the talks will be recorded. You will be able to watch all talks on crowdcast immediately after the session and talks will also be posted [on our YouTube channel](https://www.youtube.com/channel/UCWq7JfT4PJrCZLmxSOVJOww) after the event. 
 
 ## What is the format of the conference sessions?
 
@@ -69,7 +69,7 @@ Our in-person conference normally has three tracks. For this online version of c
 
 ## How can I watch the talks after the conference is over? 
 
-All csv,conf,v5 talks will be posted on our YouTube after the event. 
+All csv,conf,v5 talks will be posted [on our YouTube channel](https://www.youtube.com/channel/UCWq7JfT4PJrCZLmxSOVJOww) after the event. 
 Recorded talks will be available on Crowdcast soon after each session. 
 
 Speakers will be able to opt out of being posted on YouTube.
