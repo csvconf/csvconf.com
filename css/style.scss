@@ -177,6 +177,14 @@ table.speaker-list {
     width: 60%;
   }
 }
+.eighty {
+  width: 100%;
+}
+@media (min-width: 1024px) {
+  .eighty {
+    width: 80%;
+  }
+}
 .date {
   width: 25%;
 }
