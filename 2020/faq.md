@@ -1,8 +1,8 @@
 ---
-layout: default
+layout: default-2020
 title: FAQ for Online Conference
 class: locations
-permalink: /faq/
+permalink: /2020/faq/
 ---
 
 # Conference FAQ

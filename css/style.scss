@@ -5,6 +5,8 @@
 $blue: #537ABD;
 $pink: #F0D1E0;
 $green: #D1F0E0;
+$gray: #949599;
+$yellow: #FCE648;
 
 * {
   box-sizing: border-box;
@@ -504,6 +506,101 @@ footer {
     
     h1, p, a {
       color: $green;
+    }
+  }
+
+  table.locations,
+  table.keynotes,
+  table.speaker-list {
+  }
+
+  .keynotes td {
+    border-right: none;
+  }
+
+  .keynote-selector:checked + .keynote {
+    background: #E1F5EB;
+  }
+
+  .keynote .image {
+    background-color: #E1F5EB;
+  }
+
+  p, a {
+    color: black;
+  }
+
+  h1, h2, h3 {
+    color: black;
+    font-weight: 500;
+  }
+
+  table td, table th {
+    border: 1px solid black;
+    border-width: 5px;
+  }
+
+  .locations {
+    max-width: 80%;
+  }
+}
+
+#pantone-2021-theme {
+  background-color: $yellow;
+  font-family: 'Fira Sans', sans-serif;
+  margin: 45px;
+  color: black;
+
+
+  table, footer {
+    color: black;
+  }
+
+  .header {
+    border-bottom: 5px solid black;
+    padding: 0 0 10px;
+  }
+
+  .button {
+    color: $yellow;
+    background-color: black;
+    transition: .25s background;
+    padding: 1em 2em;
+    display: inline-block;
+    font-size: smaller;
+
+    &:hover {
+      background-color: gray;
+      color: $yellow;
+    }
+  }
+
+  .button--info {
+    width: 100%;
+    vertical-align: top;
+    display: inline-block;
+  }
+
+  @media (min-width: 1024px) {
+    .button--info {
+      width: 30%;
+    }
+  }
+  
+  .button--std {
+    color: $yellow;
+    background-color: black;
+    transition: .25s background;
+    padding: 1em 2em;
+    display: inline-block;
+    font-size: smaller;
+    
+    h1, p, a {
+      color: $yellow;
+    }
+    &:hover {
+      background-color: gray;
+      color: $yellow;
     }
   }
 
