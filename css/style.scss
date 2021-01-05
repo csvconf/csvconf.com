@@ -589,14 +589,18 @@ footer {
   
   .button--std {
     color: $yellow;
-    background-color: $gray;
+    background-color: black;
     transition: .25s background;
     padding: 1em 2em;
     display: inline-block;
     font-size: smaller;
     
     h1, p, a {
-      color: black;
+      color: $yellow;
+    }
+    &:hover {
+      background-color: gray;
+      color: $yellow;
     }
   }
 
