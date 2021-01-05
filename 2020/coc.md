@@ -1,7 +1,7 @@
 ---
 layout: default-2020
 title: csv,conf,v5 Code of Conduct
-permalink: /coc/
+permalink: /2020/coc/
 ---
 
 # Conference Code of Conduct

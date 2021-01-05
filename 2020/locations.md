@@ -2,7 +2,7 @@
 layout: default-2020
 title: Locations
 class: locations
-permalink: /locations/
+permalink: /2020/locations/
 ---
 Welcome to Washington DC!
 ===
