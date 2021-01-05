@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: default-2020
 title: csv,conf,v5 Code of Conduct
 permalink: /coc/
 ---
