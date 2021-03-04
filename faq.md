@@ -93,7 +93,7 @@ Speakers will be able to opt out of being posted on YouTube.
 
 - Crowdcast does not support sharing audio with the share screen. If you need to share a video or audio clip, please let us know. We have workarounds!
 
-## I am giving a talk. Will we be able to practice using the platform prior to May 13/14?
+## I am giving a talk. Will we be able to practice using the platform prior to May 4/5?
 
 Yes, we will host a series of open hours sessions on Crowdcast where we will be available to help speakers get familiar with the software. Practice sessions will be scheduled. 
 
