@@ -9,7 +9,7 @@ permalink: /faq/
 
 Online Conference schedule and speakers: [csvconf.com/speakers/](https://csvconf.com/speakers/)
 
-Conference dates: May 13-14, 2020, Online.
+Conference dates: May 4-5, 2020, Online.
 
 <div>
   <h1 id="FAQs-for-Participants">
@@ -19,11 +19,15 @@ Conference dates: May 13-14, 2020, Online.
 
 ## How can I join the conference?
 
-Please register (for free!): [csvconfv5.eventbrite.com/](https://csvconfv5.eventbrite.com/)
+Please register (for free!): [csvconfv6.eventbrite.com/](https://csvconfv6.eventbrite.com/)
 
 Each Conference Session has a Crowdcast link to join. The links are listed in the [schedule](https://csvconf.com/speakers/).
 
 Read our conference [Code of Conduct](https://csvconf.com/coc/). By joining the video feed, all participants agree to adhere to the Code of Conduct.
+
+## Which time does the the conference start?
+
+While we hope to have an event that everyone can participate in, it is impossible to have an event that caters to everyone's timezones. We hope that by having the event start at 8 a.m. PT, that you can still attend most of our event.
 
 ## How does a virtual conference work?
 
@@ -39,9 +43,9 @@ Can’t make these dates or times? No worries - all the talks will be recorded. 
 
 ## What is the format of the conference sessions?
 
-There will be three (3) talks per hour long session
+Talks will be twenty (20) minutes, with five (5) minutes for Q&A. 
 
-Talks will be fifteen (15) minutes, with five (5) minutes for Q&A. 
+Birds of a Feather sesssions will be an hour long.
 
 Sessions will be moderated by the organising team.
 
@@ -49,7 +53,7 @@ Sessions will be moderated by the organising team.
 
 We will use Crowdcast for all talks. Participants will need to sign in to sessions they would like to attend and can do so here: <https://www.crowdcast.io/csvconf>. Sign in requires a valid email address.
 
-We will have another platform (perhaps Zoom but TBC) for breakout sessions and social time
+We will have another platform (perhaps Zoom and SpatialChat but TBC) for breakout sessions and social time
 
 We will also use our existing csv,conf Slack channel to communicate with speakers and attendees throughout the conference. Sign up now! <https://csvconf-slackin.herokuapp.com/>
 
@@ -63,13 +67,9 @@ We will also use our existing csv,conf Slack channel to communicate with speaker
 
 *Questions for the organizers:* Please reach out in Slack if you have questions for the organizers. For technical help, see the help channel in Slack. For any inquiries related to the Code of Conduct, please follow the reporting guidelines specified in the [Code of Conduct](https://csvconf.com/coc/).
 
-## It looks like sessions 3 & 4 and 9 & 10 will run simultaneously. Why is this?
-
-Our in-person conference normally has three tracks. For this online version of csv,conf, There is one hour each day (12noon PST / 7pm UTC)  that will constitute two tracks. Each session will have a unique url, and participants will be able to choose which sessions  they prefer to attend.
-
 ## How can I watch the talks after the conference is over? 
 
-All csv,conf,v5 talks will be posted [on our YouTube channel](https://www.youtube.com/channel/UCWq7JfT4PJrCZLmxSOVJOww) after the event. 
+All csv,conf,v6 talks will be posted [on our YouTube channel](https://www.youtube.com/channel/UCWq7JfT4PJrCZLmxSOVJOww) after the event. 
 Recorded talks will be available on Crowdcast soon after each session. 
 
 Speakers will be able to opt out of being posted on YouTube.
@@ -95,7 +95,7 @@ Speakers will be able to opt out of being posted on YouTube.
 
 ## I am giving a talk. Will we be able to practice using the platform prior to May 13/14?
 
-Yes, we will host a series of open hours sessions on Crowdcast where we will be available to help speakers get familiar with the software. Practice sessions are slated to take place each Tuesday at 4pm GMT from 28 April 2020. If you are a speaker, you can sign up here <https://www.crowdcast.io/e/8nlsr47z/1>
+Yes, we will host a series of open hours sessions on Crowdcast where we will be available to help speakers get familiar with the software. Practice sessions will be scheduled. 
 
 In addition, we will run a session prior to the conference for participants to familiarise themselves with the platform. 
 
@@ -129,6 +129,8 @@ Mics are great, if you have one, use it as the mic will be further away from you
 
 **Bandwidth issues:** During your talk, try to avoid having everyone clog your Internet - ask roommates/family members to not over-tax the Internet. Take a break from streaming, downloading. Remind them it’s only 20 minutes! 
 
+**Please disconnect from VPNs.** If possible, please disconnecd from any VPNs before your talk. This allows your device to have a direct connection to Crowdcast's servers. 
+
 ## Curious if your set-up works with Crowdcast?:
 Try it out: https://www.crowdcast.io/setup
 
@@ -147,7 +149,7 @@ Yes csv,conf will have a virtual appearance of the #commallama 🦙.
 
 ## What’s csvconf's social media policy?
 
-csv,conf,v5 has an open policy, but some speakers might have specific requests / directives around sharing of content from their sessions. Where this is the case, please observe their requests.
+csv,conf,v6 has an open policy, but some speakers might have specific requests / directives around sharing of content from their sessions. Where this is the case, please observe their requests.
 
 We encourage you to Tweet (#csvconf @csvconference) during the sessions and throughout the conference days! Eating lunch during a talk? Let us know what meal you are enjoying! Spotted a llama? Let us know too (#commallama)
 
