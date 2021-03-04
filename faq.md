@@ -9,7 +9,7 @@ permalink: /faq/
 
 Online Conference schedule and speakers: [csvconf.com/speakers/](https://csvconf.com/speakers/)
 
-Conference dates: May 4-5, 2020, Online.
+Conference dates: May 4-5, 2021, Online.
 
 <div>
   <h1 id="FAQs-for-Participants">
