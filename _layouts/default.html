@@ -8,11 +8,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Open Graph Data -->
-  <meta property="og:title" content="csv,conf,v6 - May 4-5, 2021 - Online"/>
-  <meta property="og:url" content="http://csvconf.com"/>
-  <meta property="og:type" content="website"/>
-  <meta property="og:description" content="A community conference for data makers everywhere featuring stories about data sharing and data analysis from science, journalism, government, and open source."/>    
-  
     
   {% if page.speakers %}
     {% for speaker in site.data.2021_speakers %}
@@ -31,7 +26,12 @@
       <meta name="twitter:image" content="{{ site.url }}/img/speakers-2021/{{ speaker.img }}">
     {% else %} 
       <meta name="twitter:card"  content="summary">
-      <meta name="twitter:image" content="{{ site.url }}/img/speakers-2021/yellow_comma.png"> 
+      <meta name="twitter:image" content="{{ site.url }}/img/speakers-2021/yellow_comma.png">
+  {% else %} 
+    <meta name="twitter:title" content="csv,conf,v6 - May 4-5, 2021 - Online"/>
+    <meta name="twitter:url" content="http://csvconf.com"/>
+    <meta name="twitter:card" content="website"/>
+    <meta name="twitter:description" content="A community conference for data makers everywhere featuring stories about data sharing and data analysis from science, journalism, government, and open source."/>    
   {% endif %}
   
   
