@@ -9,7 +9,7 @@
 
     <!-- Open Graph Data -->
     
-  {% for speaker in site.data.2021_speakers %}
+  {% if page.summary %}
     {% if speaker.twitter %}
       <meta name="twitter:title" content="{{ speaker.title }}">
       <meta name="twitter:description" content="{{ speaker.abstract }}">
@@ -28,7 +28,13 @@
       <meta name="twitter:card"  content="summary">
       <meta name="twitter:image" content="{{ site.url }}/img/speakers-2021/yellow_comma.png">
     {% endif %}
-  {% endfor %}
+    
+  {% else %} 
+    <meta property="og:title" content="csv,conf,v6 - May 4-5, 2021 - Online"/>
+    <meta property="og:url" content="http://csvconf.com"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:description" content="A community conference for data makers everywhere featuring stories about data sharing and data analysis from science, journalism, government, and open source."/>    
+  {% endif %}
   
   
   
