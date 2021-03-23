@@ -9,17 +9,18 @@
 
   {% if page.summary %}
     {% for speaker in site.data.2021_speakers %}
-      {% if speaker.id %}
+      {% if speaker.img %}
         <meta name="twitter:title" content="{{ speaker.title }}">
         <meta name="twitter:description" content="{{ speaker.abstract }}">
-        <meta name="twitter:url" content="{{ site.url }}/#{{ speaker.name | slugify }}">
-        {% if speaker.img %}
-          <meta name="twitter:card"  content="summary_large_image">
-          <meta name="twitter:image" content="{{ site.url }}/img/speakers-2021/{{ speaker.img }}">
-        {% else %}
-          <meta name="twitter:card"  content="summary_large_image">
-          <meta name="twitter:image" content="{{ site.url }}/img/speakers-2021/yellow_comma.png">
-        {% endif %}
+        <meta name="twitter:url" content="{{ site.url }}/speakers/#{{ speaker.name | slugify }}">
+        <meta name="twitter:card"  content="summary_large_image">
+        <meta name="twitter:image" content="{{ site.url }}/img/speakers-2021/{{ speaker.img }}">
+      {% else %}
+        <meta name="twitter:title" content="{{ speaker.title }}">
+        <meta name="twitter:description" content="{{ speaker.abstract }}">
+        <meta name="twitter:url" content="{{ site.url }}/speakers/#{{ speaker.name | slugify }}">
+        <meta name="twitter:card"  content="summary_large_image">
+        <meta name="twitter:image" content="{{ site.url }}/img/speakers-2021/yellow_comma.png">
       {% endif %}
     {% endfor %}
   {% else %}
