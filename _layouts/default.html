@@ -9,7 +9,7 @@
 
     <!-- Open Graph Data -->
     
-  {% if {{ site.url }}/speakers/#{{ speaker.name | slugify }} %}
+  {% if page.speakers %}
     <meta name="twitter:title" content="{{ speaker.title }}">
     <meta name="twitter:description" content="{{ speaker.abstract }}">
     <meta name="twitter:url" content="{{ site.url }}/speakers/#{{ speaker.name | slugify }}">
