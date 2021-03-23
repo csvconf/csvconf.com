@@ -11,21 +11,29 @@
     
   {% if page.speakers %}
     {% for speaker in site.data.2021_speakers %}
-      <meta name="twitter:title" content="{{ speaker.title }}">
-      <meta name="twitter:description" content="{{ speaker.abstract }}">
-      <meta name="twitter:url" content="{{ site.url }}/speakers/#{{ speaker.name | slugify }}">
-      {% if speaker.img %}
-        <meta name="twitter:image" content="{{ site.url }}/img/speakers-2021/{{ speaker.img }}">
+      {% if speaker.twitter %}
+        <meta name="twitter:title" content="{{ speaker.title }}">
+        <meta name="twitter:description" content="{{ speaker.abstract }}">
+        <meta name="twitter:url" content="{{ site.url }}/#{{ speaker.name | slugify }}">
+        <meta name="twitter:site" content="@{{ speaker.twitter }}">
       {% else %}
-        <meta name="twitter:image" content="{{ site.url }}/img/speakers-2021/yellow_comma.png">
-      {% endif %}
-    {% endfor %}    
+        <meta name="twitter:title" content="{{ speaker.title }}">
+        <meta name="twitter:description" content="{{ speaker.abstract }}">
+        <meta name="twitter:url" content="{{ site.url }}/#{{ speaker.name | slugify }}">
+     {% endif %}
+     {% if speaker.img %}
+      <meta name="twitter:card"  content="summary_large_image">
+      <meta name="twitter:image" content="{{ site.url }}/img/speakers-2021/{{ speaker.img }}">
+    {% else %} 
+      <meta name="twitter:card"  content="summary">
+      <meta name="twitter:image" content="{{ site.url }}/img/speakers-2021/yellow_comma.png">
   {% else %} 
     <meta name="twitter:title" content="csv,conf,v6 - May 4-5, 2021 - Online"/>
     <meta name="twitter:url" content="http://csvconf.com"/>
     <meta name="twitter:type" content="website"/>
     <meta name="twitter:description" content="A community conference for data makers everywhere featuring stories about data sharing and data analysis from science, journalism, government, and open source."/>    
   {% endif %}
+  
   
   </head>
 
