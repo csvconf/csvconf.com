@@ -15,22 +15,22 @@
 
   {% for speaker in site.data.2021_speakers %}
     {% if speaker.twitter %}
-    <meta name="twitter:title" content="{{ speaker.title }}">
-    <meta name="twitter:description" content="{{ speaker.abstract }}">
-    <meta name="twitter:url" content="{{{ site.url }}/#{{ speaker.name | slugify }}">
-    <meta name="twitter:site" content="@{{ speaker.twitter }}">
+      <meta name="twitter:title" content="{{ speaker.title }}">
+      <meta name="twitter:description" content="{{ speaker.abstract }}">
+      <meta name="twitter:url" content="{{ site.url }}/#{{ speaker.name | slugify }}">
+      <meta name="twitter:site" content="@{{ speaker.twitter }}">
     {% else %}
-    <meta name="twitter:title" content="{{ speaker.title }}">
-    <meta name="twitter:description" content="{{ speaker.abstract }}">
-    <meta name="twitter:url" content="{{{ site.url }}/#{{ speaker.name | slugify }}">
+      <meta name="twitter:title" content="{{ speaker.title }}">
+      <meta name="twitter:description" content="{{ speaker.abstract }}">
+      <meta name="twitter:url" content="{{ site.url }}/#{{ speaker.name | slugify }}">
     {% endif %}
 
     {% if speaker.img %}
-    <meta name="twitter:card"  content="summary_large_image">
-    <meta name="twitter:image" content="{{ site.url }}/img/speakers-2021/{{ speaker.img }}">
+      <meta name="twitter:card"  content="summary_large_image">
+      <meta name="twitter:image" content="{{ site.url }}/img/speakers-2021/{{ speaker.img }}">
     {% else %}
-    <meta name="twitter:card"  content="summary">
-    <meta name="twitter:image" content="{{ site.url }}/img/speakers-2021/yellow_comma.png">
+      <meta name="twitter:card"  content="summary">
+      <meta name="twitter:image" content="{{ site.url }}/img/speakers-2021/yellow_comma.png">
     {% endif %}
   {% endfor %}
   
