@@ -8,11 +8,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     {% if page.summary %}
-      <meta name="twitter:image" content="{{ site.url }}/img/speakers-2021/{{ speaker.img }}">
-      <meta name="twitter:title" content="{{ speaker.title }}">
-      <meta name="twitter:description" content="{{ speaker.abstract }}">
-      <meta name="twitter:url" content="{{ site.url }}/#{{ speaker.name | slugify }}">
-      <meta name="twitter:card"  content="summary_large_image">
+      {% for speaker.id in site.data.2021_speakers %}
+          <meta name="twitter:image" content="{{ site.url }}/img/speakers-2021/{{ speaker.img }}">
+          <meta name="twitter:title" content="{{ speaker.title }}">
+          <meta name="twitter:description" content="{{ speaker.abstract }}">
+          <meta name="twitter:url" content="{{ site.url }}/#{{ speaker.name | slugify }}">
+          <meta name="twitter:card"  content="summary_large_image">
+      {% endfor %}
     {% else %}
       <meta name="twitter:title" content="csv,conf,v6 - May 4-5, 2021 - Online"/>
       <meta name="twitter:url" content="http://csvconf.com"/>
