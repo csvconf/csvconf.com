@@ -13,7 +13,7 @@
   <meta name="twitter:card" content="summary_large_image"/>
   <meta name="twitter:description" content="A community conference for data makers everywhere featuring stories about data sharing and data analysis from science, journalism, government, and open source."/>    
     
-{% if {{ site.url }}/speakers/#{{ speaker.name | slugify }} %}
+{% if page.summary %}
   {% if speaker.twitter %}
     <meta name="twitter:title" content="{{ speaker.title }}">
     <meta name="twitter:description" content="{{ speaker.abstract }}">
