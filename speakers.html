@@ -5,11 +5,32 @@ permalink: /speakers/
 summary: yes
 ---
 
+<h1>Conference Schedule</h1>
+
+<table class="speakers">
+  {% for row in site.data.2021_schedule %}
+  <tr>
+    {% if row['Session'] == nil %}
+      <td colspan=5 class="day">{{ row['Time'] }}</td>
+    {% else %}
+      <td>{{ row['Time'] }}</td>
+      <td>
+        {% if row['Speakers'] != nil %}
+          <a href="#{{ row['Speakers'] | slugify }}" class="talk-name">{{row['Session']}}</a>
+          <div>{{row['Speakers']}}</div>
+        {% else %}
+          {{row['Session']}}
+        {% endif %}
+      </td>
+    {% endif %}
+  </tr>
+  {% endfor %}
+</table>
 
 <h1>Speakers</h1>
 
 <p class="speakers-intro">
-We are assembling an exciting lineup of speakers – of data makers and enthusiasts representing academia, science, journalism, government, and open source projects - for csv,conf,v6.   
+We have assembled an exciting lineup of speakers – of data makers and enthusiasts representing academia, science, journalism, government, and open source projects - for csv,conf,v6.   
 </p>
 
 <table class="speakers">
@@ -53,9 +74,6 @@ We are assembling an exciting lineup of speakers – of data makers and enthusia
   {% endfor %}
 </table>
 
-<h1>Schedule</h1>
-
-csv,conf,v6 conference schedule will be added soon.
 
 
 <hr>
