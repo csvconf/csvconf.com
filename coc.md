@@ -24,7 +24,7 @@ If a participant engages in harassing behavior, the conference organisers may ta
 
 ## Reporting
 
-If you are being harassed, notice that someone else is being harassed, or have any other concerns, please contact the csv,conf,v6 Safety Officers as soon as possible using the methods outlined below. We will handle all reports with discretion, and you can report anonymously if you wish. The Safety Officers are Lilly Winfree (Open Knowledge Foundation) and Jonathan Cain (University of Oregon Libraries).
+If you are being harassed, notice that someone else is being harassed, or have any other concerns, please contact the csv,conf,v6 Safety Officers as soon as possible using the methods outlined below. We will handle all reports with discretion, and you can report anonymously if you wish. The Safety Officers are Lilly Winfree (Open Knowledge Foundation) and Jonathan Cain (Columbia University Libraries).
 
 **Anonymous report**: Please use [this form](https://forms.gle/Eyn5s2UWXsDiXgmx9) to file an anonymous report. The Safety Officers will fully investigate your report, although we will not follow up with you as the report is anonymous.
 
