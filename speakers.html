@@ -56,6 +56,13 @@ We have assembled an exciting lineup of speakers – of data makers and enthusia
       <p class="title">{{ speaker.title }}</p>
       <p class="abstract">{{ speaker.abstract }}</p>
       <span>
+        {% if speaker.github %}
+          <a href="https://github.com/{{speaker.github}}">Find {{ speaker.name }}'s work on GitHub</a> 
+        {% else %}
+           
+        {% endif %}
+      </span>
+      <span>
         {% if speaker.slides_url %}
           <a href="{{speaker.slides_url}}" target="_blank">View Slides</a> ·
         {% else %}
