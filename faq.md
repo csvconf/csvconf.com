@@ -53,7 +53,7 @@ Sessions will be moderated by the organising team.
 
 We will use Crowdcast for all talks. Participants will need to sign in to sessions they would like to attend and can do so here: <https://www.crowdcast.io/csvconf>. Sign in requires a valid email address.
 
-We will have another platform (perhaps Zoom and SpatialChat but TBC) for breakout sessions and social time
+We will use Spatial Chat for Birds of a Feather sessions and social time. Read how to use Spatial Chat in the [FAQ below](https://csvconf.com/faq/#FAQs-for-BOF).
 
 We will also use our existing csv,conf Slack channel to communicate with speakers and attendees throughout the conference. Sign up now! <https://csvconf-slackin.herokuapp.com/>
 
@@ -136,6 +136,31 @@ Try it out: https://www.crowdcast.io/setup
 
 ## What if I have technical issues?
 If you have technical issues, post in the Slack channel and we will try to help you! You can join the [Slack channel](https://csvconf-slackin.herokuapp.com/) with [this link](https://join.slack.com/t/csvconf/shared_invite/zt-e0uf5c4m-hluOnoo5bPkOWvb0ewNCvg).
+
+<div>
+  <h1 id="FAQs-for-BOF">
+    <a href="#FAQs-for-BOF">FAQs for Birds of a Feather</a>
+  </h1>
+</div>
+
+## What platform will Birds of a Feather (BOFs) use?
+
+We are using Spatial Chat for BOFs. You can test out Spatial Chat here: https://spatial.chat/s/TryMe and read the basics of Spatial Chat here: https://help.spatial.chat/hc/en-us/articles/360019120259-Basics-of-SpatialChat. The rooms are password protected - please do not share the link or password. We will communicate this information over Slack. These rooms are not being recorded, but the chat is persistent and anyone can view it.
+
+## How do I use Spatial Chat?
+
+When you join the Spatial Chat, you can enable your mic & camera if you’d like. You can “move” around in the space by dragging your circle. The closer you get to someone, the louder that person’s audio will be to you (the farther you get, the quieter they will be). You can visit other rooms to move to different BOF sessions.
+
+## How do I move to other "rooms" in Spatial Chat?
+
+To switch to a new room, click on the room in the room list. To view the room list, click on the person icon in the upper right corner. You can move between rooms at will.
+
+## How do I interact with others in Spatial Chat?
+
+You can speak, write in the chat, share images, and share screens (note: some of these options might be disabled in some rooms). To view the chat, click on the speech bubble icon in the upper right corner. At the bottom of your screen, there is a menu that lets you share content (images, GIFs, etc), emojis, or text.  Please follow the [Code of Conduct](https://csvconf.com/coc/) when you are sharing any content.
+
+## What is a "stage" room?
+“Stage” rooms will be more like a webinar - only the speakers will be on the screen and talking. Everyone else will be an audience member with no audio or visual. Everyone will be able to use the chat to ask questions or say hello.
 
 <div>
   <h1 id="other-general-FAQs">
