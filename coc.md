@@ -4,6 +4,15 @@ title: csv,conf,v6 Code of Conduct
 permalink: /coc/
 ---
 
+This page contains information about:
+
+* [csv,conf Code of Conduct (CoC)](/coc/#conference-code-of-conduct)
+* [CoC enforcement at csv,conf](/coc/#enforcement)
+* [Guidelines on reporting CoC issues](/coc/#reporting)
+* [Information on CoC investigation process](/coc/#investigation)
+* [Our CoC confidentiality statement](/coc/#confidentiality)
+* [Acknowledgements](/coc/#acknowledgements)
+
 # Conference Code of Conduct
 
 All attendees, speakers, sponsors, organisers and volunteers at our conference are required to agree with the following code of conduct. Safety Officers and conference staff will enforce this code throughout the event. We expect cooperation from all participants to help ensure a safe environment for everyone.
@@ -55,5 +64,7 @@ We will fully investigate your report and follow up with you via the contact inf
 ## Confidentiality
 All reports will be kept confidential. When we discuss incidents with people who are reported, we will anonymize details as much as we can to protect reporter privacy. In some cases we may determine that a public statement will need to be made. If that’s the case, the identities of all victims and reporters will remain confidential unless those individuals instruct us otherwise.
 
-## Acknowledgments
+## Acknowledgements
 This Code of Conduct is adapted from the [Conference Code of Conduct](https://confcodeofconduct.com/) (CC BY 3.0), the [eLife Sprint Code of Conduct](https://sprint.elifesciences.org/code-of-conduct/) (CC BY 4.0), and the [PyCon Code of Conduct](https://us.pycon.org/2020/about/code-of-conduct/) (CC BY-SA 3.0).
+
+<hr>
