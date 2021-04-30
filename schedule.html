@@ -1,0 +1,31 @@
+---
+layout: default
+title: Schedule
+permalink: /schedule/
+summary: yes
+---
+
+<h1>Conference Schedule</h1>
+
+<table class="speakers">
+  {% for row in site.data.2021_schedule %}
+  <tr>
+    {% if row['Session'] == nil %}
+      <td colspan=5 class="day">{{ row['Time'] }}</td>
+    {% else %}
+      <td>{{ row['Time'] }}</td>
+      <td>
+        {% if row['Speakers'] != nil %}
+          <a href="/speakers/#{{ row['Speakers'] | slugify }}" class="talk-name">{{row['Session']}}</a>
+          <div>{{row['Speakers']}}</div>
+        {% else %}
+          {{row['Session']}}
+        {% endif %}
+      </td>
+    {% endif %}
+  </tr>
+  {% endfor %}
+</table>
+
+
+<hr>
