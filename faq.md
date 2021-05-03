@@ -43,7 +43,7 @@ Can’t make these dates or times? No worries - all the talks will be recorded. 
 
 ## What is the format of the conference sessions?
 
-Talks will be twenty (20) minutes, with five (5) minutes for Q&A. 
+Talks are slotted for 20 minutes total, including time for questions.
 
 Birds of a Feather sesssions will be an hour long.
 
@@ -66,6 +66,10 @@ We will also use our existing csv,conf Slack channel to communicate with speaker
 *Questions/comments for your fellow audience members:* There is also a live chat that can be used for posting links to related work, general chit chat, and clapping after the talks end (👏). Remember to follow our Code of Conduct when participating in the chat.
 
 *Questions for the organizers:* Please reach out in Slack if you have questions for the organizers. For technical help, see the help channel in Slack. For any inquiries related to the Code of Conduct, please follow the reporting guidelines specified in the [Code of Conduct](https://csvconf.com/coc/).
+
+## Are you providing Live Captioning for your event?
+
+Yes! You can watch our stenographers live in action at [https://www.streamtext.net/player?event=CSVConf](https://www.streamtext.net/player?event=CSVConf). 
 
 ## How can I watch the talks after the conference is over? 
 
