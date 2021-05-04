@@ -69,7 +69,7 @@ We will also use our existing csv,conf Slack channel to communicate with speaker
 
 ## Are you providing Live Captioning for your event?
 
-Yes! You can watch our stenographers live in action at [https://www.streamtext.net/player?event=CSVConf](https://www.streamtext.net/player?event=CSVConf). As Sessions 4 and 9 are concurrent, you can follow along here: https://www.streamtext.net/player?event=CSVConf2](https://www.streamtext.net/player?event=CSVConf2).
+Yes! You can watch our stenographers live in action at [https://www.streamtext.net/player?event=CSVConf](https://www.streamtext.net/player?event=CSVConf). As Sessions 4 and 9 are concurrent, you can follow along here: [https://www.streamtext.net/player?event=CSVConf2](https://www.streamtext.net/player?event=CSVConf2).
 
 ## How can I watch the talks after the conference is over? 
 
