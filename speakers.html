@@ -35,14 +35,14 @@ We have assembled an exciting lineup of speakers – of data makers and enthusia
       <p class="abstract">{{ speaker.abstract }}</p>
       <span>
         {% if speaker.github %}
-          <a href="https://github.com/{{speaker.github}}">Find {{ speaker.name }}'s work on GitHub</a> 
+          <a href="https://github.com/{{speaker.github}}">Find {{ speaker.name }}'s work on GitHub</a> ·
         {% else %}
            
         {% endif %}
       </span>
       <span>
         {% if speaker.slides_url %}
-          <a href="{{speaker.slides_url}}" target="_blank">View Slides</a> ·
+          <a href="{{speaker.slides_url}}" target="_blank">View Talk Slides</a> ·
         {% else %}
            
         {% endif %}
