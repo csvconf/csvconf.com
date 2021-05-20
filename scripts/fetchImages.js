@@ -10,18 +10,18 @@ let file = fs.readFileSync('./_data/2017_speakers.csv')
 let photos = []
 
 csv.parse(file, (err, data) => {
-  data.shift()
-  data.forEach(datum => {
-    let url = datum[3]
-    if (url && url !== '') {
+ data.shift()
+ data.forEach(datum => {
+  let url = datum[3]
+  if (url && url !== '') {
 
-      if (!url.match(/^http/)) url = 'http://' + url
-      photos.push(url)
-    }
-  })
+   if (!url.match(/^http/)) url = 'http://' + url
+   photos.push(url)
+  }
+ })
 })
 
 nugget(photos, {resume: true, dir: __dirname + '/img/speakers-2017'}, function (err) {
-  if (err) throw err
-    // console.log(speakers.join('\n'))
+ if (err) throw err
+  // console.log(speakers.join('\n'))
 })

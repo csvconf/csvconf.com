@@ -12,9 +12,9 @@ Online Conference schedule and speakers: [csvconf.com/speakers/](https://csvconf
 Conference dates: May 4-5, 2021, Online.
 
 <div>
-  <h1 id="FAQs-for-Participants">
-    <a href="#FAQs-for-Participants">FAQs for Participants</a>
-  </h1>
+ <h1 id="FAQs-for-Participants">
+  <a href="#FAQs-for-Participants">FAQs for Participants</a>
+ </h1>
 </div>
 
 ## How can I join the conference?
@@ -79,9 +79,9 @@ Recorded talks will be available on Crowdcast soon after each session.
 Speakers will be able to opt out of being posted on YouTube.
 
 <div>
-  <h1 id="FAQs-for-Speakers">
-    <a href="#FAQs-for-Speakers">FAQs for Speakers</a>
-  </h1>
+ <h1 id="FAQs-for-Speakers">
+  <a href="#FAQs-for-Speakers">FAQs for Speakers</a>
+ </h1>
 </div>
 
 ## Crowdcast specific instructions for speakers:
@@ -142,9 +142,9 @@ Try it out: https://www.crowdcast.io/setup
 If you have technical issues, post in the Slack channel and we will try to help you! You can join the [Slack channel](https://csvconf-slackin.herokuapp.com/) with [this link](https://join.slack.com/t/csvconf/shared_invite/zt-e0uf5c4m-hluOnoo5bPkOWvb0ewNCvg).
 
 <div>
-  <h1 id="FAQs-for-BOF">
-    <a href="#FAQs-for-BOF">FAQs for Birds of a Feather</a>
-  </h1>
+ <h1 id="FAQs-for-BOF">
+  <a href="#FAQs-for-BOF">FAQs for Birds of a Feather</a>
+ </h1>
 </div>
 
 ## What platform will Birds of a Feather (BOFs) use?
@@ -161,15 +161,15 @@ To switch to a new room, click on the room in the room list. To view the room li
 
 ## How do I interact with others in Spatial Chat?
 
-You can speak, write in the chat, share images, and share screens (note: some of these options might be disabled in some rooms). To view the chat, click on the speech bubble icon in the upper right corner. At the bottom of your screen, there is a menu that lets you share content (images, GIFs, etc), emojis, or text.  Please follow the [Code of Conduct](https://csvconf.com/coc/) when you are sharing any content.
+You can speak, write in the chat, share images, and share screens (note: some of these options might be disabled in some rooms). To view the chat, click on the speech bubble icon in the upper right corner. At the bottom of your screen, there is a menu that lets you share content (images, GIFs, etc), emojis, or text. Please follow the [Code of Conduct](https://csvconf.com/coc/) when you are sharing any content.
 
 ## What is a "stage" room?
 “Stage” rooms will be more like a webinar - only the speakers will be on the screen and talking. Everyone else will be an audience member with no audio or visual. Everyone will be able to use the chat to ask questions or say hello.
 
 <div>
-  <h1 id="other-general-FAQs">
-    <a href="#other-general-FAQs">Other General FAQs</a>
-  </h1>
+ <h1 id="other-general-FAQs">
+  <a href="#other-general-FAQs">Other General FAQs</a>
+ </h1>
 </div>
 
 ## Will you have a llama?

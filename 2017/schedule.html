@@ -7,21 +7,21 @@ permalink: /2017/schedule/
 We are assembling an exciting team of data makers and enthusiasts representing academia, science, journalism, government, and open source projects.
 </p>
 <table class="speakers">
-  {% for column in site.data.2017_schedule %}
-  <tr>
+ {% for column in site.data.2017_schedule %}
+ <tr>
 
-    {% if column['Room A'] == nil %}
-      <td colspan=5 class="day">{{ column['Time'] }}</td>
-    {% else %}
-      {% if column['Room B'] == nil %}
-        <td>{{ column['Time'] }}</td>
-        <td colspan="4" class="highlight">{{ column['Room A'] }}</td>
-      {% else %}
-        {% for row in column %}
-          <td>{{row[1]}}</td>
-        {% endfor %}
-      {% endif %}
-    {% endif %}
-  </tr>
-  {% endfor %}
+  {% if column['Room A'] == nil %}
+   <td colspan=5 class="day">{{ column['Time'] }}</td>
+  {% else %}
+   {% if column['Room B'] == nil %}
+    <td>{{ column['Time'] }}</td>
+    <td colspan="4" class="highlight">{{ column['Room A'] }}</td>
+   {% else %}
+    {% for row in column %}
+     <td>{{row[1]}}</td>
+    {% endfor %}
+   {% endif %}
+  {% endif %}
+ </tr>
+ {% endfor %}
 </table>

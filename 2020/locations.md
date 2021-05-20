@@ -12,17 +12,17 @@ Welcome to Washington DC!
 **Table of Contents**
 
 - [Accommodation](#accommodation)
-  - [Hotels](#hotels)
-  - [AirBnB](#airbnb)
+ - [Hotels](#hotels)
+ - [AirBnB](#airbnb)
 - [Transportation](#transportation)
 - [Food and Drink](#food-and-drink)
-  - [Your Morning Coffee](#your-morning-coffee)
-  - [Restaurants](#restaurants)
-  - [Drink](#drink)
+ - [Your Morning Coffee](#your-morning-coffee)
+ - [Restaurants](#restaurants)
+ - [Drink](#drink)
 - [Things to Do](#things-to-do)
-  - [Museums](#museums)
-  - [Monuments and Memorials](#monuments-and-memorials)
-  - [Live Music](#live-music)
+ - [Museums](#museums)
+ - [Monuments and Memorials](#monuments-and-memorials)
+ - [Live Music](#live-music)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 

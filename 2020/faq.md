@@ -12,9 +12,9 @@ Online Conference schedule and speakers: [csvconf.com/speakers/](https://csvconf
 Conference dates: May 13-14, 2020, Online.
 
 <div>
-  <h1 id="FAQs-for-Participants">
-    <a href="#FAQs-for-Participants">FAQs for Participants</a>
-  </h1>
+ <h1 id="FAQs-for-Participants">
+  <a href="#FAQs-for-Participants">FAQs for Participants</a>
+ </h1>
 </div>
 
 ## How can I join the conference?
@@ -65,7 +65,7 @@ We will also use our existing csv,conf Slack channel to communicate with speaker
 
 ## It looks like sessions 3 & 4 and 9 & 10 will run simultaneously. Why is this?
 
-Our in-person conference normally has three tracks. For this online version of csv,conf, There is one hour each day (12noon PST / 7pm UTC)  that will constitute two tracks. Each session will have a unique url, and participants will be able to choose which sessions  they prefer to attend.
+Our in-person conference normally has three tracks. For this online version of csv,conf, There is one hour each day (12noon PST / 7pm UTC) that will constitute two tracks. Each session will have a unique url, and participants will be able to choose which sessions they prefer to attend.
 
 ## How can I watch the talks after the conference is over? 
 
@@ -75,9 +75,9 @@ Recorded talks will be available on Crowdcast soon after each session.
 Speakers will be able to opt out of being posted on YouTube.
 
 <div>
-  <h1 id="FAQs-for-Speakers">
-    <a href="#FAQs-for-Speakers">FAQs for Speakers</a>
-  </h1>
+ <h1 id="FAQs-for-Speakers">
+  <a href="#FAQs-for-Speakers">FAQs for Speakers</a>
+ </h1>
 </div>
 
 ## Crowdcast specific instructions for speakers:
@@ -136,9 +136,9 @@ Try it out: https://www.crowdcast.io/setup
 If you have technical issues, post in the Slack channel and we will try to help you! You can join the [Slack channel](https://csvconf-slackin.herokuapp.com/) with [this link](https://join.slack.com/t/csvconf/shared_invite/zt-e0uf5c4m-hluOnoo5bPkOWvb0ewNCvg).
 
 <div>
-  <h1 id="other-general-FAQs">
-    <a href="#other-general-FAQs">Other General FAQs</a>
-  </h1>
+ <h1 id="other-general-FAQs">
+  <a href="#other-general-FAQs">Other General FAQs</a>
+ </h1>
 </div>
 
 ## Will you have a llama?

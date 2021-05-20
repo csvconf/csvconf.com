@@ -23,9 +23,9 @@
 			e.preventDefault();
 
 			// do nothing if checkbox is disabled
-            if(scope.$input.is('[disabled]')) {
-                return;
-            }
+      if(scope.$input.is('[disabled]')) {
+        return;
+      }
 
 			// check/uncheck
 			if(scope.$el.hasClass('checked')) {

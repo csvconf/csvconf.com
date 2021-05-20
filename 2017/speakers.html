@@ -10,76 +10,76 @@ We are assembling an exciting team of data makers and enthusiasts representing a
 </p>
 
 <p class="speakers-intro bold">
-  All of the 2017 talks can be seen online on <a href="https://www.youtube.com/playlist?list=PLg5zZXwt2ZW5UIz13oI56vfZjF6mvpIXN">YouTube</a>.
+ All of the 2017 talks can be seen online on <a href="https://www.youtube.com/playlist?list=PLg5zZXwt2ZW5UIz13oI56vfZjF6mvpIXN">YouTube</a>.
 </p>
 
 <p class="speakers-intro">
-  We are also running a series of workshops in Room D - B101 called <a href="https://github.com/csvconf/data-tables.csv">Data Tables</a>.
+ We are also running a series of workshops in Room D - B101 called <a href="https://github.com/csvconf/data-tables.csv">Data Tables</a>.
 </p>
 
 <table class="speakers">
-  {% for row in site.data.2017_schedule %}
-  <tr>
+ {% for row in site.data.2017_schedule %}
+ <tr>
 
-    {% if row['Room A'] == nil %}
-      <td colspan=5 class="day">{{ row['Time'] }}</td>
-    {% else %}
-      {% if row['Room B'] == nil %}
-        <td>{{ row['Time'] }}</td>
-        <td colspan="4" class="highlight">{{ row['Room A'] }}</td>
-      {% else %}
-        <td>{{ row['Time'] }}</td>
-        <td>
-          {% if row['Room A speakers'] != nil %}
-            <a href="#{{ row['Room A speakers'] | slugify }}" class="talk-name">{{row['Room A']}}</a>
-            <div>{{row['Room A speakers']}}</div>
-          {% else %}
-            {{row['Room A']}}
-          {% endif %}
-        </td>
-        <td>
-          {% if row['Room B speakers'] != nil %}
-            <a href="#{{ row['Room B speakers'] | slugify }}" class="talk-name">{{row['Room B']}}</a>
-            <div>{{row['Room B speakers']}}</div>
-          {% else %}
-            {{row['Room B']}}
-          {% endif %}
-        </td>
-        <td>
-          {% if row['Room C speakers'] != nil %}
-            <a href="#{{ row['Room C speakers'] | slugify }}" class="talk-name">{{row['Room C']}}</a>
-            <div>{{row['Room C speakers']}}</div>
-          {% else %}
-            {{row['Room C']}}
-          {% endif %}
-        </td>
-        <td>{{row['Room D']}}</td>
-      {% endif %}
-    {% endif %}
-  </tr>
-  {% endfor %}
+  {% if row['Room A'] == nil %}
+   <td colspan=5 class="day">{{ row['Time'] }}</td>
+  {% else %}
+   {% if row['Room B'] == nil %}
+    <td>{{ row['Time'] }}</td>
+    <td colspan="4" class="highlight">{{ row['Room A'] }}</td>
+   {% else %}
+    <td>{{ row['Time'] }}</td>
+    <td>
+     {% if row['Room A speakers'] != nil %}
+      <a href="#{{ row['Room A speakers'] | slugify }}" class="talk-name">{{row['Room A']}}</a>
+      <div>{{row['Room A speakers']}}</div>
+     {% else %}
+      {{row['Room A']}}
+     {% endif %}
+    </td>
+    <td>
+     {% if row['Room B speakers'] != nil %}
+      <a href="#{{ row['Room B speakers'] | slugify }}" class="talk-name">{{row['Room B']}}</a>
+      <div>{{row['Room B speakers']}}</div>
+     {% else %}
+      {{row['Room B']}}
+     {% endif %}
+    </td>
+    <td>
+     {% if row['Room C speakers'] != nil %}
+      <a href="#{{ row['Room C speakers'] | slugify }}" class="talk-name">{{row['Room C']}}</a>
+      <div>{{row['Room C speakers']}}</div>
+     {% else %}
+      {{row['Room C']}}
+     {% endif %}
+    </td>
+    <td>{{row['Room D']}}</td>
+   {% endif %}
+  {% endif %}
+ </tr>
+ {% endfor %}
 </table>
 
 <h1>Speakers</h1>
 
 <table class="speakers">
-  {% for speaker in site.data.2017_speakers %}
-  <tr class="speaker" id="{{ speaker.name | slugify }}">
-    <td class="about">
-      <img class="image"
-        style="background-image:url(/img/speakers-2017/{{ speaker.id }}.jpg)"/>
-      <span class="name">
-        {% if speaker.twitter %}
-          <a href="http://twitter.com/{{speaker.twitter}}">{{ speaker.name }}</a>
-        {% else %}
-          {{ speaker.name }}
-        {% endif %}
-      </span>
-    </td>
-    <td>
-      <p class="title">{{ speaker.title }}</p>
-      <p class="abstract">{{ speaker.abstract }}</p>
-    </td>
-  </tr>
-  {% endfor %}
+ {% for speaker in site.data.2017_speakers %}
+ <tr class="speaker" id="{{ speaker.name | slugify }}">
+  <td class="about">
+   <img class="image"
+    style="background-image:url(/img/speakers-2017/{{ speaker.id }}.jpg)"/>
+   <span class="name">
+    {% if speaker.twitter %}
+     <a href="http://twitter.com/{{speaker.twitter}}">{{ speaker.name }}</a>
+    {% else %}
+     {{ speaker.name }}
+    {% endif %}
+   </span>
+  </td>
+  <td>
+   <p class="title">{{ speaker.title }}</p>
+   <p class="abstract">{{ speaker.abstract }}</p>
+  </td>
+ </tr>
+ {% endfor %}
 </table>

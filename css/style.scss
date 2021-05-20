@@ -10,101 +10,101 @@ $dark-gray: #949599;
 $yellow: #FCE648;
 
 * {
-  box-sizing: border-box;
+ box-sizing: border-box;
 }
 
 body {
-  background-color: $blue;
-  font-family: 'Fira Sans', sans-serif;
-  margin: 45px;
-  color: white;
+ background-color: $blue;
+ font-family: 'Fira Sans', sans-serif;
+ margin: 45px;
+ color: white;
 }
 @media (max-width: 400px) {
-  body {
-    margin: 20px;
-  }
+ body {
+  margin: 20px;
+ }
 }
 table {
-  color: white;
-  width: 100%;
+ color: white;
+ width: 100%;
 }
 th {
-  font-weight: 500;
+ font-weight: 500;
 }
 a {
-  color: white;
-  transition: .25s color;
+ color: white;
+ transition: .25s color;
 }
 a:hover {
-  color: #ffb5b5;
+ color: #ffb5b5;
 }
 a:active {
-  color: #ff9191;
+ color: #ff9191;
 }
 h1, h2, h3 {
-  color: white;
+ color: white;
 }
 p {
-  color: white;
-  font-weight: 300;
-  font-size: 20px;
+ color: white;
+ font-weight: 300;
+ font-size: 20px;
 }
 table td, table th {
-  border: 1px solid white;
-  padding: 10px;
-  text-align: left;
-  border-width: 5px;
-  margin: auto;
-  font-size: 20px;
+ border: 1px solid white;
+ padding: 10px;
+ text-align: left;
+ border-width: 5px;
+ margin: auto;
+ font-size: 20px;
 }
 td {
-  font-weight: 300;
+ font-weight: 300;
 }
 @media (max-width: 400px) {
-  table td,
-  table th {
-    font-size: 16px;
-  }
+ table td,
+ table th {
+  font-size: 16px;
+ }
 }
 caption {
-  caption-side: bottom;
-  text-align: right;
+ caption-side: bottom;
+ text-align: right;
 }
 table {
-  border-collapse: collapse;
-  border-style: hidden;
+ border-collapse: collapse;
+ border-style: hidden;
 }
 strong {
-  font-weight: 500;
+ font-weight: 500;
 }
 
 .link, .link a {
-  background-color: white;
-  color: #537ABD;
-  text-decoration: none;
-  font-weight: 500;
+ background-color: white;
+ color: #537ABD;
+ text-decoration: none;
+ font-weight: 500;
 }
 .bold {
-  font-weight: 500;
+ font-weight: 500;
 }
 .button {
-  color: #537ABD;
-  background-color: #fff;
-  transition: .25s background;
-  padding: 1em 2em;
-  display: inline-block;
+ color: #537ABD;
+ background-color: #fff;
+ transition: .25s background;
+ padding: 1em 2em;
+ display: inline-block;
 
-  &:hover {
-    background-color: #ffb5b5;
-    color: $blue;
-  }
-  &:active {
-    background-color: #ff9191;
-  }
+ &:hover {
+  background-color: #ffb5b5;
+  color: $blue;
+ }
+ &:active {
+  background-color: #ff9191;
+ }
 }
 
 .title {
-  font-weight: bold;
+ font-weight: bold;
 }
 
 /**
@@ -112,51 +112,51 @@ strong {
  */
 
 .header {
-  padding: 0 0 10px;
-  border-bottom: 5px solid white;
+ padding: 0 0 10px;
+ border-bottom: 5px solid white;
 
-  h1 {
-    margin: 0;
-    display: inline-block;
-    font-size: 54px;
+ h1 {
+  margin: 0;
+  display: inline-block;
+  font-size: 54px;
 
-    a {
-      text-decoration: none;
-    }
+  a {
+   text-decoration: none;
   }
+ }
 
-  .menu {
-    display: inline-block;
-    list-style: none;
-    float: right;
-    margin: 0;
-    padding: 0;
+ .menu {
+  display: inline-block;
+  list-style: none;
+  float: right;
+  margin: 0;
+  padding: 0;
 
-    li {
-      display: inline-block;
+  li {
+   display: inline-block;
 
-      a {
-        text-decoration: none;
-      }
-    }
+   a {
+    text-decoration: none;
+   }
   }
+ }
 }
 
 @media (max-width: 500px) {
-  .header .menu {
-    float: none;
+ .header .menu {
+  float: none;
+  width: 100%;
+
+  li {
+   display: block;
+   width: 100%;
+   margin-bottom: 1px;
+
+   a {
     width: 100%;
-
-    li {
-      display: block;
-      width: 100%;
-      margin-bottom: 1px;
-
-      a {
-        width: 100%;
-      }
-    }
+   }
   }
+ }
 }
 
 /**
@@ -166,130 +166,130 @@ strong {
 table.locations,
 table.keynotes,
 table.speaker-list {
-  margin-bottom: 4rem;
-  border-top: 3px solid white;
+ margin-bottom: 4rem;
+ border-top: 3px solid white;
 }
 table.speaker-list {
-  margin-top: 2rem;
+ margin-top: 2rem;
 }
 .sixty {
-  width: 100%;
+ width: 100%;
 }
 @media (min-width: 1024px) {
-  .sixty {
-    width: 60%;
-  }
+ .sixty {
+  width: 60%;
+ }
 }
 .eighty {
-  width: 100%;
+ width: 100%;
 }
 @media (min-width: 1024px) {
-  .eighty {
-    width: 80%;
-  }
+ .eighty {
+  width: 80%;
+ }
 }
 .date {
-  width: 25%;
+ width: 25%;
 }
 .speaker {
-  width: 25%;
+ width: 25%;
 }
 .keynotes td {
-  border-right: none;
+ border-right: none;
 }
 .keynote {
-  text-align: center;
-  width: 25%;
-  padding-right: .5em;
-  float: left;
-  vertical-align: top;
-  transition: .5s padding;
+ text-align: center;
+ width: 25%;
+ padding-right: .5em;
+ float: left;
+ vertical-align: top;
+ transition: .5s padding;
 }
 @media (max-width: 600px) {
-  .keynote {
-    width: 50%;
-  }
+ .keynote {
+  width: 50%;
+ }
 }
 .keynote .image {
-  width: 100%;
-  height: 200px;
-  background-position: 0;
-  background-size: cover;
-  background-color: #6289cc;
-  color: #fff;
-  font-size: 60px;
-  display: block;
-  padding-top: 0.6em;
-  font-size: 4em;
-  transition: all .5s;
-  cursor: pointer;
-  margin: 0 auto;
+ width: 100%;
+ height: 200px;
+ background-position: 0;
+ background-size: cover;
+ background-color: #6289cc;
+ color: #fff;
+ font-size: 60px;
+ display: block;
+ padding-top: 0.6em;
+ font-size: 4em;
+ transition: all .5s;
+ cursor: pointer;
+ margin: 0 auto;
 }
 .keynote .image:hover {
-  opacity: .6;
+ opacity: .6;
 }
 @media (min-width: 1024px) {
-  .keynote .image { height: 200px; width: 200px; }
+ .keynote .image { height: 200px; width: 200px; }
 }
 .keynote h3 {
-  display: block;
-  text-align: center;
-  font-size: 18px;
-  font-weight: 300;
-  margin: 1em 0;
+ display: block;
+ text-align: center;
+ font-size: 18px;
+ font-weight: 300;
+ margin: 1em 0;
 }
 .keynote .bio {
-  display: none;
-  font-size: 16px;
-  text-align: left;
+ display: none;
+ font-size: 16px;
+ text-align: left;
 }
 .keynote-selector {
-  display: none;
+ display: none;
 }
 .keynote-selector:checked + .keynote .bio {
-  display: block;
+ display: block;
 }
 .keynote-selector:checked + .keynote {
-  background: #799dda;
-  padding: .5em;
+ background: #799dda;
+ padding: .5em;
 }
 .location {
-  width: 30%;
-  padding: 10px 10px 10px 25px
+ width: 30%;
+ padding: 10px 10px 10px 25px
 }
 .tagline {
-  padding: 13px 10px 7px 0px;
+ padding: 13px 10px 7px 0px;
 }
 .second-tagline {
-  padding: 17px 10px 4rem 0px;
+ padding: 17px 10px 4rem 0px;
 }
 
 .second-tagline .buy-tickets {
-  margin-left: 1em;
+ margin-left: 1em;
 }
 @media (max-width: 1024px) {
-  .second-tagline .buy-tickets {
-    margin-left: 0;
-    margin-top: 1em;
-  }
+ .second-tagline .buy-tickets {
+  margin-left: 0;
+  margin-top: 1em;
+ }
 }
 .second-tagline--info {
-  width: 100%;
-  margin-top: 1em;
-  vertical-align: top;
-  display: inline-block;
-  padding: .5%;
+ width: 100%;
+ margin-top: 1em;
+ vertical-align: top;
+ display: inline-block;
+ padding: .5%;
 }
 @media (min-width: 1024px) {
-  .second-tagline--info {
-    width: 30%;
-  }
+ .second-tagline--info {
+  width: 30%;
+ }
 }
 .slack-link {
-  margin-top: 2em;
+ margin-top: 2em;
 }
 .transparent td {
-  border: 1px transparent;
+ border: 1px transparent;
 }
 
 /**
@@ -297,42 +297,42 @@ table.speaker-list {
  */
 
 .speakers-intro {
-  max-width: 640px;
+ max-width: 640px;
 }
 
 .speakers {
-  .about {
-    text-align: right;
-    width: 160px;
-  }
-  .image {
-    width: 150px;
-    height: 150px;
-    background-position: center;
-    background-size: cover;
-    display: block;
-    text-align: right;
-    float: right;
-  }
-  .name {
-    float: right;
-    clear: both;
-  }
+ .about {
+  text-align: right;
+  width: 160px;
+ }
+ .image {
+  width: 150px;
+  height: 150px;
+  background-position: center;
+  background-size: cover;
+  display: block;
+  text-align: right;
+  float: right;
+ }
+ .name {
+  float: right;
+  clear: both;
+ }
 
-  .title {
-    max-width: 640px;
-  }
+ .title {
+  max-width: 640px;
+ }
 }
 
 .talk-name {
-  display: block;
-  margin-bottom: 1em;
+ display: block;
+ margin-bottom: 1em;
 }
 
 @media (max-width: 500px) {
-  .speakers .image {
-    display: none;
-  }
+ .speakers .image {
+  display: none;
+ }
 }
 
 /*
@@ -340,7 +340,7 @@ table.speaker-list {
  */
 
 .locations {
-  max-width: 640px;
+ max-width: 640px;
 }
 
 /**
@@ -348,390 +348,390 @@ table.speaker-list {
  */
 
 footer {
-  color: white;
-  font-size: 14px;
-  font-weight: 200;
+ color: white;
+ font-size: 14px;
+ font-weight: 200;
 
-  p {
-    font-size: 14px;
-  }
+ p {
+  font-size: 14px;
+ }
 }
 
 .footer-info {
-  font-size: 14px;
-  border-top: 5px solid black;
-  padding:1% 0;
+ font-size: 14px;
+ border-top: 5px solid black;
+ padding:1% 0;
 
 }
 
 .pink-theme {
-  background-color: $pink;
-  font-family: 'Fira Sans', sans-serif;
-  margin: 45px;
+ background-color: $pink;
+ font-family: 'Fira Sans', sans-serif;
+ margin: 45px;
+ color: black;
+
+
+ table, footer {
   color: black;
+ }
 
+ .header {
+  border-bottom: 5px solid black;
+  padding: 0 0 10px;
+ }
 
-  table, footer {
-    color: black;
+ .button {
+  color: $pink;
+  background-color: black;
+  transition: .25s background;
+  padding: 1em 2em;
+  display: inline-block;
+  font-size: smaller;
+
+  &:hover {
+   background-color: white;
+   color: black;
   }
+ }
 
-  .header {
-    border-bottom: 5px solid black;
-    padding: 0 0 10px;
-  }
+ .button--info {
+  width: 100%;
+  vertical-align: top;
+  display: inline-block;
+ }
 
-  .button {
-    color: $pink;
-    background-color: black;
-    transition: .25s background;
-    padding: 1em 2em;
-    display: inline-block;
-    font-size: smaller;
-
-    &:hover {
-      background-color: white;
-      color: black;
-    }
-  }
-
+ @media (min-width: 1024px) {
   .button--info {
-    width: 100%;
-    vertical-align: top;
-    display: inline-block;
+   width: 30%;
   }
-
-  @media (min-width: 1024px) {
-    .button--info {
-      width: 30%;
-    }
-  }
+ }
+ 
+ .button--std {
+  color: $pink;
+  background-color: black;
+  transition: .25s background;
+  padding: 1em 2em;
+  display: inline-block;
+  font-size: smaller;
   
-  .button--std {
-    color: $pink;
-    background-color: black;
-    transition: .25s background;
-    padding: 1em 2em;
-    display: inline-block;
-    font-size: smaller;
-    
-    h1, p, a {
-      color: $pink;
-    }
+  h1, p, a {
+   color: $pink;
   }
+ }
 
-  table.locations,
-  table.keynotes,
-  table.speaker-list {
-  }
+ table.locations,
+ table.keynotes,
+ table.speaker-list {
+ }
 
-  .keynotes td {
-    border-right: none;
-  }
+ .keynotes td {
+  border-right: none;
+ }
 
-  .keynote-selector:checked + .keynote {
-    background: #f6e4ed;
-  }
+ .keynote-selector:checked + .keynote {
+  background: #f6e4ed;
+ }
 
-  .keynote .image {
-    background-color: #eabed3;
-  }
+ .keynote .image {
+  background-color: #eabed3;
+ }
 
-  p, a {
-    color: black;
-  }
+ p, a {
+  color: black;
+ }
 
-  h1, h2, h3 {
-    color: black;
-    font-weight: 500;
-  }
+ h1, h2, h3 {
+  color: black;
+  font-weight: 500;
+ }
 
-  table td, table th {
-    border: 1px solid black;
-    border-width: 5px;
-  }
+ table td, table th {
+  border: 1px solid black;
+  border-width: 5px;
+ }
 
-  .locations {
-    max-width: 80%;
-  }
+ .locations {
+  max-width: 80%;
+ }
 }
 
 .green-theme {
-  background-color: $green;
-  font-family: 'Fira Sans', sans-serif;
-  margin: 45px;
+ background-color: $green;
+ font-family: 'Fira Sans', sans-serif;
+ margin: 45px;
+ color: black;
+
+
+ table, footer {
   color: black;
+ }
 
+ .header {
+  border-bottom: 5px solid black;
+  padding: 0 0 10px;
+ }
 
-  table, footer {
-    color: black;
+ .button {
+  color: $green;
+  background-color: black;
+  transition: .25s background;
+  padding: 1em 2em;
+  display: inline-block;
+  font-size: smaller;
+
+  &:hover {
+   background-color: white;
+   color: black;
   }
+ }
 
-  .header {
-    border-bottom: 5px solid black;
-    padding: 0 0 10px;
-  }
+ .button--info {
+  width: 100%;
+  vertical-align: top;
+  display: inline-block;
+ }
 
-  .button {
-    color: $green;
-    background-color: black;
-    transition: .25s background;
-    padding: 1em 2em;
-    display: inline-block;
-    font-size: smaller;
-
-    &:hover {
-      background-color: white;
-      color: black;
-    }
-  }
-
+ @media (min-width: 1024px) {
   .button--info {
-    width: 100%;
-    vertical-align: top;
-    display: inline-block;
+   width: 30%;
   }
-
-  @media (min-width: 1024px) {
-    .button--info {
-      width: 30%;
-    }
-  }
+ }
+ 
+ .button--std {
+  color: $green;
+  background-color: black;
+  transition: .25s background;
+  padding: 1em 2em;
+  display: inline-block;
+  font-size: smaller;
   
-  .button--std {
-    color: $green;
-    background-color: black;
-    transition: .25s background;
-    padding: 1em 2em;
-    display: inline-block;
-    font-size: smaller;
-    
-    h1, p, a {
-      color: $green;
-    }
+  h1, p, a {
+   color: $green;
   }
+ }
 
-  table.locations,
-  table.keynotes,
-  table.speaker-list {
-  }
+ table.locations,
+ table.keynotes,
+ table.speaker-list {
+ }
 
-  .keynotes td {
-    border-right: none;
-  }
+ .keynotes td {
+  border-right: none;
+ }
 
-  .keynote-selector:checked + .keynote {
-    background: #E1F5EB;
-  }
+ .keynote-selector:checked + .keynote {
+  background: #E1F5EB;
+ }
 
-  .keynote .image {
-    background-color: #E1F5EB;
-  }
+ .keynote .image {
+  background-color: #E1F5EB;
+ }
 
-  p, a {
-    color: black;
-  }
+ p, a {
+  color: black;
+ }
 
-  h1, h2, h3 {
-    color: black;
-    font-weight: 500;
-  }
+ h1, h2, h3 {
+  color: black;
+  font-weight: 500;
+ }
 
-  table td, table th {
-    border: 1px solid black;
-    border-width: 5px;
-  }
+ table td, table th {
+  border: 1px solid black;
+  border-width: 5px;
+ }
 
-  .locations {
-    max-width: 80%;
-  }
+ .locations {
+  max-width: 80%;
+ }
 }
 
 .pantone-2021-theme {
-  background-color: $yellow;
-  font-family: 'Fira Sans', sans-serif;
-  margin: 45px;
+ background-color: $yellow;
+ font-family: 'Fira Sans', sans-serif;
+ margin: 45px;
+ color: black;
+
+
+ table, footer {
   color: black;
+ }
 
+ .header {
+  border-bottom: 5px solid black;
+  padding: 0 0 10px;
+ }
 
-  table, footer {
-    color: black;
+ .button {
+  color: $yellow;
+  background-color: black;
+  transition: .25s background;
+  padding: 1em 2em;
+  display: inline-block;
+  font-size: smaller;
+
+  &:hover {
+   background-color: gray;
+   color: $yellow;
   }
+ }
 
-  .header {
-    border-bottom: 5px solid black;
-    padding: 0 0 10px;
-  }
+ .button--info {
+  width: 100%;
+  vertical-align: top;
+  display: inline-block;
+ }
 
-  .button {
-    color: $yellow;
-    background-color: black;
-    transition: .25s background;
-    padding: 1em 2em;
-    display: inline-block;
-    font-size: smaller;
-
-    &:hover {
-      background-color: gray;
-      color: $yellow;
-    }
-  }
-
+ @media (min-width: 1024px) {
   .button--info {
-    width: 100%;
-    vertical-align: top;
-    display: inline-block;
+   width: 30%;
   }
-
-  @media (min-width: 1024px) {
-    .button--info {
-      width: 30%;
-    }
-  }
+ }
+ 
+ .button--std {
+  color: $yellow;
+  background-color: black;
+  transition: .25s background;
+  padding: 1em 2em;
+  display: inline-block;
+  font-size: smaller;
   
-  .button--std {
-    color: $yellow;
-    background-color: black;
-    transition: .25s background;
-    padding: 1em 2em;
-    display: inline-block;
-    font-size: smaller;
-    
-    h1, p, a {
-      color: $yellow;
-    }
-    &:hover {
-      background-color: gray;
-      color: $yellow;
-    }
+  h1, p, a {
+   color: $yellow;
   }
+  &:hover {
+   background-color: gray;
+   color: $yellow;
+  }
+ }
 
-  table.locations,
-  table.keynotes,
-  table.speaker-list {
-  }
+ table.locations,
+ table.keynotes,
+ table.speaker-list {
+ }
 
-  .keynotes td {
-    border-right: none;
-  }
+ .keynotes td {
+  border-right: none;
+ }
 
-  .keynote-selector:checked + .keynote {
-    background: #FDF093;
-  }
+ .keynote-selector:checked + .keynote {
+  background: #FDF093;
+ }
 
-  .keynote .image {
-    background-color: #FDF093;
-  }
+ .keynote .image {
+  background-color: #FDF093;
+ }
 
-  p, a {
-    color: black;
-  }
+ p, a {
+  color: black;
+ }
 
-  h1, h2, h3 {
-    color: black;
-    font-weight: 500;
-  }
+ h1, h2, h3 {
+  color: black;
+  font-weight: 500;
+ }
 
-  table td, table th {
-    border: 1px solid black;
-    border-width: 5px;
-  }
+ table td, table th {
+  border: 1px solid black;
+  border-width: 5px;
+ }
 
-  .locations {
-    max-width: 80%;
-  }
+ .locations {
+  max-width: 80%;
+ }
 }
 
 .pantone-gray-theme {
-  background-color: $gray;
-  font-family: 'Fira Sans', sans-serif;
-  margin: 45px;
+ background-color: $gray;
+ font-family: 'Fira Sans', sans-serif;
+ margin: 45px;
+ color: black;
+
+
+ table, footer {
   color: black;
+ }
 
+ .header {
+  border-bottom: 5px solid black;
+  padding: 0 0 10px;
+ }
 
-  table, footer {
-    color: black;
+ .button {
+  color: $gray;
+  background-color: black;
+  transition: .25s background;
+  padding: 1em 2em;
+  display: inline-block;
+  font-size: smaller;
+
+  &:hover {
+   background-color: $dark-gray;
+   color: black;
   }
+ }
 
-  .header {
-    border-bottom: 5px solid black;
-    padding: 0 0 10px;
-  }
+ .button--info {
+  width: 100%;
+  vertical-align: top;
+  display: inline-block;
+ }
 
-  .button {
-    color: $gray;
-    background-color: black;
-    transition: .25s background;
-    padding: 1em 2em;
-    display: inline-block;
-    font-size: smaller;
-
-    &:hover {
-      background-color: $dark-gray;
-      color: black;
-    }
-  }
-
+ @media (min-width: 1024px) {
   .button--info {
-    width: 100%;
-    vertical-align: top;
-    display: inline-block;
+   width: 30%;
   }
-
-  @media (min-width: 1024px) {
-    .button--info {
-      width: 30%;
-    }
-  }
+ }
+ 
+ .button--std {
+  color: $gray;
+  background-color: black;
+  transition: .25s background;
+  padding: 1em 2em;
+  display: inline-block;
+  font-size: smaller;
   
-  .button--std {
-    color: $gray;
-    background-color: black;
-    transition: .25s background;
-    padding: 1em 2em;
-    display: inline-block;
-    font-size: smaller;
-    
-    h1, p, a {
-      color: $gray;
-    }
-    &:hover {
-      background-color: $dark-gray;
-      color: black;
-    }
+  h1, p, a {
+   color: $gray;
   }
+  &:hover {
+   background-color: $dark-gray;
+   color: black;
+  }
+ }
 
-  table.locations,
-  table.keynotes,
-  table.speaker-list {
-  }
+ table.locations,
+ table.keynotes,
+ table.speaker-list {
+ }
 
-  .keynotes td {
-    border-right: none;
-  }
+ .keynotes td {
+  border-right: none;
+ }
 
-  .keynote-selector:checked + .keynote {
-    background: #F4F4F5;
-  }
+ .keynote-selector:checked + .keynote {
+  background: #F4F4F5;
+ }
 
-  .keynote .image {
-    background-color: #F4F4F5;
-  }
+ .keynote .image {
+  background-color: #F4F4F5;
+ }
 
-  p, a {
-    color: black;
-  }
+ p, a {
+  color: black;
+ }
 
-  h1, h2, h3 {
-    color: black;
-    font-weight: 500;
-  }
+ h1, h2, h3 {
+  color: black;
+  font-weight: 500;
+ }
 
-  table td, table th {
-    border: 1px solid black;
-    border-width: 5px;
-  }
+ table td, table th {
+  border: 1px solid black;
+  border-width: 5px;
+ }
 
-  .locations {
-    max-width: 80%;
-  }
+ .locations {
+  max-width: 80%;
+ }
 }

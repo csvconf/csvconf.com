@@ -34,26 +34,26 @@ var csv = parsedURL.query.csv || 'http://earthquake.usgs.gov/earthquakes/feed/v1
 xhr({ responseType: 'arraybuffer', url: 'http://cors.maxogden.com/' + csv }, response)
 
 function response(err, resp, data) {
-  if (err) throw err
-  var buff = new Buffer(new Uint8Array(data))
-  var parser = bcsv({json: true})
-  document.querySelector('.easteregg').style.display = 'block'
-  parser.pipe(concat(render))
-  parser.write(buff)
-  parser.end()
+ if (err) throw err
+ var buff = new Buffer(new Uint8Array(data))
+ var parser = bcsv({json: true})
+ document.querySelector('.easteregg').style.display = 'block'
+ parser.pipe(concat(render))
+ parser.write(buff)
+ parser.end()
 }
 
 function render(rows) {
-  for (var i = 0; i < rows.length; i++) {
-    var sub = rows.slice(0, i)
-    var offset = (i + 1) * 1000
-    schedule(sub, offset)
-  }
-  
-  function schedule(sub, offset) {
-    setTimeout(function() {
-      term.reset()
-      term.write(tablify(sub))    
-    }, offset)
-  }
+ for (var i = 0; i < rows.length; i++) {
+  var sub = rows.slice(0, i)
+  var offset = (i + 1) * 1000
+  schedule(sub, offset)
+ }
+ 
+ function schedule(sub, offset) {
+  setTimeout(function() {
+   term.reset()
+   term.write(tablify(sub))  
+  }, offset)
+ }
 }

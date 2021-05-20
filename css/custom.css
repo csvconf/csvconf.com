@@ -4,50 +4,50 @@
 #schedule .btn-side { text-align: center; padding: 0px 20px; width: auto; }
 
 .features-circle {
-  background-size: 180px 180px;
-  background-color: #0097a7;
-  border: 6px solid #49556E;
+ background-size: 180px 180px;
+ background-color: #0097a7;
+ border: 6px solid #49556E;
 }
 
 #about {
-  padding-top: 0;
-  padding-bottom: 20px;
+ padding-top: 0;
+ padding-bottom: 20px;
 }
 
 .logo span {
-  color: #0097a7;
-  margin: 0 -12px 0 -14px;
+ color: #0097a7;
+ margin: 0 -12px 0 -14px;
 }
 
 .speakers .features-list .features-item a {
-  text-decoration: none;
+ text-decoration: none;
 }
 
 @media (min-width: 961px) {
-  .speakers .features-list .features-item {
-    width: 25%;
-    height: 400px;
-  }
+ .speakers .features-list .features-item {
+  width: 25%;
+  height: 400px;
+ }
 }
 
 .speakers .features-list h3 {
-  font-size: 20px;
+ font-size: 20px;
 }
 
 .speakers .features-list h4 {
-  font-size: 20px;
-  border-bottom: 1px solid white;
+ font-size: 20px;
+ border-bottom: 1px solid white;
 }
 
 .site-header {
-  border-top: 5px solid #0097a7;
-  background-color: #F7F7F7;
-  text-shadow: none;
-  color: black;
+ border-top: 5px solid #0097a7;
+ background-color: #F7F7F7;
+ text-shadow: none;
+ color: black;
 }
 
 .section-signup {
-  background-color: #0097a7;
+ background-color: #0097a7;
 }
 
 .section-signup h3, .section-signup h4 { color: white; }
@@ -63,19 +63,19 @@
 .easteregg { font-size: 12px; padding: 0px 5px; }
 
 .terminal {
-  font-style: normal;
-  font-variant: normal;
-  font-weight: normal;
-  line-height: normal;
-  font-family: Monaco, mono;
-  height: 100%;
-  width: 100%;
-  padding: 5px;
-  overflow: hidden;
-  position: absolute;
-  top: 0px;
-  white-space: pre;
-  z-index: 1;
+ font-style: normal;
+ font-variant: normal;
+ font-weight: normal;
+ line-height: normal;
+ font-family: Monaco, mono;
+ height: 100%;
+ width: 100%;
+ padding: 5px;
+ overflow: hidden;
+ position: absolute;
+ top: 0px;
+ white-space: pre;
+ z-index: 1;
 }
 
 .row { max-width: 850px; }
@@ -86,8 +86,8 @@ header .row { z-index: 2; position: relative; }
 .signup-title { margin-bottom: 40px; }
 .section-signup a:not(.btn-side) { color: white; text-decoration: underline; }
 .section-signup a.btn-side {
-  margin-top: 1rem;
-  padding: .75rem 0;
+ margin-top: 1rem;
+ padding: .75rem 0;
 }
 
 .subheader { text-align: center; color: white; text-transform: uppercase; }
@@ -97,64 +97,64 @@ header .row { z-index: 2; position: relative; }
 .logo { font-family: 'Droid Sans Mono';}
 
 .site-header {
-  background-position: 50% 0px;
-/*  background-image: url("../img/boston.jpg");*/
+ background-position: 50% 0px;
+/* background-image: url("../img/boston.jpg");*/
 }
 
 .header-intro-wrap {
-  padding-bottom: 110px;
-  padding-top: 110px;
-  text-align: center;
+ padding-bottom: 110px;
+ padding-top: 110px;
+ text-align: center;
 }
 
 .header-intro-wrap p {
-  font-size: 28px;
-  background-color: #f7f7f7;
+ font-size: 28px;
+ background-color: #f7f7f7;
 }
 
 .btn-docs {
-  background: #2b3848;
-  border-color: #2b3848;
+ background: #2b3848;
+ border-color: #2b3848;
 }
 
 .footer-info a {
-  color: white;
+ color: white;
 }
 
 @media screen and (max-width: 468px) {
-  .logo {
-    font-size: 50px;
-  }
-  .btn-docs {
-    border-color: #0097a7;
-  }
-  .site-header {
-  }
-  .header-intro-wrap p {
-    margin-top: 24px;
-  }
-  .header-signup {
-  }
-  .header-intro-wrap .hs-disclaimer {
-    margin-top:50px;
-  }
-  .header-intro-wrap {
-    padding-bottom: 50px;
-  }
+ .logo {
+  font-size: 50px;
+ }
+ .btn-docs {
+  border-color: #0097a7;
+ }
+ .site-header {
+ }
+ .header-intro-wrap p {
+  margin-top: 24px;
+ }
+ .header-signup {
+ }
+ .header-intro-wrap .hs-disclaimer {
+  margin-top:50px;
+ }
+ .header-intro-wrap {
+  padding-bottom: 50px;
+ }
 }
 
 .video-wrapper {
-  position: relative;
-  padding-bottom: 53.6%; /* 16:9 */
-  padding-top: 25px;
-  height: 0;
+ position: relative;
+ padding-bottom: 53.6%; /* 16:9 */
+ padding-top: 25px;
+ height: 0;
 }
 .video-wrapper iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+ position: absolute;
+ top: 0;
+ left: 0;
+ width: 100%;
+ height: 100%;
 }
 
 .open-data-node {
@@ -162,17 +162,17 @@ header .row { z-index: 2; position: relative; }
 }
 
 .slot {
-  font-size: 120%;
-  font-weight: bold;
+ font-size: 120%;
+ font-weight: bold;
 }
 .room {
-  float: right;
-  padding-top: 10px;
+ float: right;
+ padding-top: 10px;
 }
 @media only screen and (min-width:1024px){
-  .slot {
-    position: relative;
-    left: -130px;
-    top: 40px;
-  }
+ .slot {
+  position: relative;
+  left: -130px;
+  top: 40px;
+ }
 }

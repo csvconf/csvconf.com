@@ -14,22 +14,22 @@ Welcome to Portland!
 - [Welcome to Portland!](#welcome-to-portland)
 - [Hotels](#hotels)
 - [Airbnb](#airbnb)
-  - [Neighborhoods](#neighborhoods)
-  - [NW 23rd](#nw-23rd)
-  - [The Pearl](#the-pearl)
-  - [SE Belmont and Division](#se-belmont-and-division)
-      - [Notable cats in this area](#notable-cats-in-this-area)
-  - [N Mississippi](#n-mississippi)
-  - [NE Alberta](#ne-alberta)
+ - [Neighborhoods](#neighborhoods)
+ - [NW 23rd](#nw-23rd)
+ - [The Pearl](#the-pearl)
+ - [SE Belmont and Division](#se-belmont-and-division)
+   - [Notable cats in this area](#notable-cats-in-this-area)
+ - [N Mississippi](#n-mississippi)
+ - [NE Alberta](#ne-alberta)
 - [Transportation](#transportation)
 - [Your morning coffee](#your-morning-coffee)
 - [Donut Wars](#donut-wars)
 - [Useful places near the venue](#useful-places-near-the-venue)
 - [Dinner](#dinner)
-  - [Restaurants Near the Venue:](#restaurants-near-the-venue)
-  - [Restaurants Inner East Side:](#restaurants-inner-east-side)
-  - [Restaurants further East](#restaurants-further-east)
-  - [Karaoke](#karaoke)
+ - [Restaurants Near the Venue:](#restaurants-near-the-venue)
+ - [Restaurants Inner East Side:](#restaurants-inner-east-side)
+ - [Restaurants further East](#restaurants-further-east)
+ - [Karaoke](#karaoke)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -59,18 +59,18 @@ Do you prefer apartments to hotels? Do you want to pretend you live in Portland?
 
 ## Neighborhoods
 
-[Portland is organized](https://en.wikipedia.org/wiki/Neighborhoods_of_Portland,_Oregon) into four quadrants - SW, NW, SE, NE (and North Portland, which is the fifth quadrant, that's just how we do it). Burnside divides North and South, and the Willamette River divides East and West.  North Portland is North of Burnside, east of the Willamete, and west of I-5. The Elliot Center is in SW Portland. Below are some neighborhoods to check out.
+[Portland is organized](https://en.wikipedia.org/wiki/Neighborhoods_of_Portland,_Oregon) into four quadrants - SW, NW, SE, NE (and North Portland, which is the fifth quadrant, that's just how we do it). Burnside divides North and South, and the Willamette River divides East and West. North Portland is North of Burnside, east of the Willamete, and west of I-5. The Elliot Center is in SW Portland. Below are some neighborhoods to check out.
 
 ## NW 23rd
 North of Burnside along NW 23rd Ave, this is a lively area with a mix of local and chain shops. Charming apartments. 1-2 miles from the venue, ~30 min walk or streetcar or ~15 min bus ride.
 
 ## The Pearl
 
-North of Burnside and east of the 405, mainly loft and condo apartments. Gentrified in the 90s, this used to be a warehouse district. Now it's home to many bars and restaurants. This is where you'd go out to dinner with your boss or your parents.  ~1 mile from the Elliot center, walkable or take the streetcar.
+North of Burnside and east of the 405, mainly loft and condo apartments. Gentrified in the 90s, this used to be a warehouse district. Now it's home to many bars and restaurants. This is where you'd go out to dinner with your boss or your parents. ~1 mile from the Elliot center, walkable or take the streetcar.
 
 ## SE Belmont and Division
 
-Cat, brunch and coffee paradise. Full of charming houses and apartments. Food-cart central.  Look for places in Sunnyside, Richmond, Division, Belmont, and Hawthorne neighborhoods or search the Zip Code 97214. Bike or ~25 min bus ride to the venue.
+Cat, brunch and coffee paradise. Full of charming houses and apartments. Food-cart central. Look for places in Sunnyside, Richmond, Division, Belmont, and Hawthorne neighborhoods or search the Zip Code 97214. Bike or ~25 min bus ride to the venue.
 
 ## N Mississippi
 
@@ -117,7 +117,7 @@ Monday - Friday 6:30 am to 7:00 pm, weekends 7:30 am - 7:00pm.
 
 [Spella Caffe](http://www.spellacaffe.com/)
 Rancillio lever-pull espresso machine and a blend of PDX and Italian style make this *tiny* cafe special. Not a place to bring your laptop, there is no room.
-520 Southwest 5th Avenue  Portland
+520 Southwest 5th Avenue Portland
 Monday - Friday 7:30 am - 3:00 pm, closed weekends.
 
 --- 
@@ -149,7 +149,7 @@ CVS Pharmacy inside Target - 939 SW Morrison St, Portland
 
 ## Restaurants Near the Venue
 
-[Tasty n Alder](http://www.tastynalder.com/)  has very good food! Takes take reservations for parties of 7 to 10 persons for dinner.
+[Tasty n Alder](http://www.tastynalder.com/) has very good food! Takes take reservations for parties of 7 to 10 persons for dinner.
 580 SW 12th Ave, Portland
 Dinner: Sunday - Thursday 5:30 pm to 10:00 pm
 

@@ -12,66 +12,66 @@ We assembled an exciting lineup of speakers for csv,conf,v5 -– of data makers 
 </p>
 
 <table class="speakers">
-  {% for speaker in site.data.2020_speakers %}
-  <tr class="speaker" id="{{ speaker.name | slugify }}">
-    <td class="about">
-      {% if speaker.img %}
-        <img class="image"
-          style="background-image:url(/img/speakers-2020/{{ speaker.id }}.jpg)"/>
-      {% else %}
-        <img class="image"
-          style="background-image:url(/img/speakers-2020/comma.jpg)"/>
-      {% endif %}
-      <span class="name">
-        {% if speaker.twitter %}
-          <a href="https://twitter.com/{{speaker.twitter}}">{{ speaker.name }}</a>
-        {% else %}
-          {{ speaker.name }}
-        {% endif %}
-      </span>
-    </td>
-    <td>
-      <p class="title">{{ speaker.title }}</p>
-      <p class="abstract">{{ speaker.abstract }}</p>
-      <span>
-        {% if speaker.slides_url %}
-          <a href="{{speaker.slides_url}}" target="_blank">View Slides</a> ·
-        {% else %}
-           
-        {% endif %}
-      </span>
-      <span>
-        {% if speaker.talk_url %}
-          <a href="{{speaker.talk_url}}" target="_blank">Watch Talk</a>
-        {% else %}
+ {% for speaker in site.data.2020_speakers %}
+ <tr class="speaker" id="{{ speaker.name | slugify }}">
+  <td class="about">
+   {% if speaker.img %}
+    <img class="image"
+     style="background-image:url(/img/speakers-2020/{{ speaker.id }}.jpg)"/>
+   {% else %}
+    <img class="image"
+     style="background-image:url(/img/speakers-2020/comma.jpg)"/>
+   {% endif %}
+   <span class="name">
+    {% if speaker.twitter %}
+     <a href="https://twitter.com/{{speaker.twitter}}">{{ speaker.name }}</a>
+    {% else %}
+     {{ speaker.name }}
+    {% endif %}
+   </span>
+  </td>
+  <td>
+   <p class="title">{{ speaker.title }}</p>
+   <p class="abstract">{{ speaker.abstract }}</p>
+   <span>
+    {% if speaker.slides_url %}
+     <a href="{{speaker.slides_url}}" target="_blank">View Slides</a> ·
+    {% else %}
       
-        {% endif %}
-      </span>
-    </td>
-  </tr>
-  {% endfor %}
+    {% endif %}
+   </span>
+   <span>
+    {% if speaker.talk_url %}
+     <a href="{{speaker.talk_url}}" target="_blank">Watch Talk</a>
+    {% else %}
+   
+    {% endif %}
+   </span>
+  </td>
+ </tr>
+ {% endfor %}
 </table>
 
 <h1>Schedule</h1>
 
 <table class="speakers">
-  {% for row in site.data.2020_schedule %}
-  <tr>
-    {% if row['Session'] == nil %}
-      <td colspan=5 class="day">{{ row['Time'] }}</td>
+ {% for row in site.data.2020_schedule %}
+ <tr>
+  {% if row['Session'] == nil %}
+   <td colspan=5 class="day">{{ row['Time'] }}</td>
+  {% else %}
+   <td>{{ row['Time'] }}</td>
+   <td>
+    {% if row['Speakers'] != nil %}
+     <a href="#{{ row['Speakers'] | slugify }}" class="talk-name">{{row['Session']}}</a>
+     <div>{{row['Speakers']}}</div>
     {% else %}
-      <td>{{ row['Time'] }}</td>
-      <td>
-        {% if row['Speakers'] != nil %}
-          <a href="#{{ row['Speakers'] | slugify }}" class="talk-name">{{row['Session']}}</a>
-          <div>{{row['Speakers']}}</div>
-        {% else %}
-          {{row['Session']}}
-        {% endif %}
-      </td>
+     {{row['Session']}}
     {% endif %}
-  </tr>
-  {% endfor %}
+   </td>
+  {% endif %}
+ </tr>
+ {% endfor %}
 </table>
 
 <hr>

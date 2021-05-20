@@ -33,38 +33,38 @@ var ScrollAnimations = (function () {
 	//dont do anything if touch is supported (as scroll event wont fire properly)
 	if( Modernizr.touch ) return;
 
-    var s; // private alias to settings
-    return {
+  var s; // private alias to settings
+  return {
 
-        settings: {
-        	$scrollElements:     $(".animate-on-scroll"),
-        	initClass:           "scroll-animation-init",
-        	dataAnimation:       "scrollanimation"
-        },
+    settings: {
+    	$scrollElements:   $(".animate-on-scroll"),
+    	initClass:      "scroll-animation-init",
+    	dataAnimation:    "scrollanimation"
+    },
 
-        init: function() {
-          s = this.settings; 
-          s.$scrollElements.addClass(s.initClass);    
-          this.bindUIActions();
-        },
+    init: function() {
+     s = this.settings; 
+     s.$scrollElements.addClass(s.initClass);  
+     this.bindUIActions();
+    },
 
-        bindUIActions: function() {
+    bindUIActions: function() {
 
-        	s.$scrollElements.waypoint(function(direction) {
+    	s.$scrollElements.waypoint(function(direction) {
 				switch(direction) {
 					case 'down':
 						ScrollAnimations.doDownAnim($(this), $(this).data(s.dataAnimation));
 					break;
-				}        		
-        	}, { offset: '83%' });
+				}    		
+    	}, { offset: '83%' });
 
-        },
+    },
 
-        doDownAnim: function(element, animClass) {
+    doDownAnim: function(element, animClass) {
 			element.addClass(animClass);
-        } 
+    } 
 
-    };
+  };
 })();
 
 /**
@@ -88,62 +88,62 @@ $(function() {
 
 	// initialise validation plugin for top form
 	$('.header-signup').validation({
-	  // pass an array of required field objects
-	  required: [
-	    {
-	      name: 'email',
-	      // pass a function to the validate property for complex custom validations
-	      // the function will receive the jQuery element itself, return true or false depending on validation
-	      validate: function($el) {
-	        return $el.val().match('@') !== null;
-	      }
-	    }
-	  ],
-	  // callback for failed validaiton on form submit
-	  fail: function() {
-	    Gumby.error('Form validation failed');
-	    $(".hs-disclaimer").addClass("catch-errors-top danger alert").html("Please enter a valid email address!");
-	  },
-	  // callback for successful validation on form submit
-	  // if omited, form will submit normally
-	  submit: function(data) {
-	  	//PUT YOUR SUCCESS CODE HERE, OR REMOVE SUBMIT FUNCTION FOR DEFAULT VALUE.
-	    // $.ajax({
-	    //   url: 'do/something/with/data',
-	    //   data: data,
-	    //   success: function() {alert("Submitted");}
-	    // });
-	  } 
+	 // pass an array of required field objects
+	 required: [
+	  {
+	   name: 'email',
+	   // pass a function to the validate property for complex custom validations
+	   // the function will receive the jQuery element itself, return true or false depending on validation
+	   validate: function($el) {
+	    return $el.val().match('@') !== null;
+	   }
+	  }
+	 ],
+	 // callback for failed validaiton on form submit
+	 fail: function() {
+	  Gumby.error('Form validation failed');
+	  $(".hs-disclaimer").addClass("catch-errors-top danger alert").html("Please enter a valid email address!");
+	 },
+	 // callback for successful validation on form submit
+	 // if omited, form will submit normally
+	 submit: function(data) {
+	 	//PUT YOUR SUCCESS CODE HERE, OR REMOVE SUBMIT FUNCTION FOR DEFAULT VALUE.
+	  // $.ajax({
+	  //  url: 'do/something/with/data',
+	  //  data: data,
+	  //  success: function() {alert("Submitted");}
+	  // });
+	 } 
 	});
 
 	// initialise validation plugin for bottom form
 	$('.signup-form').validation({
-	  // pass an array of required field objects
-	  required: [
-	    {
-	      name: 'email',
-	      // pass a function to the validate property for complex custom validations
-	      // the function will receive the jQuery element itself, return true or false depending on validation
-	      validate: function($el) {
-	        return $el.val().match('@') !== null;
-	      }
-	    }
-	  ],
-	  // callback for failed validaiton on form submit
-	  fail: function() {
-	    Gumby.error('Form validation failed');
-	    $(".catch-errors-bot").addClass("danger alert").html("Please enter a valid email address!");
-	  },
-	  // callback for successful validation on form submit
-	  // if omited, form will submit normally
-	  submit: function(data) {
-	  	//PUT YOUR SUCCESS CODE HERE, OR REMOVE SUBMIT FUNCTION FOR DEFAULT VALUE.
-	    // $.ajax({
-	    //   url: 'do/something/with/data',
-	    //   data: data,
-	    //   success: function() {alert("Submitted");}
-	    // });
-	  } 
+	 // pass an array of required field objects
+	 required: [
+	  {
+	   name: 'email',
+	   // pass a function to the validate property for complex custom validations
+	   // the function will receive the jQuery element itself, return true or false depending on validation
+	   validate: function($el) {
+	    return $el.val().match('@') !== null;
+	   }
+	  }
+	 ],
+	 // callback for failed validaiton on form submit
+	 fail: function() {
+	  Gumby.error('Form validation failed');
+	  $(".catch-errors-bot").addClass("danger alert").html("Please enter a valid email address!");
+	 },
+	 // callback for successful validation on form submit
+	 // if omited, form will submit normally
+	 submit: function(data) {
+	 	//PUT YOUR SUCCESS CODE HERE, OR REMOVE SUBMIT FUNCTION FOR DEFAULT VALUE.
+	  // $.ajax({
+	  //  url: 'do/something/with/data',
+	  //  data: data,
+	  //  success: function() {alert("Submitted");}
+	  // });
+	 } 
 	});
 
 

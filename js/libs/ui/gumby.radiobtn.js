@@ -23,9 +23,9 @@
 			e.preventDefault();
 
 			// do nothing if radio is disabled
-            if (scope.$input.is('[disabled]')) {
-                return;
-            }
+      if (scope.$input.is('[disabled]')) {
+        return;
+      }
 
 			// check radio button
 			scope.update();

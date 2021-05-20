@@ -1,28 +1,28 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>csv,conf,v6 - May 4-5 2021 - Online</title>
-    <link href="https://fonts.googleapis.com/css?family=Fira+Sans:300,500" rel="stylesheet">
-    <link href="/css/style.css" rel="stylesheet">
+ <head>
+  <title>csv,conf,v6 - May 4-5 2021 - Online</title>
+  <link href="https://fonts.googleapis.com/css?family=Fira+Sans:300,500" rel="stylesheet">
+  <link href="/css/style.css" rel="stylesheet">
 
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    
-    <!-- Open Graph Data -->
-    <meta property="og:title" content="csv,conf,v6 - May 4-5, 2021 - Online Conference"/>
-    <meta property="og:url" content="http://csvconf.com"/>
-    <meta property="og:type" content="website"/>
-    <meta property="og:description" content="A community conference for data makers everywhere featuring stories about data sharing and data analysis from science, journalism, government, and open source."/>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   
-  </head>
+  <!-- Open Graph Data -->
+  <meta property="og:title" content="csv,conf,v6 - May 4-5, 2021 - Online Conference"/>
+  <meta property="og:url" content="http://csvconf.com"/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:description" content="A community conference for data makers everywhere featuring stories about data sharing and data analysis from science, journalism, government, and open source."/>
+ 
+ </head>
 
-  <body class="pantone-2021-theme">
+ <body class="pantone-2021-theme">
 
-    {% include header.html %}
+  {% include header.html %}
 
-    <div class="{% if page.class %}{{ page.class }}{% endif %}">
-      {{ content }}
-      {% include footer.html %}
-    </div>
+  <div class="{% if page.class %}{{ page.class }}{% endif %}">
+   {{ content }}
+   {% include footer.html %}
+  </div>
 
-  </body>
+ </body>
 </html>
