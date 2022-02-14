@@ -15,9 +15,9 @@ title: CSVConf
 
      <div class ="button--std">
       <h1>
-      May 4-5, 2021, online. </h1>
+      Returning in 2023. </h1>
 
-      <i>Thank you for making csv,conf,v6 possible! Look out for csv,conf,v7 in 2022!</i>
+      <i>We have made the difficult decision to not convene csvconf this year. We’re sad, but, this allows us to focus on a better csvconf 2023! For 2023, we’re aiming to host an in-person event, and we’ve got a lot of planning to do to make it awesome. You can expect more updates later in the year, and please reach out if you’d like to get involved in the planning process. We wish you a good year of data stories for 2022, and can’t wait to hear from you all in 2023. </i>
 
      </div>
 
@@ -39,67 +39,6 @@ title: CSVConf
      </div>
     </td>
    </tr>
-  </table>
-
-  <table class="keynotes">
-   <tr>
-    <th class="speaker" colspan="4">Conference Keynotes</th>
-   </tr>
-   <tr>
-    <td>
-     <input id="keynote-1"
-         class="keynote-selector"
-         type="checkbox"/>
-     <div class="keynote">
-      <label class="image"
-       for="keynote-1"
-       style="background-image: url(/img/speakers-2021/COVID-tracking-project.svg); background-color: #31347A;">
-      </label>
-      <h3>From a spreadsheet to critical data infrastructure: building The COVID Tracking Project<br><br><strong>Julia Kodysh, Michal Mart, Kevin Miller, Kara Schechtman</strong></h3>
-      <p class="bio"><a href ="https://covidtracking.com/about" target="_blank">
-      The COVID Tracking Project</a> began in March 2020 as a stopgap spreadsheet maintained by a handful of journalists, hoping to provide some information on COVID across the US until the federal government stepped in. But that day never came. Powered by over a thousand volunteers collecting data from disparate state and federal systems every day, the project accidentally became an indispensable source of data used by governments, individuals, and institutions to make critical decisions.
-      <br><br>
-      The decentralized nature of public health infrastructure in the United States, which is mostly managed by overstretched health departments at the local and state level, made it impossible to automate the collection and normalization of data on the pandemic. States, which suddenly found themselves needing to produce and report data out of underfunded and overstretched systems, produced COVID dashboards that were all different from each other, didn't provide APIs and used technologies that are difficult to scrape. Human gleaning of the data from these systems allowed us to identify sudden changes in reporting, keep an eye on data definitions, and develop a deep well of experience and metadata that informed how we reported every state's data. Volunteers not only do the critical work of data collection, but through their experience in working with the data, are empowered to make key decisions in our analysis and reporting.
-      <br><br>
-      Our tooling has matured as we have tested the edges of the possible with Google Sheets. We still use spreadsheets, but have developed more powerful tools to ensure data quality and improve our publishing process. This infrastructure allows teams working on our website and API to use a reliable dataset that serves millions of users a day.
-      <br><br>
-      The COVID Tracking Project became the de-facto source of COVID data for so many because of a community built in Slack channels by strangers. The tools and sheets and websites we have built are impressive and useful for others to learn from. But the biggest legacy of the project will be the thousands of people who caught a glimpse of the best of themselves during a terrible time.
-      </p>
-     </div>
-
-     <input id="keynote-2"
-         class="keynote-selector"
-         type="checkbox"/>
-    <div class="keynote">
-     <label class="image"
-      for="keynote-2"
-      style="background-image: url(/img/speakers-2021/KFerryman.jpg)">
-     </label>
-     <h3><br>Race Matters in Health Data<br><br><strong>Dr. Kadija Ferryman</strong></h3>
-     <p class="bio"><a href ="http://www.kadijaferryman.com" target="_blank">Dr. Kadija Ferryman</a> is a cultural anthropologist and bioethicist who studies the social, cultural, and ethical implications of health information technologies. Specifically, her research examines how genomics, digital medical records, artificial intelligence, and other technologies impact racial disparities in health. She is currently <a href = "http://www.nyu.engineering/news/spotlight-kadija-ferryman" target="_blank">Industry Assistant Professor at New York University’s Tandon School of Engineering</a>. As a Postdoctoral Scholar at the Data & Society Research Institute in New York, she led the <a href = "https://datasociety.net/output/fairness-in-precision-medicine/" target="_blank">Fairness in Precision Medicine</a> research study, which examines the potential for bias and discrimination in predictive precision medicine.
-      She earned a BA in Anthropology from Yale University, and a PhD in Anthropology from The New School for Social Research. Before completing her PhD, she was a policy researcher at the Urban Institute where she studied how housing and neighborhoods impact well-being, specifically the effects of public housing redevelopment on children, families, and older adults. Ferryman is a member of the <a href = "https://allofus.nih.gov/about/who-we-are/institutional-review-board-irb-all-us-research-program/kadija-ferryman-phd" target="_blank">Institutional Review Board for the All of Research Program</a>, a <a href = "https://blog.mozilla.org/blog/2018/08/21/mozilla-announces-25-new-fellows-in-openness-science-and-tech-policy/" target="_blank">Mozilla Open Science Fellow</a>, and an Affiliate at the <a href = "https://criticalracedigitalstudies.com/" target="_blank">Center for Critical Race and Digital Studies</a>. Dr. Ferryman has published research in journals such as <i>Paediatric and Perinatal Epidemiology</i>, the <i>Journal of Health Care for the Poor and Underserved</i>, <i>European Journal of Human Genetics</i>, and <i>Genetics in Medicine</i>. Her research has been featured in multiple publications including <a href="https://www.nature.com/articles/d41586-019-02872-2" target="_blank">Nature</a>, <a href="https://www.statnews.com/2019/07/24/fitbit-accuracy-dark-skin/" target="_blank">STAT</a>, and <a href = "https://www.ft.com/content/bd88b9f2-e79f-11e8-8a85-04b8afea6ea3" target="_blank">The Financial Times</a>.
-      </p>
-    </div>
-
-    <input id="keynote-3"
-        class="keynote-selector"
-        type="checkbox"/>
-   <div class="keynote">
-    <label class="image"
-     for="keynote-3"
-     style="background-image: url(/img/speakers-2021/SWillison.jpg)">
-    </label>
-    <h3><br>Datasette and Dogsheep: Liberating your personal data<br><br><strong>Simon Willison</strong></h3>
-    <p class="bio"> Datasette is an open source web application for exploring, analyzing and publishing data. I originally designed it to support data journalists working in newsrooms, but quickly realized that it has applications way beyond journalism.
-
-I decided to start digging into my own personal data - the data that sites and services collect about and for me, which thanks to regulations like Europe's GDPR is increasingly available for me to export myself. This led to Dogsheep, a collection of tools for importing personal data from Twitter, GitHub, 23AndMe, Foursquare, Google, HealthKit and more.
-
-Being able to export your data isn't much good if you can't easily do interesting things with it. I'll show how the combination of Datasette and Dogsheep can help liberate your personal data, and discuss the lessons I've learned about personal data and open source along the way.
-     </p>
-   </div>
-   </td>
-  </tr>
-
   </table>
 
   <hr>

@@ -8,6 +8,7 @@ $green: #D1F0E0;
 $gray: #DFDFE0;
 $dark-gray: #949599;
 $yellow: #FCE648;
+$peri: #6667AB;
 
 * {
  box-sizing: border-box;
@@ -47,7 +48,7 @@ h1, h2, h3 {
 p {
  color: white;
  font-weight: 300;
- font-size: 20px;
+ font-size: 22px;
 }
 table td, table th {
  border: 1px solid white;
@@ -349,11 +350,11 @@ table.speaker-list {
 
 footer {
  color: white;
- font-size: 14px;
+ font-size: 18px;
  font-weight: 200;
 
  p {
-  font-size: 14px;
+  font-size: 20px;
  }
 }
 
@@ -602,6 +603,99 @@ footer {
   &:hover {
    background-color: gray;
    color: $yellow;
+  }
+ }
+
+ table.locations,
+ table.keynotes,
+ table.speaker-list {
+ }
+
+ .keynotes td {
+  border-right: none;
+ }
+
+ .keynote-selector:checked + .keynote {
+  background: #FDF093;
+ }
+
+ .keynote .image {
+  background-color: #FDF093;
+ }
+
+ p, a {
+  color: black;
+ }
+
+ h1, h2, h3 {
+  color: black;
+  font-weight: 500;
+ }
+
+ table td, table th {
+  border: 1px solid black;
+  border-width: 5px;
+ }
+
+ .locations {
+  max-width: 80%;
+ }
+}
+
+.pantone-2022-theme {
+ background-color: $gray;
+ font-family: 'Fira Sans', sans-serif;
+ margin: 45px;
+ color: black;
+
+
+ table, footer {
+  color: $peri;
+ }
+
+ .header {
+  border-bottom: 5px solid black;
+  padding: 0 0 10px;
+ }
+
+ .button {
+  color: black;
+  background-color: $peri;
+  transition: .25s background;
+  padding: 1em 2em;
+  display: inline-block;
+
+  &:hover {
+   background-color: gray;
+   color: black;
+  }
+ }
+
+ .button--info {
+  width: 100%;
+  vertical-align: top;
+  display: inline-block;
+ }
+
+ @media (min-width: 1024px) {
+  .button--info {
+   width: 30%;
+  }
+ }
+ 
+ .button--std {
+  color: black;
+  background-color: $peri;
+  transition: .25s background;
+  padding: 1em 2em;
+  display: inline-block;
+  
+  h1, p, a {
+   color: black;
+  }
+  &:hover {
+   background-color: gray;
+   color: black;
   }
  }
 
