@@ -16,7 +16,7 @@ summary: yes
    <td>{{ row['Time'] }}</td>
    <td>
     {% if row['Speakers'] != nil %}
-     <a href="/speakers/#{{ row['Speakers'] | slugify }}" class="talk-name">{{row['Session']}}</a>
+     <a href="/2021/speakers/#{{ row['Speakers'] | slugify }}" class="talk-name">{{row['Session']}}</a>
      <div>{{row['Speakers']}}</div>
     {% else %}
      {{row['Session']}}
