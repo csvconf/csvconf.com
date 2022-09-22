@@ -5,10 +5,11 @@
 $blue: #537ABD;
 $pink: #F0D1E0;
 $green: #D1F0E0;
-$gray: #DFDFE0;
+$red: #730302;
 $dark-gray: #949599;
 $yellow: #FCE648;
 $peri: #6667AB;
+$gray: #DFDFE0;
 
 * {
  box-sizing: border-box;
@@ -643,31 +644,31 @@ footer {
 }
 
 .pantone-2022-theme {
- background-color: $gray;
+ background-color: $red;
  font-family: 'Fira Sans', sans-serif;
  margin: 45px;
- color: black;
+ color: white;
 
 
  table, footer {
-  color: $peri;
+  color: $gray;
  }
 
  .header {
-  border-bottom: 5px solid black;
+  border-bottom: 5px solid #f9afa8;
   padding: 0 0 10px;
  }
 
  .button {
   color: black;
-  background-color: $peri;
+  background-color: #f9afa8;
   transition: .25s background;
   padding: 1em 2em;
   display: inline-block;
 
   &:hover {
    background-color: gray;
-   color: black;
+   color: white;
   }
  }
 
@@ -685,9 +686,10 @@ footer {
  
  .button--std {
   color: black;
-  background-color: $peri;
+  background-color: #f9afa8;
   transition: .25s background;
   padding: 1em 2em;
+  margin-bottom: 2em;
   display: inline-block;
   
   h1, p, a {
@@ -695,7 +697,7 @@ footer {
   }
   &:hover {
    background-color: gray;
-   color: black;
+   color: white;
   }
  }
 
@@ -717,16 +719,16 @@ footer {
  }
 
  p, a {
-  color: black;
+  color: white;
  }
 
  h1, h2, h3 {
-  color: black;
+  color: white;
   font-weight: 500;
  }
 
  table td, table th {
-  border: 1px solid black;
+  border: 1px solid #f9afa8;
   border-width: 5px;
  }
 
@@ -756,6 +758,7 @@ footer {
   background-color: black;
   transition: .25s background;
   padding: 1em 2em;
+  margin-bottom: 2em;
   display: inline-block;
   font-size: smaller;
 

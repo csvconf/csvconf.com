@@ -7,7 +7,7 @@ permalink: /faq/
 
 # Conference FAQ
 
-The next csv,conf will be in 2023. More details will be announced in the future.
+The next csv,conf will be in April 2023. More details will be announced in the future.
 
 ## Will you have a llama?
 
