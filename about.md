@@ -37,7 +37,7 @@ Gabi Mejias, DataCite
 
 Lilly Winfree, data.world
 
-Naomi Penfeld, Invest in Open Infrastructure
+Naomi Penfold, Invest in Open Infrastructure
 
 Lai Yi Ohlsen, Measurement Lab
 
@@ -99,7 +99,7 @@ Gabi Mejias, DataCite
 
 Lilly Winfree, data.world
 
-Naomi Penfeld, Invest in Open Infrastructure
+Naomi Penfold, Invest in Open Infrastructure
 
 Lai Yi Ohlsen, Measurement Lab
 
@@ -148,7 +148,7 @@ Gabi Mejias, DataCite
 
 Lilly Winfree, data.world
 
-Naomi Penfeld, Invest in Open Infrastructure
+Naomi Penfold, Invest in Open Infrastructure
 
 Lai Yi Ohlsen, Measurement Lab
 
