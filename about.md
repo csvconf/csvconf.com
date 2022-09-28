@@ -85,34 +85,6 @@ Nos encanta responder a todas las preguntas que puedas tener y ofrecerte cualqui
 
 Nos comprometemos con la diversidad y la inclusión, y nos esforzamos por ser un entorno solidario y acogedor para todas las personas que participen. Por eso, te pedimos que leas el Código de Conducta que aplicaremos en la Conferencia.
 
-Por último, pero no por ello menos importante, la csv,conf es un esfuerzo de equipo para organizar una conferencia comunitaria sin ánimo de lucro, con docenas de personas que dedican su tiempo, incluyendo, pero no limitándose, al equipo organizador de 2023:
-
-Elaine Wong, Canadian Broadcasting Corporation
-
-SherAaron Hurt, The Carpentries
-
-Marisa Miodosky, Open Heroines
-
-Julieta Millan, Universidad de Buenos Aires
-
-Gabi Mejias, DataCite
-
-Lilly Winfree, data.world
-
-Naomi Penfold, Invest in Open Infrastructure
-
-Lai Yi Ohlsen, Measurement Lab
-
-Yanina Bellini Saibene, rOpenSci
-
-Sara Petti, Open Knowledge Foundation
-
-Milagros Miceli, DAIR & Weizenbaum Institute
-
-Patricio Del Boca, Open Knowledge Foundation
-
-John Chodacki, California Digital Library
-
 ¡Esperamos recibirte en Buenos Aires el año que viene!
 
 
@@ -133,33 +105,5 @@ Se você é apaixonado por dados e sua aplicação à sociedade, esta conferênc
 Estamos à disposição para responder quaisquer perguntas que você possa ter e oferecer qualquer esclarecimento, se necessário. Sinta-se à vontade para entrar em contacto connosco em csv-conf-coord@googlegroups.com, no Twitter[ @CSVconference](https://twitter.com/CSVConference) ou em [nosso canal Slack dedicado à comunidade](https://csvconf-slackin.herokuapp.com/).
 
 Estamos comprometidos com a diversidade e a inclusão e nos esforçamos para ser um ambiente de apoio e acolhimento para todos os que participam. Portanto, pedimos que leia o Código de Conduta que aplicaremos na Conferência.
-
-Por último, mas não menos importante, csv,conf é um esforço de equipe para organizar uma conferência comunitária sem fins lucrativos, com dezenas de pessoas dedicando seu tempo, incluindo, mas não limitado, à equipe organizadora de 2023:
-
-Elaine Wong, Canadian Broadcasting Corporation
-
-SherAaron Hurt, The Carpentries
-
-Marisa Miodosky, Open Heroines
-
-Julieta Millan, Universidad de Buenos Aires
-
-Gabi Mejias, DataCite
-
-Lilly Winfree, data.world
-
-Naomi Penfold, Invest in Open Infrastructure
-
-Lai Yi Ohlsen, Measurement Lab
-
-Yanina Bellini Saibene, rOpenSci
-
-Sara Petti, Open Knowledge Foundation
-
-Milagros Miceli, DAIR & Weizenbaum Institute
-
-Patricio Del Boca, Open Knowledge Foundation
-
-John Chodacki, California Digital Library
 
 Esperamos recebê-lo em Buenos Aires no próximo ano!
