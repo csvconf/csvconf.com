@@ -83,7 +83,7 @@ Si te apasionan los datos y su aplicación a la sociedad, esta conferencia es pa
 
 Nos encanta responder a todas las preguntas que puedas tener y ofrecerte cualquier aclaración si es necesario. No dudes en ponerte en contacto con nosotros en csv-conf-coord@googlegroups.com, en Twitter [@CSVconference](https://twitter.com/CSVConference) o en [nuestro canal de Slack](https://csvconf-slackin.herokuapp.com/) dedicado a la comunidad.
 
-Nos comprometemos con la diversidad y la inclusión, y nos esforzamos por ser un entorno solidario y acogedor para todas las personas que participen. Por eso, te pedimos que leas el Código de Conducta que aplicaremos en la Conferencia.
+Nos comprometemos con la diversidad y la inclusión, y nos esforzamos por ser un entorno solidario y acogedor para todas las personas que participen. Por eso, te pedimos que leas el [Código de Conducta](https://confcodeofconduct.com/) que aplicaremos en la Conferencia.
 
 ¡Esperamos recibirte en Buenos Aires el año que viene!
 
@@ -104,6 +104,6 @@ Se você é apaixonado por dados e sua aplicação à sociedade, esta conferênc
 
 Estamos à disposição para responder quaisquer perguntas que você possa ter e oferecer qualquer esclarecimento, se necessário. Sinta-se à vontade para entrar em contacto connosco em csv-conf-coord@googlegroups.com, no Twitter[ @CSVconference](https://twitter.com/CSVConference) ou em [nosso canal Slack dedicado à comunidade](https://csvconf-slackin.herokuapp.com/).
 
-Estamos comprometidos com a diversidade e a inclusão e nos esforçamos para ser um ambiente de apoio e acolhimento para todos os que participam. Portanto, pedimos que leia o Código de Conduta que aplicaremos na Conferência.
+Estamos comprometidos com a diversidade e a inclusão e nos esforçamos para ser um ambiente de apoio e acolhimento para todos os que participam. Portanto, pedimos que leia o [Código de Conduta](https://confcodeofconduct.com/) que aplicaremos na Conferência.
 
 Esperamos recebê-lo em Buenos Aires no próximo ano!
