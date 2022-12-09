@@ -9,7 +9,7 @@ permalink: /about/
 
 # Csv,conf comes to Buenos Aires!
 
-Save the data/date! [csv,conf,v7](https://csvconf.com/) will be held in Buenos Aires (Argentina) from April 17 to 21, 2023.  
+Save the data/date! [csv,conf,v7](https://csvconf.com/) will be held in Buenos Aires (Argentina) from April 19 to 21, 2023.  
 
 csv,conf is a community event for datamakers from all around the world. At csv,conf, we get together to discuss open data, and how data can be used to solve problems across open source, journalism, science, government, and beyond!
 
@@ -21,7 +21,7 @@ If you are passionate about data and its application to society, this is the con
 
 We are happy to answer all questions you may have or offer any clarifications if needed. Feel free to reach out to us on [csv-conf-coord@googlegroups.com](mailto:csv-conf-coord@googlegroups.com), on Twitter [@CSVconference](https://twitter.com/CSVConference), or our dedicated community [Slack channel](https://csvconf-slackin.herokuapp.com/). 
 
-We are committed to diversity and inclusion, and strive to be a supportive and welcoming environment to all attendees. To this end, we encourage you to read the [Conference Code of Conduct](https://confcodeofconduct.com/) that we will be enforcing.
+We are committed to diversity and inclusion, and strive to be a supportive and welcoming environment to all attendees. To this end, we encourage you to read the [Conference Code of Conduct](https://csvconf.com/coc/) that we will be enforcing.
 
 Last but not least, csv,conf is a group effort to put on a non-profit, community conference with dozens of people putting in time, including but not limited to the 2023 organizing team:
 
@@ -71,7 +71,7 @@ _Rojo the Comma Llama, our official mascot invites you all to join us for the ne
 
 # ¡Csv, conf, llega a Buenos Aires!
 
-Anotá y reservá esta fecha: csv,conf,v7 se celebrará en Buenos Aires (Argentina) del 17 al 21 de abril de 2023.  
+Anotá y reservá esta fecha: csv,conf,v7 se celebrará en Buenos Aires (Argentina) del 19 al 21 de abril de 2023.  
 
 csv,conf es un evento para la comunidad de creadores y gestores de datos de todo el mundo. ¡En csv,conf, nos reunimos para debatir sobre los datos abiertos, y cómo los datos pueden ser utilizados para resolver problemas a través del código abierto, el periodismo, la ciencia, el gobierno, y más allá!
 
@@ -83,7 +83,7 @@ Si te apasionan los datos y su aplicación a la sociedad, esta conferencia es pa
 
 Nos encanta responder a todas las preguntas que puedas tener y ofrecerte cualquier aclaración si es necesario. No dudes en ponerte en contacto con nosotros en csv-conf-coord@googlegroups.com, en Twitter [@CSVconference](https://twitter.com/CSVConference) o en [nuestro canal de Slack](https://csvconf-slackin.herokuapp.com/) dedicado a la comunidad.
 
-Nos comprometemos con la diversidad y la inclusión, y nos esforzamos por ser un entorno solidario y acogedor para todas las personas que participen. Por eso, te pedimos que leas el Código de Conducta que aplicaremos en la Conferencia.
+Nos comprometemos con la diversidad y la inclusión, y nos esforzamos por ser un entorno solidario y acogedor para todas las personas que participen. Por eso, te pedimos que leas el [Código de Conducta](https://csvconf.com/coc/) que aplicaremos en la Conferencia.
 
 ¡Esperamos recibirte en Buenos Aires el año que viene!
 
@@ -92,7 +92,7 @@ Nos comprometemos con la diversidad y la inclusión, y nos esforzamos por ser un
 
 [csv,conf,v7](https://csvconf.com/) está chegando a Buenos Aires!
 
-Anote e guarde esta data: csv,conf,v7 será realizada em Buenos Aires (Argentina) de 17 a 21 de Abril de 2023.  
+Anote e guarde esta data: csv,conf,v7 será realizada em Buenos Aires (Argentina) de 19 a 21 de Abril de 2023.  
 
 csv,conf é um evento para a comunidade de criadores e gestores de dados de todo o mundo. No csv,conf, nos reunimos para discutir dados abertos, e como os dados podem ser usados para resolver problemas através de código aberto, jornalismo, ciência, governo, e muito mais!
 
@@ -104,6 +104,6 @@ Se você é apaixonado por dados e sua aplicação à sociedade, esta conferênc
 
 Estamos à disposição para responder quaisquer perguntas que você possa ter e oferecer qualquer esclarecimento, se necessário. Sinta-se à vontade para entrar em contacto connosco em csv-conf-coord@googlegroups.com, no Twitter[ @CSVconference](https://twitter.com/CSVConference) ou em [nosso canal Slack dedicado à comunidade](https://csvconf-slackin.herokuapp.com/).
 
-Estamos comprometidos com a diversidade e a inclusão e nos esforçamos para ser um ambiente de apoio e acolhimento para todos os que participam. Portanto, pedimos que leia o Código de Conduta que aplicaremos na Conferência.
+Estamos comprometidos com a diversidade e a inclusão e nos esforçamos para ser um ambiente de apoio e acolhimento para todos os que participam. Portanto, pedimos que leia o [Código de Conduta](https://csvconf.com/coc/) que aplicaremos na Conferência.
 
 Esperamos recebê-lo em Buenos Aires no próximo ano!
