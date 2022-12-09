@@ -9,7 +9,7 @@ permalink: /about/
 
 # Csv,conf comes to Buenos Aires!
 
-Save the data/date! [csv,conf,v7](https://csvconf.com/) will be held in Buenos Aires (Argentina) from April 19 to 21, 2023.  
+Save the data/date! [csv,conf,v7](https://csvconf.com/) will be held in Buenos Aires (Argentina) from April 19 to 20, 2023.  
 
 csv,conf is a community event for datamakers from all around the world. At csv,conf, we get together to discuss open data, and how data can be used to solve problems across open source, journalism, science, government, and beyond!
 
@@ -71,7 +71,7 @@ _Rojo the Comma Llama, our official mascot invites you all to join us for the ne
 
 # ¡Csv, conf, llega a Buenos Aires!
 
-Anotá y reservá esta fecha: csv,conf,v7 se celebrará en Buenos Aires (Argentina) del 19 al 21 de abril de 2023.  
+Anotá y reservá esta fecha: csv,conf,v7 se celebrará en Buenos Aires (Argentina) del 19 al 20 de abril de 2023.  
 
 csv,conf es un evento para la comunidad de creadores y gestores de datos de todo el mundo. ¡En csv,conf, nos reunimos para debatir sobre los datos abiertos, y cómo los datos pueden ser utilizados para resolver problemas a través del código abierto, el periodismo, la ciencia, el gobierno, y más allá!
 
@@ -92,7 +92,7 @@ Nos comprometemos con la diversidad y la inclusión, y nos esforzamos por ser un
 
 [csv,conf,v7](https://csvconf.com/) está chegando a Buenos Aires!
 
-Anote e guarde esta data: csv,conf,v7 será realizada em Buenos Aires (Argentina) de 19 a 21 de Abril de 2023.  
+Anote e guarde esta data: csv,conf,v7 será realizada em Buenos Aires (Argentina) de 19 a 20 de Abril de 2023.  
 
 csv,conf é um evento para a comunidade de criadores e gestores de dados de todo o mundo. No csv,conf, nos reunimos para discutir dados abertos, e como os dados podem ser usados para resolver problemas através de código aberto, jornalismo, ciência, governo, e muito mais!
 
