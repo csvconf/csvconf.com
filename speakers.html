@@ -1,0 +1,64 @@
+---
+layout: default
+title: Speakers
+permalink: /speakers/
+summary: yes
+---
+
+<h1>Speakers</h1>
+
+<p class="speakers-intro">
+We have assembled an exciting lineup of speakers – of data makers and enthusiasts representing academia, science, journalism, government, and open source projects - for csv,conf,v7.  
+</p>
+
+<table class="speakers">
+ {% for speaker in site.data.2023_speakers %}
+ <tr class="speaker" id="{{ speaker.name | slugify }}">
+  <td class="about">
+   <!-- {% if speaker.img %}
+    <img class="image"
+     style="background-image:url(/img/speakers-2023/{{ speaker.id }}.jpg)"/>
+   {% else %}
+    <img class="image"
+     style="background-image:url(/img/speakers-2021/black_comma.png)"/>
+   {% endif %} -->
+   <span class="name">
+    {% if speaker.twitter %}
+     <a href="https://twitter.com/{{speaker.twitter}}">{{ speaker.name }}</a>
+    {% else %}
+     {{ speaker.name }}
+    {% endif %}
+   </span>
+  </td>
+  <td>
+   <p class="title">{{ speaker.title }}</p>
+   <p class="abstract">{{ speaker.abstract }}</p>
+   <span>
+    {% if speaker.github %}
+     <a href="https://github.com/{{speaker.github}}">Find {{ speaker.name }}'s work on GitHub</a> ·
+    {% else %}
+      
+    {% endif %}
+   </span>
+   <span>
+    {% if speaker.slides_url %}
+     <a href="{{speaker.slides_url}}" target="_blank">View Talk Slides</a> ·
+    {% else %}
+      
+    {% endif %}
+   </span>
+   <span>
+    {% if speaker.talk_url %}
+     <a href="{{speaker.talk_url}}" target="_blank">Watch Talk</a>
+    {% else %}
+   
+    {% endif %}
+   </span>
+  </td>
+ </tr>
+ {% endfor %}
+</table>
+
+
+
+<hr>
