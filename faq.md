@@ -9,6 +9,9 @@ permalink: /faq/
 
 The next csv,conf will be from 19 - 20 April 2023. More details will be announced in the future.
 
+## Where is the conference?
+The conference will be at Novotel in Buenos Aires. The address is Av. Corrientes 1334, C1043ABN CABA, Argentina.
+
 ## Will you have a llama?
 
 Yes csv,conf will involve the #commallama 🦙.
