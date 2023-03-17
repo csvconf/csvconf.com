@@ -9,20 +9,41 @@ csv,conf is a community event for datamakers from all around the world. At csv,c
 
 ---
 
-## Sponsors
+# Sponsors
 
 Thank you to our generous sponsors for supporting csv,conf,v7!
 
-**[Alfred P Sloan Foundation](https://sloan.org/)**
-
-**[Chan Zuckerberg Initiative](https://chanzuckerberg.com/)**
-
-**[Lincoln Loop](https://lincolnloop.com/)**
-
-**[DataCite](https://datacite.org/)**
-
-**[Open News](https://opennews.org/)**
-
+<table>
+   <tr>
+    <td>
+      <div class="second-tagline--info">
+        <a href="https://sloan.org/">
+          <img src="/img/sloan.png" alt="Alfred P Sloan Foundation" width="200px">
+        </a>
+      </div>
+      <div class="second-tagline--info">
+        <a href="https://chanzuckerberg.com/">
+          <img src="/img/czi.svg" alt="Chan Zuckerberg Initiative" width="200px">
+        </a>
+      </div>
+      <div class="second-tagline--info">
+        <a href="https://lincolnloop.com/">
+          <img src="/img/lincoln-loop.png" alt="Lincoln Loop" width="200px">
+        </a>
+      </div>
+      <div class="second-tagline--info">
+        <a href="https://datacite.org/">
+          <img src="/img/datacite.png" alt="DataCite" width="200px">
+        </a>
+      </div>
+      <div class="second-tagline--info">
+        <a href="https://opennews.org/">
+          <img src="/img/open-news.png" alt="Open News" width="200px">
+        </a>
+      </div>
+    </td>
+  </tr>
+</table>
 ---
 
 ## Save the date - ENGLISH
