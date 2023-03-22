@@ -9,6 +9,7 @@ permalink: /schedule/
 We are assembling an exciting team of data makers and enthusiasts representing academia, science, journalism, government, and open source projects.
 </p>
 
+<h2>English</h2>
 <table class="speakers">
  {% for row in site.data.2023_schedule %}
  <tr>
@@ -43,6 +44,49 @@ We are assembling an exciting team of data makers and enthusiasts representing a
       <div>{{row['Room C speakers']}}</div>
      {% else %}
       {{row['Room C']}}
+     {% endif %}
+    </td>
+   {% endif %}
+  {% endif %}
+ </tr>
+ {% endfor %}
+</table>
+
+<h2>Español</h2>
+<table class="speakers">
+ {% for row in site.data.2023_schedule %}
+ <tr>
+
+  {% if row['Room A'] == nil %}
+   <td colspan=5 class="day">{{ row['Time'] }}</td>
+  {% else %}
+   {% if row['Room B'] == nil %}
+    <td>{{ row['Time'] }}</td>
+    <td colspan="4" class="highlight">{{ row['Room A'] }}</td>
+   {% else %}
+    <td>{{ row['Time'] }}</td>
+    <td>
+     {% if row['Room A speakers'] != nil %}
+      <a href="#{{ row['Room A speakers'] | slugify }}" class="talk-name">{{row['Room A Es']}}</a>
+      <div>{{row['Room A speakers']}}</div>
+     {% else %}
+      {{row['Room A Es']}}
+     {% endif %}
+    </td>
+    <td>
+     {% if row['Room B speakers'] != nil %}
+      <a href="#{{ row['Room B speakers'] | slugify }}" class="talk-name">{{row['Room B Es']}}</a>
+      <div>{{row['Room B speakers']}}</div>
+     {% else %}
+      {{row['Room B Es']}}
+     {% endif %}
+    </td>
+    <td>
+     {% if row['Room C speakers'] != nil %}
+      <a href="#{{ row['Room C speakers'] | slugify }}" class="talk-name">{{row['Room C Es']}}</a>
+      <div>{{row['Room C speakers']}}</div>
+     {% else %}
+      {{row['Room C Es']}}
      {% endif %}
     </td>
    {% endif %}
@@ -87,6 +131,8 @@ We are assembling an exciting team of data makers and enthusiasts representing a
   <td>
    <p class="title">{{ speaker.title }}</p>
    <p class="abstract">{{ speaker.abstract }}</p>
+   <p class="title">{{ speaker.title-es }}</p>
+   <p class="abstract">{{ speaker.abstract-es }}</p>
    <span>
     {% if speaker.slides_url %}
      <a href="{{speaker.slides_url}}" target="_blank">View Slides</a> ·
