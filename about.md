@@ -27,6 +27,11 @@ Thank you to our generous sponsors for supporting csv,conf,v7!
         </a>
       </div>
       <div class="second-tagline--info">
+        <a href="https://www.r-consortium.org/">
+          <img src="/img/RConsortium.png" alt="R Consortium" width="200px">
+        </a>
+      </div>
+      <div class="second-tagline--info">
         <a href="https://lincolnloop.com/">
           <img src="/img/lincoln-loop.png" alt="Lincoln Loop" width="200px">
         </a>
