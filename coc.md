@@ -33,11 +33,9 @@ If a participant engages in harassing behavior, the conference organisers may ta
 
 ## Reporting
 
-If you are being harassed, notice that someone else is being harassed, or have any other concerns, please contact the csv,conf Safety Officers as soon as possible using the methods outlined below. We will handle all reports with discretion, and you can report anonymously if you wish. The Safety Officers are Lilly Winfree (Open Knowledge Foundation) and Jonathan Cain (Columbia University Libraries).
+If you are being harassed, notice that someone else is being harassed, or have any other concerns, please contact the csv,conf Safety Officer as soon as possible using the method outlined below. We will handle all reports with discretion, and you can report anonymously if you wish. The Safety Officer is Lilly Winfree.
 
-**Anonymous report**: Please use [this form](https://forms.gle/Eyn5s2UWXsDiXgmx9) to file an anonymous report. The Safety Officers will fully investigate your report, although we will not follow up with you as the report is anonymous.
-
-**Personal report**: Please email either Lilly ([lilly.winfree@okfn.org](mailto:lilly.winfree@okfn.org)) or Jonathan ([joc2122@columbia.edu](mailto:joc2122@columbia.edu)) to file a personal report. You can also directly message either Lilly or Jonathan on the csv,conf Slack ([csvconf.slack.com](http://csvconf.slack.com)).
+**Report**: Please use [this form](https://forms.gle/ADm16np5sxSur7CJ6) to file a report. You can fill out the form in English or Spanish. The Safety Officer will fully investigate your report. You may chose to report anonymously through this form.
 
 In your report, please do your best to include:
 
@@ -52,9 +50,7 @@ In your report, please do your best to include:
 - If there is a publicly available record (e.g. mailing list record), please include a link
 - Any additional helpful information
 
-**Online Trolls**: With the move to a fully virtual conference, the risk for online trolling has increased. This behaviour is unacceptable, and the Safety Officers and conference staff will be monitoring the various chat platforms associated with csv,conf and will act decisively and swiftly to end behaviour they deem trolling. Anyone exhibiting trolling behaviour will be immediately kicked out of the conference platform (including Slack). If you believe you were accidentally kicked out, please contact us and we will review reinstatement.
-
-**Conflicts of Interest**: If your report involves one of the csv,conf organizers or Safety Officers, or you otherwise feel like there is potential for a conflict of interest, please contact Gabriele Hayden (Research Data Management and Reproducibility Librarian at the University of Oregon) at [ghayden@uoregon.edu](mailto:ghayden@uoregon.edu) with your report and include the above bullet point information. Gabriele is serving as an impartial Code of Conduct incident reviewer for csv,conf and will fully investigate your report.
+**Conflicts of Interest**: If your report involves one of the csv,conf organizers or Safety Officer, or you otherwise feel like there is potential for a conflict of interest, please use [this form](https://forms.gle/hDwhYVM5Bpi9CmfaA) with your report and include the above bullet point information. You can fill out this form in English or Spanish. Dr. Natalia Soledad Morandeira is serving as an impartial Code of Conduct incident reviewer for csv,conf and will fully investigate your report. Dr. Natalia Soledad Morandeira is a researcher at National University of General San Martín, Instituto de Investigación e Ingeniería Ambiental (3iA).
 
 ## Investigation
 We will fully investigate your report and follow up with you via the contact information you provide. Upon receipt of your report, the Safety Officers will immediately start the process to determine an appropriate response. If the incident is deemed urgent, the Safety Officers will coordinate with the csv,conf staff to quickly take appropriate action. This could include giving a warning to the offending party, kicking the offending party out, or referring the issue to a non-csv,conf entity, such as local police. We are unable to handle emergency situations. If the incident is less urgent, the Safety Officers will confer with the csv,conf organizing team to determine the appropriate response.

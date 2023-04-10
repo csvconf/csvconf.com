@@ -4,7 +4,54 @@ title: About
 permalink: /about/
 ---
 
-## ENGLISH
+# What is csv,conf?
+csv,conf is a community event for datamakers from all around the world. At csv,conf, we get together to discuss open data, and how data can be used to solve problems across open source, journalism, science, government, and beyond! Over two days, attendees will have the opportunity to learn about ongoing work, share skills, exchange ideas (and stickers!) and kickstart collaborations. The rest of the week will be dedicated to parallel events featuring open data and open scholarship initiatives, communities, and projects. We welcome you to join us for the 7th year! Register at [http://csvconfv7.eventbrite.com](http://csvconfv7.eventbrite.com)
+
+---
+
+# Sponsors
+
+Thank you to our generous sponsors for supporting csv,conf,v7!
+
+<table>
+   <tr>
+    <td>
+      <div class="second-tagline--info">
+        <a href="https://sloan.org/">
+          <img src="/img/sloan.png" alt="Alfred P Sloan Foundation" width="200px">
+        </a>
+      </div>
+      <div class="second-tagline--info">
+        <a href="https://chanzuckerberg.com/">
+          <img src="/img/czi.svg" alt="Chan Zuckerberg Initiative" width="200px">
+        </a>
+      </div>
+      <div class="second-tagline--info">
+        <a href="https://www.r-consortium.org/">
+          <img src="/img/RConsortium.png" alt="R Consortium" width="200px">
+        </a>
+      </div>
+      <div class="second-tagline--info">
+        <a href="https://lincolnloop.com/">
+          <img src="/img/lincoln-loop.png" alt="Lincoln Loop" width="200px">
+        </a>
+      </div>
+      <div class="second-tagline--info">
+        <a href="https://datacite.org/">
+          <img src="/img/datacite.png" alt="DataCite" width="200px">
+        </a>
+      </div>
+      <div class="second-tagline--info">
+        <a href="https://opennews.org/">
+          <img src="/img/open-news.png" alt="Open News" width="200px">
+        </a>
+      </div>
+    </td>
+  </tr>
+</table>
+---
+
+## Save the date - ENGLISH
 
 
 # Csv,conf comes to Buenos Aires!
