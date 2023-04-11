@@ -70,7 +70,7 @@ We are assembling an exciting team of data makers and enthusiasts representing a
 
 <h2>Español</h2>
 <table class="speakers">
- {% for row in site.data.2023_schedule %}
+ {% for row in site.data.2023_schedule_more %}
  <tr>
 
   {% if row['Room A'] == nil %}
@@ -83,24 +83,40 @@ We are assembling an exciting team of data makers and enthusiasts representing a
     <td>{{ row['Time'] }}</td>
     <td>
      {% if row['Room A speakers'] != nil %}
-      <a href="#{{ row['Room A speakers'] | slugify }}" class="talk-name">{{row['Room A Es']}}</a>
-      <div>{{row['Room A speakers']}}</div>
+      {{row['Room A Es']}}
+      <div><a href="#{{ row['Room A speakers'] | slugify }}" class="talk-name">{{row['Room A speakers']}}</a></div>
+      {% if row['Room A speakers 2'] != nil %}
+        <div><a href="#{{ row['Room A speakers 2'] | slugify }}" class="talk-name">{{row['Room A speakers 2']}}</a></div>
+        {% if row['Room B speakers 3'] != nil %}
+        <div><a href="#{{ row['Room A speakers 3'] | slugify }}" class="talk-name">{{row['Room A speakers 3']}}</a></div>
+        {% endif %}
+      {%endif %}
      {% else %}
       {{row['Room A Es']}}
      {% endif %}
     </td>
     <td>
      {% if row['Room B speakers'] != nil %}
-      <a href="#{{ row['Room B speakers'] | slugify }}" class="talk-name">{{row['Room B Es']}}</a>
-      <div>{{row['Room B speakers']}}</div>
+      {{row['Room B Es']}}
+      <div><a href="#{{ row['Room B speakers'] | slugify }}" class="talk-name">{{row['Room B speakers']}}</a></div>
+      {% if row['Room B speakers 2'] != nil %}
+      <div><a href="#{{ row['Room B speakers 2'] | slugify }}" class="talk-name">{{row['Room B speakers 2']}}</a></div>
+        {% if row['Room B speakers 3'] != nil %}
+        <div><a href="#{{ row['Room B speakers 3'] | slugify }}" class="talk-name">{{row['Room B speakers 3']}}</a></div>
+        {% endif %}
+      {%endif %}
+
      {% else %}
       {{row['Room B Es']}}
      {% endif %}
     </td>
     <td>
      {% if row['Room C speakers'] != nil %}
-      <a href="#{{ row['Room C speakers'] | slugify }}" class="talk-name">{{row['Room C Es']}}</a>
-      <div>{{row['Room C speakers']}}</div>
+      {{row['Room C Es']}}
+      <div><a href="#{{ row['Room C speakers'] | slugify }}" class="talk-name">{{row['Room C speakers']}}</a></div>
+      {% if row['Room C speakers 2'] != nil %}
+      <div><a href="#{{ row['Room C speakers 2'] | slugify }}" class="talk-name">{{row['Room C speakers 2']}}</a></div>
+        {% endif %}
      {% else %}
       {{row['Room C Es']}}
      {% endif %}
