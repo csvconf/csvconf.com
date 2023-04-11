@@ -28,6 +28,9 @@ We are assembling an exciting team of data makers and enthusiasts representing a
       <div><a href="#{{ row['Room A speakers'] | slugify }}" class="talk-name">{{row['Room A speakers']}}</a></div>
       {% if row['Room A speakers 2'] != nil %}
         <div><a href="#{{ row['Room A speakers 2'] | slugify }}" class="talk-name">{{row['Room A speakers 2']}}</a></div>
+        {% if row['Room B speakers 3'] != nil %}
+        <div><a href="#{{ row['Room A speakers 3'] | slugify }}" class="talk-name">{{row['Room A speakers 3']}}</a></div>
+        {% endif %}
       {%endif %}
      {% else %}
       {{row['Room A']}}
