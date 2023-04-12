@@ -22,6 +22,11 @@ Thank you to our generous sponsors for supporting csv,conf,v7!
         </a>
       </div>
       <div class="second-tagline--info">
+        <a href="https://omidyar.com/">
+          <img src="/img/Omidyar-logo.png" alt="Omidyar Network" width="200px">
+        </a>
+      </div>
+      <div class="second-tagline--info">
         <a href="https://chanzuckerberg.com/">
           <img src="/img/czi.svg" alt="Chan Zuckerberg Initiative" width="200px">
         </a>
