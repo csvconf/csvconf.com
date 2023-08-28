@@ -1,8 +1,8 @@
 ---
-layout: default
+layout: default-2023
 title: Location
 class: locations
-permalink: /location/
+permalink: /2023/2023/location/
 ---
 Welcome to/Bienvenidos a Buenos Aires!
 ===
