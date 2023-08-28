@@ -10,6 +10,7 @@ $dark-gray: #949599;
 $yellow: #FCE648;
 $peri: #6667AB;
 $gray: #DFDFE0;
+$axolotl: #AD7986;
 
 * {
  box-sizing: border-box;
@@ -645,6 +646,100 @@ footer {
 
 .pantone-2022-theme {
  background-color: $red;
+ font-family: 'Fira Sans', sans-serif;
+ margin: 45px;
+ color: white;
+
+
+ table, footer {
+  color: $gray;
+ }
+
+ .header {
+  border-bottom: 5px solid #f9afa8;
+  padding: 0 0 10px;
+ }
+
+ .button {
+  color: black;
+  background-color: #f9afa8;
+  transition: .25s background;
+  padding: 1em 2em;
+  display: inline-block;
+
+  &:hover {
+   background-color: gray;
+   color: white;
+  }
+ }
+
+ .button--info {
+  width: 100%;
+  vertical-align: top;
+  display: inline-block;
+ }
+
+ @media (min-width: 1024px) {
+  .button--info {
+   width: 30%;
+  }
+ }
+ 
+ .button--std {
+  color: black;
+  background-color: #f9afa8;
+  transition: .25s background;
+  padding: 1em 2em;
+  margin-bottom: 2em;
+  display: inline-block;
+  
+  h1, p, a {
+   color: black;
+  }
+  &:hover {
+   background-color: gray;
+   color: white;
+  }
+ }
+
+ table.locations,
+ table.keynotes,
+ table.speaker-list {
+ }
+
+ .keynotes td {
+  border-right: none;
+ }
+
+ .keynote-selector:checked + .keynote {
+  background: #730302;
+ }
+
+ .keynote .image {
+  background-color: #730302;
+ }
+
+ p, a {
+  color: white;
+ }
+
+ h1, h2, h3 {
+  color: white;
+  font-weight: 500;
+ }
+
+ table td, table th {
+  border: 1px solid #f9afa8;
+  border-width: 5px;
+ }
+
+ .locations {
+  max-width: 80%;
+ }
+}
+
+.pantone-2023-theme {
+ background-color: $axolotl;
  font-family: 'Fira Sans', sans-serif;
  margin: 45px;
  color: white;
