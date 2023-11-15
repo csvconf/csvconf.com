@@ -12,23 +12,23 @@ csv,conf is a welcoming data-centric conference that is for anyone! We focus on 
 
 # 2024 Announcement (English)
 **We are going to Mexico, csv,conf is back!**
-Save the date 9-10 May 2024
+Save the date 29 - 31 May 2024
 
-The most beloved community conference for datamakers from all around the world is back in **May 2024!** After a very successful seventh edition in Buenos Aires in April 2023, we have decided to linger a little longer in Latin America. We are very excited to announce that csv,conf,v8 will take place in **Mexico City!**
+The most beloved community conference for datamakers from all around the world is back in **May 2024!** After a very successful seventh edition in Buenos Aires in April 2023, we have decided to linger a little longer in Latin America. We are very excited to announce that csv,conf,v8 will take place in **Puebla, Mexico!**
 
-The commallama will take over Mexico City for two full days. Please block 9-10 May 2024 in your calendars, because we already anticipate a mindblowing edition, with excellent keynote speakers, inspiring talks, and amazing communities from all over the world. If you are passionate about data and its application to society, this is the conference for you. Get ready for a two-day blast where you can hear about cool ongoing projects, swap skills, ideas, and kickstart awesome collaborations!
+The commallama will take over Puebla for two full days. Please block the week of May 27 2024 in your calendars, because we already anticipate a mindblowing edition, with excellent keynote speakers, inspiring talks, and amazing communities from all over the world. If you are passionate about data and its application to society, this is the conference for you. Get ready for a two-day blast where you can hear about cool ongoing projects, swap skills, ideas, and kickstart awesome collaborations!
 
-The call for session proposals will be open soon. Keep an eye on the website, more information about the location and speakers will also be there soon. Meanwhile, please share the news wildly within your networks. We can’t wait to see you all in Mexico City!
+The call for session proposals will be open soon. Keep an eye on the website, more information about the location and speakers will also be there soon. Meanwhile, please share the news wildly within your networks. We can’t wait to see you all in Puebla!
 
 # 2024 Anuncio (Español)
 **Nos vemos en México ¡vuelve la csv,conf!**
-Agenda la fecha: 9 - 10 de mayo de 2024
+Agenda la fecha: 29 - 31 de mayo de 2024
 
-El evento comunitario más querido por los creadores de datos de todo el mundo vuelve en **mayo de 2024.** Después de una exitosa séptima edición en Buenos Aires en abril de 2023, hemos decidido quedarnos en América Latina. ¡Estamos muy contentos de anunciar que la csv,conf,v8 se llevará a cabo en **la Ciudad de México!** 
+El evento comunitario más querido por los creadores de datos de todo el mundo vuelve en **mayo de 2024.** Después de una exitosa séptima edición en Buenos Aires en abril de 2023, hemos decidido quedarnos en América Latina. ¡Estamos muy contentos de anunciar que la csv,conf,v8 se llevará a cabo en **Puebla, México!** 
 
-La commallama tomará la Ciudad de México durante dos días completos. Agenda los días 9 y 10 de mayo de 2024 en sus calendarios, porque ya anticipamos una edición alucinante, con excelentes oradores invitados, charlas inspiradoras y comunidades increíbles de todo el mundo. Si te apasionan los datos y su aplicación en la sociedad, esta es tu conferencia. Prepárate para una explosión de dos días en los que podrás conocer proyectos interesantes en curso, intercambiar conocimientos e ideas, y poner en marcha colaboraciones increíbles. 
+La commallama tomará Puebla durante dos días completos. Agenda la semana del 27 de mayo de 2024 en sus calendarios, porque ya anticipamos una edición alucinante, con excelentes oradores invitados, charlas inspiradoras y comunidades increíbles de todo el mundo. Si te apasionan los datos y su aplicación en la sociedad, esta es tu conferencia. Prepárate para una explosión de dos días en los que podrás conocer proyectos interesantes en curso, intercambiar conocimientos e ideas, y poner en marcha colaboraciones increíbles. 
 
-La convocatoria para propuestas de sesiones se abrirá pronto. Visita el sitio web, donde pronto encontrarás más información sobre el lugar y los ponentes. Mientras tanto, por favor, comparte la noticia ampliamente en tus redes. ¡Esperamos poder verlos a todos en Ciudad de México! 
+La convocatoria para propuestas de sesiones se abrirá pronto. Visita el sitio web, donde pronto encontrarás más información sobre el lugar y los ponentes. Mientras tanto, por favor, comparte la noticia ampliamente en tus redes. ¡Esperamos poder verlos a todos en Puebla! 
 
 
 # Where can I learn more?
