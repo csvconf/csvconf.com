@@ -10,6 +10,9 @@ csv,conf is a community event for datamakers from all around the world. At csv,c
 # Who is csv,conf for?
 csv,conf is a welcoming data-centric conference that is for anyone! We focus on stories about the people that work with data, and how their projects impact the world. Past participants have included climate scientists, local government officials, data hobbyists, open source contributors, academics, and more! You can watch previous talks on our <a href="https://www.youtube.com/channel/UCWq7JfT4PJrCZLmxSOVJOww" title="csv,conf YouTube Channel">YouTube</a> channel, and see previous years' schedules online <a href="/2023/2023/schedule/" title="csv,conf,v7 site">(e.g. version 7 from 2023)</a>.
 
+# Where will csv,conf be located?
+The conference will be Puebla, Mexico (outside of Mexico City) at the Benemérita Universidad Autónoma de Puebla (BUAP). 
+
 # 2024 Announcement (English)
 **We are going to Mexico, csv,conf is back!**
 Save the date 29 - 31 May 2024
