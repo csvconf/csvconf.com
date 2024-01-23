@@ -15,7 +15,7 @@ The conference will be Puebla, Mexico (outside of Mexico City) at the Benemérit
 
 # 2024 Announcement (English)
 **We are going to Mexico, csv,conf is back!**
-Save the date 29 - 31 May 2024
+Save the date 29 - 30 May 2024
 
 The most beloved community conference for datamakers from all around the world is back in **May 2024!** After a very successful seventh edition in Buenos Aires in April 2023, we have decided to linger a little longer in Latin America. We are very excited to announce that csv,conf,v8 will take place in **Puebla, Mexico!**
 
@@ -25,7 +25,7 @@ The call for session proposals will be open soon. Keep an eye on the website, mo
 
 # 2024 Anuncio (Español)
 **Nos vemos en México ¡vuelve la csv,conf!**
-Agenda la fecha: 29 - 31 de mayo de 2024
+Agenda la fecha: 29 - 30 de mayo de 2024
 
 El evento comunitario más querido por los creadores de datos de todo el mundo vuelve en **mayo de 2024.** Después de una exitosa séptima edición en Buenos Aires en abril de 2023, hemos decidido quedarnos en América Latina. ¡Estamos muy contentos de anunciar que la csv,conf,v8 se llevará a cabo en **Puebla, México!** 
 
