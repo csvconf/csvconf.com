@@ -7,7 +7,8 @@ permalink: /location/location-es/
 Welcome to/Bienvenidos a Puebla!
 ===
 
-## The conference is located at Benemérita Universidad Autónoma de Puebla (BUAP) 4 Sur #104 Col Puebla, PUE 72000 Mexico.
+## The conference is located at Benemérita Universidad Autónoma de Puebla (BUAP) 72592 Heroica Puebla de Zaragoza Puebla, PUE 72592 Mexico
+.
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
