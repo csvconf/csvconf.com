@@ -162,7 +162,7 @@ You can find information about when buses or subway arrive and how to get anywhe
 
 **AIRBNB:** offers a wide range of prices and accommodations. You may want to book a place near the CSV conference, which is located at Av. San Claudio s/n, Cd Universitaria, La Hacienda, 72592 Heroica Puebla de Zaragoza, Pue.  
 
-**HOTELS:** Hotel Suites Puebla, is a hotel located near the area where the conference will be held. Located at Blvd. 18 sur 5704, Jardines de San Manuel, 72570 Heroica Puebla de Zaragoza, Pue. Telephone: 222 245 0080 
+**HOTELS:** NH Puebla Centro Histórico, is a hotel located near the area where the conference will be held. Located at Calle 5 Sur 105 Centro Historico, Puebla 72000 Reservations +34 91 398 46 61 Tel.: +52 222 3 09 19 00
 
 ## General advice on food & drink
 
