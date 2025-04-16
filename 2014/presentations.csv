@@ -1,0 +1,31 @@
+room,start,name,title
+Galeria,10:10,Jeni Tennison,CSV on the Web
+1,10:10,Mitar Milutinovic,Collaborating on open dataset of all academic publications
+2,10:10,Owen Jones,Population biology database
+Galeria,10:35,Jeremy Krinsley,Every Parse Is Sacred
+1,10:35,Nick Stenning,Data usability: the tabular data package and friends
+2,10:35,Alexandre Vallette,Using open-data and machine learning to enhance citizen life.
+Galeria,11:30,Ingrid Burrington,Internet Groundtruth
+1,11:30,Christopher Gandrud,Improving access to panel series data for social scientists: the `psData` package
+2,11:30,Thomas Levine,"comma search, and Tom’s views on searching across data tables"
+Galeria,11:55,Brian Jacobs,Querying the sum of all human knowledge
+1,11:55,Bernard Lambeau,Data Deserves a Language Too
+2,11:55,Adam Retter,CSV Validation
+Galeria,12:20,James Smith,CSVlint: publishing data that doesn't suck
+1,12:20,Ed Freyfogle,A living hell: lessons learned in eight years of parsing the world's real estate data
+2,12:20,Matt Senate,"Data-Hacking with Wikimedia Projects: Learn by Example, Including Wikipedia, WikiData and Beyond!"
+Galeria,14:00,Gabriela Rodriguez,Vozdata: open data with the help of the community
+1,14:00,Peter Murray-Rust,The Content Mine
+2,14:00,Javier Arce,"So you have CSVs, now what?"
+Galeria,14:25,Friedrich Lindenberg,"Dr. Freezefile, or how I learned to stop generating and freeze my apps"
+1,14:25,Steven Beeckman,How the belgian Ministry of Defence uses csv files to power its internal open data platform
+2,14:25,Aaron Schumacher,The examined life: Epistemology and the data dialogue
+Galeria,14:50,"Ana Carvalho, Sara Moreira & Ricardo Lafuente",Datacentral: Using Data Packages for static data portals
+1,14:50,Francisco Mekler,Hacking Education: Public budget from PDF to CSV
+2,14:50,Karthik Ram,`testdat` -- Unit testing for tabular data
+Galeria,15:45,Olaf Veerman,Openrosa for call centers
+1,15:45,David McKee,XYPath: parsing spreadsheets in Python
+2,15:45,Alf Eaton,VEGE-TABLE: the data table that grows
+Galeria,16:10,Felienne Hermans,Spreadsheets Are Code
+1,16:10,Paul De Schacht,Conquering the multi-headed format monster
+2,16:10,Ashley Casovan and Antonio Acuna,How do we improve data quality internationally?
