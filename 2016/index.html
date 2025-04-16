@@ -1,0 +1,1996 @@
+<!doctype html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-ss-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>  <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>  <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!--[if IE 9]>  <html class="no-js ie9" lang="en"> <![endif]-->
+<!-- Consider adding an manifest.appcache: h5bp.com/d/Offline -->
+<!--[if gt IE 9]><!--> <html class="no-js" lang="en" itemscope itemtype="http://schema.org/Product"> <!--<![endif]-->
+<head>
+
+ <meta charset="utf-8">
+
+ <!-- Use the .htaccess and remove these lines to avoid edge case issues.
+    More info: h5bp.com/b/378 -->
+ <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+ <title>csv,conf,v2</title>
+
+ <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+ <link href='http://fonts.googleapis.com/css?family=Droid+Sans+Mono' rel='stylesheet' type='text/css'>
+ <link rel="stylesheet" href="css/gumby.css">
+ <link rel="stylesheet" href="css/custom.css">
+
+ <!-- Load Modenizr for feature detection FIRST. -->
+ <script src="js/libs/modernizr-2.6.2.min.js"></script>
+</head>
+
+ <body>
+  <header role="banner" class="site-header parallax" gumby-parallax="0.5">
+   <div class="row">
+    <div class="twelve columns header-intro-wrap fadeUpIn">
+     <h1 class="logo">csv<span>,</span>conf<span>,</span>v2</h1>
+     <p>
+      A community conference for data makers everywhere, again!
+      <br />
+      <small style="font-size: 65.4%;">Featuring some of the brightest minds in science, journalism, government and open source.</small>
+     </p>
+     <p>3-4 May 2016 in Berlin, Germany.</p>
+     <p class="buttonz">
+      <a href="http://www.eventbrite.com/e/csvconfv2-tickets-22105704758" target="_blank" class="btn-side animate-on-scroll scroll-animation-init fadeInLeft" data-scrollanimation="fadeInLeft">Get Your Ticket</a>
+      <div style="font-size: 15px">Pay What You Can, Early Bird Ends <b>April 15th</b></div>
+     </p>
+     <p>
+      Thanks for coming, hopefully see you in <a href="/2017" title="csv,conf,v3 site">Portland for csv,conf,v3</a>.
+     </p>
+     <p>
+      Look at the 2016 talks on <a href="https://www.youtube.com/channel/UCWq7JfT4PJrCZLmxSOVJOww" title="Csv,conf 2016 talks">Youtube</a>.
+     </p>
+    </div>
+   </div>
+  </header>
+  <main role="main" class="site-main-content">
+   <span class="easteregg" style="display: none;">Above is live earthquake data from a NOAA CSV. <a href="?csv=https://raw.githubusercontent.com/datasets/house-prices-uk/master/data/data.csv">Try rendering a different CSV.</a></span>
+
+   <section id="speakers" class="site-section section-signup speakers">
+    <div class="row">
+     <div class="twelve columns animate-on-scroll" data-scrollanimation="fadeDownIn">
+      <h3 id="keynotes" class="signup-title">Keynote Speakers</h3>
+     </div>
+    </div>
+    <div class="row">
+     <ul class="row features-list">
+      <li class="features-item">
+       <a href="https://twitter.com/JennyBryan">
+        <span class="features-circle" style="background-image: url(img/speakers/JennyBryan.jpg)">
+         <span class="features-circle-icon">
+         </span>
+        </span>
+       </a>
+       <h4>Jenny Bryan</h4>
+       <h3>Statistics professor at the University of British Columbia who takes a special delight in data analysis and computing.</h3>
+      </li>
+      <li class="features-item">
+       <a href="https://twitter.com/sarahtgold">
+        <span class="features-circle" style="background-image: url(img/speakers/sarahtgold.jpg)">
+         <span class="features-circle-icon">
+         </span>
+        </span>
+       </a>
+       <h4>Sarah Gold</h4>
+       <h3>Designer interested in interaction, data and networks in the public domain, she is founder of the creative company IF.</h3>
+      </li>
+      <li class="features-item">
+       <a href="https://twitter.com/thefreemanlab">
+        <span class="features-circle" style="background-image: url(img/speakers/thefreemanlab.png)">
+         <span class="features-circle-icon">
+         </span>
+        </span>
+       </a>
+       <h4>Jeremy Freeman</h4>
+       <h3>Neuroscientist at <a href="https://twitter.com/HHMIJanelia">HHMI Janelia</a>. Open source, open science. Working on <a href="http://mybinder.org/">Binder</a>, <a href="http://lightning-viz.org/">Lightning</a> and more.</h3>
+      </li>
+      <li class="features-item">
+       <a href="https://twitter.com/zararah">
+        <span class="features-circle" style="background-image: url(img/speakers/zararahman.png)">
+         <span class="features-circle-icon">
+         </span>
+        </span>
+       </a>
+       <h4>Zara Rahman</h4>
+       <h3>Researcher, writer and information activist whose work focuses on bridging the gap between activists and technologists.</h3>
+      </li>
+     </ul>
+     <div class="row" style="padding-top: 90px;">
+      <h3>See the full <a href="#presenters">list of speakers</a>.
+
+       <p>
+        <a href="http://www.eventbrite.com/e/csvconfv2-tickets-22105704758" target="_blank" class="btn-side animate-on-scroll scroll-animation-init fadeInLeft" data-scrollanimation="fadeInLeft">Get Your Ticket</a>
+       </p>
+     </div>
+    </div>
+   </section>
+
+   <section id="about" class="site-section section-features" data-target="features">
+    <center><a href="/2014"><img width="100%" src="img/2014-group.jpg"></a></center>
+
+    <ul class="row features-list">
+     <li class="features-item">
+      <h3>Building Community</h3>
+      <p>We want to bring together data makers/doers/hackers from backgrounds like science, journalism, open government and the wider software industry to share knowledge and stories.</p>
+     </li>
+     <li class="features-item">
+      <h3>For those who love data</h3>
+      <p>csv,conf is a non-profit community conference run by some folks who really love data and sharing knowledge. If you are as passionate about data and the application it has to society as us then you should join us in Berlin!</p>
+
+     </li>
+     <li class="features-item">
+      <h3>Big and small</h3>
+      <p>This isn't just a conference about spreadsheets. We are curating content about advancing the art of data collaboration, from putting your data on GitHub to producing meaningful insight by running large scale distributed processing on a cluster.</p>
+     </li>
+     <!-- /END: Feature Item -->
+    </ul>
+    <!-- /END: Features List -->
+    <div class="row" style="text-align: center;">
+     <div class="row">
+      <h3>csv,conf is made possible by the following generous sponsors</h3>
+      <a href="https://www.moore.org/"><img src="img/moore.jpg" width="400" style="padding: 25px"></a>
+      <br />
+      <a href="https://okfn.org/"><img src="img/oki.png" width="200"></a>
+      <a href="https://www.datacite.org/"><img src="img/datacite.png" width="200"></a>
+      <a href="http://www.sloan.org/"><img src="img/sloan.png" width="200"></a>
+      <a href="http://www.cdlib.org/"><img src="img/cdl.png" width="200"></a>
+      <a href="http://ropensci.org/"><img src="img/ropensci.png" width="200"></a>
+     </div>
+    </div>
+   </section>
+
+   <section id="presenters" class="site-section section-signup speakers">
+    <div class="row">
+     <div class="twelve columns animate-on-scroll" data-scrollanimation="fadeDownIn">
+      <h3 class="signup-title" id="presenters">Presenters</h3>
+     </div>
+    </div>
+    <div class="row">
+     <ul class="row features-list">
+      
+      <li class="features-item">
+       
+       <a href="http://twitter.com/blahah404">
+        
+         <span class="features-circle" style="background-image: url(img/speakers/blahah404.png)">
+          <span class="features-circle-icon">
+          </span>
+        </span>
+       </a>
+       <h4>Richard Smith-Unna</h4>
+       <a href="#rsmithunna"><h3>Easy, massive-scale reuse of scientific outputs</h3></a>
+      </li>
+      
+      <li class="features-item">
+       
+       <a href="http://twitter.com/auremoser">
+        
+         <span class="features-circle" style="background-image: url(img/speakers/auremoser.png)">
+          <span class="features-circle-icon">
+          </span>
+        </span>
+       </a>
+       <h4>Aurelia Moser</h4>
+       <a href="#amoser"><h3>This is Not a Map: Building Interactive Maps with CSVs, Creative Themes, and Curious Geometries</h3></a>
+      </li>
+      
+      <li class="features-item">
+       
+        <a>
+         
+         <span class="features-circle" style="background-image: url(img/speakers/tdoehmen.jpg)">
+          <span class="features-circle-icon">
+          </span>
+        </span>
+       </a>
+       <h4>Till Doehmen</h4>
+       <a href="#tdoehman"><h3>There and back again - Automatic detection and conversion of logical table structures</h3></a>
+      </li>
+      
+      <li class="features-item">
+       
+       <a href="http://twitter.com/richard_d_jones">
+        
+         <span class="features-circle" style="background-image: url(img/speakers/richard_d_jones.jpg)">
+          <span class="features-circle-icon">
+          </span>
+        </span>
+       </a>
+       <h4>Richard Jones</h4>
+       <a href="#rjones"><h3>CSV as the Master Dataset - and approaches to web publishing</h3></a>
+      </li>
+      
+      <li class="features-item">
+       
+       <a href="http://twitter.com/bjwebb67">
+        
+         <span class="features-circle" style="background-image: url(img/speakers/bjwebb67.jpeg)">
+          <span class="features-circle-icon">
+          </span>
+        </span>
+       </a>
+       <h4>Ben Webb</h4>
+       <a href="#bwebb"><h3>Bidirectional conversion to/from CSV for nested JSON data</h3></a>
+      </li>
+      
+      <li class="features-item">
+       
+       <a href="http://twitter.com/jacomyma">
+        
+         <span class="features-circle" style="background-image: url(img/speakers/jacomyma.jpg)">
+          <span class="features-circle-icon">
+          </span>
+        </span>
+       </a>
+       <h4>Mathieu Jacomy</h4>
+       <a href="#mjacomy"><h3>CSV, Rinse, Repeat</h3></a>
+      </li>
+      
+      <li class="features-item">
+       
+       <a href="http://twitter.com/sirwart">
+        
+         <span class="features-circle" style="background-image: url(img/speakers/sirwart.jpg)">
+          <span class="features-circle-icon">
+          </span>
+        </span>
+       </a>
+       <h4>Brian Smith</h4>
+       <a href="#bsmith"><h3>What we can learn from XLSX</h3></a>
+      </li>
+      
+      <li class="features-item">
+       
+       <a href="http://twitter.com/scoatch">
+        
+         <span class="features-circle" style="background-image: url(img/speakers/scoatch.png)">
+          <span class="features-circle-icon">
+          </span>
+        </span>
+       </a>
+       <h4>Scott Renton</h4>
+       <a href="#srenton"><h3>Describing Image Collections (Without Any Staff!)</h3></a>
+      </li>
+      
+      <li class="features-item">
+       
+       <a href="http://twitter.com/commuterjoy">
+        
+         <span class="features-circle" style="background-image: url(img/speakers/commuterjoy.png)">
+          <span class="features-circle-icon">
+          </span>
+        </span>
+       </a>
+       <h4>Matt Chadburn</h4>
+       <a href="#mchadburn"><h3>Democratising data at the Financial Times</h3></a>
+      </li>
+      
+      <li class="features-item">
+       
+       <a href="http://twitter.com/captainkmac">
+        
+         <span class="features-circle" style="background-image: url(img/speakers/captainkmac.png)">
+          <span class="features-circle-icon">
+          </span>
+        </span>
+       </a>
+       <h4>Karissa McKelvey</h4>
+       <a href="#kmckelvey"><h3>Distributing Open Data with Dat</h3></a>
+      </li>
+      
+      <li class="features-item">
+       
+       <a href="http://twitter.com/benjaminbenben">
+        
+         <span class="features-circle" style="background-image: url(img/speakers/benjaminbenben.jpg)">
+          <span class="features-circle-icon">
+          </span>
+        </span>
+       </a>
+       <h4>Ben Foxall</h4>
+       <a href="#bfoxall"><h3>Serving CSV from the Browser</h3></a>
+      </li>
+      
+      <li class="features-item">
+       
+       <a href="http://twitter.com/johl">
+        
+         <span class="features-circle" style="background-image: url(img/speakers/johl.jpg)">
+          <span class="features-circle-icon">
+          </span>
+        </span>
+       </a>
+       <h4>Jens Ohlig</h4>
+       <a href="#johlig"><h3>Data Donations for Wikidata - how to get your data into the free knowledge base</h3></a>
+      </li>
+      
+      <li class="features-item">
+       
+       <a href="http://twitter.com/SerahRono">
+        
+         <span class="features-circle" style="background-image: url(img/speakers/CallMeAlien.png)">
+          <span class="features-circle-icon">
+          </span>
+        </span>
+       </a>
+       <h4>Serah Njambi</h4>
+       <a href="#snjambi"><h3>Life/Death Decisions: Powered by CSVs</h3></a>
+      </li>
+      
+      <li class="features-item">
+       
+       <a href="http://twitter.com/tripofmice">
+        
+         <span class="features-circle" style="background-image: url(img/speakers/tripofmice.jpg)">
+          <span class="features-circle-icon">
+          </span>
+        </span>
+       </a>
+       <h4>Mouse Reeve</h4>
+       <a href="#mreeve"><h3>Grimoires, Demonology, and Databases</h3></a>
+      </li>
+      
+      <li class="features-item">
+       
+       <a href="http://twitter.com/juretriglav">
+        
+         <span class="features-circle" style="background-image: url(img/speakers/juretriglav.jpg)">
+          <span class="features-circle-icon">
+          </span>
+        </span>
+       </a>
+       <h4>Jure Triglav</h4>
+       <a href="#jtriglav"><h3>Open Science with Open Data on the Open Web using Open Source</h3></a>
+      </li>
+      
+      <li class="features-item">
+       
+       <a href="http://twitter.com/kadamwhite">
+        
+         <span class="features-circle" style="background-image: url(img/speakers/kadamwhite.jpg)">
+          <span class="features-circle-icon">
+          </span>
+        </span>
+       </a>
+       <h4>K Adam White</h4>
+       <a href="#kwhite"><h3>WordPress as Data</h3></a>
+      </li>
+      
+      <li class="features-item">
+       
+       <a href="http://twitter.com/basilesimon">
+        
+         <span class="features-circle" style="background-image: url(img/speakers/basilesimon.jpg)">
+          <span class="features-circle-icon">
+          </span>
+        </span>
+       </a>
+       <h4>Basile Simon</h4>
+       <a href="#bsimon"><h3>Hackers trying to stay relevant: linked data and structured journalism at the BBC</h3></a>
+      </li>
+      
+      <li class="features-item">
+       
+       <a href="http://twitter.com/danfowler">
+        
+         <span class="features-circle" style="background-image: url(img/speakers/danfowler.jpg)">
+          <span class="features-circle-icon">
+          </span>
+        </span>
+       </a>
+       <h4>Dan Fowler</h4>
+       <a href="#dfowler"><h3>Data Packages and Frictionless Data for Research</h3></a>
+      </li>
+      
+      <li class="features-item">
+       
+       <a href="http://twitter.com/frsyuki">
+        
+         <span class="features-circle" style="background-image: url(img/speakers/frsyuki.jpg)">
+          <span class="features-circle-icon">
+          </span>
+        </span>
+       </a>
+       <h4>Sadayuki Furuhashi</h4>
+       <a href="#sfuruhashi"><h3>Fighting Against Chaotically Separated Values with Embulk</h3></a>
+      </li>
+      
+      <li class="features-item">
+       
+       <a href="http://twitter.com/gmcmullen">
+        
+         <span class="features-circle" style="background-image: url(img/speakers/gmcmullen.jpg)">
+          <span class="features-circle-icon">
+          </span>
+        </span>
+       </a>
+       <h4>Greg McMullen</h4>
+       <a href="#gmcmullen"><h3>A Public BigchainDB: A Blockchain Database for the Decentralized World Computer</h3></a>
+      </li>
+      
+      <li class="features-item">
+       
+       <a href="http://twitter.com/tomayac">
+        
+         <span class="features-circle" style="background-image: url(img/speakers/tomayac.jpg)">
+          <span class="features-circle-icon">
+          </span>
+        </span>
+       </a>
+       <h4>Thomas Steiner</h4>
+       <a href="#tsteiner"><h3>Wikipedia Tools for Google Spreadsheets</h3></a>
+      </li>
+      
+      <li class="features-item">
+       
+       <a href="http://twitter.com/maciejgryka">
+        
+         <span class="features-circle" style="background-image: url(img/speakers/maciejgryka.jpg)">
+          <span class="features-circle-icon">
+          </span>
+        </span>
+       </a>
+       <h4>Maciej Gryka</h4>
+       <a href="#mgryka"><h3>Gotta catch'em all: recognizing sloppy work in crowdsourcing tasks</h3></a>
+      </li>
+      
+      <li class="features-item">
+       
+       <a href="http://twitter.com/JeniT">
+        
+         <span class="features-circle" style="background-image: url(img/speakers/JeniT.jpg)">
+          <span class="features-circle-icon">
+          </span>
+        </span>
+       </a>
+       <h4>Jeni Tennison</h4>
+       <a href="#jtennison"><h3>Making CSV part of the Web</h3></a>
+      </li>
+      
+      <li class="features-item">
+       
+       <a href="http://twitter.com/pezholio">
+        
+         <span class="features-circle" style="background-image: url(img/speakers/pezholio.jpg)">
+          <span class="features-circle-icon">
+          </span>
+        </span>
+       </a>
+       <h4>Stuart Harrison</h4>
+       <a href="#sharrison"><h3>Comma Chameleon - Building a desktop CSV editor in one week</h3></a>
+      </li>
+      
+      <li class="features-item">
+       
+        <a>
+         
+         <span class="features-circle" style="background-image: url(img/speakers/anonymous.png)">
+          <span class="features-circle-icon">
+          </span>
+        </span>
+       </a>
+       <h4>Micheleen Harris</h4>
+       <a href="#mharris"><h3>Work Together: Share and Explore Data in Jupyter Notebooks</h3></a>
+      </li>
+      
+      <li class="features-item">
+       
+       <a href="http://twitter.com/johrols">
+        
+         <span class="features-circle" style="background-image: url(img/speakers/johrols.png)">
+          <span class="features-circle-icon">
+          </span>
+        </span>
+       </a>
+       <h4>Johann Rolschewski</h4>
+       <a href="#jrolschewski"><h3>Catmandu - a data toolkit</h3></a>
+      </li>
+      
+      <li class="features-item">
+       
+       <a href="http://twitter.com/frimelle">
+        
+         <span class="features-circle" style="background-image: url(img/speakers/frimelle.png)">
+          <span class="features-circle-icon">
+          </span>
+        </span>
+       </a>
+       <h4>Lucie-Aime Kaffee</h4>
+       <a href="#lkaffee"><h3>Increasing access to free and open knowledge for under-ressourced languages on Wikipedia</h3></a>
+      </li>
+      
+      <li class="features-item">
+       
+       <a href="http://twitter.com/princi_ya">
+        
+         <span class="features-circle" style="background-image: url(img/speakers/princi_ya.jpg)">
+          <span class="features-circle-icon">
+          </span>
+        </span>
+       </a>
+       <h4>Princiya Marina</h4>
+       <a href="#pmarina"><h3>Data visualizations using D3.js and C++</h3></a>
+      </li>
+      
+      <li class="features-item">
+       
+       <a href="http://twitter.com/sebkkom">
+        
+         <span class="features-circle" style="background-image: url(img/speakers/sebkkom.jpg)">
+          <span class="features-circle-icon">
+          </span>
+        </span>
+       </a>
+       <h4>Sebastian K. Komianos</h4>
+       <a href="#skomianos"><h3>Data through the hoop: I got 99 problems and the data was one</h3></a>
+      </li>
+      
+      <li class="features-item">
+       
+       <a href="http://twitter.com/mbroschomb">
+        
+         <span class="features-circle" style="background-image: url(img/speakers/mbenyohai.jpg)">
+          <span class="features-circle-icon">
+          </span>
+        </span>
+       </a>
+       <h4>Michaela Benyohai</h4>
+       <a href="#michaelaphilip"><h3>Registers: authoritative lists you can trust</h3></a>
+      </li>
+      
+      <li class="features-item">
+       
+       <a href="http://twitter.com/philandstuff">
+        
+         <span class="features-circle" style="background-image: url(img/speakers/philandstuff.jpg)">
+          <span class="features-circle-icon">
+          </span>
+        </span>
+       </a>
+       <h4>Philip Potter</h4>
+       <a href="#michaelaphilip"><h3>Registers: authoritative lists you can trust</h3></a>
+      </li>
+      
+      <li class="features-item">
+       
+       <a href="http://twitter.com/DarrBarnes">
+        
+         <span class="features-circle" style="background-image: url(img/speakers/darrenbarnes.jpg)">
+          <span class="features-circle-icon">
+          </span>
+        </span>
+       </a>
+       <h4>Darren Barnes</h4>
+       <a href="#dbarnes"><h3>ONS Databaker: from 'pretty spreadsheets' to useful CSVs</h3></a>
+      </li>
+      
+      <li class="features-item">
+       
+       <a href="http://twitter.com/joewass">
+        
+         <span class="features-circle" style="background-image: url(img/speakers/jwass.jpg)">
+          <span class="features-circle-icon">
+          </span>
+        </span>
+       </a>
+       <h4>Joe Wass</h4>
+       <a href="#jwass"><h3>notsoBig Data: crunching Wikipedia referrer logs</h3></a>
+      </li>
+      
+      <li class="features-item">
+       
+       <a href="http://twitter.com/obuchtala">
+        
+         <span class="features-circle" style="background-image: url(img/speakers/obuchtala.jpg)">
+          <span class="features-circle-icon">
+          </span>
+        </span>
+       </a>
+       <h4>Oliver Buchtala</h4>
+       <a href="#buchtalaaufreiter"><h3>Dynamic Data Driven Documents in stenci.la</h3></a>
+      </li>
+      
+      <li class="features-item">
+       
+       <a href="http://twitter.com/momomtaz">
+        
+         <span class="features-circle" style="background-image: url(img/speakers/mhegazy.jpg)">
+          <span class="features-circle-icon">
+          </span>
+        </span>
+       </a>
+       <h4>Mohamed Hegazy</h4>
+       <a href="#mhegazy"><h3>Mapping the unmappable: Creating public transit data in a megacity</h3></a>
+      </li>
+      
+      <li class="features-item">
+       
+       <a href="http://twitter.com/_mql">
+        
+         <span class="features-circle" style="background-image: url(img/speakers/maufreiter.jpg)">
+          <span class="features-circle-icon">
+          </span>
+        </span>
+       </a>
+       <h4>Michael Aufreiter</h4>
+       <a href="#buchtalaaufreiter"><h3>Dynamic Data Driven Documents in stenci.la</h3></a>
+      </li>
+      
+     </ul>
+    </div>
+   </section>
+
+   <section id="schedule" class="site-section section-testimonials">
+    <div class="row">
+     <h4 id="location">Location</h4>
+     <p>Conference venue is the <a href="http://www.kalkscheune.de/en">Kalkscheune</a> in Central Berlin.</p>
+     <p>Google Maps: <a href="https://www.google.com/maps/place/Kalkscheune/@52.5251031,13.3914223,16z/data=!4m2!3m1!1s0x47a851e837c93643:0xd44c06c0d6ff5dda">Kalkscheune, Johannisstr. 2, 10117 Berlin, Germany</a></p>
+     <a href="http://www.kalkscheune.de/en"><img style="margin-left: 20px" src="/img/kalkscheune.png"></a>
+
+     <h4 id="schedule">
+      <h4>Schedule</h4>
+      <a href="img/day1.png"><img src="img/day1.png" width=300></a>
+      <a href="img/day2.png"><img src="img/day2.png" width=300></a>
+     </h4>
+
+     
+     <h4>Schedule: Tuesday</h4>
+     <ul class="row presentation-list">
+
+      
+      
+      
+      
+
+      <li id="bfoxall" class="presentation-item">
+       <div class="slot">10:30:00</div>
+       <div class="left">
+        <h3>Serving CSV from the Browser</h3>
+        
+        <span class="room">
+         
+         Gallery
+         
+        </span>
+        
+        <a>
+         <h4>Ben Foxall</h4>
+        </a>
+        <div class="bio"></div>
+        <p>
+         Our web browsers are powerful tools for requesting, processing, and displaying CSV data in an open way. Though, as well as reading files, the web platform has the capability to generate CSV (or other formats) right in the browser. We’ll look at the advantages of doing this rather than using a traditional web service or script. I’ll show the browser features that make this possible now, and the ones that will make it even better in the future.
+        </p>
+        
+       </div>
+      </li>
+
+      
+      
+      
+
+      <li id="rsmithunna" class="presentation-item">
+       <div class="slot">10:30:00</div>
+       <div class="left">
+        <h3>Easy, massive-scale reuse of scientific outputs</h3>
+        
+        <span class="room">
+         
+         Room 1
+         
+        </span>
+        
+        <a>
+         <h4>Richard Smith-Unna</h4>
+        </a>
+        <div class="bio"></div>
+        <p>
+         I will present new open tools that enable easy, massive-scale analysis and reuse of the scientific literature and other outputs. These tools are optimised for non-technical users, but rest on a platform of components for power users. I will share lessons learned in the development process, and highlight pain-points that can guide data creation and curation efforts.
+        </p>
+        
+       </div>
+      </li>
+
+      
+      
+      
+
+      <li id="srenton" class="presentation-item">
+       <div class="slot">10:30:00</div>
+       <div class="left">
+        <h3>Describing Image Collections (Without Any Staff!)</h3>
+        
+        <span class="room">
+         
+         Room 4
+         
+        </span>
+        
+        <a>
+         <h4>Scott Renton</h4>
+        </a>
+        <div class="bio"></div>
+        <p>
+         The University of Edinburgh’s "Library and University Collections" is very proud of its high-resolution images of the wealth of Special Collections it holds.
+The discovery of these images is handled by the LUNA Imaging platform, a supplied system, which allows high quality JP2K zooming, and also presents its metadata using robust solr indices.
+Getting the data into the application has presented us with a number of interesting challenges. To briefly describe this workflow: our Photographers receive readers’ orders from items they have found in our manuscripts, and these are recorded using Excel worksheets (we have offered to move the whole process to the web but for various reasons, this has not happened!); we take the shorthand data that they record and turn it into presentation standard, using an Excel macro which features various programming techniques; this macro also runs file renames, and runs a process to embed identification data into the TIFFs. From here, per collection CSVs are generated for upload to the system, which parses the particular CSV into the relevant format under the covers; this gives us a skeleton record in the LUNA system.
+As we do not have cataloguers devoted to our images, we need to be creative to enrich the records to make them searchable. We have built a purpose-built crowdsourcing application based on standard LAMP technologies to allow the crowd to further catalogue the record. The data is then hived off to the correct standard using JSON or XML, and run back in using processes we’ve built around the system’s REST API.
+This end-to-end workflow has grown organically, does everything we need it to do, and has CSV at its very heart.
+        </p>
+        
+        <a class="video" href="https://www.youtube.com/watch?v=6BY93dL-HGI" title="Video for talk Scott Renton">Watch Video ></a>
+        
+       </div>
+      </li>
+
+      
+      
+      
+      
+      
+
+      <li id="kwhite" class="presentation-item">
+       <div class="slot">11:00:00</div>
+       <div class="left">
+        <h3>WordPress as Data</h3>
+        
+        <span class="room">
+         
+         Gallery
+         
+        </span>
+        
+        <a>
+         <h4>K Adam White</h4>
+        </a>
+        <div class="bio"></div>
+        <p>
+         Over the past two years we have been building a new JSON-based REST API for WordPress. Available today as a plugin, that API could be integrated into a core WordPress release as early as later this year—and with the reach WP has globally, that would mean a "quarter of the Internet" (as WP likes to bill its market share; see W3Techs) would suddenly have unprecedented access to their own content in a structured data format. I want to share the goals we have had while working on the WP-API project and its client libraries, and to open a discussion about how to educate users that they will have access to their data in this way—and that third parties may, as well.
+        </p>
+        
+       </div>
+      </li>
+
+      
+      
+      
+
+      <li id="rjones" class="presentation-item">
+       <div class="slot">11:00:00</div>
+       <div class="left">
+        <h3>CSV as the Master Dataset - and approaches to web publishing</h3>
+        
+        <span class="room">
+         
+         Room 4
+         
+        </span>
+        
+        <a>
+         <h4>Richard Jones</h4>
+        </a>
+        <div class="bio"></div>
+        <p>
+         Websites which provide search and data analysis/visualisation capabilities to end-users can be costly and time-consuming to build, not least because custom back-ends for data management are often complex. Small organisations managing niche datasets understand and use spreadsheets well, but this creates barriers to publicising their information in visual and interactive ways. At [Cottage Labs](http://cottagelabs.com) we're working on a patchwork of open source tools borrowed, stitched together or enhanced to bridge that gap, and enable these organisations to keep and manage their master data as CSVs (or any other sheet format they like), then to get it online and into their websites to engage their communities. This talk will cover the common challenges (both technical and human), the data transformations, and the generalised approach to visualisations that makes this process quick and economical. We'll show a couple of examples in the wild, including [SPARC's](http://sparcopen.org/) [Open Access Spectrum](http://oaspectrum.org/) and the [World Nuclear Association's](http://www.world-nuclear.org/) [Reactor Database](http://www.world-nuclear.org/information-library/facts-and-figures/reactor-database.aspx).
+        </p>
+        
+       </div>
+      </li>
+
+      
+      
+      
+
+      <li id="kmckelvey" class="presentation-item">
+       <div class="slot">11:30:00</div>
+       <div class="left">
+        <h3>Distributing Open Data with Dat</h3>
+        
+        <span class="room">
+         
+         Gallery
+         
+        </span>
+        
+        <a>
+         <h4>Karissa McKelvey</h4>
+        </a>
+        <div class="bio"></div>
+        <p>
+         Distributing data with a centralized server can often be expensive and difficult to maintain. If we instead use a decentralized or 'flat' network, we can drastically increase bandwidth and ensure uptime by connecting those who download data with peers who already have it. Dat is a data tool for distributing datasets, small and large. Attendees will learn how to create a versioned data package with Dat and distribute it via an open network. This workshop will leave attendees with a superior tool for ensuring integrity, uptime, and bandwidth for open data.
+        </p>
+        
+       </div>
+      </li>
+
+      
+      
+      
+      
+      
+
+      <li id="bwebb" class="presentation-item">
+       <div class="slot">11:30:00</div>
+       <div class="left">
+        <h3>Bidirectional conversion to/from CSV for nested JSON data</h3>
+        
+        <span class="room">
+         
+         Room 1
+         
+        </span>
+        
+        <a>
+         <h4>Ben Webb</h4>
+        </a>
+        <div class="bio"></div>
+        <p>
+         A well defined nested format like JSON can be useful for defining a data standard. However, not everyone finds it easy to publish and consume JSON. For the Open Contracting and 360Giving data standards we've taken the hybrid approach of a canonical JSON representation with bidirectional conversion to/from spreadsheets. Since this involves converting between nested and flat representations we've called our software Flatten-Tool: https://github.com/OpenDataServices/flatten-tool/
+        </p>
+        
+       </div>
+      </li>
+
+      
+      
+      
+      
+      
+
+      <li id="mjacomy" class="presentation-item">
+       <div class="slot">11:30:00</div>
+       <div class="left">
+        <h3>CSV, Rinse, Repeat</h3>
+        
+        <span class="room">
+         
+         Room 4
+         
+        </span>
+        
+        <a>
+         <h4>Mathieu Jacomy</h4>
+        </a>
+        <div class="bio"></div>
+        <p>
+         CSV is a common data format in social sciences and digital humanities, for instance a list of tweets that scholars want to analyze. However the most interesting data is often the most noisy. Filtering the content of a CSV is a necessity, but monitoring the process is an uneasy process since cleaning tools like Open Refine have poor visualization capabilities, and tools like Tableau Public are basic at filtering. In addition, no graphic interface is more efficient at filtering than a programming language like Javascript. At Sciences Po Paris médialab we often meet this problem and have decided to tackle it by developing a free and open source tool. "CSV Rinse Repeat" is a minimal web interface allowing you to upload a CSV and then iterate through filtering while keeping an eye on different visualizations. In a nutshell, you can filter the data represented as a javascript array while spawning simple d3 visualizations that synchronize with the output of your filtering. "CSV Rinse Repeat" functions well with Twitter data but accepts any kind of CSV. By leveraging the efficiency of Javascript and d3.js, data scientists can shortcut Ben Fry's famous data visualization process: "Acquire, Parse, Filter, Mine, Represent, Refine, Interact". We would be honored to present our tool and to share how we use it to explore large CSV data. GitHub repository: https://github.com/medialab/csv-rinse-repeat
+        </p>
+        
+        <a class="video" href="https://www.youtube.com/watch?v=XuTBpKQLqS4" title="Video for talk Mathieu Jacomy">Watch Video ></a>
+        
+       </div>
+      </li>
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      <li id="" class="presentation-item">
+       <div class="slot">12:00:00</div>
+       <div class="left">
+        <h3>Lunch</h3>
+        
+        <span class="room">BREAK</span>
+        
+        <a>
+         <h4></h4>
+        </a>
+        <div class="bio"></div>
+        <p>
+         
+        </p>
+        
+       </div>
+      </li>
+
+      
+      
+      
+
+      <li id="" class="presentation-item">
+       <div class="slot">12:30:00</div>
+       <div class="left">
+        <h3>Keynote</h3>
+        
+        <span class="room">KEYNOTE</span>
+        
+        <a>
+         <h4>Zara Rahman</h4>
+        </a>
+        <div class="bio"></div>
+        <p>
+         
+        </p>
+        
+       </div>
+      </li>
+
+      
+      
+      
+      
+      
+
+      <li id="jtennison" class="presentation-item">
+       <div class="slot">13:30:00</div>
+       <div class="left">
+        <h3>Making CSV part of the Web</h3>
+        
+        <span class="room">
+         
+         Gallery
+         
+        </span>
+        
+        <a>
+         <h4>Jeni Tennison</h4>
+        </a>
+        <div class="bio"></div>
+        <p>
+         Imagine CSV was a format suited to the web, just as HTML is. We would see high quality data because it would be relied on for user interaction. We would see reuse of data because it could be linked. That was my personal aim working on the W3C CSV on the Web standards. I'll talk about the standards' features and the work left to do to make that dream a reality.
+        </p>
+        
+        <a class="video" href="https://www.youtube.com/watch?v=_JJaIicewnc" title="Video for talk Jeni Tennison">Watch Video ></a>
+        
+       </div>
+      </li>
+
+      
+      
+      
+
+      <li id="bsmith" class="presentation-item">
+       <div class="slot">13:30:00</div>
+       <div class="left">
+        <h3>What we can learn from XLSX</h3>
+        
+        <span class="room">
+         
+         Room 1
+         
+        </span>
+        
+        <a>
+         <h4>Brian Smith</h4>
+        </a>
+        <div class="bio"></div>
+        <p>
+         For the past year, I’ve been learning the ins and outs of the Excel file format in order to diff Excel spreadsheets, render them in the browser, and convert them into other file formats. Like CSVs, the Excel file format has been around for a long time, and has independently tried to solve many of the same problems the open data community is tackling now. For this talk, I’ll give an overview of how XLSX files work, the good ideas it has worth considering, as well as the warts best left behind.
+        </p>
+        
+       </div>
+      </li>
+
+      
+      
+      
+
+      <li id="mgryka" class="presentation-item">
+       <div class="slot">13:30:00</div>
+       <div class="left">
+        <h3>Gotta catch'em all: recognizing sloppy work in crowdsourcing tasks</h3>
+        
+        <span class="room">
+         
+         Room 4
+         
+        </span>
+        
+        <a>
+         <h4>Maciej Gryka</h4>
+        </a>
+        <div class="bio"></div>
+        <p>
+         If you have ever used crowdsourcing, you know that dealing with sloppy workers is a major part of the effort. Come see this talk if you want to learn about how to solve this problem using machine learning and some elbow grease. As a bonus, you will also find out how to properly persist your ML models and use them to serve predictions through an HTTP API.
+        </p>
+        
+        <a class="video" href="https://www.youtube.com/watch?v=FmjCAzoEPfw" title="Video for talk Maciej Gryka">Watch Video ></a>
+        
+       </div>
+      </li>
+
+      
+      
+      
+      
+      
+
+      <li id="michaelaphilip" class="presentation-item">
+       <div class="slot">14:00:00</div>
+       <div class="left">
+        <h3>Registers: authoritative lists you can trust</h3>
+        
+        <span class="room">
+         
+         Gallery
+         
+        </span>
+        
+        <a>
+         <h4>Michaela Benyohai + Philip Potter</h4>
+        </a>
+        <div class="bio"></div>
+        <p>
+         We are developing software for Registers, an initiative from the Government Digital Service to improve the trust services and citizens can place in government data, building a mechanism to guarantee the integrity of these canonical, tabular datasets on The Web, through the use of digital proofs of authenticity.<ul><li><a href="https://twitter.com/gdsteam/status/697818739547336704">https://twitter.com/gdsteam/status/697818739547336704</a></li><li><a href="https://country.register.gov.uk">https://country.register.gov.uk</a></li><li><a href="http://blogs.fco.gov.uk/guestpost/2016/02/11/spreading-the-word-and-data-on-country-names/">http://blogs.fco.gov.uk/guestpost/2016/02/11/spreading-the-word-and-data-on-country-names/</a></li><li><a href="https://gdstechnology.blog.gov.uk/2015/10/13/guaranteeing-the-integrity-of-a-register/">https://gdstechnology.blog.gov.uk/2015/10/13/guaranteeing-the-integrity-of-a-register/</a></li><li><a href="https://gds.blog.gov.uk/?s=registers">https://gds.blog.gov.uk/?s=registers</a></li></ul>
+        </p>
+        
+        <a class="video" href="https://www.youtube.com/watch?v=qR79NsxpcbY" title="Video for talk Michaela Benyohai + Philip Potter">Watch Video ></a>
+        
+       </div>
+      </li>
+
+      
+      
+      
+
+      <li id="johlig" class="presentation-item">
+       <div class="slot">14:00:00</div>
+       <div class="left">
+        <h3>Data Donations for Wikidata - how to get your data into the free knowledge base</h3>
+        
+        <span class="room">
+         
+         Room 1
+         
+        </span>
+        
+        <a>
+         <h4>Jens Ohlig</h4>
+        </a>
+        <div class="bio"></div>
+        <p>
+         Wikidata is a free, linked database that can be read and edited by both humans and machines.It acts as central storage for the structured data of its Wikimedia sister projects such as Wikipedia. In this talk, we'll see how large data donations from institutions like UNESCO or museums can find their way into Wikidata, how to curate data for upload and craft code for specific uploads. Apart from the technical side of things, we'll look at the community behind it all and how to navigate through discussion pages.
+        </p>
+        
+       </div>
+      </li>
+
+      
+      
+      
+
+      <li id="sfuruhashi" class="presentation-item">
+       <div class="slot">14:00:00</div>
+       <div class="left">
+        <h3>Fighting Against Chaotically Separated Values with Embulk</h3>
+        
+        <span class="room">
+         
+         Room 4
+         
+        </span>
+        
+        <a>
+         <h4>Sadayuki Furuhashi</h4>
+        </a>
+        <div class="bio"></div>
+        <p>
+         We created a plugin-based data collection tool that can read any chaotically formatted files called "CSV" by guessing its schema automatically
+        </p>
+        
+        <a class="video" href="https://www.youtube.com/watch?v=RuA_SL5-sXY" title="Video for talk Sadayuki Furuhashi">Watch Video ></a>
+        
+       </div>
+      </li>
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      <li id="" class="presentation-item">
+       <div class="slot">14:30:00</div>
+       <div class="left">
+        <h3>Break</h3>
+        
+        <span class="room">BREAK</span>
+        
+        <a>
+         <h4></h4>
+        </a>
+        <div class="bio"></div>
+        <p>
+         
+        </p>
+        
+       </div>
+      </li>
+
+      
+      
+      
+
+      <li id="mchadburn" class="presentation-item">
+       <div class="slot">15:00:00</div>
+       <div class="left">
+        <h3>Democratising data at the Financial Times</h3>
+        
+        <span class="room">
+         
+         Gallery
+         
+        </span>
+        
+        <a>
+         <h4>Matt Chadburn</h4>
+        </a>
+        <div class="bio"></div>
+        <p>
+         Hi. In 2015 the FT rebuilt it’s in-house data platform with a mission to democratise access to it’s data. I’ll share about how we transformed an oblique data warehouse, infrequently updated, and understood by a few, into a stream of real-time information *accessible* to anyone who wanted to use it. This talk is about the *usability* of data - through it’s collection, to systems used to model, access and query it.
+        </p>
+        
+        <a class="video" href="https://www.youtube.com/watch?v=TKVJlem-wHw" title="Video for talk Matt Chadburn">Watch Video ></a>
+        
+       </div>
+      </li>
+
+      
+      
+      
+      
+      
+
+      <li id="tsteiner" class="presentation-item">
+       <div class="slot">15:00:00</div>
+       <div class="left">
+        <h3>Wikipedia Tools for Google Spreadsheets</h3>
+        
+        <span class="room">
+         
+         Room 1
+         
+        </span>
+        
+        <a>
+         <h4>Thomas Steiner</h4>
+        </a>
+        <div class="bio"></div>
+        <p>
+         In this talk, we introduce the Wikipedia Tools for Google Spreadsheets. Google Spreadsheets is part of a free, Web-based software office suite offered by Google within its Google Drive service. It allows users to create and edit spreadsheets online, while collaborating with other users in realtime. Wikipedia is a free-access, free-content Internet encyclopedia, whose content and data is available, among other means, through an API. With the Wikipedia Tools for Google Spreadsheets, we have created a toolkit that facilitates working with Wikipedia data from within a spreadsheet context. We make these tools available as open-source on GitHub (https://github.com/tomayac/wikipedia-tools-for-google-spreadsheets), released under the permissive Apache 2.0 license.
+        </p>
+        
+       </div>
+      </li>
+
+      
+      
+      
+      
+      
+
+      <li id="mharris" class="presentation-item">
+       <div class="slot">15:00:00</div>
+       <div class="left">
+        <h3>Work Together: Share and Explore Data in Jupyter Notebooks</h3>
+        
+        <span class="room">
+         
+         Room 4
+         
+        </span>
+        
+        <a>
+         <h4>Micheleen Harris</h4>
+        </a>
+        <div class="bio"></div>
+        <p>
+         We all like to see what our data looks like before anything important happens. We also like second opinions. Is it going to be good enough for analytics like forecasting or recommendations? How do we avoid the dreaded "garbage in, garbage out" scenario? What's the easiest way to get my colleagues to take a look? I've been playing in Jupyter notebooks systems, specifically writing R code, a lot lately. I use Jupyter for a scratch pad, testing environment, quick data exploration tool (with all the graphical power R has to offer) and most importantly I share these notebooks with others so they may play and explore, as well as offer their opinions. I'm going to offer some logic behind collaborating with this simple, yet interactive, method of using Jupyter notebooks. I will also demo a notebook system running R, aimed at pre-processing and cleaning data as well as taking a peek at its quality. Hopefully, we can work together.
+        </p>
+        
+       </div>
+      </li>
+
+      
+      
+      
+      
+      
+
+      <li id="mreeve" class="presentation-item">
+       <div class="slot">15:30:00</div>
+       <div class="left">
+        <h3>Grimoires, Demonology, and Databases</h3>
+        
+        <span class="room">
+         
+         Gallery
+         
+        </span>
+        
+        <a>
+         <h4>Mouse Reeve</h4>
+        </a>
+        <div class="bio"></div>
+        <p>
+         Grimoires (books of spells and magical invocations) appear in Europe as early as the 3rd century, and made up a thriving genre in the Renaissance and Enlightenment. These books present a hierarchy of hell, descriptions of demons, and magical formulas for results as mundane as a warm bath and as extraordinary as raising the dead. This talk describes an approach to exploring the content and historical context of these books as a data problem through algorithms, graph data structures, and a whole lot of old fashioned research.
+        </p>
+        
+       </div>
+      </li>
+
+      
+      
+      
+      
+      
+
+      <li id="pmarina" class="presentation-item">
+       <div class="slot">15:30:00</div>
+       <div class="left">
+        <h3>Data visualizations using D3.js and C++</h3>
+        
+        <span class="room">
+         
+         Room 1
+         
+        </span>
+        
+        <a>
+         <h4>Princiya Marina</h4>
+        </a>
+        <div class="bio"></div>
+        <p>
+         D3.js is a power tool for data visualizations. Data visualizations are only good if people see them, and there’s no better place to see them than on the internet, in your browser.
+
+C++ is still considered a popular choice when it comes to programming and machine learning.
+
+Node.js Addons are dynamically-linked shared objects, written in C or C++, that can be loaded into Node.js using the require() function, and used just as if they were an ordinary Node.js module. They are used primarily to provide an interface between JavaScript running in Node.js and C/C++ libraries.
+I have built a framework which comprises of Node.js, C++ and D3.js for interactive web visualizations.
+
+D3.js is a javascript library added to the front-end of any web application. The back-end (the server: Node.js and C++ library) will generate the necessary data. The part of the application the users interact with (the front-end) will use D3.js.
+
+Using this approach, one can leverage the power of C++ for manipulating large data sets and D3.js for showing beautiful visualizations on the browser.
+        </p>
+        
+       </div>
+      </li>
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      <li id="" class="presentation-item">
+       <div class="slot">16:30:00</div>
+       <div class="left">
+        <h3>Keynote</h3>
+        
+        <span class="room">KEYNOTE</span>
+        
+        <a>
+         <h4>Sarah Gold</h4>
+        </a>
+        <div class="bio"></div>
+        <p>
+         
+        </p>
+        
+       </div>
+      </li>
+
+      
+      
+      
+      
+
+     </ul>
+     
+     <h4>Schedule: Wednesday</h4>
+     <ul class="row presentation-list">
+
+      
+      
+
+      <li id="" class="presentation-item">
+       <div class="slot">09:00:00</div>
+       <div class="left">
+        <h3>Breakfast/Hangout time</h3>
+        
+        <span class="room">BREAK</span>
+        
+        <a>
+         <h4></h4>
+        </a>
+        <div class="bio"></div>
+        <p>
+         
+        </p>
+        
+       </div>
+      </li>
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      <li id="" class="presentation-item">
+       <div class="slot">10:30:00</div>
+       <div class="left">
+        <h3>Keynote</h3>
+        
+        <span class="room">KEYNOTE</span>
+        
+        <a>
+         <h4>Jenny Bryan</h4>
+        </a>
+        <div class="bio"></div>
+        <p>
+         
+        </p>
+        
+       </div>
+      </li>
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      <li id="dfowler" class="presentation-item">
+       <div class="slot">11:30:00</div>
+       <div class="left">
+        <h3>Data Packages and Frictionless Data for Research</h3>
+        
+        <span class="room">
+         
+         Gallery
+         
+        </span>
+        
+        <a>
+         <h4>Dan Fowler</h4>
+        </a>
+        <div class="bio"></div>
+        <p>
+         Data-driven work is an ever-increasing part of research. At the same time, there is very significant friction around the acquisition, sharing and reuse of data. Based on working both with researchers and government for more than a decade on the issues surrounding data sharing and use, we have identified a specific subproblem which is both significant and tractable: the development and adoption of a lightweight specification and associated tooling for “packaging” (tabular) data and transporting it easily and efficiently from one tool, or one user, to another. The approach is titled “Data Package” because our work has close analogy with “containerization” in shipping and “packaging” in software.
+        </p>
+        
+        <a class="video" href="https://www.youtube.com/watch?v=BPYRAV7m6h4" title="Video for talk Dan Fowler">Watch Video ></a>
+        
+       </div>
+      </li>
+
+      
+      
+      
+      
+      
+
+      <li id="jwass" class="presentation-item">
+       <div class="slot">11:30:00</div>
+       <div class="left">
+        <h3>notsoBig Data: crunching Wikipedia referrer logs </h3>
+        
+        <span class="room">
+         
+         Room 1
+         
+        </span>
+        
+        <a>
+         <h4>Joe Wass</h4>
+        </a>
+        <div class="bio"></div>
+        <p>
+         
+        </p>
+        
+       </div>
+      </li>
+
+      
+      
+      
+      
+      
+
+      <li id="amoser" class="presentation-item">
+       <div class="slot">11:30:00</div>
+       <div class="left">
+        <h3>This is Not a Map: Building Interactive Maps with CSVs, Creative Themes, and Curious Geometries</h3>
+        
+        <span class="room">
+         
+         Room 4
+         
+        </span>
+        
+        <a>
+         <h4>Aurelia Moser</h4>
+        </a>
+        <div class="bio"></div>
+        <p>
+         The meaning of "map" across disciplines is remarkably varied. It's effectively a spatial representation of geo-topography, a linking between tables by foreign key, a datatype in C++... Today, coders make creative use of custom basemaps, building remarkable maps of multivariate information off-the-(beaten) geographic projection. Many have designed and published interactive maps of cemetery burial plots, galactic drawings of the Star Wars Universe, sequence maps of human genes, heatmaps of court traffic during the NBA finals. For some of the most creative maps, "artisanal" CSV data is the vehicle for innovation in geocoding to non-traditional, historical, handmade basemaps. This talk will explore other maps, and investigate topics and themes not yet covered in interactives...detailing how to map them, and why mapping unmapped data might be the perfect expression of their meaning.
+        </p>
+        
+       </div>
+      </li>
+
+      
+      
+      
+
+      <li id="gmcmullen" class="presentation-item">
+       <div class="slot">12:00:00</div>
+       <div class="left">
+        <h3>A Public BigchainDB: A Blockchain Database for the Decentralized World Computer</h3>
+        
+        <span class="room">
+         
+         Gallery
+         
+        </span>
+        
+        <a>
+         <h4>Greg McMullen</h4>
+        </a>
+        <div class="bio"></div>
+        <p>
+         When we built BigchainDB, we always had in mind a public instance. We knew that along with projects like Ethereum and IPFS, we had a chance to make a major contribution to the dream of a fully decentralized Internet. This talk will discuss the benefits of a public blockchain database, the challenges in building a decentralized organization that is cohesive enough to administer itself without creating a central authority, and the potential for building the decentralized Internet.
+        </p>
+        
+        <a class="video" href="https://www.youtube.com/watch?v=SXOH0D3no3k" title="Video for talk Greg McMullen">Watch Video ></a>
+        
+       </div>
+      </li>
+
+      
+      
+      
+
+      <li id="dbarnes" class="presentation-item">
+       <div class="slot">12:00:00</div>
+       <div class="left">
+        <h3>ONS Databaker: from 'pretty spreadsheets' to useful CSVs</h3>
+        
+        <span class="room">
+         
+         Room 1
+         
+        </span>
+        
+        <a>
+         <h4>Darren Barnes</h4>
+        </a>
+        <div class="bio"></div>
+        <p>
+         Out of the last CSV Conf, the Office for National Statistics hooked up with Scraper Wiki to produce a tool for more easily converting the traditional and all too common 'pretty spread sheet' into a much more open, machine readable and usable CSV format. This tool is called DataBaker and is freely available on GitHub. The tool is effectively a wrapper for the useful XYPath Python package also produced by Scraper Wiki and Data Baker allows easy creation of recipes to extract data from spreadsheets in a robust and flexible way. This talk will give a brief overview of the tool, how we use it at the ONS and how we see it moving forward (adding Linked Data URIs to the output fields?). We hope to engage community interest for adapting this tool for even wider use.
+        </p>
+        
+        <a class="video" href="https://www.youtube.com/watch?v=COnpIzF88WI" title="Video for talk Darren Barnes">Watch Video ></a>
+        
+       </div>
+      </li>
+
+      
+      
+      
+
+      <li id="jrolschewski" class="presentation-item">
+       <div class="slot">12:00:00</div>
+       <div class="left">
+        <h3>Catmandu - a data toolkit</h3>
+        
+        <span class="room">
+         
+         Room 4
+         
+        </span>
+        
+        <a>
+         <h4>Johann Rolschewski</h4>
+        </a>
+        <div class="bio"></div>
+        <p>
+         Catmandu <http://librecat.org/Catmandu/> provides a suite of software modules to ease the import, storage, retrieval, export and transformation of (meta)data records. Combine Catmandu modules with web application frameworks, document stores such as MongoDB and full text indexes such as Elasticsearch to create a rapid development environment for digital data services. After a short introduction to Catmandu and its features, we will present the command line interface (CLI) and domain specific language (DSL).
+        </p>
+        
+       </div>
+      </li>
+
+      
+      
+      
+      
+      
+      
+      
+
+      <li id="" class="presentation-item">
+       <div class="slot">12:30:00</div>
+       <div class="left">
+        <h3>Lunch/Hangout Time</h3>
+        
+        <span class="room">BREAK</span>
+        
+        <a>
+         <h4></h4>
+        </a>
+        <div class="bio"></div>
+        <p>
+         
+        </p>
+        
+       </div>
+      </li>
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      <li id="" class="presentation-item">
+       <div class="slot">13:30:00</div>
+       <div class="left">
+        <h3>Keynote</h3>
+        
+        <span class="room">KEYNOTE</span>
+        
+        <a>
+         <h4>Jeremy Freeman</h4>
+        </a>
+        <div class="bio"></div>
+        <p>
+         https://www.youtube.com/watch?v=x1BOQjXLV2A
+        </p>
+        
+       </div>
+      </li>
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      <li id="bsimon" class="presentation-item">
+       <div class="slot">14:30:00</div>
+       <div class="left">
+        <h3>Hackers trying to stay relevant: linked data and structured journalism at the BBC</h3>
+        
+        <span class="room">
+         
+         Gallery
+         
+        </span>
+        
+        <a>
+         <h4>Basile Simon</h4>
+        </a>
+        <div class="bio"></div>
+        <p>
+         At BBC News Labs, we've been pushing for more linked data in news for years now. We built a massive international news aggregator on linked data concepts and full-fledged functionalities... but it's our production and live services who do the core of the job today.
+We're trying to stay relevant and to model our massive dataset of facts, quotes, news and articles. The answer to this may lie in structured journalism.
+        </p>
+        
+        <a class="video" href="https://www.youtube.com/watch?v=ghEHx-EEjXw" title="Video for talk Basile Simon">Watch Video ></a>
+        
+       </div>
+      </li>
+
+      
+      
+      
+
+      <li id="buchtalaaufreiter" class="presentation-item">
+       <div class="slot">14:30:00</div>
+       <div class="left">
+        <h3>Dynamic Data Driven Documents in stenci.la</h3>
+        
+        <span class="room">
+         
+         Room 1
+         
+        </span>
+        
+        <a>
+         <h4>Oliver Buchtala and Michael Aufreiter</h4>
+        </a>
+        <div class="bio"></div>
+        <p>
+         Stencila is bridging the gap between coders and clickers to make open, data driven documents that are accessible to all. The key to reproducibility is collaboration and true collaboration comes from allowing people to use the interfaces they want, where they want.
+        </p>
+        
+       </div>
+      </li>
+
+      
+      
+      
+
+      <li id="snjambi" class="presentation-item">
+       <div class="slot">14:30:00</div>
+       <div class="left">
+        <h3>Life/Death Decisions: Powered by CSVs</h3>
+        
+        <span class="room">
+         
+         Room 4
+         
+        </span>
+        
+        <a>
+         <h4>Serah Njambi</h4>
+        </a>
+        <div class="bio"></div>
+        <p>
+         Talk is about Code For Africa's suite of simple spreadsheet-based apps that help citizens take life/death decisions about health issues. Quack doctors are a major concern in Kenya. Using data from Kenya's Medical Practitioners' Board, and in partnership with Kenya's largest blue-collar newspaper, I'd like to show what impact spreadsheet-based apps can have on communities.
+bit.ly/starHealth
+        </p>
+        
+        <a class="video" href="https://youtu.be/-3l5BPY4wQk" title="Video for talk Serah Njambi">Watch Video ></a>
+        
+       </div>
+      </li>
+
+      
+      
+      
+      
+      
+      
+      
+
+      <li id="tdoehman" class="presentation-item">
+       <div class="slot">15:00:00</div>
+       <div class="left">
+        <h3>There and back again - Automatic detection and conversion of logical table structures</h3>
+        
+        <span class="room">
+         
+         Gallery
+         
+        </span>
+        
+        <a>
+         <h4>Till Doehmen</h4>
+        </a>
+        <div class="bio"></div>
+        <p>
+         Tabular data comes in a plethora of shapes and flavors. The logical structure of a dataset is decided by the dataset publisher. Common formats are the wide format, where variables are columns and the long format, where the variable name is itself a column entry. Mixtures of the two formats are also possible. We present our work on automatic detection of logical table structures, e.g. which variables are identifiers, which are categories and which are observations. We also present methods to automatically convert to a canonical format. Overall, we aim to reduce the amount of janitorial work currently required when ingesting data. We evaluate our work using a collection of 20,000 CSV files scraped from data.gov.uk.
+        </p>
+        
+        <a class="video" href="https://www.youtube.com/watch?v=KbHwStDfcMo" title="Video for talk Till Doehmen">Watch Video ></a>
+        
+       </div>
+      </li>
+
+      
+      
+      
+      
+      
+
+      <li id="mhegazy" class="presentation-item">
+       <div class="slot">15:00:00</div>
+       <div class="left">
+        <h3>Mapping the unmappable: Creating public transit data in a megacity</h3>
+        
+        <span class="room">
+         
+         Room 1
+         
+        </span>
+        
+        <a>
+         <h4>Mohamed Hegazy</h4>
+        </a>
+        <div class="bio"></div>
+        <p>
+         20 Million Inhabitants. ~96 km2 area. 3 Metro Lines, 4529 Public Buses, ~15’000 registered Microbuses and an estimated 80’000 unregistered Shared Taxis. Cairo is a megacity with little information on public transportation. How do we map that? 
+
+Informal public transportation dominates service provision in Africa: Intense competition for limited urban road space leads to chronic congestion in developing countries negatively impacting the climate, the environment, and citizens’ health. Safe, clean, and affordable transport provides access to opportunities, services, goods and amenities. In this talk we describe Transport for Cairo’s work to map the city, the challenges awaiting us and the limitations of existing data structures to capture the real world’s complexity.
+        </p>
+        
+        <a class="video" href="https://www.youtube.com/watch?v=7HyHzOs90nE" title="Video for talk Mohamed Hegazy">Watch Video ></a>
+        
+       </div>
+      </li>
+
+      
+      
+      
+      
+      
+
+      <li id="skomianos" class="presentation-item">
+       <div class="slot">15:00:00</div>
+       <div class="left">
+        <h3>Data through the hoop: I got 99 problems and the data was one</h3>
+        
+        <span class="room">
+         
+         Room 4
+         
+        </span>
+        
+        <a>
+         <h4>Sebastian K. Komianos</h4>
+        </a>
+        <div class="bio"></div>
+        <p>
+         Earlier this year I started scrapping and analysing data from anywhere possible in order to create a database with advanced basketball statistics from all the major basketball competitions around Europe and give organisations, teams, players, agents and fans a tool to help them improve their understanding of what's happening in games. In this talk I will try to demonstrate all the problems and pitfalls I (a beginner with data collection and analysis) ran into while working on this project; from non-existent, weirdly-formatted or sparse data to data serving and database architecture challenges.
+        </p>
+        
+        <a class="video" href="https://www.youtube.com/watch?v=DNTbmg8OOV4" title="Video for talk Sebastian K. Komianos">Watch Video ></a>
+        
+       </div>
+      </li>
+
+      
+      
+      
+      
+      
+
+      <li id="sharrison" class="presentation-item">
+       <div class="slot">15:30:00</div>
+       <div class="left">
+        <h3>Comma Chameleon - Building a desktop CSV editor in one week</h3>
+        
+        <span class="room">
+         
+         Gallery
+         
+        </span>
+        
+        <a>
+         <h4>Stuart Harrison</h4>
+        </a>
+        <div class="bio"></div>
+        <p>
+         It's really easy to get CSV publication wrong. Excel, for all its benefits as a spreadsheet application, is the wrong tool for the job of data publication. With this in mind (and with a bit of help from a team of willing interns), I put together a desktop CSV editor call Comma Chameleon that helps users create and publish compliant CSVs, and validate along the way. I'll be taking people through the process that led to its creation, talking about why Excel is the wrong tool for data publication, and putting a call out for help to make Comma Chameleon even better.
+        </p>
+        
+        <a class="video" href="https://www.youtube.com/watch?v=wIIw0cTeUG0" title="Video for talk Stuart Harrison">Watch Video ></a>
+        
+       </div>
+      </li>
+
+      
+      
+      
+      
+      
+
+      <li id="lkaffee" class="presentation-item">
+       <div class="slot">15:30:00</div>
+       <div class="left">
+        <h3>Increasing access to free and open knowledge for under-ressourced languages on Wikipedia</h3>
+        
+        <span class="room">
+         
+         Room 1
+         
+        </span>
+        
+        <a>
+         <h4>Lucie-Aime Kaffee</h4>
+        </a>
+        <div class="bio"></div>
+        <p>
+         One of the biggest barriers for accessing knowledge on the Internet is language. We tend to provide information in one or at most a few languages, which makes it hard for speakers of all the other languages to access that same information.
+This is also an issue on Wikipedia, a project widely and internationally used by all kind of people. But there are many topics that are only covered in few languages on Wikipedia. People who don’t speak any of these don’t have access to all the information available potentially vital to them.
+In this talk I will show you how we can give more people more access to more knowledge by making use of Wikipedia’s reach and Wikidata’s multilingual data.
+https://www.mediawiki.org/wiki/Extension:ArticlePlaceholder
+        </p>
+        
+       </div>
+      </li>
+
+      
+      
+      
+
+      <li id="jtriglav" class="presentation-item">
+       <div class="slot">15:30:00</div>
+       <div class="left">
+        <h3>Open Science with Open Data on the Open Web using Open Source</h3>
+        
+        <span class="room">
+         
+         Room 4
+         
+        </span>
+        
+        <a>
+         <h4>Jure Triglav</h4>
+        </a>
+        <div class="bio"></div>
+        <p>
+         A collaborative spreadsheet web app, where each cell can be any function in R or Python, as simple or complex as you want, updated live and easily shared with anyone, built as a collaboration between Stencila (https://github.com/stencila/stencila), Substance (http://substance.io/) and the Collaborative Knowledge foundation (http://coko.foundation/).
+        </p>
+        
+        <a class="video" href="https://www.youtube.com/watch?v=U9A_4SNQA74" title="Video for talk Jure Triglav">Watch Video ></a>
+        
+       </div>
+      </li>
+
+      
+      
+      
+
+      <li id="" class="presentation-item">
+       <div class="slot">16:00:00</div>
+       <div class="left">
+        <h3>Outros/Goodbye/Coffee Break</h3>
+        
+        <span class="room">BREAK</span>
+        
+        <a>
+         <h4></h4>
+        </a>
+        <div class="bio"></div>
+        <p>
+         
+        </p>
+        
+       </div>
+      </li>
+
+      
+      
+      
+      
+      
+
+      <li id="" class="presentation-item">
+       <div class="slot">17:00:00</div>
+       <div class="left">
+        <h3>5-6pm Hangout time</h3>
+        
+        <span class="room">BREAK</span>
+        
+        <a>
+         <h4></h4>
+        </a>
+        <div class="bio"></div>
+        <p>
+         
+        </p>
+        
+       </div>
+      </li>
+
+      
+      
+
+     </ul>
+     
+
+     <h4>More Information</h4>
+     <p>csv,conf strives to be a supportive and welcoming environment to all attendees. We encourage you to read the <a href="http://confcodeofconduct.com/">Conf Code of Conduct</a> and will be enforcing it.</p>
+     <p>For any questions contact <a href="https://twitter.com/csvconference">@csvconference</a> or csv-conf-coord at googlegroups dot com</p>
+     <h4>Organizers</h4>
+     <p>csv,conf is a not-for-profit event organized by the following unpaid volunteers</p>
+     <ul>
+      <li><a href="https://twitter.com/chodacki">John Chodacki, California Digital Library</a></li>
+      <li><a href="https://twitter.com/elthenerd">Elaine Wong, CBC</a></li>
+      <li><a href="https://twitter.com/_inundata">Karthik Ram, rOpenSci</a></li>
+      <li><a href="https://twitter.com/mfenner">Martin Fenner, DataCite</a></li>
+      <li><a href="https://twitter.com/denormalize">Max Ogden, dat</a></li>
+      <li><a href="https://twitter.com/danfowler">Dan Fowler, Open Knowledge International</a></li>
+      <li><a href="https://twitter.com/jobarratt">Jo Barratt, Open Knowledge International</a></li>
+     </ul>
+     <h4 id="documents">Documents</h4>
+     <p>Here is our announcement poster, sticker template and sponsorship prospectus.</p>
+     <p>
+      <a href="img/buy-tickets-2016.png"><img width="200" src="img/buy-tickets-2016.png"></img></a>
+      <a style="padding-left: 20px;" href="img/sticker-2016.png"><img width="200" src="img/sticker-2016.png"></img></a>
+      <a style="padding-left: 20px;" href="img/confconferencev2_sponsorship.pdf"><img width="200" src="img/sponsorship.png"></img></a>
+     </p>
+    </div>
+
+    <div class="row" style="text-align: center">
+     <h3>Check out csv,conf,v1</h3>
+     <p>The first csv,conf was held in 2014. We hosted 30 talks all over the data spectrum including <a href="https://www.youtube.com/watch?v=a8piOmSsJ2I">upcoming CSV standards from the W3C</a>, <a href="https://www.youtube.com/watch?v=U2NcQVk5HtQ">scientific data testing tools in R</a>, and <a href="https://www.youtube.com/watch?v=NhhJmgXKSJI">how to query data from Wikipedia</a>.</p>
+     <ul>
+      <li><a href="http://lanyrd.com/2014/csv-conf/coverage/">See the csv,conf,v1 coverage (slides and videos) on Lanyrd.</a></li>
+      <li><a href="/2014">View the csv,conf,v1 speaker list and presentation summaries.</li>
+     </ul>
+    </div>
+   </section>
+
+  </main>
+  <!-- START: Site Footer -->
+  <footer role="contentinfo" class="site-footer">
+   <div class="row footer-info">
+    <!-- START: Copyright Notice -->
+    <div class="six columns">
+     <p class="footer-copyright">Text released under <a href="http://creativecommons.org/licenses/by/4.0/">the Creative Commons Attribution 4.0 International (CC-BY) license</a>. HTML, CSS, images, and design are based on a design <a href="https://github.com/sudomesh/peoplesopen-front">forked from PeoplesOpen.Net</a> which was, in turn, forked from <a href="http://martini.codegangsta.io/">Martini’s template</a>, reused here under the MIT License. Fork this site on <a href="https://github.com/maxogden/csvconf.com">GitHub</a>.</p>
+    </div>
+    <!-- /END: Copyright Notice -->
+   </div>
+   <!-- /END: Copyright Notice -->
+  </div>
+ </footer>
+ <!-- /END: Site Footer -->
+
+
+ <!-- Grab Google CDN's jQuery, fall back to local if offline -->
+ <!-- 2.0 for modern browsers, 1.10 for .oldie -->
+ <script>
+ var oldieCheck = Boolean(document.getElementsByTagName('html')[0].className.match(/\soldie\s/g));
+ if(!oldieCheck) {
+ document.write('<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"><\/script>');
+ } else {
+ document.write('<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"><\/script>');
+ }
+ </script>
+ <script>
+ if(!window.jQuery) {
+  if(!oldieCheck) {
+   document.write('<script src="js/libs/jquery-2.0.2.min.js"><\/script>');
+  } else {
+   document.write('<script src="js/libs/jquery-1.10.1.min.js"><\/script>');
+  }
+ }
+ </script>
+
+ <script src="js/libs/gumby.min.js"></script>
+
+ <!-- External Plugins Not Linked Directly to Gumby -->
+
+ <script src="js/plugins/waypoints.min.js"></script>
+ <script src="js/plugins/placeholders.js"></script>
+
+ <!-- Custom theme specific interaction -->
+ <script src="js/theme.js"></script>
+
+ <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-49655344-1', 'csvconf.com');
+  ga('send', 'pageview');
+
+ </script>
+
+ <script src="js/bundle.js"></script>
+ </body>
+</html>
