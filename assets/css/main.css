@@ -3953,11 +3953,10 @@ input, select, textarea {
 			visibility: visible;
 		}
 
-
 		#keynote_speakers{
-			display: block;
-			flex:content;
+			display: flex;
 			flex-direction: row;
+			flex-wrap: wrap;
 		}
 
 		#keynote_speakers .row{
