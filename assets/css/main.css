@@ -3955,7 +3955,8 @@ input, select, textarea {
 
 
 		#keynote_speakers{
-			display: flex;
+			display: block;
+			flex:content;
 			flex-direction: row;
 		}
 
