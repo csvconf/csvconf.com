@@ -3964,4 +3964,5 @@ input, select, textarea {
 
 		#keynote_speakers .row{
 			display: inline-block;
+			text-align: center;
 		}
