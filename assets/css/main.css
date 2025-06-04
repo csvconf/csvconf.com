@@ -3955,5 +3955,10 @@ input, select, textarea {
 
 
 		#keynote_speakers{
-			
+			display: flex;
+			flex-direction: row;
+		}
+
+		#keynote_speakers .row{
+			display: inline-block;
 		}
