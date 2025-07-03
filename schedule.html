@@ -6,10 +6,11 @@
 -->
 <html>
 	<head>
-		<title>csv,conf,v9</title>
+		<title>csv,conf,v9 - Schedule</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/schedule.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
@@ -25,7 +26,7 @@
 						</nav>
 					</header>
 				
-                    <!-- Menu -->
+                <!-- Menu -->
 					<nav id="menu">
 						<ul class="links">
 							<li><a href="index.html">Home</a></li>
@@ -36,77 +37,71 @@
 							<li><a href="sponsor.html">Sponsor</a></li>
 						</ul>
 					</nav>
-                    
-                    <h1>Schedule coming in July</h1>
-<!-- Table -->
-<!--h3>Table</h3>
 
-<h4>Default</h4>
-<div class="table-wrapper">
-    <table>
-        <thead>
-            <tr>
-                <th>Name</th>
-                <th>Description</th>
-                <th>Price</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Item1</td>
-                <td>Ante turpis integer aliquet porttitor.</td>
-                <td>29.99</td>
-            </tr>
-            <tr>
-                <td>Item2</td>
-                <td>Vis ac commodo adipiscing arcu aliquet.</td>
-                <td>19.99</td>
-            </tr>
-            <tr>
-                <td>Item3</td>
-                <td> Morbi faucibus arcu accumsan lorem.</td>
-                <td>29.99</td>
-            </tr>
-            <tr>
-                <td>Item4</td>
-                <td>Vitae integer tempus condimentum.</td>
-                <td>19.99</td>
-            </tr>
-            <tr>
-                <td>Item5</td>
-                <td>Ante turpis integer aliquet porttitor.</td>
-                <td>29.99</td>
-            </tr>
-        </tbody>
-        <tfoot>
-            <tr>
-                <td colspan="2"></td>
-                <td>100.00</td>
-            </tr>
-        </tfoot>
-    </table-->
-</div>
+				<!-- Main -->
+				<div id="main" class="alt">
+					<section id="one">
+						<div class="inner">
+							<header class="major">
+								<h1>Conference Schedule</h1>
+								<p>September 10-11, 2025 • Bologna, Italy</p>
+							</header>
+							
+							<div id="scheduleContent" aria-live="polite" aria-label="Conference schedule content">
+								<div class="loading">Loading schedule...</div>
+							</div>
+						</div>
+					</section>
+				</div>
 
-<!-- Footer -->
-<footer id="footer">
-    <div class="inner">
-        <p>csv,conf is a group effort to put on a non-profit, community conference with dozens of people putting in time, including but not limited to the 2025 organizing team: 
-            Julieta Millan (Indepentent), SherAaron Hurt (The Carpentries),  Paola Masuzzo (OnData), Gabi Mejias (DataCite), Giuseppe Sollazzo (UK Government), Sara Petti (Open Knowledge Foundation), Andrea Borruso (OnData), Averi Giudicessi (Independent), Emanuale Storti (Independent), Guilio Dalla Riva (Independent), Matteo Fortini (Independent), Maurizio Napolitano (Fondazione Bruno Kessler), Mago Torres (Independent), Elaine Wong (Independent), Marco Montanari (Independent), Monica Palmirani (Università di Bologna), Silvio Peroni (Università di Bologna), Lilly Winfree (Anaconda), John Chodacki (California Digital Library).</p>
-            
-        <p>We strive to be a supportive and welcoming environment to all attendees. We encourage you to read the <a href="coc.html" class="link">Conf Code of Conduct</a> and will be enforcing it.</p>
-        
-        <p>The code for this website is <a href="https://github.com/csvconf/">open source.</a>   Want to talk to us? <a href="https://join.slack.com/t/csvconf/shared_invite/zt-27c2zdu9c-Tx7_BOKCpJy0u5XjitjFAA">Join us on Slack.</a></p>
-        
-        <ul class="icons">
-            <li><a href="https://join.slack.com/t/csvconf/shared_invite/zt-27c2zdu9c-Tx7_BOKCpJy0u5XjitjFAA" class="icon brands alt fa-slack"><span class="label">Slack</span></a></li>
-            <li><a href="https://github.com/csvconf/" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-            <li><a href="https://www.linkedin.com/company/csv-conf" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-        </ul>
-        <ul class="copyright">
-            <li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
-        </ul>
-    </div>
-</footer>
+				<!-- Modal -->
+				<div id="talkModal" class="modal">
+					<div class="modal-content">
+						<span class="close">&times;</span>
+						<h2 id="modalTitle" class="modal-title"></h2>
+						<div class="modal-speaker-section">
+							<img id="modalSpeakerImage" class="speaker-image" src="" alt="Speaker photo">
+							<div class="speaker-info">
+								<div id="modalSpeaker" class="modal-speaker"></div>
+								<div id="modalAbstract" class="modal-abstract"></div>
+							</div>
+						</div>
+						<div id="modalBio" class="modal-bio"></div>
+					</div>
+				</div>
 
-</body>
+				<!-- Footer -->
+				<footer id="footer">
+					<div class="inner">
+						<p>csv,conf is a group effort to put on a non-profit, community conference with dozens of people putting in time, including but not limited to the 2025 organizing team: 
+							Julieta Millan (Indepentent), SherAaron Hurt (The Carpentries),  Paola Masuzzo (OnData), Gabi Mejias (DataCite), Giuseppe Sollazzo (UK Government), Sara Petti (Open Knowledge Foundation), Andrea Borruso (OnData), Averi Giudicessi (Independent), Emanuale Storti (Independent), Guilio Dalla Riva (Independent), Matteo Fortini (Independent), Maurizio Napolitano (Fondazione Bruno Kessler), Mago Torres (Independent), Elaine Wong (Independent), Marco Montanari (Independent), Monica Palmirani (Università di Bologna), Silvio Peroni (Università di Bologna), Lilly Winfree (Anaconda), John Chodacki (California Digital Library).</p>
+							
+						<p>We strive to be a supportive and welcoming environment to all attendees. We encourage you to read the <a href="coc.html" class="link">Conf Code of Conduct</a> and will be enforcing it.</p>
+						
+						<p>The code for this website is <a href="https://github.com/csvconf/">open source.</a>   Want to talk to us? <a href="https://join.slack.com/t/csvconf/shared_invite/zt-27c2zdu9c-Tx7_BOKCpJy0u5XjitjFAA">Join us on Slack.</a></p>
+						
+						<ul class="icons">
+							<li><a href="https://join.slack.com/t/csvconf/shared_invite/zt-27c2zdu9c-Tx7_BOKCpJy0u5XjitjFAA" class="icon brands alt fa-slack"><span class="label">Slack</span></a></li>
+							<li><a href="https://github.com/csvconf/" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+							<li><a href="https://www.linkedin.com/company/csv-conf" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+						</ul>
+						<ul class="copyright">
+							<li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
+						</ul>
+					</div>
+				</footer>
+
+			</div>
+
+		<!-- Scripts -->
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/jquery.scrolly.min.js"></script>
+		<script src="assets/js/jquery.scrollex.min.js"></script>
+		<script src="assets/js/browser.min.js"></script>
+		<script src="assets/js/breakpoints.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
+		<script src="assets/js/schedule.js"></script>
+
+	</body>
 </html>
