@@ -1,8 +1,8 @@
 // Simple Schedule Manager with Smart Caching
 class ScheduleManager {
 	constructor() {
-		this.csvUrl = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vSH7doyL0yhNeQqAnlXyIbuX1HmzV8g2SvugpE2ijsYmMV-ezQOOLVG07kVdAmDQiJ-4RVWbVUsYf3C/pub?output=csv';
-		this.bioUrl = 'https://docs.google.com/spreadsheets/d/1-dcTNQBNLbRCs-8Tl2dyTOsUy2zxwzrp--J3xRCs49A/export?format=csv&gid=0';
+		this.csvUrl = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vRPAQB2HOtRgCDr4v087QAZkn6Xspdxa7fBpdzruyQ2FG8lgBQifd3exztSFW3fq2XsCL1AeJum2YyZ/pub?gid=1459193844&single=true&output=csv';
+		this.bioUrl = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vRPAQB2HOtRgCDr4v087QAZkn6Xspdxa7fBpdzruyQ2FG8lgBQifd3exztSFW3fq2XsCL1AeJum2YyZ/pub?gid=1680343115&single=true&output=csv';
 		this.scheduleData = [];
 		this.bioData = [];
 		this.cachedData = null;
@@ -121,9 +121,9 @@ class ScheduleManager {
 			if (row.Day !== undefined && row.Time !== undefined) {
 				return row.Day && row.Time;
 			}
-			// For bio data, filter by Speaker Name
-			if (row['Speaker Name'] !== undefined) {
-				return row['Speaker Name'];
+			// For bio data, filter by Full name
+			if (row['Full name'] !== undefined) {
+				return row['Full name'];
 			}
 			// Default: keep non-empty rows
 			return Object.values(row).some(value => value && value.trim());
@@ -152,12 +152,32 @@ class ScheduleManager {
 	getSpeakerInfo(speakerName) {
 		if (!speakerName || !this.bioData) return null;
 		
-		// Find matching speaker by name
+		// Find matching speaker by name (now using 'Full name' column)
 		const speaker = this.bioData.find(row => 
-			row['Speaker Name'] && row['Speaker Name'].toLowerCase().trim() === speakerName.toLowerCase().trim()
+			row['Full name'] && row['Full name'].toLowerCase().trim() === speakerName.toLowerCase().trim()
 		);
 		
 		return speaker || null;
+	}
+	
+	convertGoogleDriveUrl(url) {
+		if (!url) return null;
+		
+		// Convert Google Drive sharing URLs to direct image URLs
+		const driveMatch = url.match(/drive\.google\.com\/file\/d\/([a-zA-Z0-9_-]+)/);
+		if (driveMatch) {
+			const fileId = driveMatch[1];
+			return `https://drive.google.com/uc?id=${fileId}`;
+		}
+		
+		// Convert Google Drive open URLs
+		const openMatch = url.match(/drive\.google\.com\/open\?id=([a-zA-Z0-9_-]+)/);
+		if (openMatch) {
+			const fileId = openMatch[1];
+			return `https://drive.google.com/uc?id=${fileId}`;
+		}
+		
+		return url;
 	}
 	
 	loadSampleData() {
@@ -258,21 +278,58 @@ class ScheduleManager {
 		const speakerInfo = this.getSpeakerInfo(speaker);
 		
 		document.getElementById('modalTitle').textContent = title;
-		document.getElementById('modalSpeaker').textContent = speaker;
+		
+		// Build speaker name with pronouns if available
+		let speakerDisplay = speaker;
+		if (speakerInfo && speakerInfo['Pronouns']) {
+			speakerDisplay += ` (${speakerInfo['Pronouns']})`;
+		}
+		document.getElementById('modalSpeaker').textContent = speakerDisplay;
 		
 		// Use actual abstract or fallback
-		const abstract = speakerInfo && speakerInfo['Talk Abstract'] ? 
-			speakerInfo['Talk Abstract'] : 
+		const abstract = speakerInfo && speakerInfo['Abstract'] ? 
+			speakerInfo['Abstract'] : 
 			`Talk: ${title}`;
 		document.getElementById('modalAbstract').innerHTML = `<strong>Abstract:</strong> ${abstract}`;
 		
-		// Use actual bio or fallback
-		const bio = speakerInfo && speakerInfo['Speaker Bio'] ? 
-			speakerInfo['Speaker Bio'] : 
-			`Speaker: ${speaker}`;
-		document.getElementById('modalBio').innerHTML = `<strong>Bio:</strong> ${bio}`;
+		// Build bio section with all available info
+		let bioHTML = '';
 		
-		document.getElementById('modalSpeakerImage').src = 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop&crop=face';
+		// Bio
+		if (speakerInfo && speakerInfo['Bio']) {
+			bioHTML += `<strong>Bio:</strong> ${speakerInfo['Bio']}<br><br>`;
+		}
+		
+		// Links section
+		let linksHTML = '';
+		if (speakerInfo && speakerInfo['Github']) {
+			linksHTML += `<a href="${speakerInfo['Github']}" target="_blank">GitHub</a>`;
+		}
+		if (speakerInfo && speakerInfo['Social Link']) {
+			if (linksHTML) linksHTML += ' | ';
+			linksHTML += `<a href="${speakerInfo['Social Link']}" target="_blank">Social</a>`;
+		}
+		
+		if (linksHTML) {
+			bioHTML += `<strong>Links:</strong> ${linksHTML}`;
+		}
+		
+		// Fallback if no bio info
+		if (!bioHTML) {
+			bioHTML = `<strong>Speaker:</strong> ${speaker}`;
+		}
+		
+		document.getElementById('modalBio').innerHTML = bioHTML;
+		
+		// Use photo if available, otherwise default
+		let photoSrc = 'csvconbologna.png'; // Default photo
+		if (speakerInfo && speakerInfo['Photo']) {
+			const convertedUrl = this.convertGoogleDriveUrl(speakerInfo['Photo']);
+			if (convertedUrl) {
+				photoSrc = convertedUrl;
+			}
+		}
+		document.getElementById('modalSpeakerImage').src = photoSrc;
 		
 		const modal = document.getElementById('talkModal');
 		modal.style.display = 'block';
