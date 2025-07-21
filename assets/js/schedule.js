@@ -322,7 +322,7 @@ class ScheduleManager {
 		document.getElementById('modalBio').innerHTML = bioHTML;
 		
 		// Use photo if available, otherwise default
-		let photoSrc = 'csvconbologna.png'; // Default photo
+		let photoSrc = '/images/csvconbologna.png'; // Default photo
 		if (speakerInfo && speakerInfo['Photo']) {
 			const convertedUrl = this.convertGoogleDriveUrl(speakerInfo['Photo']);
 			if (convertedUrl) {
