@@ -269,7 +269,20 @@ class ScheduleManager {
 			});
 		});
 	}
+
+	linkify(text) {
+	  const urlRegex = /(https?:\/\/[^\s]+)/g;
 	
+	  return text.replace(urlRegex, (url) => {
+		try {
+		  new URL(url);		// Validate URL just in case
+		  return `<a href="${url}" target="_blank" rel="noopener">${url}</a>`;
+		} catch {
+		  return url;
+		}
+	  });
+	}
+
 	showModal(cell) {
 		const title = cell.dataset.title;
 		const speaker = cell.dataset.speaker;
@@ -290,7 +303,7 @@ class ScheduleManager {
 		const abstract = speakerInfo && speakerInfo['Abstract'] ? 
 			speakerInfo['Abstract'] : 
 			`Talk: ${title}`;
-		document.getElementById('modalAbstract').innerHTML = `<strong>Abstract:</strong> ${abstract}`;
+		document.getElementById('modalAbstract').innerHTML = `<strong>Abstract:</strong> ${this.linkify(abstract)}`;
 		
 		// Build bio section with all available info
 		let bioHTML = '';
