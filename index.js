@@ -26,21 +26,13 @@ document.getElementById('burger').addEventListener('click', () => navlinks.class
 
 /* ---------- speakers (real data) ---------- */
 const speakers = [
-  {n:'Charles Nutter', r:'Co-Lead of JRuby', t:'Keynote: 13 Years Inside JRuby & the JVM', kb:true},
-  {n:'Andrzej Krzywda', r:'CEO, Arkency', t:'15 Years of Rails with Domain-Driven Design'},
-  {n:'Nandini Singhal', r:'Principal Software Engineer, Oracle', t:'Ruby, Meet the Metaverse'},
-  {n:'Prateek Choudhary', r:'Assoc. Director of Engineering, Pattern', t:'The Solid Shift: Redis → Resilience'},
-  {n:'Puneet Khushwani', r:'Senior Engineering Manager, GoDaddy', t:"Ruby's Lexer & Parser, Demystified"},
-  {n:'Prathamesh Sonpatki', r:'Developer Evangelist, Last9', t:'Teaching AI to Debug Your Rails Apps'},
-  {n:'Rakesh Jha', r:'VP, MSCI', t:'JRuby: A Love Affair of Java & Ruby'},
-  {n:'Ratnadeep Deshmane', r:'Founder, BetaCraft Technologies', t:'Reading Rails: A Visual Walkthrough'},
-  {n:'Sameer Kumar', r:'Senior Technical Consultant, Sedin', t:'Ruby DSLs That Read Like English'},
-  {n:'Udbhav Gambhir', r:'Member of Technical Staff, ThoughtSpot', t:'Inside the Rails Boot Process & Puma'},
-  {n:'Vishwajeetsingh Desurkar', r:'Senior Software Engineer, Josh', t:'What If… Ruby Led the AI Revolution?'},
-  {n:'Vlad Dyachenko', r:'Platform Engineer, Cybergizer', t:'MCP Security: Risks & Defenses'},
-  {n:'Chikahiro Tokoro', r:'Senior Engineer, Lanes & Planes', t:'Is the Monolith a Problem?'},
-  {n:'Deepan Kumar', r:'Staff Engineer, G2', t:'AI at Runtime: Self-Healing Ruby Apps'},
-  {n:'Gautam Rege', r:'Co-Founder, Josh Software', t:'Conference Kickoff'}
+  {n:'Cristian Planas', r:'Principal Engineer', c:'Combinaut', t:'Dead Cucumbers &amp; Frozen Capybaras: Building the Safety Net for Agentic Development'},
+  {n:'Dhruva Sagar (DS)', r:'Senior Consultant', c:'Tarka Labs', t:'The Ceiling: Why Ruby 4.0 Needed a Second Compiler'},
+  {n:'Shanmugha Priya P R', r:'Senior Software Engineer', c:'Rently Software Development Pvt Ltd', t:'Rethinking Ruby Query Optimization: From ORM Traps to AI Analysis'},
+  {n:'Vishwajeetsingh Desurkar', r:'Senior Software Engineer', c:'Josh Software Pvt Ltd', t:'No Way Home: Threads, Fibers and Ractors Against One Training Loop'},
+  {n:'Akshay Birajdar', r:'Senior Software Engineer', c:'Zendesk', t:'Small Things, Big Impact: Scaling Ruby Apps with the Right Primitives'},
+  {n:'Ratnadeep Deshmane', r:'CTO', c:'Betacraft', t:'The Pursuit of Quality: Chase Better Code with AI, and the Speed Follows'},
+  {n:'Sourabh Bharale', r:'Senior Software Engineer', c:'MoxiWorks Solutions Pvt Ltd', t:"Your API Is Already an Agent's Tool"}
 ];
 const initials = name => name.split(' ').filter(Boolean).slice(0,2).map(w=>w[0]).join('').toUpperCase();
 document.getElementById('spkGrid').innerHTML = speakers.map(s => `
@@ -50,6 +42,7 @@ document.getElementById('spkGrid').innerHTML = speakers.map(s => `
     <div class="spk-body">
       <div class="spk-name">${s.n}</div>
       <div class="spk-role">${s.r}</div>
+      <div class="spk-co">${s.c}</div>
       <div class="spk-talk">${s.t}</div>
     </div>
   </article>`).join('');

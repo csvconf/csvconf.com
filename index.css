@@ -194,8 +194,12 @@
   .logo-card:hover{transform:translateY(-3px);border-color:var(--gold)}
   .logo-card.platinum{font-size:1.5rem;padding:28px 50px;border-color:var(--gold);background:#fff}
   .logo-card.platinum.has-logo{min-width:auto;padding:26px 44px}
+  .logo-card.has-logo{min-width:auto;padding:20px 28px}
+  .logo-card.silver.has-logo{width:240px;height:96px;padding:16px 22px;box-sizing:border-box;
+    display:flex;align-items:center;justify-content:center}
   .logo-card img{display:block;height:48px;width:auto;max-width:min(100%,420px);object-fit:contain;background:transparent}
   .logo-card.platinum img{height:72px}
+  .logo-card.silver img{width:100%;height:56px;max-width:100%;object-fit:contain}
   .sponsor-cta{text-align:center;margin-top:34px;background:#fff;border:1px dashed rgba(164,19,60,.35);border-radius:22px;
     padding:34px;max-width:760px;margin:34px auto 0}
   .sponsor-cta h3{font-size:1.5rem;color:var(--ruby-deep);font-weight:900;margin-bottom:8px}
